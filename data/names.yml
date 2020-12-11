@@ -1,0 +1,19 @@
+people:
+    "Ronny Bergmann":
+        name:
+            full: "Ronny Bergmann"
+            short: "R. Bergmann"
+            bib: "Bergmann, R."
+        title: "PD Dr."
+        url: "https://uni.ronnybergmann.net"
+        affiliation: "TU Chemnitz"
+    "Roland Herzog":
+        name:
+            full: "Roland Herzog"
+            short: "R. Herzog"
+            bib: "Herzog, R."
+        title: "Prof. Dr."
+        url: "https://tu-chemnitz.de/herzog"
+        affiliation: "TU Chemnitz"
+universities:
+    - "TUC":
