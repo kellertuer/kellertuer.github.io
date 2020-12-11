@@ -1,4 +1,4 @@
-@def title = "ronnybergmann.net | Welcome"
+@def title = "Moin."
 
 # Moin.
 
