@@ -44,7 +44,7 @@
     image: TVofNormal.png
     journaltitle: Inverse Problems
     number: 5
-    pages: 054003
+    pages: "054003"
     publication_date: 2020-04-10
     title: Discrete total variation of the normal vector field as shape prior with applications in geometric inverse problems
     type: article
@@ -70,7 +70,7 @@
     image: TVofNormal.png
     journaltitle: Inverse Problems
     number: 5
-    pages: 054004
+    pages: "054004"
     publication_date: 2020-04-10
     title: Total variation of the normal vector field as shape prior
     type: article
@@ -221,7 +221,7 @@
     volume: 11
     year: 2018
 
-"BergmannFitschenPerschSteidl-2017":
+"BergmannFitschenPerschSteidl-2017-1":
     abstract: >
         Based on an idea of Åström et. al. [2017, JMIV] we propose a new iterative multiplicative filtering algorithm for label assignment matrices which can be used for the supervised partitioning of data.
         Starting with a row-normalized matrix containing the averaged distances between prior features and observed ones, the method assigns in a very efficient way labels to the data.
@@ -341,6 +341,7 @@
     doi: 10.3934/ipi.2016001
     eprint: 1505.07029
     eprinttype: arXiv
+    image: HalfQuad.png
     journaltitle: Inverse Problems and Imaging
     number: 2
     pages: 281–304
@@ -448,7 +449,7 @@
 
 "BergmannHerzogLoayzaWelker2019":
     abstract: >
-        In general, it is not easy to decide whether to use a discretize--then--optimize or optimize--then--discretize approach to solve PDE-constrained optimization problems.
+        In general, it is not easy to decide whether to use a discretize–then–optimize or optimize–then–discretize approach to solve PDE-constrained optimization problems.
         Shape optimization problems are particularly challenging due to the infinite dimensional, nonlinear structure of shape spaces. One option to overcome this drawback is to choose finite dimensional shape spaces, i.e., to discretize first.
         Nevertheless, this limits the amount of available tools coming from function spaces.
         In this note, we aim to show advantages and disadvantages of both approaches based on a simple shape optimization problem.
@@ -477,7 +478,7 @@
         This paper introduces the main mathematical methods as well as numerical examples.
     author:
         - RonnyBergmann
-    booktitle: IEEE International Conference on Image Processing, IEEE ICIP 2017, Beijing, China, September 17--20, 2017
+    booktitle: IEEE International Conference on Image Processing, IEEE ICIP 2017, Beijing, China, September 17–20, 2017
     doi: 10.1109/ICIP.2017.8296271
     image: secondOrderS2.png
     title:  MVIRT A toolbox for manifold-valued image restoration
@@ -492,7 +493,7 @@
     author:
         - RonnyBergmann
         - DanielTenbrinck
-    booktitle: Geometric Science of Information -- 3rd Conference on Geometric Science of Information
+    booktitle: Geometric Science of Information – 3rd Conference on Geometric Science of Information
     doi: 10.1007/978-3-319-68445-1
     editor:
         - Nielsen, F.
@@ -506,7 +507,7 @@
     type: conference-proceeding
     year: 2017
 
-"BergmannFitschenPerschSteidl-2017":
+"BergmannFitschenPerschSteidl-2017-2":
     abstract: >
         Recently infimal convolution type functions were used in regularization terms of variational models for restoring and decomposing images.
         This is the first attempt to generalize the infimal convolution of first and second order differences to manifold-valued images.
@@ -523,7 +524,7 @@
         - Lauze, F.
         - Dong, Y.
         - Dahl, A. B.
-    pages: 447--459
+    pages: 447–459
     publisher: Springer International Publishing
     title: Infimal Convolution Coupling of First and Second Order Differences on Manifold-Valued Images
     year: 2017
@@ -648,13 +649,14 @@
 "Bergmann-2018":
     author:
         - RonnyBergmann
-    note: cumulative habilitation thesis, Technische Universität Kaiserslautern
+    note: Technische Universität Kaiserslautern
+    thesistype: cumulative habilitation thesis
     title: Variational Methods for Manifold-valued Image Processing
     type: thesis
     year: 2018
 
 "Bergmann-2013-1":
-      abstract: >
+    abstract: >
         Die translationsinvarianten Räume sind seit Ende der 1980er Jahre ein wichtiges Werkzeug in der Zerlegung und Analyse von Daten und Funktionen.
         Sie stellen eine Funktion in verschiedenen Detailstufen dar, wobei sich auf jeder Stufe lokale Eigenschaften der Funktion in den Koeffizienten der Translate wiederfinden.
         Dazu ist es notwendig, dass die Funktionen einer solchen Zerlegung gut lokalisiert sind.
@@ -679,7 +681,8 @@
     github: https://github.com/kellertuer/MPAWL
     image: dlVP.png
     link: https://www.shaker.de/de/content/catalogue/index.asp?lang=de&ID=8&ISBN=978-3-8440-2266-7
-    note: "Dissertation, german, Universität zu Lübeck. Similarily: Shaker Verlag, ISBN 978-3844022667, 2013."
+    note: "german, Universität zu Lübeck. Similarily: Shaker Verlag, ISBN 978-3844022667, 2013."
+    thesistype: Dissertation
     title: Translationsinvariante Räume multivariater anisotroper Funktionen auf dem Torus
     type: thesis
     year: 2013
@@ -697,9 +700,10 @@
         - RonnyBergmann
     file: http://ronnyberg,ann.net/theses/Bergmann__Interaktive_und_automatisierte_Hypergraphenvisualisierung_mittels_NURBS-Kurven.pdf
     github: kellertuer/Gravel
-    img: dipl.png
-    note: Diplomarbeit, german, Universität zu Lübeck.
+    image: dipl.png
+    note: german, Universität zu Lübeck.
     title: Interaktive und automatisierte Hypergraphenvisualisierung mittels NURBS-Kurven
+    thesistype: Diplomarbeit
     type: thesis
     year: 2009
 #

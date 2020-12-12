@@ -65,7 +65,7 @@ end
 function formatspan(entry,field; class=field, prefix="", remove=[])
     s = "";
     if entry[field] isa Vector #concat list
-        s = join( [ (has_name(name) ? hfun_name([name,"bibname_fnorcid"]) : """<span class="person unknown">$name</span>""") for name ∈ entry[field] ], ", ")
+        s = join( [ (has_name(name) ? hfun_name([name,"bibname_fnorcid"]) : """$(prefix)$(length(prefix)>0 ? " " : "")<span class="person unknown">$name</span>""") for name ∈ entry[field] ], ", ")
     else
         s = """$(prefix)$(length(prefix)>0 ? " " : "")<span class="$field">$(entry[field])</span>"""
     end
@@ -86,8 +86,9 @@ function format_bibtex_entry(entry,key)
             """
     end
     s = """$s
-        $names $(formatspan(entry,"year"))$(formatspan(entry,"title"; remove=["{","}"]))
-        $(formatlazyspan(entry, "editor"; prefix="in: "))$(formatlazyspan(entry,"booktitle"; prefix= haskey(entry,"editor") ? ": " : "in:"))$(formatlazyspan(entry, "chapter"; prefix=", Chapter "))$(formatlazyspan(entry,"journaltitle";class="journal"))$(formatlazyspan(entry,"series"; prefix=", "))$(formatlazyspan(entry,"volume"))$(formatlazyspan(entry,"number"))$(formatlazyspan(entry,"issue"))$(formatlazyspan(entry,"pages"))$(formatlazyspan(entry,"publisher"; prefix=", "))$(formatlazyspan(entry,"note"))
+        $(names)$(formatspan(entry,"year"))$(formatspan(entry,"title"; remove=["{","}"]))
+        <br>
+        $(formatlazyspan(entry, "editor"; prefix="in: "))$(formatlazyspan(entry,"booktitle"; prefix= haskey(entry,"editor") ? ": " : "in: "))$(formatlazyspan(entry, "chapter"; prefix=", Chapter "))$(formatlazyspan(entry,"journaltitle";class="journal"))$(formatlazyspan(entry,"series"; prefix=", "))$(formatlazyspan(entry,"volume"))$(formatlazyspan(entry,"number"))$(formatlazyspan(entry,"issue"))$(formatlazyspan(entry,"pages"))$(formatlazyspan(entry,"publisher"; prefix=", "))$(formatlazyspan(entry,"thesistype"))$(formatlazyspan(entry,"note"))
         <ul class="nav nav-icons">
         """
     if haskey(entry,"abstract") #abstract icon

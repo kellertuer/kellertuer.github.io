@@ -29,8 +29,7 @@ ol.bibliography > li abbr {
 ol.bibliography li span.title {
     font-weight: bold;
 }
-ol.bibliography li span.title:before,
-ol.bibliography li span.title:after
+ol.bibliography li span.title:before
 {
     content: "\A";
     white-space: pre;
@@ -73,6 +72,9 @@ ol.bibliography li span.pages:before {
 ol.bibliography div.item-icon-wrapper {
     margin-top:-2ex;
     float: right;
+    width: 125px;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
 }
 ol.bibliography div.item-icon-wrapper img {
     width: 125px;
