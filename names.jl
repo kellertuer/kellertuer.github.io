@@ -32,18 +32,15 @@ where their order of appearance orders the supnotes.
 function hfun_name(params::Vector{String})::String
     name = params[1]
     style = (length(params) > 1) ? params[2] : "fullname"
-    print("Style: $style\n")
     s = ""
     !haskey(names["people"],name) && return "<span class\"error\">Person „$(name)“ not found</span>"
     person = names["people"][name]
-    print("person: $person\n")
     fullname = """<span class="person">$(person["name"]["full"])</span>"""
     bibname = """<span class="person">$(person["name"]["bib"])</span>"""
     title_fullname = """<span class="person">$(get(person, "title", ""))$(haskey(person,"title") ? " " : "")$(person["name"]["full"])</span>"""
     occursin("fullname",style) && (s = fullname)
     occursin("nametitle", style) && (s = title_fullname)
     occursin("bibname", style) && (s = bibname)
-    print("Styled name $s\n")
     (haskey(person,"url") && occursin("link_",style)) && (s = """<a href="$(person["url"])">$s</a>""")
     supnotes = ["twitter", "github", "orcid", "scholar"]
     supurlprefixes = ["https://twitter.com/", "https://github.com/", "https://orcid.org/", "https://scholar.google.com/citations?user="]
@@ -59,6 +56,5 @@ function hfun_name(params::Vector{String})::String
             s = """$s<sup><a href="$(supurlprefixes[i])$(person[supnotes[i]])">$(icons[i])</a></sup>"""
         end
     end
-    print("Final: $s\n\n")
     return s
 end
