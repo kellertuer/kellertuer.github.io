@@ -30,8 +30,16 @@ function hfun_library(params)
     types = (length(params)>0) ? lowercase.(strip.(split(params[1],","))) : ["all",]
     library = (length(params)>1) ? YAML.load_file(params[2]) : literature
     reduced_library = filter( x-> (x[2]["type"] ∈ types) || ("all" ∈ types), library)
-    list = sort(collect(reduced_library), lt=isless_bibtex, by=x->x[2])
     list_html = "";
+    if length(params) > 2
+        title = params[3]
+        if length(reduced_library) > 0
+            list_html = """$(list_html)
+                        <h2>$title</h2>
+                    """
+        end
+    end
+    list = sort(collect(reduced_library), lt=isless_bibtex, by=x->x[2])
     for entry ∈ list
         list_html = """$(list_html)
                         $(format_bibtex_entry(entry[2],entry[1]))
@@ -54,10 +62,21 @@ function hfun_bibentry(params)
     !(haskey(library,key)) && return "<li> key $key not found in library.</li>"
     return format_bibtex_entry(entry,key)
 end
-formatspan(entry,field;class=field) = """<span class="$field">$(entry[field])</span>"""
-formatlazyspan(entry,field;class=field) = haskey(entry,field) ? formatspan(entry,field) : ""
+function formatspan(entry,field; class=field, prefix="", remove=[])
+    s = "";
+    if entry[field] isa Vector #concat list
+        s = join( [ (has_name(name) ? hfun_name([name,"bibname_fnorcid"]) : """<span class="person unknown">$name</span>""") for name ∈ entry[field] ], ", ")
+    else
+        s = """$(prefix)$(length(prefix)>0 ? " " : "")<span class="$field">$(entry[field])</span>"""
+    end
+    for r in remove
+        s = replace(s, r => "")
+    end
+    return s
+end
+formatlazyspan(entry,field; kwargs...) = haskey(entry,field) ? formatspan(entry,field; kwargs...) : ""
 function format_bibtex_entry(entry,key)
-    names = join( [ hfun_name([name,"bibname_fnorcid"]) for name ∈ entry["author"] ], ", ")
+    names = join( [ has_name(name) ? hfun_name([name,"bibname_fnorcid"]) : """<span class="person unknown">$name</span>""" for name ∈ entry["author"] ], ", ")
     s = "";
     if haskey(entry,"image") #image in assets
         s = """$s
@@ -67,8 +86,8 @@ function format_bibtex_entry(entry,key)
             """
     end
     s = """$s
-        $names $(formatspan(entry,"year"))$(formatspan(entry,"title"))
-        $(formatspan(entry,"journaltitle";class="journal"))$(formatlazyspan(entry,"volume"))$(formatlazyspan(entry,"number"))$(formatlazyspan(entry,"pages"))$(formatlazyspan(entry,"note"))
+        $names $(formatspan(entry,"year"))$(formatspan(entry,"title"; remove=["{","}"]))
+        $(formatlazyspan(entry, "editor"; prefix="in: "))$(formatlazyspan(entry,"booktitle"; prefix= haskey(entry,"editor") ? ": " : "in:"))$(formatlazyspan(entry, "chapter"; prefix=", Chapter "))$(formatlazyspan(entry,"journaltitle";class="journal"))$(formatlazyspan(entry,"series"; prefix=", "))$(formatlazyspan(entry,"volume"))$(formatlazyspan(entry,"number"))$(formatlazyspan(entry,"issue"))$(formatlazyspan(entry,"pages"))$(formatlazyspan(entry,"publisher"; prefix=", "))$(formatlazyspan(entry,"note"))
         <ul class="nav nav-icons">
         """
     if haskey(entry,"abstract") #abstract icon
@@ -79,7 +98,7 @@ function format_bibtex_entry(entry,key)
                 </a>
             </li>"""
     end
-    if haskey(entry,"eprint") && (get(entry,"eprinttype","")=="arxiv") #pdf icon
+    if haskey(entry,"eprint") && (lowercase(get(entry,"eprinttype",""))=="arxiv") #pdf icon
         s = """$s
             <li>
                 <a href="https://arxiv.org/pdf/$(entry["eprint"])" title="arXiv:$(entry["eprint"])" target="_blank">

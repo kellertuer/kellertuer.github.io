@@ -33,7 +33,7 @@ function hfun_name(params::Vector{String})::String
     name = params[1]
     style = (length(params) > 1) ? params[2] : "fullname"
     s = ""
-    !haskey(names["people"],name) && return "<span class\"error\">Person „$(name)“ not found</span>"
+    !has_name(name) && return "<span class\"error\">Person „$(name)“ not found</span>"
     person = names["people"][name]
     fullname = """<span class="person">$(person["name"]["full"])</span>"""
     bibname = """<span class="person">$(person["name"]["bib"])</span>"""
@@ -42,13 +42,14 @@ function hfun_name(params::Vector{String})::String
     occursin("nametitle", style) && (s = title_fullname)
     occursin("bibname", style) && (s = bibname)
     (haskey(person,"url") && occursin("link_",style)) && (s = """<a href="$(person["url"])">$s</a>""")
-    supnotes = ["twitter", "github", "orcid", "scholar"]
-    supurlprefixes = ["https://twitter.com/", "https://github.com/", "https://orcid.org/", "https://scholar.google.com/citations?user="]
+    supnotes = ["twitter", "github", "orcid", "scholar", "arxiv"]
+    supurlprefixes = ["https://twitter.com/", "https://github.com/", "https://orcid.org/", "https://scholar.google.com/citations?user=", "https://arxiv.org/a/"]
     icons = [
         """<i class="fab fa-twitter"></i>""",
         """<i class="fab fa-github"></i>""",
         """<i class="ai ai-orcid"></i>""",
-        """<i class="ai ai-google-scholar-square"></i>""",
+        """<i class="ai ai-google-scholar"></i>""",
+        """<i class="ai ai-arxiv"></i>""",
     ]
     pos = [ occursin("_fn$fn", style) ? first(findfirst(fn,style)) : -1 for fn in supnotes]
     for i in sortperm(pos)
@@ -57,4 +58,7 @@ function hfun_name(params::Vector{String})::String
         end
     end
     return s
+end
+function has_name(key)
+    return haskey(names["people"],key)
 end

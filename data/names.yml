@@ -11,9 +11,13 @@ people:
             short: "L. Baumgärtner"
             bib: "Baumgärtner, L."
         orcid: 0000-0003-1007-4815
+    RolandBennewitz:
+        name:
+            full: Roland Bennewitz
+            bib: Bennewitz, R.
     RonnyBergmann:
         affiliation: "TU Chemnitz"
-        arxiv: https://arxiv.org/search/math?searchtype=author&query=Bergmann%2C+R
+        arxiv: 0000-0001-8342-7218
         github: kellertuer
         name:
             full: "Ronny Bergmann"
@@ -24,6 +28,25 @@ people:
         twitter: "ronnybergmann_"
         url: "http://uni.ronnybergmann.net"
         scholar: "0zk7y3cAAAAJ"
+    RaymondHChan:
+        name:
+            full: Raymond H. Chan
+            bib: Chan, R. H.
+            short: R. H. Chan
+        title: "Prof."
+    JanHenrikFitschen:
+        name:
+            full: Jan Henrik Fitschen
+            bib: Fitschen, J. H.
+        title: "Dr."
+    PierreYvesGousenbourger:
+        affiliation: Université catholique de Louvain
+        name:
+            bib: Gousenbourger, P.-Y.
+            full: Pierre-Yves Gousenbourger
+            short: P.-Y. Gousenbourger
+        title: "Dr."
+        url: "https://pgousenbourg.github.io/"
     RolandHerzog:
         affiliation: "TU Chemnitz"
         name:
@@ -38,6 +61,25 @@ people:
             full: "Marc Herrmann"
             short: "M. Herrmann"
             bib: "Herrmann, M."
+    RalfHielscher:
+        name:
+            bib: Hielscher, R.
+            full: Ralf Hielscher
+            short: R. Hielscher
+        title: "Dr."
+    FriederikeLaus:
+        name:
+            bib: Laus, F.
+            full: Friederike Laus
+            short: F. Laus
+        title: Dr.
+    EstefaníaLoayzaRomero:
+        name:
+            full: Estefanía Loayza-Romero
+            short: E. Loayza-Romero
+            bib: Loayza-Romero, E.
+        orcid: 0000-0001-7919-9259
+        url: https://www.tu-chemnitz.de/mathematik/part_dgl/people/loayza/index.php
     MauricioSilvaLouzeiro:
         affiliation: "TU Chemnitz"
         name:
@@ -47,6 +89,29 @@ people:
         orcid: 0000-0002-4755-3505
         title: "Dr."
         url: https://www.tu-chemnitz.de/mathematik/part_dgl/people/louzeiro
+    DennisMerkert:
+        name:
+            full: Dennis Merkert
+            short: D. Merkert
+            bib: Merkert, D.
+        title: "Dr."
+    NovafOezguen:
+        name:
+            full: Novaf Oezguen
+            bib: Oezguen, N.
+    JohannesPersch:
+        name:
+            full: Johannes Persch
+            bib: Persch, J.
+        title: "Dr."
+    JürgenPrestin:
+        name:
+            full: Jürgen Prestin
+            bib: Prestin, J.
+            short: J. Prestin
+        title: "Prof. Dr."
+        url: http://www.math.uni-luebeck.de/mitarbeiter/prestin/index.php
+        orcid: 0000-0001-5985-7939
     StephanSchmidt:
         affiliation: "HU Berlin"
         name:
@@ -54,6 +119,10 @@ people:
             short: S. Schmidt
             bib: Schmidt, S.
         url: https://www.mathematik.hu-berlin.de/de/personen/mitarb-vz/1693090
+    KristofSchubert:
+        name:
+            full: Krisof Schubert
+            bib: Schubert, K.
     GabrieleSteidl:
         affiliation: "TU Berlin"
         name:
@@ -62,6 +131,10 @@ people:
             bib: "Steidl, G."
         title: "Prof. Dr."
         url: http://page.math.tu-berlin.de/~steidl/
+    DanielJStrauss:
+        name:
+            full: Daniel J. Strauss
+            bib: Strauss, D. J.
     DanielTenbrinck:
         affiliation: FAU Erlangen
         name:
@@ -86,3 +159,11 @@ people:
             bib: "Weinmann, A."
         url: https://fbmn.h-da.de/~weinmann/
         orcid: 0000-0002-4969-7609
+    KathrinWelker:
+        affiliation: HSU Hamburg
+        name:
+            full: Kathrin Welker
+            short: K. Welker
+            bib: Welker, K.
+        title: Prof. Dr.
+        url: https://www.hsu-hh.de/mathematik/mitarbeiter/

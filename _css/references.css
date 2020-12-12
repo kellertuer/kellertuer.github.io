@@ -49,17 +49,20 @@ ol.bibliography li span.note:after {
 ol.bibliography li span.note {
     font-style: italic;
 }
-ol.bibliography li span.number:before {
+ol.bibliography li span.number:before,
+ol.bibliography li span.issue:before
+{
     content: "(";
 }
-ol.bibliography li span.number:after {
+ol.bibliography li span.number:after,
+ol.bibliography li span.issue:after {
     content: ")";
 }
 ol.bibliography li span.number {
     margin-left: 0ex;
 }
 ol.bibliography li span.year:before {
-    content: "\00a0\00a0(";
+    content: "\00a0(";
 }
 ol.bibliography li span.year:after {
     content: ").";
@@ -73,6 +76,8 @@ ol.bibliography div.item-icon-wrapper {
 }
 ol.bibliography div.item-icon-wrapper img {
     width: 125px;
+    margin:0;
+    padding:0;
     border: 1px solid black;
     border: 1px solid rgba(0, 0, 0, 0.5);
 }
