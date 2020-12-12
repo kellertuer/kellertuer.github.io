@@ -54,16 +54,27 @@ function hfun_bibentry(params)
     !(haskey(library,key)) && return "<li> key $key not found in library.</li>"
     return format_bibtex_entry(entry,key)
 end
-
+formatspan(entry,field;class=field) = """<span class="$field">$(entry[field])</span>"""
+formatlazyspan(entry,field;class=field) = haskey(entry,field) ? formatspan(entry,field) : ""
 function format_bibtex_entry(entry,key)
     names = join( [ hfun_name([name,"bibname_fnorcid"]) for name ∈ entry["author"] ], ", ")
-    s = """$names<span class="year">$(entry["year"])</span><span class="title">$(entry["title"])</span>
-    <span class="journal">$(entry["journaltitle"])</span>$(haskey(entry,"volume") ? "<span class=\"volume\">$(entry["volume"])</span>" : "")$(haskey(entry,"number") ? "<span class=\"number\">$(entry["number"])</span>" : "")$(haskey(entry,"pages") ? "<span class=\"pages\">$(entry["pages"])</span>" : "")
-    <ul class="nav nav-pills">"""
+    s = "";
+    if haskey(entry,"image") #image in assets
+        s = """$s
+            <div class="item-icon-wrapper">
+                <img src="../assets/bib/$(entry["image"])" alt="Publication illustration image">
+            </div>
+            """
+    end
+    s = """$s
+        $names $(formatspan(entry,"year"))$(formatspan(entry,"title"))
+        $(formatspan(entry,"journaltitle";class="journal"))$(formatlazyspan(entry,"volume"))$(formatlazyspan(entry,"number"))$(formatlazyspan(entry,"pages"))$(formatlazyspan(entry,"note"))
+        <ul class="nav nav-icons">
+        """
     if haskey(entry,"abstract") #abstract icon
         s = """$s
             <li>
-                <a data-toggle="collapse" href="#$key-abstract">
+                <a data-toggle="collapse" href="#$key-abstract" title="toggle visibility of the abstract for $key">
                     <i class="fas fa-lg fa-file-alt"></i>
                 </a>
             </li>"""
@@ -71,7 +82,7 @@ function format_bibtex_entry(entry,key)
     if haskey(entry,"eprint") && (get(entry,"eprinttype","")=="arxiv") #pdf icon
         s = """$s
             <li>
-                <a href="https://arxiv.org/pdf/$(entry["eprint"])" title="$(entry["eprint"])" target="_blank">
+                <a href="https://arxiv.org/pdf/$(entry["eprint"])" title="arXiv:$(entry["eprint"])" target="_blank">
                     <i class="fas fa-lg fa-file-pdf"></i>
                 </a>
             </li>
@@ -89,7 +100,7 @@ function format_bibtex_entry(entry,key)
     if haskey(entry,"github") #doi icon
         s = """$s
             <li>
-                <a href="https://github.com/$(entry["github"])" title="$(entry["github"])" target="_blank">
+                <a href="https://github.com/$(entry["github"])" title="Link to the github repository $(entry["github"])" target="_blank">
                     <i class="fab fa-github"></i>
                 </a>
             </li>

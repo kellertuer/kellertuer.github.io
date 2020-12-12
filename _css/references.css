@@ -17,6 +17,7 @@ ol.bibliography > li {
     min-height: 85px;
     counter-increment: bibitem -1;
     padding-bottom:2rem;
+    clear: both;
 }
 ol.bibliography > li abbr {
     font-weight: bold;
@@ -38,6 +39,16 @@ ol.bibliography li span.volume {
     font-weight: bold;
     margin-left:1ex;
 }
+ol.bibliography li span.note:before {
+    content: ",\00a0";
+}
+
+ol.bibliography li span.note:after {
+    content: ".";
+}
+ol.bibliography li span.note {
+    font-style: italic;
+}
 ol.bibliography li span.number:before {
     content: "(";
 }
@@ -56,26 +67,36 @@ ol.bibliography li span.year:after {
 ol.bibliography li span.pages:before {
     content: ",\00a0\00a0pp.\00a0"
 }
+ol.bibliography div.item-icon-wrapper {
+    margin-top:-2ex;
+    float: right;
+}
+ol.bibliography div.item-icon-wrapper img {
+    width: 125px;
+    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
 /*
- * Links & nav-pills & logos
+ * Links & nav-icons & logos
  */
 ol.bibliography li i.ai-orcid-square,
 ol.bibliography li i.ai-orcid {
     color:#a6ce39;
 }
-ul.nav-pills {
+ul.nav-icons {
     margin: 0;
-    margin-top: .5rem;
+    margin-top: .75rem;
     padding: 0;
-    display: inline;
-    float: right;
+    display:block;
+    /* float: right; */
     margin-bottom: 1rem;
     list-style-type: none;
 }
-ul.nav-pills li {
+ul.nav-icons li {
     display: inline;
 }
-ul.nav-pills li a {
+ul.nav-icons li a {
     /*
     color: #ECF5F9;
     color: rgba(236, 245, 249, 0.9);
@@ -84,6 +105,9 @@ ul.nav-pills li a {
     text-decoration: none;
     border-bottom: 0px;
 }
+div.abstract {
+    padding-top:1rem;
+}
 div.abstract div.content:before{
     content:"Abstract.";
     font-weight: bold;
@@ -91,9 +115,9 @@ div.abstract div.content:before{
 }
 div.abstract div.content {
     width:94%;
-    margin-left:3%;
-    margin-right:3%;
-    margin-top:.5rem;
+    margin-left:4%;
+    margin-right:2%;
+    margin-top:-.5rem;
     font-size:66%;
     font-weight:normal;
     padding-top:0px;

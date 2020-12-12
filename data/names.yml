@@ -5,6 +5,7 @@ people:
             bib: "Bačák, M."
             short: "M. Bačák"
     LukasBaumgärtner:
+        affiliation: "HU Berlin"
         name:
             full: "Lukas Baumgärtner"
             short: "L. Baumgärtner"
@@ -37,7 +38,17 @@ people:
             full: "Marc Herrmann"
             short: "M. Herrmann"
             bib: "Herrmann, M."
+    MauricioSilvaLouzeiro:
+        affiliation: "TU Chemnitz"
+        name:
+            bib: "Silva Louzeiro, M."
+            full: "Maurício Silva Louzeiro"
+            short: "M. Silva Louzeiro"
+        orcid: 0000-0002-4755-3505
+        title: "Dr."
+        url: https://www.tu-chemnitz.de/mathematik/part_dgl/people/louzeiro
     StephanSchmidt:
+        affiliation: "HU Berlin"
         name:
             full: Stephan Schmidt
             short: S. Schmidt
@@ -49,7 +60,17 @@ people:
             full: "Gabriele Steidl"
             short: "G. Steidl"
             bib: "Steidl, G."
+        title: "Prof. Dr."
         url: http://page.math.tu-berlin.de/~steidl/
+    DanielTenbrinck:
+        affiliation: FAU Erlangen
+        name:
+            bib: "Tenbrinck, T."
+            full: "Daniel Tenbrinck"
+            short: "D. Tenbrinck"
+        orcid: 0000-0002-4788-9332
+        title: "Dr."
+        url: https://en.www.math.fau.de/angewandte-mathematik-1/mitarbeiter/dr-daniel-tenbrinck/
     JoséVdal-Núñez:
         affiliation: "University of Alcalá de Henares"
         name:
