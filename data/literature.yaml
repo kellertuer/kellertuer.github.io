@@ -21,11 +21,12 @@
     number: 1
     pages: A567–A597
     title: A second order non-smooth variational model for restoring manifold-valued images
+    type: article
     volume: 38
     year: 2016
 
 
-"BergmannHerrmannHerzogSchmidtVidal-Nunez2020:2":
+"BergmannHerrmannHerzogSchmidtVidal-Nunez-2020-2":
     abstract: >
         An analogue of the total variation prior for the normal vector field along the boundary of piecewise flat shapes in 3D is introduced.
         A major class of examples are triangulated surfaces as they occur for instance in finite element computations.
@@ -47,7 +48,7 @@
     img: TVofNormal.png
     journaltitle: Inverse Problems
     number: 5
-    published: 2020-04-10
+    publication_date: 2020-04-10
     title: Discrete Total Variation of the Normal Vector Field as Shape Prior with Applications in Geometric Inverse Problems
     type: article
     volume: 36

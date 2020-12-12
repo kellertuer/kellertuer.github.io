@@ -3,6 +3,13 @@ people:
         name:
             full: "Miroslav Bačák"
             bib: "Bačák, M."
+            short: "M. Bačák"
+    LukasBaumgärtner:
+        name:
+            full: "Lukas Baumgärtner"
+            short: "L. Baumgärtner"
+            bib: "Baumgärtner, L."
+        orcid: 0000-0003-1007-4815
     RonnyBergmann:
         affiliation: "TU Chemnitz"
         arxiv: https://arxiv.org/search/math?searchtype=author&query=Bergmann%2C+R

@@ -47,7 +47,7 @@ function hfun_name(params::Vector{String})::String
     icons = [
         """<i class="fab fa-twitter"></i>""",
         """<i class="fab fa-github"></i>""",
-        """<i class="ai ai-orcid-square"></i>""",
+        """<i class="ai ai-orcid"></i>""",
         """<i class="ai ai-google-scholar-square"></i>""",
     ]
     pos = [ occursin("_fn$fn", style) ? first(findfirst(fn,style)) : -1 for fn in supnotes]
