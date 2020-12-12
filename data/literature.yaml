@@ -6,20 +6,23 @@
         First, we establish a suitable definition of absolute second order differences for signals and images with values in a manifold.
         Employing this definition, we introduce a variational denoising model based on first and second order differences in the manifold setup.
         In order to minimize the corresponding functional, we develop an algorithm using an inexact cyclic proximal point algorithm.
-        We propose an efficient strategy for the computation of the corresponding proximal mappings in symmetric spaces utilizing the machinery of Jacobi fields. For the \(n\)-sphere and the manifold of symmetric positive definite matrices, we demonstrate the performance of our algorithm in practice.
+        We propose an efficient strategy for the computation of the corresponding proximal mappings in symmetric spaces utilizing the machinery of Jacobi fields. For the $n$-sphere and the manifold of symmetric positive definite matrices, we demonstrate the performance of our algorithm in practice.
         We prove the convergence of the proposed exact and inexact variant of the cyclic proximal point algorithm in Hadamard spaces.
         These results which are of interest on its own include, e.g., the manifold of symmetric positive definite matrices.
     author:
-        - "Miroslav Bačák"
-        - "Ronny Bergmann"
-        - "Gabriele Steidl"
-        - "Andreas Weinmann"
+        - MiroslavBačák
+        - RonnyBergmann
+        - GabrieleSteidl
+        - AndreasWeinmann
     doi: 10.1137/15M101988X
+    eprinttype: arxiv
+    eprint: 1506.02409
     journaltitle: SIAM Journal on Scientific Computing
     number: 1
     pages: A567–A597
     title: A second order non-smooth variational model for restoring manifold-valued images
     volume: 38
+    year: 2016
 
 
 "BergmannHerrmannHerzogSchmidtVidal-Nunez2020:2":
@@ -33,16 +36,16 @@
         As two applications, a mesh denoising and a geometric inverse problem of inclusion detection type involving a partial differential equation are considered.
         Numerical experiments confirm that polyhedral shapes can be identified quite accurately.
     author:
-        - "Ronny Bergmann"
-        - "Marc Herrmann"
-        - "Roland Herzog"
-        - "Stephan Schmidt"
-        - "José Vdal-Núñez"
+        - RonnyBergmann
+        - MarcHerrmann
+        - RolandHerzog
+        - StephanSchmidt
+        - JoséVdal-Núñez
     doi: 10.1088/1361-6420/ab6d5c
     eprint: 1908.07916
-    eprinttype: arXiv
+    eprinttype: arxiv
     img: TVofNormal.png
-    journal: Inverse Problems
+    journaltitle: Inverse Problems
     number: 5
     published: 2020-04-10
     title: Discrete Total Variation of the Normal Vector Field as Shape Prior with Applications in Geometric Inverse Problems

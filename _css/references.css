@@ -1,0 +1,24 @@
+ol.bibliography {
+    margin-bottom: .5rem;
+    list-style-type: none;
+    margin-left: 2ex;
+}
+.references ol.bibliography {
+    counter-reset: bibitem;
+    list-style-type: none;
+}
+ol.bibliography > li:before {
+    margin-left: -2em;
+    content: "["counter(bibitem) "]";
+    padding-right: .5em;
+    text-align: right;
+}
+ol.bibliography > li {
+    min-height: 85px;
+    counter-increment: bibitem -1;
+    padding-bottom:2rem;
+}
+ol.bibliography > li abbr {
+    font-weight: bold;
+    padding-right: 1rem;
+}

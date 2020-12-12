@@ -1,4 +1,8 @@
 people:
+    MiroslavBačák:
+        name:
+            full: "Miroslav Bačák"
+            bib: "Bačák, M."
     RonnyBergmann:
         affiliation: "TU Chemnitz"
         arxiv: https://arxiv.org/search/math?searchtype=author&query=Bergmann%2C+R
@@ -18,8 +22,20 @@ people:
             full: "Roland Herzog"
             short: "R. Herzog"
             bib: "Herzog, R."
+        orcid: 0000-0003-2164-6575
         title: "Prof. Dr."
         url: "https://tu-chemnitz.de/herzog"
+    MarcHerrmann:
+        name:
+            full: "Marc Herrmann"
+            short: "M. Herrmann"
+            bib: "Herrmann, M."
+    StephanSchmidt:
+        name:
+            full: Stephan Schmidt
+            short: S. Schmidt
+            bib: Schmidt, S.
+        url: https://www.mathematik.hu-berlin.de/de/personen/mitarb-vz/1693090
     GabrieleSteidl:
         affiliation: "TU Berlin"
         name:
@@ -27,3 +43,18 @@ people:
             short: "G. Steidl"
             bib: "Steidl, G."
         url: http://page.math.tu-berlin.de/~steidl/
+    JoséVdal-Núñez:
+        affiliation: "University of Alcalá de Henares"
+        name:
+            full: "José Vidal-Núñez"
+            short: "J. Vidal-Núñez"
+            bib: "Vidal-Núñez, J."
+        orcid: 0000-0002-1190-6700
+    AndreasWeinmann:
+        affiliation: "Hochschule Darmstadt"
+        name:
+            full: "Andreas Weinmann"
+            short: "A. Weinmann"
+            bib: "Weinmann, A."
+        url: https://fbmn.h-da.de/~weinmann/
+        orcid: 0000-0002-4969-7609
