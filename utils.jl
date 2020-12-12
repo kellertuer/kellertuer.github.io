@@ -1,5 +1,4 @@
-using YAML
-
+include("names.jl")
 include("bib.jl")
 
 function hfun_bar(vname)

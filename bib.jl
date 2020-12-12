@@ -1,3 +1,2 @@
-using Bibliography
-
-bib = import_bibtex("data/literature.bib")
+using YAML
+literature = YAML.load_file("data/literature.yaml")

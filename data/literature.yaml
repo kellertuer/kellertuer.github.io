@@ -1,0 +1,51 @@
+"BacakBergmannSteidlWeinmann:2016":
+    abstract: >
+        We introduce a new non-smooth variational model for the restoration of manifold-valued data which includes second order differences in the regularization term.
+        While such models were successfully applied for real-valued images, we introduce the second order difference and the corresponding variational models for manifold data, which up to now only existed for cyclic data.
+        The approach requires a combination of techniques from numerical analysis, convex optimization and differential geometry.
+        First, we establish a suitable definition of absolute second order differences for signals and images with values in a manifold.
+        Employing this definition, we introduce a variational denoising model based on first and second order differences in the manifold setup.
+        In order to minimize the corresponding functional, we develop an algorithm using an inexact cyclic proximal point algorithm.
+        We propose an efficient strategy for the computation of the corresponding proximal mappings in symmetric spaces utilizing the machinery of Jacobi fields. For the \(n\)-sphere and the manifold of symmetric positive definite matrices, we demonstrate the performance of our algorithm in practice.
+        We prove the convergence of the proposed exact and inexact variant of the cyclic proximal point algorithm in Hadamard spaces.
+        These results which are of interest on its own include, e.g., the manifold of symmetric positive definite matrices.
+    author:
+        - "Miroslav Bačák"
+        - "Ronny Bergmann"
+        - "Gabriele Steidl"
+        - "Andreas Weinmann"
+    doi: 10.1137/15M101988X
+    journaltitle: SIAM Journal on Scientific Computing
+    number: 1
+    pages: A567–A597
+    title: A second order non-smooth variational model for restoring manifold-valued images
+    volume: 38
+
+
+"BergmannHerrmannHerzogSchmidtVidal-Nunez2020:2":
+    abstract: >
+        An analogue of the total variation prior for the normal vector field along the boundary of piecewise flat shapes in 3D is introduced.
+        A major class of examples are triangulated surfaces as they occur for instance in finite element computations.
+        The analysis of the functional is based on a differential geometric setting in which the unit normal vector is viewed as an element of the two-dimensional sphere manifold.
+        It is found to agree with the discrete total mean curvature known in discrete differential geometry.
+        A split Bregman iteration is proposed for the solution of discretized shape optimization problems, in which the total variation of the normal appears as a regularizer.
+        Unlike most other priors, such as surface area, the new functional allows for piecewise flat shapes.
+        As two applications, a mesh denoising and a geometric inverse problem of inclusion detection type involving a partial differential equation are considered.
+        Numerical experiments confirm that polyhedral shapes can be identified quite accurately.
+    author:
+        - "Ronny Bergmann"
+        - "Marc Herrmann"
+        - "Roland Herzog"
+        - "Stephan Schmidt"
+        - "José Vdal-Núñez"
+    doi: 10.1088/1361-6420/ab6d5c
+    eprint: 1908.07916
+    eprinttype: arXiv
+    img: TVofNormal.png
+    journal: Inverse Problems
+    number: 5
+    published: 2020-04-10
+    title: Discrete Total Variation of the Normal Vector Field as Shape Prior with Applications in Geometric Inverse Problems
+    type: article
+    volume: 36
+    year: 2020

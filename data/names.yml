@@ -1,19 +1,28 @@
 people:
-    "Ronny Bergmann":
+    RonnyBergmann:
+        affiliation: "TU Chemnitz"
+        arxiv: https://arxiv.org/search/math?searchtype=author&query=Bergmann%2C+R
+        github: kellertuer
         name:
             full: "Ronny Bergmann"
             short: "R. Bergmann"
             bib: "Bergmann, R."
+        orcid: 0000-0001-8342-7218
         title: "PD Dr."
-        url: "https://uni.ronnybergmann.net"
+        twitter: "ronnybergmann_"
+        url: "http://uni.ronnybergmann.net"
+        scholar: "0zk7y3cAAAAJ"
+    RolandHerzog:
         affiliation: "TU Chemnitz"
-    "Roland Herzog":
         name:
             full: "Roland Herzog"
             short: "R. Herzog"
             bib: "Herzog, R."
         title: "Prof. Dr."
         url: "https://tu-chemnitz.de/herzog"
-        affiliation: "TU Chemnitz"
-universities:
-    - "TUC":
+    GabrieleSteidl:
+        affiliation: "TU Berlin"
+        name:
+            full: "Gabriele Steidl"
+            short: "G. Steidl"
+            bib: "Steidl, G."
