@@ -376,3 +376,32 @@ img.floatleft {
   margin-right: 2rem;
   border-radius: 10px;
 }
+
+dl.supervised dt {
+  width:4rem;
+  float:left;
+  clear:left;
+}
+dl.supervised dd {
+  margin-left:4rem;
+  margin-bottom:1rem;
+}
+dl.supervised dd .with:before {
+      content: "\00a0(supervised together with ";
+}
+dl.supervised dd .with:after {
+  content: ")";
+}
+dl.supervised dd .student:after {
+  content: ".";
+}
+dl.supervised dd .title {
+  font-weight: bold;
+}
+dl.supervised dd .title:after {
+  content: ",\00a0";
+  font-weight:normal;
+}
+dl.supervised dd .thesis-type:after {
+  content: ".";
+}

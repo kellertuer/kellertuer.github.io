@@ -1,0 +1,135 @@
+- finished: 2019-07-16
+  name: FelixMaschke
+  title: Geodätische Regression auf Mannigfaltigkeiten mit Nebenbedingungen
+  type: master
+  with:
+    - RolandHerzog
+- finished: 2015-09-01
+  name: MarkusLöckel
+  title: Variational Models and Primal-Dual Algorithms for Manifold-Valued Image Restoration
+  type: master
+  with:
+    - GabrieleSteidl
+- finished: 2015-03-01
+  name: JohannesPersch
+  title: Analysis of Local Anisotropies and Denoising of \(\mathbb S^1\)-Valued Data
+  type: master
+  with:
+    - GabrieleSteidl
+#
+# Bachelor theses
+#
+- name: JanPhilippPfaue
+  title: Constrained optimization on Riemannian manifolds using geodesic polygonal sets
+  type: bachelor
+- finished: 2020-12-18
+  name: TomChristianRiemer
+  title: The Riemannien BFGS Method and its Implementation in Julia
+  type: bachelor
+- finished: 2019-11-07
+  name: RenéeDornig
+  title: Regularized Clustering of Manifold-Valued Data
+  type: bachelor
+- finished: 2019-05-29
+  name: ErikWünsche
+  title: $L^1$-TV-Regularisierung von rotationswertigen Daten
+  type: bachelor
+  with:
+  - RalfHielscher
+- finished: 2018-03-22
+  name: RozanRosandi
+  title: "Optimization of Composite Bézier Curves on Riemannian Manifolds"
+  type: bachelor
+- finished: 2018-03-19
+  name: JeremiasArf
+  title: An Alternating Gradient Descent Method for Geodesic Regression on symmetric Riemannian manifolds
+  type: bachelor
+- finished: 2017-06-01
+  name: HenningHuth
+  title: Congruence classes of anisotropic patterns on the torus and application in the FFT-based homogenization
+  type: bachelor
+  with:
+    - DennisMerkert
+    - BerndSimeon
+    - GabrieleSteidl
+- finished: 2017-05-01
+  name: Leif Goebel
+  title: Segmentation of Manifold-valued images
+  type: bachelor
+  with:
+    - GabrieleSteidl
+- finished: 2017-01-01
+  name: BenediktSchmitt
+  title: Anisotropic Structures and Sampling Patterns for the FFT-based Numerical Homogenization
+  type: bachelor
+  with:
+    - DennisMerkert
+    - BerndSimeon
+    - GabrieleSteidl
+- finished: 2016-06-01
+  name: MarcelBrusius
+  title: Unsupervised Co-Segmentation with Histogram Priors
+  type: bachelor
+  with:
+    - GabrieleSteidl
+- finished: 2016-06-01
+  name: SebastianNeumayer
+  title: Entropy Regularized Wasserstein Distances and an Application in Image Segmentation
+  type: bachelor
+  with:
+    - GabrieleSteidl
+- finished: 2013-12-01
+  name: JohannesPersch
+  title: Directional Information via Structure Tensors
+  type: bachelor
+  with:
+    - GabrieleSteidl
+- finished: 2012-07-01
+  name: LisaKausch
+  title: Multivariate anisotrope Dirichlet-Wavelets zur Kantendetektion auf dem Torus
+  type: bachelor
+  with:
+    - JürgenPrestin
+- finished: 2011-10-01
+  name: IngaStolz
+  title: Die multivariate periodische Fourier- und Wavelet-Transformation auf anisotropen Mustern
+  type: bachelor
+  with:
+   - JürgenPrestin
+#
+# student projects
+#
+- finished: 2017-10-01
+  name:
+    - JeremiasArf
+    - RozanRosandi
+  title: Bézier curves in Riemannian manifolds
+  type: studentproject
+- finished: 2017-10-01
+  name: JensSettelmeier
+  title: Semantic Segmentation using Fully Convolutional Networks
+  type: studentproject
+  with:
+    - AliMoghiseh
+- finished: 2016-11-01
+  name:
+    - AnnikaEngel
+    - LeifGoebel
+  title: Segmentation of Colour Images Using a Regularised Fuzzy C-Means Algorithm
+  type: studentproject
+- finished: 2016-09-01
+  name:
+    - HenningHuth
+    - BenediktgSchmitt
+  title: Lösung der statischen Wärmeleitungsgleichung in der Homogenisierung auf anisotropen Gittern
+  type: studentproject
+  with:
+    - DennisMerkert
+- finished: 2016-04-01
+  name:
+    - MarcelBrusius
+    - SebastianNeumayer
+  title: An Algorithm for Image Segmentation based on Optimal Transport Distances
+  type: studentproject
+  with:
+    - GabrieleSteidl

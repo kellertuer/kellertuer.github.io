@@ -1,0 +1,165 @@
+lectures:
+  - term: WS&nbsp;2017/18
+    date: 2017-10-01
+    lecture: “Höhere Mathematik III – Vektoranalysis”
+    note: 'Vector Calculus for Engineering students'
+    university: TUK
+  - term: WS&nbsp;2016/17
+    date: 2016-10-01
+    lecture: “Höhere Mathematik III – Vektoranalysis”
+    note: Vector Calculus for Engineering students
+    university: TUK
+  - term: SS&nbsp;2016
+    date: 2016-04-01
+    lecture: '“Foundations of Image Processing”'
+    note: (second half on Fourier Analysis) together with {{'Gabriele Steidl'|scientistify}}
+    university: TUK
+  - term: SS&nbsp;2015
+    date: 2015-04-01
+    lecture: “Foundations of Image Processing”
+    university: TUK
+exercises:
+  - term: WS&nbsp;2020/21
+    date: 2020-10-01
+    exercise: Computer-oriented Mathematics
+    note: covering e.g. reproducible research, debugging, git, lecture together with {{'Roland Herzog'|scientistify}}
+    university: TUC
+    link: https://www.tu-chemnitz.de/mathematik/part_dgl/teaching/WS2020_computer-orientierte_Mathematik/index.en.php
+  - term: WS&nbsp;2020/21
+    date: 2020-10-01
+    exercise: Computerpraktikum
+    note: Including coordination for the whole Faculty
+    university: TUC
+    link: https://www.tu-chemnitz.de/mathematik/part_dgl/teaching/WS2020_Computerpraktikum/index.en.php
+  - term: SS&nbps;2020
+    date: 2020-04-01
+    exercise: Optimization on Manifolds
+    university: TUC
+    link: https://www.tu-chemnitz.de/mathematik/part_dgl/teaching/SS2020_Optimierung_auf_Mannigfaltigkeiten/index.de.php
+  - term: SS&nbsp;2020
+    date: 2020-04-01
+    exercise: Computerpraktikum
+    note: Including coordination for the whole Faculty
+    university: TUC
+    link: https://www.tu-chemnitz.de/mathematik/part_dgl/teaching/SS2020_Computerpraktikum/index.en.php
+  - term: SS&nbsp;2019
+    date: 2020-10-01
+    exercise: Mathematics for Chemnists and Economics I
+    note: Exercise and Practicals Optimization for Non-Mathematicians
+    university: TUC
+  - term: WS&nbsp;2019/20
+    date: 2020-10-01
+    exercise: Optimization for Non-Mathematicians
+    note: Exercises including programming in Matlab
+    university: TUC
+    link: https://www.tu-chemnitz.de/mathematik/part_dgl/teaching/WS2019_Optimierung_für_Nichtmathematiker/index..de.php
+  - term: WS&nbsp;2019/20
+    date: 2020-10-01
+    exercise: Mathematics for Chemnists and Economics I
+    note: Exercise and Practicals Optimization for Non-Mathematicians
+    university: TUC
+  - term: WS&nbsp;2019/20
+    date: 2020-10-01
+    exercise: Optimization for Non-Mathematicians
+    note: Exercises including programming in Matlab
+    university: TUC
+    link: https://www.tu-chemnitz.de/mathematik/part_dgl/teaching/WS2020_Optimierung_für_Nichtmathematiker/index..de.php
+  - term: SS&nbsp;2019
+    exercise: Modelling Seminar
+    date: 2019-04-01
+    note: Modelling and solving problems posed by companies,  within the data science study p rogram
+    university: TUC
+    link: https://www.tu-chemnitz.de/mathematik/part_dgl/teaching/Modellierungsseminar/index.en.php
+  - term: WS&nbsp;2018/19
+    date: 2018-10-01
+    exercise: Computer-oriented Mathematics
+    note: covering e.g. reproducible research, debugging, git, lecture together with {{'Roland Herzog'|scientistify}}
+    university: TUC
+    link: https://www.tu-chemnitz.de/mathematik/part_dgl/teaching/WS2018_computer-orientierte_Mathematik/index.en.php
+  - term: WS&nbsp;2018/19
+    date: 2018-10-01
+    exercise: "Höhere Mathematik III (If, Ph, ET)"
+    university: TUC
+  - term: SS&nbsp;2019
+    date: 2019-04-01
+    exercise: Computerpraktikum
+    note: Including coordination for the whole Faculty
+    university: TUC
+    link: https://www.tu-chemnitz.de/mathematik/part_dgl/teaching/SS2019_Computerpraktikum/index.en.php
+  - term: WS&nbsp;2018/19
+    date: 2018-10-01
+    exercise: Computerpraktikum
+    note: Including coordination for the whole Faculty
+    university: TUC
+    link: https://www.tu-chemnitz.de/mathematik/part_dgl/teaching/WS2018_Computerpraktikum/index.en.php
+  - term: WS&nbsp;2017/18
+    date: 2017-10-01
+    exercise: Seminar Learning
+    note: together with {{'Gabriele Steidl'|scientistify}}
+    university: TUK
+  - term: WS&nbsp;2017/18
+    date: 2017-10-01
+    exercise: Lecture Exercise for “Höhere Mathematik III – Vektoranalysis”
+    note: Vector Calculus for Engineering students
+    university: TUK
+  - term: SS&nbsp;2017
+    date: 2017-04-01
+    exercise: Tutor and Organizer of the Tutorials for “Foundations of Image Processing”
+    university: TUK
+  - term: SS&nbsp;2017
+    date: 2017-04-01
+    exercise: Tutor and Organizer of the Tutorials for “Optimization on Manifolds”
+    university: TUK
+  - term: SS&nbsp;2016
+    date: 2016-04-01
+    exercise: Tutor and Organizer of the Tutorials for “Methoden der konvexen Analysis in der Bildverarbeitung”
+    text: (Convex Analysis in Image Processing)
+    university: TUK
+  - term: WS&nbsp;2015/16
+    date: 2015-10-01
+    exercise: Seminar “Mathematical Image Processing”
+    note: together with {{'Gabriele Steidl'|scientistify}}
+    university: TUK
+  - term: WS&nbsp;2015/16
+    date: 2015-10-01
+    exercise: Organizer of the Tutorials “Höhere Mathematik III”
+    note: Vector Calculus and Differential Equations for engineering students
+    university: TUK
+  - term: WS&nbsp;2014/15 and WS&nbsp;2016/17
+    date: 2014-10-01
+    exercise: Internships accompanying the “Lecture Introduction to Numerical Methods”
+    university: TUK
+  - term: SS&nbsp;2014
+    date: 2014-04-01
+    exercise: Lecture Exercise “Höhere Mathematik II”
+    note: Linear Algebra for engineering students
+    university: TUK
+  - term: WS&nbsp;2013/14
+    date: 2013-10-01
+    exercise: Tutor “Höhere Mathematik III”
+    note: Vector Calculus and Differential Equations for engineering students
+    university: TUK
+  - term: WT 2011/12
+    date: 2011-10-01
+    exercise: Seminar “Wavelets – Theory and Applications“
+    university: UzL
+  - term: SS&nbsp;2011, SS&nbsp;2012 and SS&nbsp;2013
+    date: 2011-04-01
+    exercise: Tutorial “Computational Analysis – Introduction to Mathematica“
+    text: for Bachelor students of “Computational Life Science”
+    university: UzL
+  - term: WS&nbsp;2010/11 and WS&nbsp;2011/12
+    exercise: "Additional Lecture of Analysis I on “Introduction to linear Algebra”"
+    text: "for Bachelor Students “Molecular Life Science“"
+    date: 2010-10-01
+    university: UzL
+  - term: WS&nbsp;2009/10 until SS&nbsp;2013
+    date: 2009-10-01
+    exercise: Tutor and Tutorial Organizer
+    text: of the Tutorials for “Analysis I“ (winter terms) und “Analysis II“ (summer terms)
+    university: UzL
+  - term: WS&nbsp;2005/06 until SS&nbsp;2009
+    date: 2005-10-01
+    exercise: Student Tutor
+    text: for correction assignments and Tutorials within “Linear Algebra und discrete Structures I“ (winter terms) and “Linear Algebra und discrete Structures II“ (summer terms)
+    university: UzL

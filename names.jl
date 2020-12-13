@@ -2,7 +2,7 @@
 # Load and handle data for names of people and things
 #
 using YAML
-names = YAML.load_file("data/names.yml")
+names = YAML.load_file("data/names.yaml")
 people = names["people"]
 institutes = names["institutes"]
 
@@ -38,9 +38,11 @@ function hfun_person(params::Vector{String})::String
     !has_name(name) && return "<span class\"error\">Person „$(name)“ not found</span>"
     person = names["people"][name]
     fullname = person["name"]["full"]
+    shortname = get(person["name"], "short", fullname)
     bibname = person["name"]["bib"]
     title_fullname = "$(get(person, "title", ""))$(haskey(person,"title") ? " " : "")$(person["name"]["full"])"
     occursin("fullname",style) && (s = fullname)
+    occursin("shortname",style) && (s = shortname)
     occursin("nametitle", style) && (s = title_fullname)
     occursin("bibname", style) && (s = bibname)
     occursin("plain_", style) && return s
