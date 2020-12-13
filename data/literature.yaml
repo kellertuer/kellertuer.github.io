@@ -12,6 +12,7 @@
         - MauricioSilvaLouzeiro
         - DanielTenbrinck
         - JoséVdal-Núñez
+    biblatextype: article
     eprint: 1908.02022
     eprinttype: arxiv
     image: Fenchel.png
@@ -19,7 +20,6 @@
     note: accepted for publication
     publication_date: 2020-11-06
     title: "{F}enchel duality for Convex Optimization and a Primal Dual Algorithm on Riemannian Manifolds"
-    type: article
     year: 2020
 
 "BergmannHerrmannHerzogSchmidtVidal-Nunez-2020-2":
@@ -38,6 +38,7 @@
         - RolandHerzog
         - StephanSchmidt
         - JoséVdal-Núñez
+    biblatextype: article
     doi: 10.1088/1361-6420/ab6d5c
     eprint: 1908.07916
     eprinttype: arxiv
@@ -47,7 +48,6 @@
     pages: "054003"
     publication_date: 2020-04-10
     title: Discrete total variation of the normal vector field as shape prior with applications in geometric inverse problems
-    type: article
     volume: 36
     year: 2020
 
@@ -64,6 +64,7 @@
         - RolandHerzog
         - StephanSchmidt
         - JoséVdal-Núñez
+    biblatextype: article
     doi: 10.1088/1361-6420/ab6d5b
     eprint: 1902.07240
     eprinttype: arxiv
@@ -73,7 +74,6 @@
     pages: "054004"
     publication_date: 2020-04-10
     title: Total variation of the normal vector field as shape prior
-    type: article
     volume: 36
     year: 2020
 
@@ -89,6 +89,7 @@
     author:
         - RonnyBergmann
         - DennisMerkert
+    biblatextype: article
     eprint: 1701.04685
     eprinttype: arXiv
     image: Translates.png
@@ -96,7 +97,6 @@
     number: 1
     pages: 266–292
     title:  "{FFT}-based homogenization on periodic anisotropic translation invariant spaces"
-    type: article
     volume: 48
     year: 2020
     doi: 10.1016/j.acha.2018.05.003
@@ -111,6 +111,7 @@
     author:
         - RonnyBergmann
         - RolandHerzog
+    biblatextype: article
     doi: 10.1137/18M1181602
     eprint: 1804.06214
     eprinttype: arxiv
@@ -119,7 +120,6 @@
     number: 4
     pages: 2423–2444
     title: Intrinsic formulation of KKT conditions and constraint qualifications on smooth manifolds
-    type: article
     volume: 29
     year: 2019
 
@@ -134,6 +134,7 @@
     author:
         - RonnyBergmann
         - PierreYvesGousenbourger
+    biblatextype: article
     doi: 10.3389/fams.2018.00059
     eprint: 1807.10090
     eprinttype: arxiv
@@ -142,7 +143,6 @@
     publication_date: 2018-12-12
     title: A variational model for data fitting on manifolds by minimizing the acceleration of a {B}ézier curve
     year: 2018
-    type: article
 
 "BergmannFitschenPerschSteidl-2018":
     abstract: >
@@ -160,6 +160,7 @@
         - JanHenrikFitschen
         - JohannesPersch
         - GabrieleSteidl
+    biblatextype: article
     doi: 10.1007/s10851-018-0840-y
     eprint: 1709.01343
     eprinttype: arxiv
@@ -169,33 +170,32 @@
     pages: 1459–1481
     volume: 60
     title: Priors with coupled first and second order differences for manifold-valued image processing
-    type: article
     year: 2018
 
 "BergmannMerkert-2018":
-  abstract: >
-    In order to take structural anisotropies of a given composite and different shapes of its unit cell into account, we generalize the Basic Scheme in homogenization by Moulinec and Suquet to arbitrary sampling lattices and tilings of the $d$-dimensional Euclidean space.
-    We employ a Fourier transform for these lattices by introducing the corresponding set of sample points, the so called pattern, and its frequency set, the generating set, both representing the anisotropy of both the shape of the unit cell and the chosen preferences in certain sampling directions.
-    In several cases, this Fourier transform is of lower dimension than the space itself.
-    For the so called rank-$1$-lattices it even reduces to a one-dimensional Fourier transform having the same leading coefficient as the fastest Fourier transform implementation available.
-    We illustrate the generalized Basic Scheme on an anisotropic laminate and a generalized ellipsoidal Hashin structure.
-    For both we give an analytical solution to the elasticity problem, in two- and three dimensions, respectively.
-    We then illustrate the possibilities of choosing a pattern.
-    Compared to classical grids this introduces both a reduction of computation time and a reduced error of the numerical method. It also allows for anisotropic subsampling, i.e.~choosing a sub lattice of a pixel or voxel grid based on anisotropy information of the material at hand.
-  author:
-    - RonnyBergmann
-    - DennisMerkert
-  image: Lattice.png
-  issue: 1
-  doi: 10.1016/j.camwa.2018.04.008
-  eprint: 1605.05712
-  eprinttype: arXiv
-  journaltitle: Computers & Mathematics with Applications.
-  pages: 125–140
-  title: "A framework for {FFT}-based homogenization on anisotropic lattices"
-  type: article
-  volume: 76
-  year: 2018
+    abstract: >
+        In order to take structural anisotropies of a given composite and different shapes of its unit cell into account, we generalize the Basic Scheme in homogenization by Moulinec and Suquet to arbitrary sampling lattices and tilings of the $d$-dimensional Euclidean space.
+        We employ a Fourier transform for these lattices by introducing the corresponding set of sample points, the so called pattern, and its frequency set, the generating set, both representing the anisotropy of both the shape of the unit cell and the chosen preferences in certain sampling directions.
+        In several cases, this Fourier transform is of lower dimension than the space itself.
+        For the so called rank-$1$-lattices it even reduces to a one-dimensional Fourier transform having the same leading coefficient as the fastest Fourier transform implementation available.
+        We illustrate the generalized Basic Scheme on an anisotropic laminate and a generalized ellipsoidal Hashin structure.
+        For both we give an analytical solution to the elasticity problem, in two- and three dimensions, respectively.
+        We then illustrate the possibilities of choosing a pattern.
+        Compared to classical grids this introduces both a reduction of computation time and a reduced error of the numerical method. It also allows for anisotropic subsampling, i.e.~choosing a sub lattice of a pixel or voxel grid based on anisotropy information of the material at hand.
+    author:
+        - RonnyBergmann
+        - DennisMerkert
+    biblatextype: article
+    image: Lattice.png
+    issue: 1
+    doi: 10.1016/j.camwa.2018.04.008
+    eprint: 1605.05712
+    eprinttype: arXiv
+    journaltitle: Computers & Mathematics with Applications.
+    pages: 125–140
+    title: "A framework for {FFT}-based homogenization on anisotropic lattices"
+    volume: 76
+    year: 2018
 
 "BergmannTenbrinck-2018":
     abstract: >
@@ -209,6 +209,7 @@
     author:
         - RonnyBergmann
         - DanielTenbrinck
+    biblatextype: article
     doi: 10.1137/17M1118567
     eprint: 1702.05293
     eprinttype: arXiv
@@ -217,7 +218,6 @@
     journaltitle: SIAM Journal on Imaging Sciences
     pages: 325–360
     title: A graph framework for manifold-valued data
-    type: article
     volume: 11
     year: 2018
 
@@ -234,6 +234,7 @@
         - JanHenrikFitschen
         - JohannesPersch
         - GabrieleSteidl
+    biblatextype: article
     doi: 10.1007/s11263-017-0995-9
     eprint: 1604.08714
     eprinttype: arXiv
@@ -242,7 +243,6 @@
     journaltitle: International Journal of Computer Vision
     pages: 435–453
     title: Iterative multiplicative filters for data labeling
-    type: article
     volume: 123
     year: 2017
 
@@ -254,6 +254,7 @@
     author:
         - RonnyBergmann
         - AndreasWeinmann
+    biblatextype: article
     doi: 10.1007/s10851-015-0627-3
     eprint: 1501.02684
     eprinttype: arXiv
@@ -262,7 +263,6 @@
     number: 3
     pages: 401–427
     title: "A second order {TV}-type approach for inpainting and denoising higher dimensional combined cyclic and vector space data"
-    type: article
     volume: 55
     year: 2016
 
@@ -283,6 +283,7 @@
         - RonnyBergmann
         - GabrieleSteidl
         - AndreasWeinmann
+    biblatextype: article
     doi: 10.1137/15M101988X
     eprinttype: arxiv
     eprint: 1506.02409
@@ -291,7 +292,6 @@
     number: 1
     pages: A567–A597
     title: A second order non-smooth variational model for restoring manifold-valued images
-    type: article
     volume: 38
     year: 2016
 
@@ -313,6 +313,7 @@
         - RonnyBergmann
         - JohannesPersch
         - GabrieleSteidl
+    biblatextype: article
     doi: 10.1137/15M1052858
     eprint: 1512.02814
     eprinttype: arXiv
@@ -321,7 +322,6 @@
     number: 3
     pages: 901–937
     title: "A parallel {D}ouglas–{R}achford algorithm for minimizing {ROF}-like functionals on images with values in symmetric {H}adamard manifolds"
-    type: article
     volume: 9
     year: 2016
 
@@ -346,7 +346,7 @@
     number: 2
     pages: 281–304
     title: Restoration of manifold-valued images by half-quadratic minimization
-    type: article
+    biblatextype: article
     volume: 10
     year: 2016
 
@@ -367,7 +367,7 @@
     number: 2
     pages: 342–369
     title: Multivariate periodic wavelets of de la Vallée Poussin type
-    type: article
+    biblatextype: article
     volume: 21
     year: 2015
 
@@ -396,7 +396,7 @@
     number: 4
     pages: 2916–2953
     title: Second order differences of cyclic data and applications in variational denoising
-    type: article
+    biblatextype: article
     volume: 7
     year: 2014
 
@@ -417,7 +417,7 @@
     number: 1
     pages: 39–51
     title: The fast {F}ourier transform and fast wavelet transform for patterns on the torus
-    type: article
+    biblatextype: article
     volume: 35
     year: 2013
 #
@@ -444,7 +444,7 @@
     image: TVofNormal.png
     publisher: Wiley-Blackwell
     title: Geometry processing problems using the total variation of the normal vector field
-    type: conference-proceeding
+    biblatextype: inproceedings
     year: 2019
 
 "BergmannHerzogLoayzaWelker2019":
@@ -458,13 +458,13 @@
         - RolandHerzog
         - EstefaníaLoayza-Romero
         - KathrinWelker
+    biblatextype: inproceedings
     booktitle: 90th Annual Meeting of the International Association of Applied Mathematics and Mechanics (GAMM)
     doi: 10.1002/pamm.201900067
     editor:
         - Gesellschaft für Angewandte Mathematik und Mechanik (GAMM)
     publisher: Wiley-Blackwell
     title: "Shape optimization: what to do first, optimize or discretize?"
-    type: conference-proceeding
     year: 2019
 
 "Bergmann-2017":
@@ -478,11 +478,11 @@
         This paper introduces the main mathematical methods as well as numerical examples.
     author:
         - RonnyBergmann
+    biblatextype: inproceedings
     booktitle: IEEE International Conference on Image Processing, IEEE ICIP 2017, Beijing, China, September 17–20, 2017
     doi: 10.1109/ICIP.2017.8296271
     image: secondOrderS2.png
     title:  MVIRT A toolbox for manifold-valued image restoration
-    type: conference-proceeding
     year: 2017
 
 "BergmannTenbricnk-2017":
@@ -493,6 +493,7 @@
     author:
         - RonnyBergmann
         - DanielTenbrinck
+    biblatextype: inproceedings
     booktitle: Geometric Science of Information – 3rd Conference on Geometric Science of Information
     doi: 10.1007/978-3-319-68445-1
     editor:
@@ -504,7 +505,6 @@
     pages: 604–612
     publisher: Springer International Publishing
     title: Nonlocal inpainting of manifold-valued data on finite weighted graphs
-    type: conference-proceeding
     year: 2017
 
 "BergmannFitschenPerschSteidl-2017-2":
@@ -519,6 +519,7 @@
         - JanHenrikFitschen
         - JohannesPersch
         - GabrieleSteidl
+    biblatextype: inproceedings
     booktitle: "Scale Space and Variational Methods in Computer Vision: 6th International Conference, SSVM 2017, Kolding, Denmark, June 4-8, 2017, Proceedings"
     editor:
         - Lauze, F.
@@ -529,7 +530,6 @@
     title: Infimal Convolution Coupling of First and Second Order Differences on Manifold-Valued Images
     year: 2017
     doi: 10.1007/978-3-319-58771-4_36
-    type: conference-proceeding
     img: Priors.png
 
 "BergmannMerkert-2017":
@@ -541,12 +541,12 @@
     author:
         - RonnyBergmann
         - DennisMerkert
+    biblatextype: inproceedings
     booktitle: 2017 International Conference on Sampling Theory and Applications (SampTA)
     doi: 10.1109/SAMPTA.2017.8024347
     image: Translates.png
     pages: 396-399
     title: Approximation of periodic PDE solutions with anisotropic translation invariant spaces
-    type: conference-proceeding
     year: 2017
 
 "BergmannWeinmann-2015":
@@ -560,6 +560,7 @@
     author:
         - RonnyBergmann
         - AndreasWeinmann
+    biblatextype: inproceedings
     booktitle: Energy Minimization Methods in Computer Vision and Pattern Recognition, 10th International Conference on, EMMCVPR 2015, Hong Kong
     doi: 10.1007/978-3-319-14612-6_12
     eprint: 1410.1998
@@ -574,7 +575,6 @@
     pages: 155–168
     publisher: Springer
     title: Inpainting of cyclic data using first and second order differences
-    type: conference-proceeding
     year: 2015
 
 "OezguenSchuberBergmannBennewitzStrauss-2015":
@@ -593,12 +593,12 @@
         - RonnyBergmann
         - RolandBennewitz
         - DanielJStrauss
+    biblatextype: inproceedings
     booktitle: Engineering in Medicine and Biology Society (EMBC), 37th Annual International Conference of the IEEE
     doi: 10.1109/EMBC.2015.7320277
     image: s1tv12.png
     pages: 8115-8118
     title: Relating tribological stimuli to somatosensory electroencephalographic responses
-    type: conference-proceeding
     year: 2015
 
 "BergmannPrestin-2014":
@@ -609,6 +609,7 @@
     author:
         - RonnyBergmann
         - JürgenPrestin
+    biblatextype: inproceedings
     doi: 10.1007/978-3-319-06404-8_3
     editor:
         - GregoryFasshauer
@@ -619,7 +620,6 @@
     image: dlVP.png
     pages: 27–44
     title: Multivariate anisotropic interpolation on the torus
-    type: conference-proceeding
     year: 2014
 #
 # Book Chapter
@@ -630,6 +630,7 @@
         - FriederikeLaus
         - JohannesPersch
         - GabrieleSteidl
+    biblatextype: incollection
     booktitle: "Processing, Analyzing and Learning of Images, Shapes, and Forms: Part 2"
     doi: 10.1016/bs.hna.2019.07.005
     editor:
@@ -638,7 +639,6 @@
     chapter: 14
     pages: 553–578
     title: Recent advances in denoising of manifold-valued images
-    type: bookchapter
     year: 2019
     series: Handbook of Numerical Analysis
     volume: 20
@@ -649,10 +649,10 @@
 "Bergmann-2018":
     author:
         - RonnyBergmann
-    note: Technische Universität Kaiserslautern
-    thesistype: cumulative habilitation thesis
+    biblatextype: thesis
+    school: Technische Universität Kaiserslautern
+    type: cumulative habilitation thesis
     title: Variational Methods for Manifold-valued Image Processing
-    type: thesis
     year: 2018
 
 "Bergmann-2013-1":
@@ -677,14 +677,16 @@
         Für spezielle glatte Funktionen gelingt es, in der Konstruktion anstelle der rekursiven Definition eine explizite Darstellung der Fourier-Koeffizienten anzugeben und somit für diese lokalisierten Wavelets eine gesamte Multiskalen-Analyse zu konstruieren.
     author:
         - RonnyBergmann
+    biblatextype: thesis
     file: https://ronnybergmann.net/theses/Bergmann__Translationsinvariante_Raeume_multivariater_anisotroper_Funktionen_auf_dem_Torus.pdf
     github: https://github.com/kellertuer/MPAWL
     image: dlVP.png
     link: https://www.shaker.de/de/content/catalogue/index.asp?lang=de&ID=8&ISBN=978-3-8440-2266-7
-    note: "german, Universität zu Lübeck. Similarily: Shaker Verlag, ISBN 978-3844022667, 2013."
-    thesistype: Dissertation
+    language: german
+    note: "similarily: Shaker Verlag, ISBN 978-3844022667, 2013."
+    school: Universität zu Lübeck
+    type: Dissertation
     title: Translationsinvariante Räume multivariater anisotroper Funktionen auf dem Torus
-    type: thesis
     year: 2013
 
 "Bergmann-2009":
@@ -698,13 +700,14 @@
         Auf Grundlage der genannten Begriffe wird das Programm „Gravel“ zum Zeichnen von Graphen und Hypergraphen entwickelt und implementiert.
     author:
         - RonnyBergmann
+    biblatextype: thesis
     file: http://ronnyberg,ann.net/theses/Bergmann__Interaktive_und_automatisierte_Hypergraphenvisualisierung_mittels_NURBS-Kurven.pdf
     github: kellertuer/Gravel
     image: dipl.png
-    note: german, Universität zu Lübeck.
+    language: german
+    school: Universität zu Lübeck
     title: Interaktive und automatisierte Hypergraphenvisualisierung mittels NURBS-Kurven
-    thesistype: Diplomarbeit
-    type: thesis
+    type: Diplomarbeit
     year: 2009
 #
 # Misc
@@ -715,6 +718,7 @@
         - FriederikeLaus
         - JohannesPersch
         - GabrieleSteidl
+    biblatextype: misc
     image: CaminoRest.png
     journaltitle: Siam News
     link: https://sinews.siam.org/Details-Page/processing-manifold-valued-images
@@ -722,6 +726,5 @@
     pages: 1 & 3
     publication_date: 2017-10-01
     title: Manifold-valued Image Processing
-    type: misc
     volume: 50
     year: 2017

@@ -16,6 +16,7 @@ Print the name of a person fom the `names.yml` `person` dictionary in different 
 All following styles are ignored without an error if the corresponding field does not exist
 Additionally you can style the name with a prefix
 * `link_` to wrap the name in a link to their `url`
+* `plain_` to get a non-html variant of the name. Then the postfixes (in the following) are ignored
 
 postfix a <sup> icon link to
 * `_fntwitter` – to add a `twitter` icon link
@@ -35,12 +36,14 @@ function hfun_name(params::Vector{String})::String
     s = ""
     !has_name(name) && return "<span class\"error\">Person „$(name)“ not found</span>"
     person = names["people"][name]
-    fullname = """<span class="person">$(person["name"]["full"])</span>"""
-    bibname = """<span class="person">$(person["name"]["bib"])</span>"""
-    title_fullname = """<span class="person">$(get(person, "title", ""))$(haskey(person,"title") ? " " : "")$(person["name"]["full"])</span>"""
+    fullname = person["name"]["full"]
+    bibname = person["name"]["bib"]
+    title_fullname = "$(get(person, "title", ""))$(haskey(person,"title") ? " " : "")$(person["name"]["full"])"
     occursin("fullname",style) && (s = fullname)
     occursin("nametitle", style) && (s = title_fullname)
     occursin("bibname", style) && (s = bibname)
+    occursin("plain_", style) && return s
+    s = """<span class="person">$s</span>"""
     (haskey(person,"url") && occursin("link_",style)) && (s = """<a href="$(person["url"])">$s</a>""")
     supnotes = ["twitter", "github", "orcid", "scholar", "arxiv"]
     supurlprefixes = ["https://twitter.com/", "https://github.com/", "https://orcid.org/", "https://scholar.google.com/citations?user=", "https://arxiv.org/a/"]

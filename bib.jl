@@ -29,7 +29,7 @@ If no types are given all will be printed
 function hfun_library(params)
     types = (length(params)>0) ? lowercase.(strip.(split(params[1],","))) : ["all",]
     library = (length(params)>1) ? YAML.load_file(params[2]) : literature
-    reduced_library = filter( x-> (x[2]["type"] ∈ types) || ("all" ∈ types), library)
+    reduced_library = filter( x-> (x[2]["biblatextype"] ∈ types) || ("all" ∈ types), library)
     list_html = "";
     if length(params) > 2
         title = params[3]
@@ -88,9 +88,16 @@ function format_bibtex_entry(entry,key)
     s = """$s
         $(names)$(formatspan(entry,"year"))$(formatspan(entry,"title"; remove=["{","}"]))
         <br>
-        $(formatlazyspan(entry, "editor"; prefix="in: "))$(formatlazyspan(entry,"booktitle"; prefix= haskey(entry,"editor") ? ": " : "in: "))$(formatlazyspan(entry, "chapter"; prefix=", Chapter "))$(formatlazyspan(entry,"journaltitle";class="journal"))$(formatlazyspan(entry,"series"; prefix=", "))$(formatlazyspan(entry,"volume"))$(formatlazyspan(entry,"number"))$(formatlazyspan(entry,"issue"))$(formatlazyspan(entry,"pages"))$(formatlazyspan(entry,"publisher"; prefix=", "))$(formatlazyspan(entry,"thesistype"))$(formatlazyspan(entry,"note"))
+        $(formatlazyspan(entry, "editor"; prefix="in: "))$(formatlazyspan(entry,"booktitle"; prefix= haskey(entry,"editor") ? ": " : "in: "))$(formatlazyspan(entry, "chapter"; prefix=", Chapter "))$(formatlazyspan(entry,"journaltitle";class="journal"))$(formatlazyspan(entry,"series"; prefix=", "))$(formatlazyspan(entry,"volume"))$(formatlazyspan(entry,"number"))$(formatlazyspan(entry,"issue"))$(formatlazyspan(entry,"pages"))$(formatlazyspan(entry,"publisher"; prefix=", "))$(formatlazyspan(entry,"type"))$(formatlazyspan(entry,"language"; prefix=", "))$(formatlazyspan(entry,"school"; prefix=", "))$(formatlazyspan(entry,"note"))
         <ul class="nav nav-icons">
         """
+    #bibtex icon
+    s = """$s
+        <li>
+            <a data-toggle="collapse" href="#$key-bibtex" title="toggle visibility of the biblatex for $key">
+                <i class="fas fa-lg fa-code"></i>
+            </a>
+        </li>"""
     if haskey(entry,"abstract") #abstract icon
         s = """$s
             <li>
@@ -138,14 +145,52 @@ function format_bibtex_entry(entry,key)
     s = """$s
         </ul>
     """
+    # bibtex entry
+    s = """$s
+        <div id="$key-bibtex" class="blockicon bibtex collapse fas fa-lg fa-code">
+            <div class="content">$(format_bibtex_code(entry, key))</div>
+        </div>
+        """
     if haskey(entry,"abstract") # abstract content
         s = """$s
         <div id="$key-abstract" class="blockicon abstract collapse fas fa-lg fa-file-alt">
-            <div class="content">
-                $(entry["abstract"])
-            </div>
+            <div class="content">$(entry["abstract"])</div>
         </div>
         """
     end
     return """<li>$s</li>"""
+end
+"""
+    format_bibtex_code(entry,key)
+
+use the dictionary `entry` and the literature `key` to format a biblatex output.
+the type os taken from the `biblatextype` field (defaults to "article").
+You can `exclude` a set of fields (by default those that are currently used to enhance the entry)
+and the `joined` fields are arrays that are joined with `and` after the fields are checked for
+valid `names` (from `names.yaml`), where the `bib` form of `name` is taken
+"""
+function format_bibtex_code(
+    entry,
+    key;
+    excludes = ["biblatextype", "image", "link", "file", "github", "publication_date"],
+    field_joins = ["author", "editor"] )
+    s = "";
+    for f ∈ keys(entry)
+        if f ∉ excludes
+            v = ""
+            if f ∈ field_joins
+                v = join(
+                    [ has_name(name) ? hfun_name([name, "plain_bibname"]) : name for name ∈ entry[f] ],
+                    " and ",
+                )
+            else
+                v = entry[f]
+            end
+            multiline = lowercase(f) ∈ ["abstract"]
+            s = "$s\n    $(f) = {$(multiline ? "\n    " : "")$(v)$(multiline ? "    " : "")}"
+        end
+    end
+    s = """@$(get(entry, "biblatextype", "article")){$key,$s
+        }"""
+    return s
 end

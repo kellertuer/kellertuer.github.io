@@ -7,13 +7,13 @@
 ## Journal Articles
 {{library article}}
 
-# Book Chapter
+## Book Chapter
 
-{{library bookchapter data/literature.yaml}}
+{{library incollecition data/literature.yaml}}
 
 ## Peer-reviewed Conference Proceedings
 
-{{library conference-proceeding data/literature.yaml}}
+{{library inproceedings data/literature.yaml}}
 
 {{library thesis data/literature.yaml Theses}}
 

@@ -120,17 +120,25 @@ div.abstract div.content:before{
     font-weight: bold;
     padding-right:2rem;
 }
-div.abstract div.content {
+div.abstract div.content,
+div.bibtex div.content {
     width:94%;
     margin-left:4%;
     margin-right:2%;
     margin-top:-.5rem;
-    font-size:66%;
-    font-weight:normal;
     padding-top:0px;
     padding-bottom:0px;
+    font-weight:normal;
     padding-left: 2%;
     border-left: 1px solid black;
+}
+div.abstract div.content {
+    font-size: 66%;
+}
+div.bibtex div.content {
+    white-space: pre-wrap;
+    font-family: monospace;
+    font-size: 50%;
 }
 .collapse {
     display: none;
