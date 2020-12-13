@@ -9,6 +9,8 @@
   --text-color: hsv(0, 0%, 20%);
 }
 
+li > p {margin: 0}
+
 /* ==================================================================
     DEFAULT FONT AND LAYOUT
 ================================================================== */
@@ -190,7 +192,7 @@ td {
 
 /* Spacing between bullet points. */
 .franklin-content li p {
-  margin: 10px 0;
+  margin: .125rem 0;
 }
 
 .franklin-content a {

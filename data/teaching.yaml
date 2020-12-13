@@ -12,7 +12,7 @@ lectures:
   - term: SS&nbsp;2016
     date: 2016-04-01
     lecture: '“Foundations of Image Processing”'
-    note: (second half on Fourier Analysis) together with {{'Gabriele Steidl'|scientistify}}
+    note: (second half on Fourier Analysis) together with {{person "Gabriele Steidl"}}
     university: TUK
   - term: SS&nbsp;2015
     date: 2015-04-01
@@ -22,7 +22,7 @@ exercises:
   - term: WS&nbsp;2020/21
     date: 2020-10-01
     exercise: Computer-oriented Mathematics
-    note: covering e.g. reproducible research, debugging, git, lecture together with {{'Roland Herzog'|scientistify}}
+    note: covering e.g. reproducible research, debugging, git, lecture together with {{person "Roland Herzog"}}
     university: TUC
     link: https://www.tu-chemnitz.de/mathematik/part_dgl/teaching/WS2020_computer-orientierte_Mathematik/index.en.php
   - term: WS&nbsp;2020/21
@@ -73,7 +73,7 @@ exercises:
   - term: WS&nbsp;2018/19
     date: 2018-10-01
     exercise: Computer-oriented Mathematics
-    note: covering e.g. reproducible research, debugging, git, lecture together with {{'Roland Herzog'|scientistify}}
+    note: covering e.g. reproducible research, debugging, git, lecture together with {{person "Roland Herzog"}}
     university: TUC
     link: https://www.tu-chemnitz.de/mathematik/part_dgl/teaching/WS2018_computer-orientierte_Mathematik/index.en.php
   - term: WS&nbsp;2018/19
@@ -95,7 +95,7 @@ exercises:
   - term: WS&nbsp;2017/18
     date: 2017-10-01
     exercise: Seminar Learning
-    note: together with {{'Gabriele Steidl'|scientistify}}
+    note: together with {{person "Gabriele Steidl"}}
     university: TUK
   - term: WS&nbsp;2017/18
     date: 2017-10-01
@@ -118,7 +118,7 @@ exercises:
   - term: WS&nbsp;2015/16
     date: 2015-10-01
     exercise: Seminar “Mathematical Image Processing”
-    note: together with {{'Gabriele Steidl'|scientistify}}
+    note: together with {{person "Gabriele Steidl"}}
     university: TUK
   - term: WS&nbsp;2015/16
     date: 2015-10-01

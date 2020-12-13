@@ -77,7 +77,7 @@ end
 formatlazyspan(entry,field; kwargs...) = haskey(entry,field) ? formatspan(entry,field; kwargs...) : ""
 function format_bibtex_entry(entry,key)
     names = join( [ has_name(name) ? hfun_person([name,"bibname_fnorcid"]) : """<span class="person unknown">$name</span>""" for name ∈ entry["author"] ], ", ")
-    s = "";
+    s = """<a name="$(key)"></a>"""
     if haskey(entry,"image") #image in assets
         s = """$s
             <div class="item-icon-wrapper">
@@ -145,12 +145,6 @@ function format_bibtex_entry(entry,key)
     s = """$s
         </ul>
     """
-    # bibtex entry
-    s = """$s
-        <div id="$key-bibtex" class="blockicon bibtex collapse fas fa-lg fa-file-code">
-            <div class="content">$(format_bibtex_code(entry, key))</div>
-        </div>
-        """
     if haskey(entry,"abstract") # abstract content
         s = """$s
         <div id="$key-abstract" class="blockicon abstract collapse fas fa-lg fa-file-alt">
@@ -158,6 +152,12 @@ function format_bibtex_entry(entry,key)
         </div>
         """
     end
+    # bibtex entry
+    s = """$s
+        <div id="$key-bibtex" class="blockicon bibtex collapse fas fa-lg fa-file-code">
+            <div class="content">$(format_bibtex_code(entry, key))</div>
+        </div>
+        """
     return """<li>$s</li>"""
 end
 """

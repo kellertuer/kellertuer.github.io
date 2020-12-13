@@ -1,26 +1,26 @@
 people:
-    JeremiasArf:
+    Jeremias Arf:
         name:
             bib: Arf, J. N.
             full: Jeremias N. Arf
             short: J. N. Arf
-    MiroslavBačák:
+    Miroslav Bačák:
         name:
             full: "Miroslav Bačák"
             bib: "Bačák, M."
             short: "M. Bačák"
-    LukasBaumgärtner:
+    Lukas Baumgärtner:
         affiliation: "HU Berlin"
         name:
             full: "Lukas Baumgärtner"
             short: "L. Baumgärtner"
             bib: "Baumgärtner, L."
         orcid: 0000-0003-1007-4815
-    RolandBennewitz:
+    'Roland Bennewitz':
         name:
             full: Roland Bennewitz
             bib: Bennewitz, R.
-    RonnyBergmann:
+    'Ronny Bergmann':
         affiliation: "TU Chemnitz"
         arxiv: 0000-0001-8342-7218
         github: kellertuer
@@ -33,38 +33,38 @@ people:
         twitter: "ronnybergmann_"
         url: "http://uni.ronnybergmann.net"
         scholar: "0zk7y3cAAAAJ"
-    MarcelBrusius:
+    Marcel Brusius:
         name:
             bib: Brusius, M.
             full: Marcel Brusius
             short: M. Brusius
-    RaymondHChan:
+    Raymond Chan:
         name:
             full: Raymond H. Chan
             bib: Chan, R. H.
             short: R. H. Chan
         title: "Prof."
-    RenéeDornig:
+    Renée Dornig:
         name:
             bib: Dornig, R.
             full: Renée Dornig
             short: R. Dornig
-    AnnikaEngel:
+    Annika Engel:
         name:
             bib: Engel, A.
             full: Annika Engel
             short: A. Engel
-    JanHenrikFitschen:
+    Jan Henrik Fitschen:
         name:
             full: Jan Henrik Fitschen
             bib: Fitschen, J. H.
         title: "Dr."
-    LeifGoebel:
+    Leif Goebel:
         name:
             bib: Goebel, L.
             full: Leif Goebel
             short: L. Goebel
-    PierreYvesGousenbourger:
+    Pierre-Yves Gousenbourger:
         affiliation: Université catholique de Louvain
         name:
             bib: Gousenbourger, P.-Y.
@@ -72,7 +72,7 @@ people:
             short: P.-Y. Gousenbourger
         title: "Dr."
         url: "https://pgousenbourg.github.io/"
-    RolandHerzog:
+    Roland Herzog:
         affiliation: "TU Chemnitz"
         name:
             full: "Roland Herzog"
@@ -81,89 +81,89 @@ people:
         orcid: 0000-0003-2164-6575
         title: "Prof. Dr."
         url: "https://tu-chemnitz.de/herzog"
-    MarcHerrmann:
+    Marc Herrmann:
         name:
             full: "Marc Herrmann"
             short: "M. Herrmann"
             bib: "Herrmann, M."
-    RalfHielscher:
+    Ralf Hielscher:
         name:
             bib: Hielscher, R.
             full: Ralf Hielscher
             short: R. Hielscher
         title: "Dr."
         url: https://www-user.tu-chemnitz.de/~rahi/
-    HenningHuth:
+    Henning Huth:
         name:
             full: Henning Huth
             bib: Huth, H.
             short: H. Huth
-    LisaKausch:
+    Lisa Kausch:
         affiliation: DKFZ Heidelberg
         name:
             bib: Kausch, L.
             full: Lisa Kausch
             short: L. Kausch
         url: https://www.dkfz.de/en/mic/team/people/Lisa_Kausch.html
-    FriederikeLaus:
+    Friederike Laus:
         name:
             bib: Laus, F.
             full: Friederike Laus
             short: F. Laus
         title: Dr.
-    EstefaníaLoayzaRomero:
+    Estefanía Loayza-Romero:
         name:
             full: Estefanía Loayza-Romero
             short: E. Loayza-Romero
             bib: Loayza-Romero, E.
         orcid: 0000-0001-7919-9259
         url: https://www.tu-chemnitz.de/mathematik/part_dgl/people/loayza/index.php
-    MarkusLöckel:
+    Markus Löckel:
         name:
             bib: Löckel, M.
             full: Markus Löckel
             short: M. Löckel
-    FelixMaschke:
+    Felix Maschke:
         name:
             bib: Maschke, F.
             full: Felix Maschke
             short: F. Maschke
-    DennisMerkert:
+    Dennis Merkert:
         name:
             full: Dennis Merkert
             short: D. Merkert
             bib: Merkert, D.
         title: "Dr."
-    AliMoghiseh:
+    Ali Moghiseh:
         name:
             bib: Moghiseh, A.
             full: Ali Moghiseh
             short: A. Moghiseh
         title: Dr.
         url: https://www.itwm.fraunhofer.de/en/departments/bv/staff/ali-moghiseh.html
-    SebastianNeumayer:
+    Sebastian Neumayer:
         affiliation: TU Berlin
         name:
             full: Sebastian J. Neumayer
             bib: Neumayer, S. J.
             short: S. J. Neumayer
         url: https://www.math.tu-berlin.de/fachgebiete_ag_modnumdiff/angewandte_mathematik/v_menue/team/sebastian_neumayer/v_menue/sebastian_neumayer/
-    NovafOezguen:
+    Novaf Oezguen:
         name:
             full: Novaf Oezguen
             bib: Oezguen, N.
-    JohannesPersch:
+    Johannes Persch:
         name:
             full: Johannes Persch
             short: J. Persch
             bib: Persch, J.
         title: "Dr."
-    JanPhilippPfaue:
+    Jan-Philipp Pfaue:
         name:
             bib: Pfaue, J.-P.
             full: Jan-Philipp Pfaue
             short: J.-P. Pfaue
-    JürgenPrestin:
+    Jürgen Prestin:
         name:
             full: Jürgen Prestin
             bib: Prestin, J.
@@ -171,38 +171,38 @@ people:
         title: "Prof. Dr."
         url: http://www.math.uni-luebeck.de/mitarbeiter/prestin/index.php
         orcid: 0000-0001-5985-7939
-    TomChristianRiemer:
+    Tom-Christian Riemer:
         name:
             bib: Riemern, T.-C.
             full: Tom-Christian Riemer
             short: T.-C. Riemer
-    RozanRosandi:
+    Rozan Rosandi:
         name:
             bib: Rosandi, R.
             full: Rozan Rosandi
             short: R. Rosandi
-    StephanSchmidt:
+    Stephan Schmidt:
         affiliation: "HU Berlin"
         name:
             full: Stephan Schmidt
             short: S. Schmidt
             bib: Schmidt, S.
         url: https://www.mathematik.hu-berlin.de/de/personen/mitarb-vz/1693090
-    BenediktSchmitt:
+    Benedikt Schmitt:
         name:
             bib: Schmitt, B.
             full: Benedikt Schmitt
             short: B. Schmitt
-    KristofSchubert:
+    Kristof Schubert:
         name:
             full: Krisof Schubert
             bib: Schubert, K.
-    JensSettelmeier:
+    Jens Settelmeier:
         name:
             bib: Settelmeier, J.
             full: Jens Settelmeier
             short: J. Settelmeier
-    MauricioSilvaLouzeiro:
+    Mauricio Silva Louzeiro:
         affiliation: "TU Chemnitz"
         name:
             bib: "Silva Louzeiro, M."
@@ -211,7 +211,7 @@ people:
         orcid: 0000-0002-4755-3505
         title: "Dr."
         url: https://www.tu-chemnitz.de/mathematik/part_dgl/people/louzeiro
-    BerndSimeon:
+    Bernd Simeon:
         affiliation: TU Kaiserslautern
         name:
             full: Bernd Simeon
@@ -219,7 +219,7 @@ people:
             short: B. Simeon
         title: Prof. Dr.
         url: https://www.mathematik.uni-kl.de/das/personen/leitung/simeon/
-    GabrieleSteidl:
+    Gabriele Steidl:
         affiliation: "TU Berlin"
         name:
             full: "Gabriele Steidl"
@@ -227,7 +227,7 @@ people:
             bib: "Steidl, G."
         title: "Prof. Dr."
         url: http://page.math.tu-berlin.de/~steidl/
-    IngaStolz:
+    Inga Stolz:
         affiliation: Europa-Universität Flensburg
         name:
             bib: Stolz, I.
@@ -235,11 +235,11 @@ people:
             short: I. Stolz
         title: Dr.
         url: https://www.uni-flensburg.de/mathematik/wer-wir-sind/mitarbeiterinnen-und-mitarbeiter/dr-inga-stolz/
-    DanielJStrauss:
+    Daniel Strauss:
         name:
             full: Daniel J. Strauss
             bib: Strauss, D. J.
-    DanielTenbrinck:
+    Daniel Tenbrinck:
         affiliation: FAU Erlangen
         name:
             bib: "Tenbrinck, T."
@@ -248,14 +248,14 @@ people:
         orcid: 0000-0002-4788-9332
         title: "Dr."
         url: https://en.www.math.fau.de/angewandte-mathematik-1/mitarbeiter/dr-daniel-tenbrinck/
-    JoséVdal-Núñez:
+    José Vdal-Núñez:
         affiliation: "University of Alcalá de Henares"
         name:
             full: "José Vidal-Núñez"
             short: "J. Vidal-Núñez"
             bib: "Vidal-Núñez, J."
         orcid: 0000-0002-1190-6700
-    AndreasWeinmann:
+    Andreas Weinmann:
         affiliation: "Hochschule Darmstadt"
         name:
             full: "Andreas Weinmann"
@@ -263,7 +263,7 @@ people:
             bib: "Weinmann, A."
         url: https://fbmn.h-da.de/~weinmann/
         orcid: 0000-0002-4969-7609
-    KathrinWelker:
+    Kathrin Welker:
         affiliation: HSU Hamburg
         name:
             full: Kathrin Welker
@@ -271,7 +271,7 @@ people:
             bib: Welker, K.
         title: Prof. Dr.
         url: https://www.hsu-hh.de/mathematik/mitarbeiter/
-    ErikWünsche:
+    Erik Wünsche:
         name:
             bib: Wünsche, E.
             full: Erik Wünsche
