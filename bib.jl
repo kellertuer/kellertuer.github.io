@@ -65,7 +65,7 @@ end
 function formatspan(entry,field; class=field, prefix="", remove=[])
     s = "";
     if entry[field] isa Vector #concat list
-        s = join( [ (has_name(name) ? hfun_name([name,"bibname_fnorcid"]) : """$(prefix)$(length(prefix)>0 ? " " : "")<span class="person unknown">$name</span>""") for name ∈ entry[field] ], ", ")
+        s = join( [ (has_name(name) ? hfun_person([name,"bibname_fnorcid"]) : """$(prefix)$(length(prefix)>0 ? " " : "")<span class="person unknown">$name</span>""") for name ∈ entry[field] ], ", ")
     else
         s = """$(prefix)$(length(prefix)>0 ? " " : "")<span class="$field">$(entry[field])</span>"""
     end
@@ -76,7 +76,7 @@ function formatspan(entry,field; class=field, prefix="", remove=[])
 end
 formatlazyspan(entry,field; kwargs...) = haskey(entry,field) ? formatspan(entry,field; kwargs...) : ""
 function format_bibtex_entry(entry,key)
-    names = join( [ has_name(name) ? hfun_name([name,"bibname_fnorcid"]) : """<span class="person unknown">$name</span>""" for name ∈ entry["author"] ], ", ")
+    names = join( [ has_name(name) ? hfun_person([name,"bibname_fnorcid"]) : """<span class="person unknown">$name</span>""" for name ∈ entry["author"] ], ", ")
     s = "";
     if haskey(entry,"image") #image in assets
         s = """$s
@@ -95,7 +95,7 @@ function format_bibtex_entry(entry,key)
     s = """$s
         <li>
             <a data-toggle="collapse" href="#$key-bibtex" title="toggle visibility of the biblatex for $key">
-                <i class="fas fa-lg fa-code"></i>
+                <i class="fas fa-lg fa-file-code"></i>
             </a>
         </li>"""
     if haskey(entry,"abstract") #abstract icon
@@ -147,7 +147,7 @@ function format_bibtex_entry(entry,key)
     """
     # bibtex entry
     s = """$s
-        <div id="$key-bibtex" class="blockicon bibtex collapse fas fa-lg fa-code">
+        <div id="$key-bibtex" class="blockicon bibtex collapse fas fa-lg fa-file-code">
             <div class="content">$(format_bibtex_code(entry, key))</div>
         </div>
         """
@@ -180,7 +180,7 @@ function format_bibtex_code(
             v = ""
             if f ∈ field_joins
                 v = join(
-                    [ has_name(name) ? hfun_name([name, "plain_bibname"]) : name for name ∈ entry[f] ],
+                    [ has_name(name) ? hfun_person([name, "plain_bibname"]) : name for name ∈ entry[f] ],
                     " and ",
                 )
             else

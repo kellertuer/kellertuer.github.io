@@ -26,3 +26,5 @@ For instance:
 -->
 \newcommand{\R}{\mathbb R}
 \newcommand{\cM}{\mathcal M}
+\newcommand{\highlight}[1]{~~~<span class="highlight">#1</span>~~~}
+\newcommand{\floatleftimg}[2]{~~~<img src="#1" alt="#2" class="floatleft"/>~~~}

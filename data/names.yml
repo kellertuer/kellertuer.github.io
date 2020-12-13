@@ -167,3 +167,36 @@ people:
             bib: Welker, K.
         title: Prof. Dr.
         url: https://www.hsu-hh.de/mathematik/mitarbeiter/
+
+institutes:
+    'IfM':
+        name: Institut für Mathematik
+        short: Inst. f. Math.
+        url:  http://math.uni-luebeck.de/
+    'FfmC':
+        name: Fakultät für Mathematik
+        short: Fakultät für Mathematik
+        url:  https://www.tu-chemnitz.de/mathematik/
+    'imagepro':
+        name: Mathematical Image Processing and Data Analysis
+        short: Image Processing Group
+    'FBMTUK':
+        name: Fachbereich Mathematik
+        short: FB Mathematik
+        url:  http://www.mathematik.uni-kl.de/
+    'NumaPDE':
+        name: Arbeitsgruppe Numerik partieller Differentialgleichungen
+        short: NumaPDE
+        url: https://www.tu-chemnitz.de/mathematik/part_dgl/
+    'TUC':
+        name: Technische Universität Chemnitz
+        short: TU Chemnitz
+        url: https://www.tu-chemnitz.de/
+    'TUK':
+        name: Technische Universität Kaiseslautern
+        short: TU Kaiserslauten
+        url:  https://www.uni-kl.de/
+    'UzL':
+        name: Universität zu Lübeck
+        short: Universität zu Lübeck
+        url: http://uni-luebeck.de

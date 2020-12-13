@@ -113,12 +113,16 @@ ul.nav-icons li a {
     border-bottom: 0px;
 }
 div.abstract {
+    margin-top:-1rem;
     padding-top:1rem;
 }
 div.abstract div.content:before{
     content:"Abstract.";
     font-weight: bold;
     padding-right:2rem;
+}
+div.bibtex {
+    margin-bottom: .5rem;
 }
 div.abstract div.content,
 div.bibtex div.content {

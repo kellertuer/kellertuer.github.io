@@ -4,9 +4,10 @@
 using YAML
 names = YAML.load_file("data/names.yml")
 people = names["people"]
+institutes = names["institutes"]
 
 """
-    {{name Person style}}
+    {{person Person style}}
 
 Print the name of a person fom the `names.yml` `person` dictionary in different styles
 * `fullname` – display full name, which is the default
@@ -30,9 +31,9 @@ where their order of appearance orders the supnotes.
 * `link_fullname_fntwitter` link the fullname to the url and add a twitter note
 * `bibname_fnorcid_fnscholar` add orcid and scholar footnotes to the bibname
 """
-function hfun_name(params::Vector{String})::String
+function hfun_person(params::Vector{String})::String
     name = params[1]
-    style = (length(params) > 1) ? params[2] : "fullname"
+    style = (length(params) > 1) ? params[2] : "link_fullname"
     s = ""
     !has_name(name) && return "<span class\"error\">Person „$(name)“ not found</span>"
     person = names["people"][name]
@@ -64,4 +65,28 @@ function hfun_name(params::Vector{String})::String
 end
 function has_name(key)
     return haskey(names["people"],key)
+end
+"""
+    {{institute name style}}
+
+Print the institute from the institutes list in a certain style, namely
+* `full` (default) display a name
+* `short` display the short name
+
+if a `url` is given the institute is linked to said url.
+"""
+function hfun_institute(param::Vector{String})::String
+    name = param[1]
+    style = (length(param) > 1 ? param[2] : "full")
+    s = "";
+    if haskey(institutes,name)
+        display_name = haskey(institutes[name], style) ? institutes[name][style] : institutes[name]["name"]
+        if haskey(institutes[name],"url")
+            display_name = """<a href="$(institutes[name]["url"])" alt="link to $display_name">$display_name</a>"""
+        end
+        display_name = """<span class="institute">$display_name</span>"""
+    else
+        display_name = """<span class="institute error">$name not found in institutes</span>"""
+    end
+    return display_name
 end

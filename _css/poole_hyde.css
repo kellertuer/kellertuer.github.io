@@ -342,3 +342,37 @@ a.sidebar-nav-item:focus {
     margin-right: 2rem;
   }
 }
+/*
+ special list
+ */
+div.inlinelist ul {
+    padding-inline-start: 0px;
+    list-style-type: none;
+    display: inline;
+}
+div.inlinelist ul li {
+    display: inline;
+}
+div.inlinelist ul li p {
+    display: inline;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+div.inlinelist ul li:after {
+    content: ', '
+}
+div.inlinelist ul li:last-child:after {
+    content: '.'
+}
+span.highlight {
+    font-style: italic;
+}
+img.floatleft {
+  width:auto;
+  float: left;
+  padding: 0;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  border-radius: 10px;
+}
