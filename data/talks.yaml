@@ -1,0 +1,71 @@
+talks:
+  - title: Manifolds in Julia
+    subtitle: Manifolds.jl and ManifoldsBAse,jl
+    abstract: >
+      In many scientific and engineering scenarios, measured data or model variables lie in smooth, nonlinear spaces like the sphere or the group of 3D rotations. Such spaces often have a manifold structure, that is, they locally can be approximately linearized (i.e. they are locally diffeomorphic to a Hilbert space). Equipping such manifolds with a (pseudo-)Riemannian metric tensor, which defines a ruler on the manifold, enables local computation of distances and angles. These features enable construction of efficient algorithms that respect the nonlinear structure, for example for optimization, interpolation, and statistical modeling.
+      <br><br>
+      In this talk, we demonstrate various tools that Manifolds.jl provides for working with manifolds. With these tools, you can for example explicitly locally linearize points using inverse retractions and orthonormal bases. You can also compute intrinsic statistics, such as the Riemannian mean and variance, of data on manifolds. We also extend Distributions.jl to support distributions on arbitrary manifolds, which can be used to generate random points on a manifold or for statistical modeling.
+      <br><br>
+      Manifolds.jl implements a library of manifolds and provides combinators to construct new manifolds from these. Examples are the product manifold of two manifolds, the power manifold, the tangent bundle, and Lie groups. Using a trait-based system, any manifold may be augmented with additional geometric structure, including various metrics, without sacrificing efficiency.
+      <br><br>
+      We also present the light-weight interface package ManifoldsBase.jl, which enables users to easily extend Manifolds.jl with new algorithms and additional manifolds thanks to multiple dispatch. The interface can also be used to develop new, stand-alone projects. It is minimally restrictive and makes it possible to write algorithms that are independent from any concrete implementations of the manifolds. One package that uses this interface is Manopt.jl, which provides optimization algorithms on Riemannian manifolds, with a focus on high-dimensional and non-smooth optimization.
+    held:
+      - at: JuliaCon2020
+        date: 2020-07-31
+        pdf: 2020-JuliaCon-Manifolds.pdf
+        video: https://youtu.be/md-FnDGCh9M
+        link: https://live.juliacon.org/talk/KCFCMQ
+  - title: Fenchel Duality Theory and a Primal-Dual Algorithm on Riemannian Manifolds
+    abstract: >
+      A
+    held:
+      - seminar:
+          name: Optimization and Numerical Analysis Seminar
+          link: https://www.birmingham.ac.uk/research/activity/mathematics/optimization/ona-seminar.aspx
+        institute: School of Mathematics
+        university: University of Birmingham
+        place: Birmingham, United Kingdom
+        date: 2020-02-26
+        pdf: 2019-Birmingham-RiemannianChambollePock.pdf
+      - seminar:
+          name: Oberseminar Applied Algebra und Analysis
+          url: https://www.tu-braunschweig.de/iaa/groupseminar
+        institute: Institut für Analysis und Algebra
+        university: Technische Universität Braunschweig
+        place: Braunschweig, Germany
+        date: 2019-12-10
+        slides: 2019-Braunschweig-RiemannianChambollePock.pdf
+      - at: MIAWavesAndSignals
+        date: 2019-09-21
+        pdf: 2019-Luebeck-RiemannianChambollePock.pdf
+        note: Invited Plenary Talk
+
+  - title: A Variational Model for Data Fitting on Manifolds by Minimizing the Acceleration of a Bézier Curve
+    abstract: >
+      Fitting a smooth curve to
+      data points $d_0,\dots,d_n$ lying on a Riemannian manifold $\mathcal M$ and
+      associated with real-valued parameters $t_0,\dots,t_n$ is a common problem
+      in applications like wind field approximation, rigid body motion interpolation,
+      or sphere-valued data analysis.
+      The resulting curve should strike a balance between data proximity and
+      a smoothing regularization constraint.
+      <br><br>
+      In this talk we present a variational model to fit a composite Bézier curve
+      to the set of data points $d_0,\dots,d_n$ on a Riemannian manifold $\mathcal
+      M$. The resulting curve is obtained in such a way that its mean squared
+      acceleration is minimal in addition to remaining close the data points. We
+      approximate the acceleration by discretizing the squared second order
+      derivative along the curve. We derive a closed-form, numerically stable and
+      efficient algorithm to compute the gradient of a Bézier curve on manifolds
+      with respect to its control points. This gradient can be expressed as a
+      concatenation of so called adjoint Jacobi fields. Several examples illustrate
+      the capabilities of this approach both for interpolation and approximation.
+    held:
+      seminar:
+        name: Institutsseminar
+        url: https://tu-dresden.de/mn/math/numerik/
+      institute: Institut für Numerische Mathematik
+      university: TU Dresden
+      place: Dresden, Germany
+      date: 2018-11-27
+      pdf: 2018-Dresden-Institutssemniar-AccBezier.pdf
