@@ -39,7 +39,6 @@ talks:
         date: 2019-09-21
         pdf: 2019-Luebeck-RiemannianChambollePock.pdf
         note: Invited Plenary Talk
-
   - title: A Variational Model for Data Fitting on Manifolds by Minimizing the Acceleration of a Bézier Curve
     abstract: >
       Fitting a smooth curve to
@@ -61,11 +60,11 @@ talks:
       concatenation of so called adjoint Jacobi fields. Several examples illustrate
       the capabilities of this approach both for interpolation and approximation.
     held:
-      seminar:
-        name: Institutsseminar
-        url: https://tu-dresden.de/mn/math/numerik/
-      institute: Institut für Numerische Mathematik
-      university: TU Dresden
-      place: Dresden, Germany
-      date: 2018-11-27
-      pdf: 2018-Dresden-Institutssemniar-AccBezier.pdf
+      - seminar:
+          name: Institutsseminar
+          url: https://tu-dresden.de/mn/math/numerik/
+        institute: Institut für Numerische Mathematik
+        university: TU Dresden
+        place: Dresden, Germany
+        date: 2018-11-27
+        pdf: 2018-Dresden-Institutssemniar-AccBezier.pdf
