@@ -14,8 +14,6 @@
 
 ## Talks
 
-This page lists talks and provides supplementary slides.
-
 {{talks}}
 
 ## Further Conferences
