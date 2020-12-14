@@ -6,19 +6,20 @@
 #   start:
 #   end:
 #   place:
-HaWi2021:
-  name: Mecklenburg Workshop on Approximation Methods and Fast Algorithms
-  url: https://www.math-conf.uni-osnabrueck.de/hasenwinkel2020/
-  start: 2021-03-22
-  end: 2021-03-26
-  place: Hasenwinkel
-  organizer: true
+# HaWi2021:
+#   name: Mecklenburg Workshop on Approximation Methods and Fast Algorithms
+#   url: https://www.math-conf.uni-osnabrueck.de/hasenwinkel2020/
+#   start: 2021-03-22
+#   end: 2021-03-26
+#   place: Hasenwinkel
+#   organizer: true
+#   talk: true
 COM2020:
   name: "Mini-Workshop: Computational Optimization on Manifolds"
   url: https://www.mfo.de/occasion/2047c/www_view
   start: 2020-11-15
   end: 2020-11-21
-  place: Oberwolfach
+  place: Oberwolfach - everywhere (online)
   talk: true
 #IFIPTV72020
 #  name: IFIP TC7 Conference on System Modelling and Optimization

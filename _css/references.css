@@ -208,6 +208,12 @@ ul.conferences li span.name:after {
 ul.conferences li span.dates {
     margin-left:3rem;
 }
+ul.conferences li span.dates:after {
+    content:",\00a0";
+}
+ul.conferences li span.icons {
+    float:right;
+}
 /*
  * List I Students
  */
