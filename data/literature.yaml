@@ -485,7 +485,7 @@
     title:  MVIRT A toolbox for manifold-valued image restoration
     year: 2017
 
-"BergmannTenbricnk-2017":
+"BergmannTenbrinck-2017":
     abstract: >
         Recently, there has been a strong ambition to translate models and algorithms from traditional image processing to non-Euclidean domains, e.g., to manifold-valued data.
         While the task of denoising has been extensively studied in the last years, there was rarely an attempt to perform image inpainting on manifold-valued data. In this paper we present a nonlocal inpainting method for manifold-valued data given on a finite weighted graph.

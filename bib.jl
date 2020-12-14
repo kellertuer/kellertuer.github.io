@@ -106,42 +106,12 @@ function format_bibtex_entry(entry,key)
                 </a>
             </li>"""
     end
-    if haskey(entry,"eprint") && (lowercase(get(entry,"eprinttype",""))=="arxiv") #pdf icon
-        s = """$s
-            <li>
-                <a href="https://arxiv.org/pdf/$(entry["eprint"])" title="arXiv:$(entry["eprint"])" target="_blank">
-                    <i class="fas fa-lg fa-file-pdf"></i>
-                </a>
-            </li>
-            """
+    if lowercase(get(entry,"eprinttype",""))=="arxiv" #pdf icon -> arxiv
+        s = """$(s)$(entry_to_list_icon(entry,"eprint"; linkprefix="https://arxiv.org/pdf/", iconstyle="fas fa-lg", icon="fa-file-pdf"))"""
     end
-    if haskey(entry,"doi") #doi icon
-        s = """$s
-            <li>
-                <a href="http://dx.doi.org/$(entry["doi"])" title="$(entry["doi"])" target="_blank">
-                    <i class="ai ai-lg ai-doi"></i>
-                </a>
-            </li>
-            """
-    end
-    if haskey(entry,"github") #doi icon
-        s = """$s
-            <li>
-                <a href="https://github.com/$(entry["github"])" title="Link to the github repository $(entry["github"])" target="_blank">
-                    <i class="fab fa-github"></i>
-                </a>
-            </li>
-            """
-    end
-    if haskey(entry,"link") #doi icon
-        s = """$s
-            <li>
-                <a href="$(entry["link"])" title="$(entry["link"])" target="_blank">
-                    <i class="fas fa-link"></i>
-                </a>
-            </li>
-            """
-    end
+    s = """$(s)$(entry_to_list_icon(entry,"doi"; linkprefix="http://dx.doi.org/", iconstyle="ai ai-lg", icon="ai-doi"))"""
+    s = """$(s)$(entry_to_list_icon(entry,"github"; linkprefix="https://github.com/", iconstyle="fab fa-lg", icon="fa-github"))"""
+    s = """$(s)$(entry_to_list_icon(entry,"link"; iconstyle="fas fa-lg", icon="fa-link"))"""
     s = """$s
         </ul>
     """

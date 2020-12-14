@@ -1,70 +1,924 @@
-talks:
-  - title: Manifolds in Julia
-    subtitle: Manifolds.jl and ManifoldsBAse,jl
-    abstract: >
-      In many scientific and engineering scenarios, measured data or model variables lie in smooth, nonlinear spaces like the sphere or the group of 3D rotations. Such spaces often have a manifold structure, that is, they locally can be approximately linearized (i.e. they are locally diffeomorphic to a Hilbert space). Equipping such manifolds with a (pseudo-)Riemannian metric tensor, which defines a ruler on the manifold, enables local computation of distances and angles. These features enable construction of efficient algorithms that respect the nonlinear structure, for example for optimization, interpolation, and statistical modeling.
-      <br><br>
-      In this talk, we demonstrate various tools that Manifolds.jl provides for working with manifolds. With these tools, you can for example explicitly locally linearize points using inverse retractions and orthonormal bases. You can also compute intrinsic statistics, such as the Riemannian mean and variance, of data on manifolds. We also extend Distributions.jl to support distributions on arbitrary manifolds, which can be used to generate random points on a manifold or for statistical modeling.
-      <br><br>
-      Manifolds.jl implements a library of manifolds and provides combinators to construct new manifolds from these. Examples are the product manifold of two manifolds, the power manifold, the tangent bundle, and Lie groups. Using a trait-based system, any manifold may be augmented with additional geometric structure, including various metrics, without sacrificing efficiency.
-      <br><br>
-      We also present the light-weight interface package ManifoldsBase.jl, which enables users to easily extend Manifolds.jl with new algorithms and additional manifolds thanks to multiple dispatch. The interface can also be used to develop new, stand-alone projects. It is minimally restrictive and makes it possible to write algorithms that are independent from any concrete implementations of the manifolds. One package that uses this interface is Manopt.jl, which provides optimization algorithms on Riemannian manifolds, with a focus on high-dimensional and non-smooth optimization.
-    held:
-      - at: JuliaCon2020
-        date: 2020-07-31
-        pdf: 2020-JuliaCon-Manifolds.pdf
-        video: https://youtu.be/md-FnDGCh9M
-        link: https://live.juliacon.org/talk/KCFCMQ
-  - title: Fenchel Duality Theory and a Primal-Dual Algorithm on Riemannian Manifolds
-    abstract: >
-      A
-    held:
-      - seminar:
-          name: Optimization and Numerical Analysis Seminar
-          link: https://www.birmingham.ac.uk/research/activity/mathematics/optimization/ona-seminar.aspx
-        institute: School of Mathematics
-        university: University of Birmingham
-        place: Birmingham, United Kingdom
-        date: 2020-02-26
-        pdf: 2019-Birmingham-RiemannianChambollePock.pdf
-      - seminar:
-          name: Oberseminar Applied Algebra und Analysis
-          url: https://www.tu-braunschweig.de/iaa/groupseminar
-        institute: Institut für Analysis und Algebra
-        university: Technische Universität Braunschweig
-        place: Braunschweig, Germany
-        date: 2019-12-10
-        slides: 2019-Braunschweig-RiemannianChambollePock.pdf
-      - at: MIAWavesAndSignals
-        date: 2019-09-21
-        pdf: 2019-Luebeck-RiemannianChambollePock.pdf
-        note: Invited Plenary Talk
-  - title: A Variational Model for Data Fitting on Manifolds by Minimizing the Acceleration of a Bézier Curve
-    abstract: >
-      Fitting a smooth curve to
-      data points $d_0,\dots,d_n$ lying on a Riemannian manifold $\mathcal M$ and
-      associated with real-valued parameters $t_0,\dots,t_n$ is a common problem
-      in applications like wind field approximation, rigid body motion interpolation,
-      or sphere-valued data analysis.
-      The resulting curve should strike a balance between data proximity and
-      a smoothing regularization constraint.
-      <br><br>
-      In this talk we present a variational model to fit a composite Bézier curve
-      to the set of data points $d_0,\dots,d_n$ on a Riemannian manifold $\mathcal
-      M$. The resulting curve is obtained in such a way that its mean squared
-      acceleration is minimal in addition to remaining close the data points. We
-      approximate the acceleration by discretizing the squared second order
-      derivative along the curve. We derive a closed-form, numerically stable and
-      efficient algorithm to compute the gradient of a Bézier curve on manifolds
-      with respect to its control points. This gradient can be expressed as a
-      concatenation of so called adjoint Jacobi fields. Several examples illustrate
-      the capabilities of this approach both for interpolation and approximation.
-    held:
-      - seminar:
-          name: Institutsseminar
-          url: https://tu-dresden.de/mn/math/numerik/
-        institute: Institut für Numerische Mathematik
-        university: TU Dresden
-        place: Dresden, Germany
-        date: 2018-11-27
-        pdf: 2018-Dresden-Institutssemniar-AccBezier.pdf
+# - title: A
+#   conference:
+#     name:
+#     place:
+#     url:
+#     start:
+#     end:
+#  seminar:
+#    name:
+#    institute:
+#    university:
+#    place:
+#  abstract:
+#  literature-reference
+#  key:
+#  date:
+#  link:
+#  slides:
+#  video:
+#  with:
+#  selected:
+- title: Manifolds in Julia – Manifolds.jl and ManifoldsBase.jl
+  key: JuliaCon2020
+  conference:
+    name: JuliaCon 2020
+    url: https://juliacon.org/2020/
+    place: Everywhere (online)
+    start: 2020-07-27
+    end: 2020-07-31
+  date: 2020-07-31
+  slides: 2020-JuliaCon-Manifolds.pdf
+  abstract: >
+    In many scientific and engineering scenarios, measured data or model variables lie in
+    smooth, nonlinear spaces like the sphere or the group of 3D rotations. Such spaces often
+    have a manifold structure, that is, they locally can be approximately linearized
+    (i.e. they are locally diffeomorphic to a Hilbert space). Equipping such manifolds with
+    a (pseudo-)Riemannian metric tensor, which defines a ruler on the manifold, enables
+    local computation of distances and angles. These features enable construction of
+    efficient algorithms that respect the nonlinear structure, for example for optimization,
+    interpolation, and statistical modeling.
+    <br><br>
+    In this talk, we demonstrate various tools that <a href="https://juliamanifolds.github.io/Manifolds.jl/stable/">Manifolds.jl</a> provides for working with
+    manifolds. With these tools, you can for example explicitly locally linearize points
+    using inverse retractions and orthonormal bases. You can also compute intrinsic
+    statistics, such as the Riemannian mean and variance, of data on manifolds. We also
+    extend <a href="https://juliastats.org/Distributions.jl/stable/">Distributions.jl</a> to support distributions on arbitrary manifolds, which can be
+    used to generate random points on a manifold or for statistical modeling.
+    <br><br>
+    <a href="https://juliamanifolds.github.io/Manifolds.jl/stable/">Manifolds.jl</a> implements a library of manifolds and provides combinators to construct new
+    manifolds from these. Examples are the product manifold of two manifolds, the power
+    manifold, the tangent bundle, and Lie groups. Using a trait-based system, any manifold
+    may be augmented with additional geometric structure, including various metrics, without
+    sacrificing efficiency.
+    <br><br>
+    We also present the light-weight interface package <a href="https://juliamanifolds.github.io/Manifolds.jl/stable/interface.html">ManifoldsBase.jl</a>, which enables users
+    to easily extend <a href="https://juliamanifolds.github.io/Manifolds.jl/stable/">Manifolds.jl</a> with new algorithms and additional manifolds thanks to
+    multiple dispatch. The interface can also be used to develop new, stand-alone projects.
+    It is minimally restrictive and makes it possible to write algorithms that are
+    independent from any concrete implementations of the manifolds. One package that uses
+    this interface is <a href="https://manoptjl.org">Manopt.jl</a>, which provides optimization algorithms on Riemannian
+    manifolds, with a focus on high-dimensional and non-smooth optimization.
+  link: https://live.juliacon.org/talk/KCFCMQ
+  video: https://youtu.be/md-FnDGCh9M
+  selected: 1
+#
+- title: Fenchel Duality Theory and a Primal-Dual Algorithm on Riemannian Manifolds
+  key: Birmingham2020
+  seminar:
+    name: Optimization and Numerical Analysis Seminar
+    institute: School of Mathematics
+    university: University of Birmingham
+    place: Birmingham, United Kingdom
+    url: "https://www.birmingham.ac.uk/research/activity/mathematics/optimization/ona-seminar.aspx"
+  date: 2020-02-26
+  slides: 2019-Birmingham-RiemannianChambollePock.pdf
+  selected: 2
+
+- title: Fenchel Duality Theory and a Primal-Dual Algorithm on Riemannian Manifolds
+  key: Braunschweig2019
+  seminar:
+    name: Oberseminar Angewandte Algebra und Analysis
+    instistute: Institut für Analysis und Algebra
+    university: Technische Universität Braunschweig
+    place: Braunschweig, Germany
+    url: https://www.tu-braunschweig.de/iaa/groupseminar
+  date: 2019-12-10
+  place: Braunschweig, Germany
+  slides: 2019-Braunschweig-RiemannianChambollePock.pdf
+
+- title: A Primal-Dual Algorithm for Convex Nonsmooth Optimization on Riemannian Manifolds
+  key: ENuMath2019
+  conference:
+    name: European Numerical Mathematics and Advanced Applications Conference 2019
+    url: https://www.enumath2019.eu
+    end: 2019-10-04
+    start: 2019-09-30
+    place: Egmond aan Zee, The Netherlands
+  date: 2019-10-04
+  slides: 2019-ENuMath-RiemannianChambollePock.pdf
+  abstract: >
+    Based on a Fenchel dual notion on Riemannian manifolds we investigate the
+    saddle point problem related to a nonsmooth convex optimization problem. We
+    derive a primal-dual hybrid gradient algorithm to compute the saddle point
+    using either an exact or a linearized approach for the involved nonlinear
+    operator. We investigate a sufficient condition for convergence of the
+    linearized algorithm on Hadamard manifolds. Numerical examples illustrate,
+    that on Hadamard manifolds we are on par with state of the art algorithms and
+    on general manifolds we outperform existing approaches.
+
+- title: Fenchel Duality Theory and a Primal-Dual Algorithm on Riemannian Manifolds
+  key: WS-HL19
+  conference:
+    name: Modeling, interpolation, and approximation for waves and signals
+    url: http://www.math.uni-luebeck.de/mitarbeiter/prestin/Trilateral_Partnership/workshop2019.php
+    start: 2019-08-19
+    end: 2019-08-23
+    place: Lübeck, Germany
+  date: 2019-09-21
+  slides: 2019-Luebeck-RiemannianChambollePock.pdf
+  note: Invited Plenary Talk
+
+- title: A Primal-Dual Algorithm for Convex Nonsmooth Optimization on Riemannian Manifolds
+  key: ICCOPT2019
+  conference:
+    name: 6<sup>th</sup> International Conference on Continuous Optimization
+    url: https://iccopt2019.berlin/
+    start: 2019-08-04
+    end: 2019-08-08
+    place: Berlin, Germany
+  date: 2019-08-08
+  slides: 2019-Berlin-RiemannianChambollePock.pdf
+  abstract: >
+    Based on a Fenchel dual notion on Riemannian manifolds we investigate the
+    saddle point problem related to a nonsmooth convex optimization problem. We
+    derive a primal-dual hybrid gradient algorithm to compute the saddle point
+    using either an exact or a linearized approach for the involved nonlinear
+    operator. We investigate a sufficient condition for convergence of the
+    linearized algorithm on Hadamard manifolds. Numerical examples illustrate,
+    that on Hadamard manifolds we are on par with state of the art algorithms and
+    on general manifolds we outperform existing approaches.
+
+- title: "A Variational Model for Data Fitting on Manifolds by Minimizing the Acceleration of a Bézier Curve"
+  key: ICIAM19
+  conference:
+    name: International Congress on Industrial and Applied Mathematics
+    url: https://iciam2019.org
+    start: 2019-07-19
+    end: 2019-07-16
+    place: Valencia, Spain
+  date: 2019-07-15
+  slides: 2019-Valencia-MinimizerAccelerationBezier.pdf
+  abstract: >
+    We present a variational model to fit a composite Bézier curve to data points on
+    a Riemannian manifold. The resulting curve has a minimal mean squared
+    acceleration while also remaining close the data. We discretize the
+    acceleration of the curve and derive an efficient algorithm to compute the
+    gradient w.r.t. its control points, expressed as a concatenation of adjoint
+    Jacobi fields. Several examples illustrate the capabilities of this approach
+    both for interpolation and approximation.
+
+- title: "A Variational Model for Data Fitting on Manifolds by Minimizing the Acceleration of a Bézier Curve"
+  key: Euro19
+  conference:
+    name: 30th European Conference on Operational Research
+    url: https://www.euro2019dublin.com
+    start: 2019-06-23
+    end: 2019-06-26
+    place: Dublin, Ireland
+  date: 2019-06-24
+  slides: 2019-Dublin-MinimizeAccelerationBezier.pdf
+  abstract: >
+    Fitting a smooth curve to a set of n data points lying on a Riemannian manifold
+    and associated with real-valued time points is a common problem in applications
+    like wind field approximation, rigid body motion interpolation, or sphere-valued
+    data analysis. The resulting curve should strike a balance between data
+    proximity and a smoothing regularization constraint.
+    <br><br>
+    In this talk we present a variational model to fit a composite Bézier curve
+    to the set of data points on a Riemannian manifold. The resulting curve is
+    obtained in such a way that its mean squared acceleration is minimal in addition
+    to remaining close the data points. We approximate the acceleration by
+    discretizing the squared second order derivative along the curve. We derive a
+    closed-form, numerically stable and efficient algorithm to compute the gradient
+    of a Bézier curve on manifolds with respect to its control points. This gradient
+    can be expressed as a concatenation of so called adjoint Jacobi fields.
+    Several examples illustrate the capabilities of this approach both for
+    interpolation and approximation.
+
+- title: Optimization on Manifolds for Models using Second Order Differences
+  key: KolLue19
+  seminar:
+    name: Kolloquium
+    institute: Institut für Mathematik
+    university: Universität zu Lübeck
+    place: Lübeck, Germany
+    url: "http://www.math.uni-luebeck.de/veranstaltungen/index.php"
+  date: 2019-06-06
+  slides: 2019-Luebeck-Kolloquium-SecondOrder.pdf
+  abstract: >
+    In many real life scenarios, measured data appears as values on a Riemannian manifold.
+    For example in interferometric Synthetic Aperture Radar (InSAR) data
+    is given as a phase, in electron backscattered diffraction (EBSD) as data items
+    being from a quotient of the orientation group SO(3), and in diffusion tensor
+    magnetic resonance imaging (DT-MRI) the measured data are symmetric positive
+    definite matrices. These data items are often measured on an equispaced grid
+    like usual signals and image but they also suffer from the same measurement
+    errors like presence of noise or incompleteness. Hence there is a need to
+    perform data processing tasks like denoising, inpainting or interpolation
+    on these manifold-valued data.
+    <br><br>
+    In this talk we present variational models for these tasks involving discrete second order differences for manifold-valued data.
+    To compute a minimizer of such a the model, we obtain a high-dimensional, possibly non-smooth, optimization problem defined on a Riemannian manifold.
+    We present algorithms to efficiently solve these problems and illustrate their performance.
+
+- title: Optimization on Manifolds for Models using Second Order Differences
+  key: KolGoe19
+  seminar:
+    name: Kolloquium über Angewandte Mathematik
+    institute: Institut für Numerische und Angewandte Mathematik
+    university: Georg-August-Universität Göttingen
+    place: Göttingen, Germany
+    url: "http://www.uni-goettingen.de/de/veranstaltungen+%26+kolloquium/86244.html"
+  date: 2019-05-28
+  slides: 2019-Goettingen-Kolloquium-SecondOrder.pdf
+  abstract: >
+    In many real life scenarios, measured data appears as values on a Riemannian manifold.
+    For example in interferometric Synthetic Aperture Radar (InSAR) data
+    is given as a phase, in electron backscattered diffraction (EBSD) as data items
+    being from a quotient of the orientation group SO(3), and in diffusion tensor
+    magnetic resonance imaging (DT-MRI) the measured data are symmetric positive
+    definite matrices. These data items are often measured on an equispaced grid
+    like usual signals and image but they also suffer from the same measurement
+    errors like presence of noise or incompleteness. Hence there is a need to
+    perform data processing tasks like denoising, inpainting or interpolation
+    on these manifold-valued data.
+    <br><br>
+    In this talk we present variational models for these tasks involving discrete second order differences for manifold-valued data.
+    To compute a minimizer of such a the model, we obtain a high-dimensional, possibly non-smooth, optimization problem defined on a Riemannian manifold.
+    We present algorithms to efficiently solve these problems and illustrate their performance.
+
+- title: Nonsmooth Optimization on Riemannian Manifolds and Manifold-Valued Data Processing
+  key: IPAMGSW1
+  conference:
+    name: "Geometry and Learning from Data in 3D and Beyond, Workshop I: Geometric Processing"
+    url: http://www.ipam.ucla.edu/programs/workshops/workshop-i-geometric-processing/
+    start: 2019-04-01
+    end: 2019-04-05
+    place: Los Angeles, CA, USA
+  date: 2019-04-04
+  slides: 2019-Los-Angeles-IPAM-SecondOrder.pdf
+  video: https://ipam.wistia.com/medias/2s5zl96554
+  abstract: >
+    In many real life scenarios measured data appears as values from a Riemannian
+    manifold. For example in interferometric Synthetic Aperture Radar (InSAR) data
+    is given as a phase, in electron backscattered diffraction (EBSD) as data items
+    being from a quotient of the orientation group SO(3), and in diffusion tensor
+    magnetic resonance imaging (DT-MRI) the measured data are symmetric positive
+    definite matrices. These data items are often measured on a equispaced grid
+    like usual signals and image but they also suffer from the same measurement
+    errors like presence of noise or incompleteness. Hence there is a need to
+    perform data processing tasks like denoising, inpainting or even interpolation
+    on these manifold-valued data.
+    <br><br>
+    In this talk we present variational methods and nonsmooth optimization
+    algorithms for processing manifold-valued data. For the first, we present first
+    and second order difference based priors and their application to the tasks
+    from image processing. To compute minimizers of the variational methods, we
+    present algorithms to efficiently solve nonsmooth optimization tasks on
+    manifolds.
+
+- title: Intrinsic Formulation of KKT Conditions and Constraint Qualifications on Smooth Manifolds
+  key: GAMM2019
+  conference:
+    name:  90<sup>th</sup>Annual Meeting of the  International Association of Applied Mathematics and Mechanics (Gesellschaft für angewandte Mathematik und Mechanik, GAMM)
+    url: https://jahrestagung.gamm-ev.de/index.php/2019/2019-annual-meeting
+    start: 2019-02-22
+    end: 2019-02-20
+    place: Vienna, Austria
+  date: 2019-02-18
+  slides: 2019-GAMM-KKT-on-manifolds.pdf
+  abstract: >
+    We formulate Karush-Kuhn-Tucker (KKT) conditions for equality and inequality
+    con- strained optimization problems on smooth manifolds. Under the Guignard
+    constraint qualification, local minimizers are shown to admit Lagrange
+    multipliers. We also investigate other constraint qualifications and provide
+    results parallel to those in Euclidean space. Illustrating numerical
+    examples will be presented.
+
+- title: A Variational Model for Data Fitting on Manifolds by Minimizing the Acceleration of a Bézier Curve
+  seminar:
+    name: Kolloquium
+    insitute: Department Mathematik
+    university: Friedrich-Alexander-Universität Erlangen-Nürnberg
+    url: https://www.math.fau.de/en/news/veranstaltungen/
+    place: Erlangen, Germany
+  date: 2018-12-11
+  key: MathErlangen18
+  slides: 2018-Erlangen-Kolloquium-AccBezier.pdf
+  abstract: >
+    Fitting a smooth curve to
+    data points $d_0,\dots,d_n$ lying on a Riemannian manifold $\mathcal M$ and
+    associated with real-valued parameters $t_0,\dots,t_n$ is a common problem
+    in applications like wind field approximation, rigid body motion interpolation,
+    or sphere-valued data analysis.
+    The resulting curve should strike a balance between data proximity and
+    a smoothing regularization constraint.
+    <br><br>
+    In this talk we present a variational model to fit a composite Bézier curve
+    to the set of data points $d_0,\dots,d_n$ on a Riemannian manifold $\mathcal
+    M$. The resulting curve is obtained in such a way that its mean squared
+    acceleration is minimal in addition to remaining close the data points. We
+    approximate the acceleration by discretizing the squared second order
+    derivative along the curve. We derive a closed-form, numerically stable and
+    efficient algorithm to compute the gradient of a Bézier curve on manifolds
+    with respect to its control points. This gradient can be expressed as a
+    concatenation of so called adjoint Jacobi fields. Several examples illustrate
+    the capabilities of this approach both for interpolation and approximation.
+
+- title: A Variational Model for Data Fitting on Manifolds by Minimizing the Acceleration of a Bézier Curve
+  seminar:
+    name: Institutsseminar
+    institute: Institut für Numerische Mathematik
+    university: Technische Universität Dresden
+    place: Dresden, Germany
+    url: https://tu-dresden.de/mn/math/numerik/
+  place: Dresden, Germany
+  date: 2018-11-27
+  key: NumDresden18
+  slides: 2018-Dresden-Institutssemniar-AccBezier.pdf
+  abstract: >
+    Fitting a smooth curve to
+    data points $d_0,\dots,d_n$ lying on a Riemannian manifold $\mathcal M$ and
+    associated with real-valued parameters $t_0,\dots,t_n$ is a common problem
+    in applications like wind field approximation, rigid body motion interpolation,
+    or sphere-valued data analysis.
+    The resulting curve should strike a balance between data proximity and
+    a smoothing regularization constraint.
+    <br><br>
+    In this talk we present a variational model to fit a composite Bézier curve
+    to the set of data points $d_0,\dots,d_n$ on a Riemannian manifold $\mathcal
+    M$. The resulting curve is obtained in such a way that its mean squared
+    acceleration is minimal in addition to remaining close the data points. We
+    approximate the acceleration by discretizing the squared second order
+    derivative along the curve. We derive a closed-form, numerically stable and
+    efficient algorithm to compute the gradient of a Bézier curve on manifolds
+    with respect to its control points. This gradient can be expressed as a
+    concatenation of so called adjoint Jacobi fields. Several examples illustrate
+    the capabilities of this approach both for interpolation and approximation.
+  selected: true
+  sel_order: 3
+
+- title: A Variational Model for Data Fitting on Manifolds by Minimizing the Acceleration of a Bézier Curve
+  conference:
+    name: Mecklenburg Workshop – Approximation Methods and Fast Algorithms
+    url: http://www.math.uni-luebeck.de/hasenwinkel2018/
+    place: Hasenwinkel, Germany
+    start: 2018-09-10
+    end: 2018-09-14
+  date: 2018-09-11
+  key: HaWi18
+  slides: 2018-Haseniwnkel-AccBezier.pdf
+  abstract: >
+    Fitting a smooth curve to
+    data points $d_0,\dots,d_n$ lying on a Riemannian manifold $\mathcal M$ and
+    associated with real-valued parameters $t_0,\dots,t_n$ is a common problem
+    in applications like wind field approximation, rigid body motion interpolation,
+    or sphere-valued data analysis.
+    The resulting curve should strike a balance between data proximity and
+    a smoothing regularization constraint.
+    <br><br>
+    In this talk we present a variational model to fit a composite Bézier curve
+    to the set of data points $d_0,\dots,d_n$ on a Riemannian manifold $\mathcal
+    M$. The resulting curve is obtained in such a way that its mean squared
+    acceleration is minimal in addition to remaining close the data points. We
+    approximate the acceleration by discretizing the squared second order
+    derivative along the curve. We derive a closed-form, numerically stable and
+    efficient algorithm to compute the gradient of a Bézier curve on manifolds
+    with respect to its control points. This gradient can be expressed as a
+    concatenation of so called adjoint Jacobi fields. Several examples illustrate
+    the capabilities of this approach both for interpolation and approximation.
+
+- title: Variational Methods for Manifold-valued image Processing
+  seminar:
+    name: Seminar “Theory and Algorithms in Data Science”
+    institute: Alan Turing Institute
+    url: https://turing-seminar.github.io
+  place: London, United Kingdom
+  key: ATI18
+  date: 2018-09-03
+  slides: 2018-VarMeth-TADS-ATI-London.pdf
+  note: Invited talk and a week of research stay
+  with:
+    - Mihai Cucuringu
+    - Hemant Tyagi
+  abstract: >
+    In many real life scenarios measured data appears as values from a Riemannian
+    manifold. For example in interferometric Synthetic Aperture Radar (InSAR) data
+    is given as a phase, in electron backscattered diffraction (EBSD) as data items
+    being from a quotient of the orientation group SO(3), and in diffusion tensor
+    magnetic resonance imaging (DT-MRI) the measured data are symmetric positive
+    definite matrices. These data items are often measured on a pixel grid like
+    usual images and they also suffer from the same measurement errors like noisy
+    or incompleteness.Hence there is a need to perform image processing tasks like
+    denoising, inpainting or segmentation on these manifold-valued images. Recently
+    the ROF-Model for TV regularization has been transferred to the setting of
+    manifold-valued images to perform such image processing tasks.
+    <br><br>
+    In this talk we present methods and algorithms to compute the TV regularization
+    for manifold-valued images efficiently using variational methods. We present
+    generalizations to second order models, and to the case, where the data is not
+    given on a pixel grid, for example when dealing with nonlocal methods.
+
+- title: A parallel Douglas-Rachford Algorithm for Data on Hadamard Manifolds
+  conference:
+    name: 23rd International Symposium on Mathematical Programming
+    url: https://ismp2018.sciencesconf.org
+    start: 2018-07-01
+    end: 2018-07-06
+    place: Bordeaux, France
+  key: ISMP18
+  date: 2018-07-01
+  slides: 2018-ISMP18-DouglasRachford.pdf
+  abstract: >
+            In many applications like DT-MRI or a data set of multivariate Gaussian
+            distributions. Since these measurements suffer from errors or even loss of data,
+            we aim to transfer image processing methods to manifold-valued data.
+
+            In this talk we present a parallel Douglas-Rachford algorithm for
+            manifold-valued data and proof its convergence to a minimizer for Hadamard
+            manifolds of constant curvature. We illustrate the algorithm using the total
+            variation regularization or ROF model and demonstrate the performance within the
+            Manifold-Valued Image Restoration Toolbox (MVIRT).
+  note: Invited talk within the Session “Riemannian Geometry in Optimization for Learning” organized by
+  with:
+    - Nicolas Boumal
+
+- title: Nonlocal Inpainting of Manifold-valued Data on Finite Weighted Graphs
+  key: SIAMIS18
+  conference:
+    name: SIAM Conference of Imaging Science 2018
+    url: https://www.siam-is18.dm.unibo.it
+    start: 2018-06-05
+    end: 2018-06-08
+    place: Bologna, Italy
+  date: 2018-06-07
+  slides: 2018-SIAM-IS-Bologna.pdf
+  link: https://www.siam-is18.dm.unibo.it/presentations/156
+  abstract: >
+            When dealing with manifold-valued data one faces the same
+            challenging processing tasks as, e.g., in classical imaging.
+            In this talk we consider image inpainting for manifold-valued data
+            in which missing information have to be filled in suitably.
+            We present a generalization of the graph infinity-Laplacian to
+            manifold-valued data based on the min-max characterization of the
+            local discrete Lipschitz constant. We derive a numerical scheme to
+            solve the obtained manifold-valued infinity-Laplace equation and
+            inpaint missing data.
+  note: "Invited talk within the Session Minisymposium #31 “Variational Approaches for Regularizing Nonlinear Geometric Data”"
+
+- title: The Graph-Infinity Laplacian for Manifold-valued Data
+  conference:
+    name:  89<sup>th</sup>Annual Meeting of the  International Association of Applied Mathematics and Mechanics (Gesellschaft für angewandte Mathematik und Mechanik, GAMM)
+    url: http://gamm2018.de
+    start: 2018-03-19
+    end: 2018-03-23
+    place: München, Germany
+  key: GAMM2018
+  date: 2018-03-22
+  slides: 2018-GAMM-Munich.pdf
+  abstract: >
+            Due to recent technological advances in the development of modern
+            sensors new imaging modalities have emerged for which the acquired
+            data values are given on a Riemannian manifold, e.g., in phase
+            values in InSAR imaging or when dealing with diffusion tensors in
+            DT-MRI. Furthermore, to process not only rectangular domains and
+            regular grids, graphs can be employed to model both data on
+            arbitrary (sampled) manifolds as well as nonlocal vicinity. <br><br>
+            In this talk we extend a framework for processing discrete
+            manifold-valued data to the task of inpainting missing values, such
+            that the inpainted area nonlocally incorporates data into the
+            reconstruction. We discuss a generalization of the graph
+            infinity-Laplacian to manifold-valued data based on the min-max
+            characterization of the local discrete Lipschitz constant. Finally,
+            we present a numerical scheme to solve the obtained manifold-valued
+            infinity-Laplace equation.
+
+- title: Nonlocal Inpainting of Manifold-valued Data on Finite Weighted Graphs
+  key: GSI17
+  conference:
+    name: 3<sup>rd</sup> Conference on Geometric Science of Information
+    url: http://gsi2017.org/
+    start: 2017-11-07
+    end: 2017-11-09
+    place: Paris, France
+  date: 2017-11-07
+  literature-reference: BergmannTenbrinck-2017
+  slides: 2017-GSI-Paris.pdf
+  abstract: >
+      Recently, there has been a strong ambition to translate models and algorithms
+      from traditional image processing to non-Euclidean domains, e.g., to
+      manifold-valued data. While the task of denoising has been extensively
+      studied in the last years, there was rarely an attempt to perform image
+      inpainting on manifold-valued data. In this paper we present a nonlocal
+      inpainting method for manifold-valued data given on a finite weighted graph.
+      We introduce a new graph infinity-Laplace operator based on the idea of
+      discrete minimizing Lipschitz extensions, which we use to formulate the
+      inpainting problem as PDE on the graph. Furthermore, we derive an explicit
+      numerical solving scheme, which we evaluate on two classes of synthetic
+      manifold-valued images.
+  doi: 10.1007/978-3-319-68445-1_70
+  video: https://www.youtube.com/watch?v=pgW9PjfwAkI
+  note: Contributed talk within the session “Optimization on Manifolds”  organized by {{'Pierre-Antoine Absil'|scientistify:'short'}} and {{'Rudolphe Sepulchre'|scientistify:'short'}}.
+
+- title: MVIRT – A Toolbox for Manifold-valued Image Restoration
+  key: ICIP17
+  conference:
+    name: IEEE International Conference on Image Processing (ICIP) 2017
+    url: http://2017.ieeeicip.org
+    start: 2017-09-17
+    place: Bejing, China
+    end: 2017-09-20
+  date: 2017-09-17
+  slides: https://sigport.org/documents/mvirt-toolbox-manifold-value-image-restoration
+  link: https://www2.securecms.com/ICIP2017/Papers/PublicSessionIndex3.asp?Sessionid=1001
+  abstract: >
+    In many real life application measured data takes its values on
+    Riemannian manifolds. For the special case of the Euclidean space this setting
+    includes the classical grayscale and color images.
+    Like these classical images, manifold-valued data might suffer from
+    measurement errors in form of noise or missing data. In this talk we
+    present the manifold-valued image restoration toolbox (MVIRT)
+    that provides implementations of classical image processing tasks. Based on
+    recent developments in variational methods for manifold-valued image
+    processing methods, like total variation regularization, the toolbox
+    provides easy access to work with these algorithms.
+    The toolbox is implemented in Matlab, open source, and easily extendible,
+    e.g. with own manifolds, noise models or further algorithms.
+    This paper introduces the main mathematical methods as well as numerical
+    examples.
+  note: Invited talk within the Special Session “Trends in Statistical Analysis of Manifold-Valued Data – Theory and Applications to Imaging”, supported by a DAAD conference travel grant
+
+- title: Infimal Convolution Coupling of First and Second Order Differences on Manifold-Valued Images
+  conference:
+    name: 6<sup>th</sup> International Conference on Scale Space and Variational Methods in Computer Vision
+    url: http://ssvm2017.compute.dtu.dk
+    start: 2017-06-04
+    end: 2017-06-08
+    place: Kolding, Denmark
+  doi: 10.1007/978-3-319-58771-4_36
+  key: SSVM2017
+  literature-reference: BergmannFitschenPerschSteidl-2017-2
+  date: 2017-06-04
+  slides: 2017-InfConv-SSVM.pdf
+
+- title: A Graph Framework for Manifold-valued Data
+  key: WWU-Sem17
+  seminar:
+    name: Kolloquium angewandte Mathematik
+    institute: Institute of Computational and Applied Mathematics
+    university: Westfälische Wilhelms-Universität Münster
+  date: 2017-06-26
+  place: Münster, Germany
+  abstract: >
+    In many real-world applications measured data are not in a Euclidean vector space but rather are given on a Riemannian manifold. This is the case, e.g., when dealing with Interferometric Synthetic Aperture Radar (InSAR) data consisting of phase values or data obtained in Diffusion Tensor Magnetic Resonance Imaging (DT-MRI).
+
+    In this talk we present a framework for processing discrete manifold-valued data, for which the underlying (sampling) topology is modeled by a graph. We introduce the notion of a manifold-valued differences on a graph and based on this deduce a family of manifold-valued graph operators. In particular, we introduce the graph p-Laplacian and graph infinity-Laplacian for manifold-valued data. We discuss a numerical scheme to compute a solution to the corresponding parabolic PDEs and apply this algorithm to different manifold-valued data, illustrating the diversity and flexibility of the proposed framework in denoising and inpainting applications.
+
+    This is joint work with Daniel Tenbrinck (WWU Münster)
+  note: Invited talk and research stay within the research group of
+  with:
+    - Benedikt Wirth
+
+- title: Variational Models for Manifold-valued Image Processing
+  seminar:
+    name: Seminars in Mathematical Engineering
+    institute: ICTEAM
+    university: Université catolique de Louvain
+    url: https://uclouvain.be/en/research-institutes/icteam/inma/seminars.html
+    place: Louvain-la-Neuve, Belgium
+  key: LLN2017
+  date: 2017-03-21
+  slides: 2017-VarMeth-LLN.pdf
+  note: Invited talk and a week of research stay
+  with:
+   - Pierre-Antoine Absil
+
+- title: A Graph Framework for Manifold-valued Data
+  conference:
+    name: 87<sup>th</sup>Annual Meeting of the  International Association of Applied Mathematics and Mechanics (Gesellschaft für angewandte Mathematik und Mechanik, GAMM)
+    start: 2017-03-06
+    end: 2017-03-10
+    place: "Weimar &amp; Ilmenau, Germany"
+  key: GAMM2017
+  date: 2017-03-07
+  slides: 2017-GAMM-Weimar-Graph-Laplace.pdf
+  selected: 4
+
+- title: A Second Order Non-smooth Variational Model for Restoring Manifold-valued Image
+  conference:
+    name: Mecklenburg Workshop – Approximation Methods and Data Analysis
+    url: http://www.math.uni-luebeck.de/mitarbeiter/prestin/workshop/hasenwinkel2016/
+    start: 2016-09-05
+    end: 2016-09-09
+    place: Hasenwinkel, Germany
+  key: HaWi2016
+  date: 2016-09-08
+
+- title: A Second Order Non-smooth Variational Model for Restoring Manifold-valued Image
+  key: WWU-Sem16
+  seminar:
+    name: Seminar AG Imaging at the Imaging Workgroup
+    institute: Institute of Computational and Applied Mathematics
+    university: Westfälische Wilhelms-Universität Münster
+    place: Münster, Germany
+  date: 2016-05-11
+  abstract: >
+    In many real world situations, measured data is noisy and nonlinear, i.e., the data is given as values in a certain manifold or on a submanifold of the euclidean space the measurements are taken in. Examples are InSAR images and the hue channel of HSV, where the entries are phase-valued, directions in \(\mathbb R n\), which are data given on sphere \(\mathbb S^{n−1}\), and diffusion tensor magnetic resonance imaging, where the obtained data items are symmetric positive definite \(3\times 3\) matrices.
+
+    In this talk we extend the recently introduced total variation model on manifolds by a second order TV type model. We first introduce second order differences on manifolds in a sound way using the induced metric on Riemannian manifolds. By avoiding a definition involving tangent bundles, this definition allows for a minimization employing the inexact cyclic proximal point algorithm, where the proximal maps can be computed using Jacobian fields. The algorithm is then applied to several examples on the aforementioned manifolds to illustrate the efficiency of the algorithm.
+  note: Invited talk and week research stay
+  with:
+    - Daniel Tenbrinck
+
+- title: A Second Order Non-smooth Variational Model for Restoring Manifold-valued images
+  conference:
+    name: 37<sup>th</sup> Northern German Colloquium on Applied Analysis and Numerical Mathematics
+    start: 2016-04-22
+    end: 2016-04-23
+    place: Lübeck, Germany
+  key: NoKO2016
+  slides: 2016-GAMM-Braunschweig.pdf
+  date: 2016-03-23
+
+- title: A Second Order Non-smooth Variational Model for Restoring Manifold-valued images
+  conference:
+    name: 86<sup>th</sup>Annual Meeting of the  International Association of Applied Mathematics and Mechanics (Gesellschaft für angewandte Mathematik und Mechanik, GAMM)
+    start: 2016-03-07
+    end: 2016-03-11
+    place: Braunschweig, Germany
+  key: GAMM2016
+  slides: 2016-GAMM-Braunschweig.pdf
+  date: 2016-03-07
+  note: Invited talk within the Young Researchers Minisymposium YR 3 “Dedicated regularization for variational image processing”
+
+- title: A Second Order Non-smooth Variational Model for Restoring Manifold-valued images
+  conference:
+    name: Variational Methods for Dynamic Inverse Problems and imaging
+    place: Münster, Germany
+    start: 2015-09-28
+    end: 2015-09-30
+  key: VMDIPI2015
+  date: 2015-09-30
+  slides: 2015-Muenster-VMDIPI.pdf
+
+- title: A Second Order Non-smooth Variational Model for Restoring Manifold-valued images
+  seminar:
+    name: 25th Rhein-Main Arbeitskreis – Mathematics of Computation
+    url: http://www.mathematik.uni-marburg.de/~numerik/rmak/
+    place: Darmstadt, Germany
+  date: 2015-07-10
+  key: RMA2015
+  slides: 2015-RheinMainArbeitskreis-Darmstadt.pdf
+  abstract: >
+    In many real world situations, measured data is noisy and nonlinear, i.e.,
+    the data is given as values in a certain manifold. Examples are InSAR images
+    and the hue channel of HSV, where the entries are phase-valued, directions
+    in \(R^n\), which are data given on \(S^{n-1}\), and diffusion tensor magnetic
+    resonance imaging, where the obtained data items are symmetric positive
+    definite matrices.
+  note: Invited talk
+
+- title: The anisotropic Strang-Fix conditions
+  conference:
+    name: Mecklenburger Workshop – Approximation Methods and Function Spaces
+    url: http://www.math.uni-luebeck.de/workshop/hasenwinkel2015.php
+    place: Hasenwinkel, Germany
+    start: 2015-03-16
+    end: 2015-03-20
+  key: HaWi2015
+  date: 2015-03-18
+  slides: 2015-Hasenwinkel.pdf
+
+- title: Second Order Differences for Combined Cyclic and Vector Space Data and their Application to Denoising and Inpainting
+  seminar:
+    name: Cambridge Image Analysis seminars
+    url: http://talks.cam.ac.uk/show/archive/37705
+    place: Cambridge, United Kingdom
+  key: CIA2015
+  date: 2015-03-04
+  link: http://talks.cam.ac.uk/talk/index/58117
+  note: Invited talk and a week research stay
+  with:
+   - Jan Lellmann
+
+- title: Inpainting and Denoising of Cyclic Data Using First and Second Order Differences
+  seminar:
+     name: Research Seminar
+     institute: Institute of Computational Biology, Helmholtzzentrum München
+     place: Munich, Germany
+  key: ICB2015
+  date: 2015-02-18
+  note: Invited talk and research stay at ICB
+
+- title: Second Order TV-Type Regularization Methods for Manifold-Valued Images
+  conference:
+    name: SIAM Conference of Imaging Sciences 2016
+    url: https://www.siam.org/meetings/is16/
+    start: 2016-05-23
+    place: Albuquerque, NM, USA
+    end: 2016-05-26
+  key: SIAMIS16
+  date: 2016-05-24
+  slides: https://www.pathlms.com/siam/courses/2426/sections/3293/documents/2945
+  video: https://www.pathlms.com/siam/courses/2426/sections/3293/video_presentations/26489
+  note: Invited talk within the Minisymposium I on “Inversion on Non-linear Image Formation Models”, supported by a DAAD conference travel grant.
+  link: http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=22808
+  abstract: >
+   In many real world situations, measured data is noisy and nonlinear, i.e.,
+   the data is given as values in a certain manifold. Examples are
+   Interferometric Synthetic Aperture Radar (InSAR) images or the hue channel of
+   HSV, where the entries are phase-valued, directions in \(\mathbb R^n\),
+   which are data given on \(\mathbb S^{n-1}\), and diffusion tensor magnetic
+   resonance imaging (DT-MRI), where the obtained pixel of the image are
+   symmetric positive definite matrices.<br/><br>
+   In this talk we extend the recently introduced total variation model on
+   manifolds by a second order TV type model. We first introduce second order
+   differences on manifolds in a sound way using the induced metric on
+   Riemannian manifolds. By avoiding a definition involving tangent bundles,
+   this definition allows for a minimization employing the inexact cyclic
+   proximal point algorithm, where the proximal maps can be computed using
+   Jacobian fields. The algorithm is then applied to several examples on the
+   aforementioned manifolds to illustrate the efficiency of the algorithm.
+   <br><br>
+   This is joint work with M. Bačák, J. Persch, G. Steidl, and A. Weinmann.
+
+- title: Inpainting of Cyclic Data using First and Second Order Differences
+  conference:
+    name: 10th International Conference on Energy Minimizing Methods in Computer Vision and Pattern Recognition
+    url: http://ias.ust.hk/conf/emmcvpr/
+    place: Hong Kong
+    start: 2015-01-13
+    end: 2015-01-16
+  key: EMMCVPR16
+  date: 2015-01-14
+  slides: 2015-EMMCVPR15-Hongkong.pdf
+  abstract: >
+    Cyclic data arise in various image and signal processing applications such
+    as interferometric synthetic aperture radar, electroencephalogram data
+    analysis, and color image restoration in HSV or LCh spaces.
+    In this paper we introduce a variational inpainting model for cyclic data
+    which utilizes our definition of absolute cyclic second order differences.
+    Based on analytical expressions for the proximal mappings of these
+    differences we propose a cyclic proximal point algorithm (CPPA) for
+    minimizing the corresponding functional.
+    We choose appropriate cycles to implement this algorithm in an efficient
+    way. We further introduce a simple strategy to initialize the unknown
+    inpainting region. Numerical results both for synthetic and real-world data
+    demonstrate the performance of our algorithm.
+
+- title: Second Order Differences of Cyclic Data and Applications in Variational Denoising
+  conference:
+    name: Deutsch-französischer Workshop Mathematische Bildverarbeitung
+    place: Fraunhofer ITWM, Kaiserslautern, Germany
+    start: 2014-10-06
+    end: 2014-10-08
+  key: DFW2014
+  date: 2014-10-07
+  slides: 2014-IPaPR-Goettingen.pdf
+
+- title: Second Order Differences of Cyclic Data and Applications in Variational Denoising
+  conference:
+    name: Mathematical Image Processing and Phase Retrieval
+    url: http://na.math.uni-goettingen.de/Sigphase14/Signal_phase14.html
+    place: Göttingen, Germany
+    start: 2014-09-01
+    end: 2014-09-03
+  key: MIP2014
+  date: 2014-09-02
+  slides: 2014-IPaPR-Goettingen.pdf
+
+- title: Second Order Differences of Cyclic Data and Application to Variational Denoising
+  seminar:
+    name: Reserach Seminar
+    institute: Institute of Computational Biology, Helmholtzzentrum München
+    url: ttps://www.helmholtz-muenchen.de/icb/institute/icb-seminar/past-seminars/index.html
+    place: München, Germany
+  key: ICB2014
+  date: 2014-05-14
+  slides: 2014-ICB-Muenchen.pdf
+  note: Invited talk and research stay at ICB
+
+- title: Multivariate anisotrope Interpolation auf dem Torus
+  conference:
+    name: Mecklenburger Workshop – Approximationsmethoden und schnelle Algorithmen
+    url: http://www.math.uni-luebeck.de/mitarbeiter/prestin/workshop/hasenwinkel2014/hasenwinkel2014.php
+    place: Hasenwinkel, Germany
+    start: 2014-03-17
+    end: 2014-03-20
+  key: HaWi2014
+  date: 2014-03-18
+  slides: 2014-Hasenwinkel.pdf
+
+- title: Multivariate Anisotropic periodic Wavelets
+  conference:
+    name: 85<sup>th</sup>Annual Meeting of the  International Association of Applied Mathematics and Mechanics (Gesellschaft für angewandte Mathematik und Mechanik, GAMM)
+    place: Erlangen, Germany
+    start: 2014-03-10
+    end: 2014-03-14
+  key: GAMM2014
+  date: 2014-03-12
+  slides: 2014-GAMM-Erlangen.pdf
+
+- title: Multivariate Anisotropic Wavelets on the Torus
+  conference:
+    name: Workshop on Advances in Image Processing
+    url: http://www.mathematik.uni-kl.de/events/aip/
+    place: Anweiler am Trifels, Germany
+    start: 2013-09-30
+    end: 2013-10-02
+  key: AIP2013
+  date: 2013-10-01
+  slides: 2011-NoKo-Bergmann.pdf
+
+- title: Multivariate anisotrope Wavelets auf dem Torus
+  conference:
+    name: Mecklenburger Workshop &mdash; Approximationsmethoden und schnelle Algorithmen
+    url: http://www.math.uni-luebeck.de/mitarbeiter/prestin/workshop/hasenwinkel2013/hasenwinkel2013.html
+    place: Hasenwinkel, Germany
+    start: 2013-06-20
+    end: 2013-06-23
+  key: HaWi2013
+  date: 2013-06-21
+  slides: 2013-NoKo-Clausthal.pdf
+
+- title: Multivariate anisotrope Wavelets auf dem Torus
+  conference:
+    name: 32. Norddeutsches Kolloquium über angewandte Analysis und Numerische Mathematik
+    place: Clausthal, Germany
+    start: 2013-05-03
+    end: 2013-05-04
+  key: NoKo2013
+  date: 2013-05-03
+  slides: 2013-NoKo-Clausthal.pdf
+
+- title: Die multivariate anisotropen Wavelet-Transformation auf dem Torus
+  seminar:
+    name: Kolloquium of the Image Processing and Data Analysis Group
+    institute: Fachbereich Mathematik
+    university: Technische Universität Kaiserslautern
+    place: Kaiserslautern, Germany
+  key: KL2013
+  date: 2013-04-08
+  slides: 2013-Kaiserslautern.pdf
+
+- title: The multivariate anisotropic Wavelet Transform on the Torus
+  conference:
+    name: Workshop on Mathematics for Life Sciences
+    url: http://www.math.uni-luebeck.de/EUMLS/2012.php
+    end: 2012-09-14
+    start: 2012-09-03
+    place: Kiev, Ukraine
+  key: Kiev2012
+  date: 2012-09-10
+  slides: 2012-Kyiv-EUMLS.pdf
+
+- title: Die multivariate periodische Wavelet-Transformation
+  conference:
+    name: 32. Norddeutsches Kolloquium über angewandte Analysis und Numerische Mathematik
+    url: http://www.dfg-spp1324.de/nuhagtools/event_NEW/make.php?event=NOKO11
+    start: 2011-05-27
+    end: 2011-05-28
+    place: Institut für Mathematik, Universität Osnabrück, Osnabrück, Germany
+  key: NoKo0211
+  date: 2011-05-27
+  link: http://www.dfg-spp1324.de/nuhagtools/talks/talks_details.php?id=1323&nl=Y
+  slides: 2011-NoKo-Bergmann.pdf
+  abstract: >
+    Für periodische Wavelets im eindimensionalen Fall ist seit Mitte der 1990er
+    Jahre eine umfassende Theorie bekannt. Dieser Vortrag stellt die
+    multivariate Verallgemeinerung vor. Ausgehend von anisotropen gleichmäßigen
+    Mustern auf dem $d$-dimensionalen Torus wird eine diskrete
+    Fourier-Transformation definiert. Dies führt zu diskreten Frequenzmengen
+    – die erzeugende Gruppe –, die bestimmte Richtungen bevorzugen und trotzdem
+    schnelle Algorithmen ermöglichen. Dazu ist es notwendig, eine bestimmte
+    Anordnung der Musterpunkte, sowie der erzeugenden Gruppe, zu finden.
+    Die darauf aufbauende Wavelet-Zerlegung wird für den Spezialfall einer
+    dyadischen Zerlegung präsentiert. Sie zerlegt einen Raum von Translaten
+    in zwei zueinander orthogonale Unterräume mit jeweils halber Dimension des
+    Ursprungsraumes. Auch hier ist eine schnelle Implementierung möglich, wenn
+    man für die Elemente der erzeugenden Gruppe eine entsprechende Anordnung
+    wählt.
+
+- title: Multivariate translationsinvariante R&auml;ume
+  conference:
+    name: 21. Rhein-Ruhr Workshop
+    url: http://www.fernuni-hagen.de/numerik/ORR+RRW/RRW/ArchivRRW/WS10-11/workshop2011.html
+    place: Königswinter, Germany
+    start: 2011-02-04
+    end: 2011-02-05
+  key: RRW2011
+  date: 2011-02-5
+  slides: 2011-Koenigswinter-Bergmann.pdf
+
+- title: Multivariate Periodic Function Spaces
+  key: Dgs11
+  conference:
+    name: Sparse Representations and Efficitent Sensing of Data
+    start: 2011-01-30
+    end: 2011-02-04
+    place: Dagstuhl Seminar, Dagstuhl, Germany
+  key: Dagstuhl2011
+  date: 2011-02-03
+  doi: 10.4230/DagRep.1.1.108
+  slides: 2011-Dagstuhl-Bergmann.pdf
+
+- title: Drawing Hypergraphs using NURBS curves
+  key: Fr09
+  seminar:
+    name: Presentation of my diploma thesis
+    university: TU Bergakademie Freiberg
+    place: Freiberg, Germany
+  key: Freiberg2009
+  date: 2009-09-16
+  slides: 2010-Diplomvortrag.pdf

@@ -1,4 +1,12 @@
 people:
+    Pierre-Antoine Absil:
+        affiliation: Université catholique de Louvain
+        name:
+            fill: Pierre-Antoine Absil
+            bib: Absil, P.-A.
+            short: P.-A. Absil
+        title: Prof. Dr.
+        url: https://sites.uclouvain.be/absil/
     Jeremias Arf:
         name:
             bib: Arf, J. N.
@@ -16,11 +24,11 @@ people:
             short: "L. Baumgärtner"
             bib: "Baumgärtner, L."
         orcid: 0000-0003-1007-4815
-    'Roland Bennewitz':
+    Roland Bennewitz:
         name:
             full: Roland Bennewitz
             bib: Bennewitz, R.
-    'Ronny Bergmann':
+    Ronny Bergmann:
         affiliation: "TU Chemnitz"
         arxiv: 0000-0001-8342-7218
         github: kellertuer
@@ -33,6 +41,14 @@ people:
         twitter: "ronnybergmann_"
         url: "http://uni.ronnybergmann.net"
         scholar: "0zk7y3cAAAAJ"
+    Nicolas Boumal:
+        affiliation: EPFL Lausanne
+        name:
+            full: Nicolas Boumal
+            short: N. Boumal
+            bib: Boumal, N.
+        url: http://sma.epfl.ch/~nboumal/
+        title: "Prof. Dr."
     Marcel Brusius:
         name:
             bib: Brusius, M.

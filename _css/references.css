@@ -153,3 +153,30 @@ div.bibtex div.content {
 .collapse.in {
     display: block;
 }
+/*
+ * Talks
+ */
+ h2.year {padding-bottom:0; margin-bottom:0;}
+ ul.talks li {
+     padding-top:1rem;
+ }
+ ul.talks span.title {
+     font-weight: bold;
+ }
+ul.talks span.title:after,
+ul.talks span.dates:before
+{
+    content: "\A";
+    white-space: pre;
+}
+ul.talks span.name:after,
+ul.talks span.institute:after,
+ul.talks span.dates:after,
+{
+    content: ",\00a0";
+}
+ul.talks span.place:after,
+ul.talks span.university:after
+{
+    content: ".";
+}

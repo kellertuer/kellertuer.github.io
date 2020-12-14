@@ -5,9 +5,14 @@ conferences:
     start: 2020-07-27
     end: 2020-07-31
     url: https://juliacon.org/2020/
+  EURO2019:
+    name: 30th European Conference on Operational Research
+    url: https://www.euro2019dublin.com
+    from: 2019-06-23
+    to: 2019-06-26
+
   MIAWavesAndSignals:
     name: Modeling, interpolation, and approximation for waves and signals
     url: http://www.math.uni-luebeck.de/mitarbeiter/prestin/Trilateral_Partnership/workshop2019.php
     start: 2019-08-19
     end: 2019-08-23
-    date: 2019-09-21
