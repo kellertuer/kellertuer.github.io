@@ -18,12 +18,12 @@
 #  slides:
 #  video:
 #  with:
-#  selected:
+#  highlight:
 - title: Manifolds in Julia – Manifolds.jl and ManifoldsBase.jl
   key: JuliaCon2020
   conference:
     name: JuliaCon 2020
-    url: https://juliacon.org/2020/
+    url: "https://juliacon.org/2020/"
     place: Everywhere (online)
     start: 2020-07-27
     end: 2020-07-31
@@ -61,7 +61,7 @@
     manifolds, with a focus on high-dimensional and non-smooth optimization.
   link: https://live.juliacon.org/talk/KCFCMQ
   video: https://youtu.be/md-FnDGCh9M
-  selected: 1
+  highlight: 1
 #
 - title: Fenchel Duality Theory and a Primal-Dual Algorithm on Riemannian Manifolds
   key: Birmingham2020
@@ -73,7 +73,7 @@
     url: "https://www.birmingham.ac.uk/research/activity/mathematics/optimization/ona-seminar.aspx"
   date: 2020-02-26
   slides: 2019-Birmingham-RiemannianChambollePock.pdf
-  selected: 2
+  highlight: 2
 
 - title: Fenchel Duality Theory and a Primal-Dual Algorithm on Riemannian Manifolds
   key: Braunschweig2019
@@ -346,8 +346,7 @@
     with respect to its control points. This gradient can be expressed as a
     concatenation of so called adjoint Jacobi fields. Several examples illustrate
     the capabilities of this approach both for interpolation and approximation.
-  selected: true
-  sel_order: 3
+  highlight: 3
 
 - title: A Variational Model for Data Fitting on Manifolds by Minimizing the Acceleration of a Bézier Curve
   conference:
@@ -509,7 +508,10 @@
       manifold-valued images.
   doi: 10.1007/978-3-319-68445-1_70
   video: https://www.youtube.com/watch?v=pgW9PjfwAkI
-  note: Contributed talk within the session “Optimization on Manifolds”  organized by {{'Pierre-Antoine Absil'|scientistify:'short'}} and {{'Rudolphe Sepulchre'|scientistify:'short'}}.
+  note: Contributed talk within the session “Optimization on Manifolds”  organized by
+  with:
+   - Pierre-Antoine Absil
+   - Rudolphe Sepulchre
 
 - title: MVIRT – A Toolbox for Manifold-valued Image Restoration
   key: ICIP17
@@ -593,7 +595,7 @@
   key: GAMM2017
   date: 2017-03-07
   slides: 2017-GAMM-Weimar-Graph-Laplace.pdf
-  selected: 4
+  highlight: 4
 
 - title: A Second Order Non-smooth Variational Model for Restoring Manifold-valued Image
   conference:

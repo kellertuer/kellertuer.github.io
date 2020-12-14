@@ -156,7 +156,7 @@ div.bibtex div.content {
 /*
  * Talks
  */
- h2.year {padding-bottom:0; margin-bottom:0;}
+ .year {padding-bottom:0; margin-bottom:0;}
  ul.talks li {
      padding-top:1rem;
  }
@@ -188,4 +188,11 @@ ul.talks li ul.nav-icons {
     float: right;
     margin-bottom: 1rem;
     list-style-type: none;
+}
+ul.talks li span.info:before {
+    content: "\A";
+    white-space: pre;
+}
+ul.talks span.info {
+    font-style: italic;
 }

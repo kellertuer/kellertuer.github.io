@@ -2,7 +2,7 @@ people:
     Pierre-Antoine Absil:
         affiliation: Université catholique de Louvain
         name:
-            fill: Pierre-Antoine Absil
+            full: Pierre-Antoine Absil
             bib: Absil, P.-A.
             short: P.-A. Absil
         title: Prof. Dr.
@@ -54,6 +54,14 @@ people:
             bib: Brusius, M.
             full: Marcel Brusius
             short: M. Brusius
+    Glaydston de Carvalho Bento:
+        name:
+            bib: Carvalho Bento, G., de
+            full: Glaydston de Carvalho Bento
+            short: G. de Carvalho Bento
+        url: https://glaydston.ime.ufg.br
+        orcid: 0000-0001-6983-4132
+        title: Prof. Dr.
     Raymond Chan:
         name:
             full: Raymond H. Chan
@@ -127,6 +135,14 @@ people:
             full: Friederike Laus
             short: F. Laus
         title: Dr.
+    Jan Lellmann:
+        affiliation: Universität zu Lübeck
+        name:
+            full: Jan Lellmann
+            short: J. Lellmann
+            bib: Lellmann, J.
+        title: Prof. Dr.
+        url: https://www.mic.uni-luebeck.de/people/jan-lellmann.html
     Estefanía Loayza-Romero:
         name:
             full: Estefanía Loayza-Romero
@@ -264,13 +280,16 @@ people:
         orcid: 0000-0002-4788-9332
         title: "Dr."
         url: https://en.www.math.fau.de/angewandte-mathematik-1/mitarbeiter/dr-daniel-tenbrinck/
-    José Vdal-Núñez:
+    José Vidal-Núñez:
         affiliation: "University of Alcalá de Henares"
+        arxiv: vidalnunez_j_1
         name:
             full: "José Vidal-Núñez"
             short: "J. Vidal-Núñez"
             bib: "Vidal-Núñez, J."
         orcid: 0000-0002-1190-6700
+        scholar: AQoDDXkAAAAJ
+        url: https://www.uah.es/es/estudios/profesor/Jose-Vidal-Nunez/
     Andreas Weinmann:
         affiliation: "Hochschule Darmstadt"
         name:
@@ -287,6 +306,14 @@ people:
             bib: Welker, K.
         title: Prof. Dr.
         url: https://www.hsu-hh.de/mathematik/mitarbeiter/
+    Benedikt Wirh:
+        affiliation: WWU Münster
+        name:
+            full: Benedikt Wirth
+            bib: Wirth, B.
+            short: B. Wirth
+        title: Prof. Dr.
+        url: https://www.uni-muenster.de/Cells-in-Motion/people/all/wirth-b.php
     Erik Wünsche:
         name:
             bib: Wünsche, E.

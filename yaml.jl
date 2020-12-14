@@ -1,11 +1,15 @@
 #
 # Collect a few small helpers to generate html from dicrionaries that we got from yamls.
 #
-function entry_to_html(data,key; class=key, iconstyle="fas", icon="")
+function entry_to_html(data,key; class=key, iconstyle="fas", icon="", link="")
     icon_str = length(icon) > 0 ? """<i class="$iconstyle $icon"></i>""" : ""
     !haskey(data,key) && return ""
+    prep = data[key]
+    if haskey(data,link)
+        prep = """<a href="$(data[link])" title="link to $prep">$prep</a>"""
+    end
     return """$(icon_str)
-              <span class="$class">$(data[key])</span>
+              <span class="$class">$prep</span>
            """
 end
 function entries_to_group(data,keys; classes=keys, group_class="group", iconstyle="fas", icon="")

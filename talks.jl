@@ -13,28 +13,47 @@ function isless_talks(a::Dict,b::Dict)
 end
 
 """
-    {{talks}}
-print whole list of talks
+    {{talks highlights}}
+print the list of talks, either all grouped by year or the
+highlights orderred by their selected order
 """
-function hfun_talks()
+function hfun_talks(params::Vector{String}=String[])
+    highlights = false
+    group_by_year = true
+    if length(params) > 0
+        highlights = true
+        group_by_year = false
+    end
     s = "";
     lastyear = 0
     sorted_talks = sort(collect(talks), lt=isless_talks)
+    if highlights
+        filtered_talks = filter( x-> (haskey(x,"highlight")), talks)
+        sorted_talks = sort(collect(filtered_talks), lt = (a,b) -> a["highlight"] < b["highlight"])
+    end
     for talk ∈ sorted_talks
         newyear = parse(Int, Dates.format(talk["date"],"yyyy"))
-        if newyear != lastyear
-            (lastyear != 0) && (s = "$s\n</ul>") # close old list
-            s = """$s
-            <h2 class="year">$(newyear)</h2>
-            <ul class="talks">
-            """
+        if (newyear != lastyear)
+            if group_by_year==true
+                (lastyear != 0) && (s = "$s\n</ul>") # close old list
+                s = """$s
+                       <h3 class="year">$(newyear)</h3>
+                       <ul class="talks">
+                """
+            else
+                if lastyear==0
+                    s = """$s
+                           <ul class="talks">
+                        """
+                end
+            end
             lastyear = newyear
         end
         s = """$s
             <li>$(format_talk(talk))</li>
             """
     end
-    (lastyear != 0) && (s = "$s \n</ul>") # close old list
+    s = "$s \n</ul>" # close old list
     return s
 end
 function format_talk(talk::Dict)
@@ -44,7 +63,17 @@ function format_talk(talk::Dict)
     #append seminar/conference
     haskey(talk,"conference") && (ts = """$(ts)$(fomat_conference(talk["conference"]))""")
     haskey(talk,"seminar") && (ts = """$(ts)$(fomat_seminar(talk["seminar"], talk["date"]))""")
-    # nbote & with TODO
+    # note & with TODO
+    info = """$(entry_to_html(talk,"note"))"""
+    if haskey(talk,"with")
+        names = join( [
+            has_name(name) ? hfun_person([name,"link_shortname"]) : """<span class="person unknown">$name</span>""" for name ∈ talk["with"]
+            ], ", ", ", and ")
+        info = """$(info)
+                <span class="with">$names</span>
+             """
+    end
+    (length(info) > 0) && (ts = """$(ts)<span class="info">$info</span>""")
     #nav-pills
     ts = """$ts
             <ul class="nav nav-icons">
@@ -86,7 +115,7 @@ end
 
 function fomat_conference(conf::Dict)
     s = """
-           $(entry_to_html(conf,"name"))
+           $(entry_to_html(conf,"name"; link="url"))
            $(format_duratuion(conf["start"],get(conf,"end",conf["start"])))
            $(entry_to_html(conf,"place"))
         """
@@ -94,11 +123,7 @@ function fomat_conference(conf::Dict)
 end
 function fomat_seminar(seminar::Dict, date::Date)
     s = """
-           $(entry_to_html(seminar,"name"))
-           $(entry_to_html(seminar,"institute"))
-           $(entry_to_html(seminar,"university"))
-           $(format_duratuion(date))
-           $(entry_to_html(seminar,"place"))
+           $(entry_to_html(seminar,"name";link="url"))$(entry_to_html(seminar,"institute"))$(entry_to_html(seminar,"university"))$(format_duratuion(date))$(entry_to_html(seminar,"place"))
         """
     return s
 end

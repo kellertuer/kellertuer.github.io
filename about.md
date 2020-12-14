@@ -30,6 +30,7 @@ Research has the advantage that you get around! It brought me to
 ~~~
 <div class="inlinelist">
 ~~~
+* Birmingham (United Kingdom)
 * Egmond aan Zee (The Netherlands)
 * Valencia
 * \highlight{Dublin (Ireland)}
