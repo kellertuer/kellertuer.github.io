@@ -1,18 +1,435 @@
-conferences:
-  JuliaCon2020:
-    name: JuliaCon 2020
-    place: Everywhere (online)
-    start: 2020-07-27
-    end: 2020-07-31
-    url: https://juliacon.org/2020/
-  EURO2019:
-    name: 30th European Conference on Operational Research
-    url: https://www.euro2019dublin.com
-    from: 2019-06-23
-    to: 2019-06-26
-
-  MIAWavesAndSignals:
-    name: Modeling, interpolation, and approximation for waves and signals
-    url: http://www.math.uni-luebeck.de/mitarbeiter/prestin/Trilateral_Partnership/workshop2019.php
-    start: 2019-08-19
-    end: 2019-08-23
+#KEY:
+#   name:
+#   short
+#   url:
+#   talk:
+#   start:
+#   end:
+#   place:
+HaWi2021:
+  name: Mecklenburg Workshop on Approximation Methods and Fast Algorithms
+  url: https://www.math-conf.uni-osnabrueck.de/hasenwinkel2020/
+  start: 2021-03-22
+  end: 2021-03-26
+  place: Hasenwinkel
+  organizer: true
+COM2020:
+  name: "Mini-Workshop: Computational Optimization on Manifolds"
+  url: https://www.mfo.de/occasion/2047c/www_view
+  start: 2020-11-15
+  end: 2020-11-21
+  place: Oberwolfach
+  talk: true
+#IFIPTV72020
+#  name: IFIP TC7 Conference on System Modelling and Optimization
+#  url: https://modemat.epn.edu.ec/ifip_tc7_2020/
+#  start: 2020-08-31
+#  end: 2020-09-04
+#  place: Quito, Ecuador
+#  talk: true
+#  organizer: true
+#MTNS2020_
+#  name: 24th International Symposium on Mathematical Theory of Networks and Systems
+#  url: https://mtns2020.eng.cam.ac.uk
+#  start: 2020-08-24
+#  end: 2020-08-28
+#  place: Cambridge, United Kingdom
+#  talk: true
+JuliaCon2020:
+  name: JuliaCon 2020
+  url: https://juliacon.org/2020/
+  start: 2020-07-27
+  end: 2020-07-31
+  place: Everywhere (online)
+ENUMATH2019:
+  name: European Numerical Mathematics and Advanced Applications Conference 2019
+  url: https://www.enumath2019.eu
+  start: 2019-09-30
+  end: 2019-10-04
+  place: "Egmond aan Zee, The Netherlands"
+  talk: true
+MIAWS2019:
+  name: "Workshop: Modeling, Interpolation, and Approximation for Waves and Signals"
+  url: http://www.math.uni-luebeck.de/mitarbeiter/prestin/Trilateral_Partnership/workshop2019.php
+  start: 2019-08-20
+  end: 2019-08-22
+  place: Lübeck
+  talk: true
+WOPM2019:
+  name: Workshop on Optimization on Manifolds
+  url: https://www.tu-chemnitz.de/mathematik/part_dgl/events/2019_workshop_optimization_on_manifolds/index.en.php
+  start: 2019-08-12
+  end: 2019-08-12
+  place: Chemnitz
+  talk: true
+ICCOPT2019:
+  name: International Conference on Continuous Optimization
+  url: https://iccopt2019.berlin
+  start: 2019-08-05
+  end: 2019-08-08
+  place: Berlin
+  talk: true
+SSVM2019:
+  name: 7<sup>th</sup> International Conference on Scale Space and Variational Methods in Computer Vision
+  url: https://ssvm2019.mic.uni-luebeck.de/
+  start: 2019-06-30
+  end: 2019-07-04
+  place: Hofgeismar
+  talk: false
+ICIAM2019:
+  name: International Congress on Industrial and Applied Mathematics
+  url: https://iciam2019.org
+  start: 2019-07-15
+  end: 2019-07-19
+  place: Valencia, Spain
+  talk: true
+EURO2019:
+  name: 30<sup>th</sup> European Conference on Operational Research
+  url: https://www.euro2019dublin.com
+  start: 2019-06-23
+  end: 2019-06-26
+  place: Dublin, Ireland
+  talk: true
+GAMM2019:
+  name: Jahrestagung der Gesellschaft für angewandte Mathematik und Mechanik
+  talk: true
+  url: http://gamm2019.conf.tuwien.ac.at
+  start: 2019-02-18
+  end: 2019-02-22
+  place: Vienna, Austria
+GLD2019:
+  name: "Geometry and Learning from Data in 3D and Beyond I: Geometric Processing"
+  url: http://www.ipam.ucla.edu/GLWS1
+  talk: true
+  start: 2019-04-01
+  end: 2019-04-05
+  place: IPAM, UCLA, Los Angeles, USA
+CSIP18:
+  name: Chemnitz Symposium on Inverse Problems 2018
+  talk: false
+  url: https://www.chemnitz-am.de/ipsym2018/
+  start: 2018-09-27
+  end: 2018-09-28
+  place: Chemnitz
+CFEM18:
+  name: Chemnitz Finite Element Symposium 2018
+  talk: false
+  url: https://www.chemnitz-am.de/cfem2018/
+  start: 2018-09-24
+  end: 2018-09-26
+  place: Chemnitz
+HaWi2018:
+  name: Mecklenburg Workshop &mdash; Approximation Methods and Fast Algorithms
+  talk: true
+  url: http://www.math.uni-luebeck.de/hasenwinkel2018/
+  start: 2018-09-10
+  end: 2018-09-14
+  place: Hasenwinkel
+ISMP2018:
+  name: International Symposium on Mathematical Programming 2018
+  talk: true
+  url: https://ismp2018.sciencesconf.org
+  start: 2018-07-01
+  end: 2018-07-06
+  place: Bordeaux, France
+SIAMIS2018:
+  name: SIAM Conference on Imaging Science 2018
+  talk: true
+  url: https://www.siam-is18.dm.unibo.it
+  start: 2018-06-05
+  end: 2018-06-08
+  place: Bologna, Italy
+GAMM2018:
+  name:  89<sup>th</sup>Annual Meeting of the  International Association of Applied Mathematics and Mechanics (Gesellschaft für angewandte Mathematik und Mechanik, GAMM)
+  talk: true
+  url: http://gamm2018.de
+  start: 2018-03-19
+  end: 2018-03-23
+  place: München, Germany
+MIA2018:
+  name: Mathematics and Image Analysis 2018
+  talk: false
+  url: http://www.wias-berlin.de/workshops/MIA2018/
+  start: 2018-01-15
+  end: 2018-01-17
+  url: http://www.wias-berlin.de/workshops/MIA2018/
+  place: Berlin, Germany
+GSI2017:
+    name: 3<sup>rd</sup> Conference on Geometric Science of Information
+    url: http://gsi2017.org/
+    start: 2017-11-07
+    end: 2017-11-09
+    place: Paris, France
+ICIP2017:
+    name: IEEE International Conference on Image Processing (ICIP) 2017
+    url: http://2017.ieeeicip.org
+    start: 2017-09-17
+    place: Bejing, China
+    end: 2017-09-20
+    talk: true
+RMA2017:
+  name: Rhein-Main-Arbeitskreis Mathematics of Computation
+  url: http://www.mathematik.uni-marburg.de/~numerik/rmak/
+  talk: false
+  start: 2017-07-07
+  place: Mannheim, Germany
+SSVM2017:
+    name: 6<sup>th</sup> International Conference on Scale Space and Variational Methods in Computer Vision
+    url: http://ssvm2017.compute.dtu.dk
+    start: 2017-06-04
+    end: 2017-06-08
+    place: Kolding, Denmark
+GAMM2017:
+    name: 87<sup>th</sup>Annual Meeting of the  International Association of Applied Mathematics and Mechanics (Gesellschaft für angewandte Mathematik und Mechanik, GAMM)
+    start: 2017-03-06
+    end: 2017-03-10
+    place: "Weimar &amp; Ilmenau, Germany"
+    talk: true
+SIO2017:
+  name: "Workshop: Shape, Images and Optimization"
+  url: http://www.wwu.de/math/shape2017
+  talk: false
+  start: 2017-02-28
+  end: 2017-03-03
+  place: Münster, Germany
+SIAMIS2016:
+  talk: true
+  name: SIAM Conference of Imaging Sciences 2016
+  url: https://www.siam.org/meetings/is16/
+  start: 2016-05-23
+  place: Albuquerque, NM, USA
+  end: 2016-05-26
+HaWi2016:
+    name: Mecklenburg Workshop – Approximation Methods and Data Analysis
+    url: http://www.math.uni-luebeck.de/mitarbeiter/prestin/workshop/hasenwinkel2016/
+    start: 2016-09-05
+    end: 2016-09-09
+    place: Hasenwinkel, Germany
+    talk: true
+INTREPID2016:
+  name: "Project Meeting of the Marie Curie Inital Training Network Scheme: INTREPID Forensics"
+  url: http://www.intrepid-forensics.eu/
+  place: Leicester, United Kingdom
+  start: 2016-02-05
+  talk: false
+SAA2016:
+  name: Summer School on Applied Analysis 2015
+  talk: false
+  url: http://www-user.tu-chemnitz.de/~potts/cms/cms15/
+  start: 2015-09-21
+  end: 2015-09-25
+  place: Chemnitz, Germany
+NoKo2016:
+  talk: true
+  name: 37<sup>th</sup> Northern German Colloquium on Applied Analysis and Numerical Mathematics
+  start: 2016-04-22
+  end: 2016-04-23
+  place: Lübeck, Germany
+GAMM2016:
+  talk: true
+  name: 86<sup>th</sup>Annual Meeting of the  International Association of Applied Mathematics and Mechanics (Gesellschaft für angewandte Mathematik und Mechanik, GAMM)
+  start: 2016-03-07
+  end: 2016-03-11
+  place: Braunschweig, Germany
+EMMCVPR2015:
+  talk: true
+  name: 10th International Conference on Energy Minimizing Methods in Computer Vision and Pattern Recognition
+  url: http://ias.ust.hk/conf/emmcvpr/
+  place: Hong Kong
+  start: 2015-01-15
+  end: 2015-01-15
+HaWi2015:
+  name: Mecklenburger Workshop – Approximation Methods and Function Spaces
+  url: http://www.math.uni-luebeck.de/workshop/hasenwinkel2015.php
+  place: Hasenwinkel, Germany
+  start: 2015-03-16
+  end: 2015-03-20
+  talk: true
+SSVM2015:
+  name: 5<sup>th</sup> International Conference on Scale Space and Variational Methods in Computer Vision
+  url: http://ssvm2015.math.u-bordeaux.fr/
+  short: SSVM 2013
+  start: 2015-05-30
+  end: 2015-06-04
+  place: Bordeaux, France
+  talk: false
+VMDIPI2015:
+  talk: true
+  name: Variational Methods for Dynamic Inverse Problems and imaging
+  place: Münster, Germany
+  start: 2015-09-28
+  end: 2015-09-30
+DFW2014:
+  talk: true
+  name: Deutsch-französischer Workshop Mathematische Bildverarbeitung
+  place: Fraunhofer ITWM, Kaiserslautern, Germany
+  start: 2014-10-06
+  end: 2014-10-08
+OGV2014:
+  name: Workshop “Optimisation Géométrique sur les Variétés”
+  url: https://fadili.users.greyc.fr/mia/events/optimgeo-14/
+  talk: false
+  place: Paris, France
+  start: 2014-11-21
+CCBernd2014:
+  name: Colloquium Commemorating Bernd Fischer
+  start: 2014-10-10
+  url: https://www.mic.uni-luebeck.de/obituary-bernd-fischer/memorial-symposium.html
+  talk: false
+  place: Lübeck, Gemany
+MIP2014:
+  talk: true
+  name: Mathematical Image Processing and Phase Retrieval
+  url: http://na.math.uni-goettingen.de/Sigphase14/Signal_phase14.html
+  place: Göttingen, Germany
+  start: 2014-09-01
+  end: 2014-09-03
+HaWi2014:
+  talk: true
+  name: Mecklenburger Workshop – Approximationsmethoden und schnelle Algorithmen
+  url: http://www.math.uni-luebeck.de/mitarbeiter/prestin/workshop/hasenwinkel2014/hasenwinkel2014.php
+  place: Hasenwinkel, Germany
+  start: 2014-03-17
+  end: 2014-03-20
+SAA2014:
+  name: Summer School on Applied Analysis 2014
+  talk: false
+  url: http://www-user.tu-chemnitz.de/~potts/cms/cms14/
+  start: 2014-09-22
+  end: 2014-09-26
+  place: Chemnitz, Germany
+MML2014:
+  name: Mathematik in Medizin und Lebenswissenschaften
+  url: http://www.math.uni-luebeck.de/tagung.php
+  talk: false
+  start: 2014-05-01
+  place: Lübeck, Germany
+  note: Meeting on occasion of the 20<sup>th</sup> birthday of the Institute of Mathematics at the University of Lübeck.
+RMAC2014:
+  name: Rhein-Main-Arbeitskreis Mathematics of Computation
+  talk: false
+  start: 2014-02-07
+  place: Marburg, Germany
+GAMM2014:
+  talk: true
+  name: 85<sup>th</sup>Annual Meeting of the  International Association of Applied Mathematics and Mechanics (Gesellschaft für angewandte Mathematik und Mechanik, GAMM)
+  place: Erlangen, Germany
+  start: 2014-03-10
+  end: 2014-03-14
+AIP2013:
+  talk: true
+  name: Workshop on Advances in Image Processing
+  url: http://www.mathematik.uni-kl.de/events/aip/
+  place: Anweiler am Trifels, Germany
+  start: 2013-09-30
+  end: 2013-10-02
+HaWi2013:
+  talk: true
+  name: Mecklenburger Workshop &mdash; Approximationsmethoden und schnelle Algorithmen
+  url: http://www.math.uni-luebeck.de/mitarbeiter/prestin/workshop/hasenwinkel2013/hasenwinkel2013.html
+  place: Hasenwinkel, Germany
+  start: 2013-06-20
+  end: 2013-06-23
+SAA2013:
+  name: Summer School on Applied Analysis 2013
+  talk: false
+  url: http://www-user.tu-chemnitz.de/~potts/cms/cms13/
+  start: 2013-09-23
+  end: 2013-09-27
+  place: Chemnitz, Germany
+NoKo2013:
+  name: 32. Norddeutsches Kolloquium über angewandte Analysis und Numerische Mathematik
+  place: Clausthal, Germany
+  start: 2013-05-03
+  end: 2013-05-04
+  talk: true
+EUMLS2012:
+  name: Workshop on Mathematics for Life Sciences
+  url: http://www.math.uni-luebeck.de/EUMLS/2012.php
+  end: 2012-09-14
+  start: 2012-09-03
+  place: Kiev, Ukraine
+  talk: true
+SAA2012:
+  name: Summer School on Applied Analysis 2012
+  talk: false
+  url: http://www-user.tu-chemnitz.de/~potts/cms/cms12/
+  start: 2012-09-24
+  end: 2012-09-28
+  place: Chemnitz, Germany
+NoKo2012:
+  name: 33. Norddeutsches Kolloquium über Angewandte Analysis und Numerische Mathematik
+  talk: false
+  start: 2012-05-04
+  end: 2012-05-05
+  place: Rostock, Germany
+RRW2012:
+  name: 22. Rhein-Rhuhr-Workshop
+  talk: false
+  start: 2012-02-03
+  end: 2012-02-04
+  place: Bestwig, Germany
+  url: http://www.fernuni-hagen.de/numerik/ORR+RRW/RRW/ArchivRRW/WS11-12/workshop2012.html
+GAMMANM2012:
+  name: 28th GAMM-Seminar Leipzig on Analysis and Numerical Methods in Higher Dimension
+  url: http://www.mis.mpg.de/scicomp/gamm28/index.html
+  talk: false
+  start: 2012-01-16
+  end: 2012-01-18
+  place: Leipzig, Germany
+NoKo2011:
+  talk: true
+  name: 32. Norddeutsches Kolloquium über angewandte Analysis und Numerische Mathematik
+  url: http://www.dfg-spp1324.de/nuhagtools/event_NEW/make.php?event=NOKO11
+  start: 2011-05-27
+  end: 2011-05-28
+  place: Institut für Mathematik, Universität Osnabrück, Osnabrück, Germany
+RRW2011:
+  talk: true
+  name: 21. Rhein-Ruhr Workshop
+  url: http://www.fernuni-hagen.de/numerik/ORR+RRW/RRW/ArchivRRW/WS10-11/workshop2011.html
+  place: Königswinter, Germany
+  start: 2011-02-04
+  end: 2011-02-05
+Dagstuhl2011:
+  talk: true
+  name: 21. Rhein-Ruhr Workshop
+  url: http://www.fernuni-hagen.de/numerik/ORR+RRW/RRW/ArchivRRW/WS10-11/workshop2011.html
+  place: Königswinter, Germany
+  start: 2011-02-04
+  end: 2011-02-05
+SAA23011:
+  name: Summer School on Applied Analysis 2011
+  talk: false
+  url: http://www-user.tu-chemnitz.de/~potts/cms/cms11/
+  start: 2011-09-26
+  end: 2011-09-30
+  place: Chemnitz, Germany
+WCAHA2011:
+  name: '1<sup>st</sup> Workshop: A Computational Approach to Harmonic Analysis'
+  url: http://www.dfg-spp1324.de/nuhagtools/event_NEW/make.php?event=macha11
+  talk: false
+  start: 2011-08-22
+  end: 2011-08-26
+  place: Marburg, Germany
+Strobl2011:
+  name: From Abstract to Computational Harmonic Analysis
+  url: http://www.univie.ac.at/nuhag-php/event_NEW/make.php?event=strobl11#
+  talk: false
+  start: 2011-06-13
+  end: 2011-06-19
+  place: Strobl, Austria
+SAA2010:
+  name: Summer School on Applied Analysis 2010
+  talk: false
+  url: http://www-user.tu-chemnitz.de/~potts/cms/cms10/
+  start: 2010-10-04
+  end: 2010-10-08
+  place: Chemnitz, Germany
+RRW2010:
+  name: 20. Rhein-Rhuhr-Workshop
+  talk: false
+  start: 2010-02-12
+  end: 2010-02-13
+  place: Burg Gemen, Germany
+  url: http://www.fernuni-hagen.de/numerik/ORR+RRW/RRW/ArchivRRW/WS09-10/workshop2010.html

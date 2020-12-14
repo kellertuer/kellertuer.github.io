@@ -1,6 +1,9 @@
 
 using YAML, Dates
 talks = YAML.load_file("data/talks.yaml")
+conferences = YAML.load_file("data/conferences.yaml")
+
+exclude_conf = String[]
 
 function isless_talks(a::Dict,b::Dict)
     !haskey(a, "key") && error("Talk $a is missing a key")
@@ -23,6 +26,8 @@ function hfun_talks(params::Vector{String}=String[])
     if length(params) > 0
         highlights = true
         group_by_year = false
+    else
+        global exclude_conf = String[]
     end
     s = "";
     lastyear = 0
@@ -49,6 +54,7 @@ function hfun_talks(params::Vector{String}=String[])
             end
             lastyear = newyear
         end
+        haskey(talk,"conference") && push!(exclude_conf,talk["conference"])
         s = """$s
             <li>$(format_talk(talk))</li>
             """
@@ -61,7 +67,7 @@ function format_talk(talk::Dict)
     ts =  """<a name="$key"></a>"""
     ts = """$(ts)$(entry_to_html(talk,"title"))"""
     #append seminar/conference
-    haskey(talk,"conference") && (ts = """$(ts)$(fomat_conference(talk["conference"]))""")
+    haskey(talk,"conference") && (ts = """$(ts)$(fomat_conference(conferences[talk["conference"]]))""")
     haskey(talk,"seminar") && (ts = """$(ts)$(fomat_seminar(talk["seminar"], talk["date"]))""")
     # note & with TODO
     info = """$(entry_to_html(talk,"note"))"""
@@ -111,6 +117,25 @@ function format_talk(talk::Dict)
         """
     end
     return ts
+end
+
+function hfun_remainingconferences()
+    filtered_conf = filter( x-> (x[1] ∉ exclude_conf), conferences)
+    #print(filtered_conf)
+    sorted_conf = sort(collect(filtered_conf), lt = (a,b) -> a[2]["start"] > b[2]["start"])
+    s = "";
+    for conf in sorted_conf
+        if conf[2]["start"] < Dates.now()
+            s = """$s
+                   <li>$(fomat_conference(conf[2]))</li>
+                """
+        end
+    end
+    return """
+        <ul class="conferences">
+        $(s)
+        </ul>
+    """
 end
 
 function fomat_conference(conf::Dict)

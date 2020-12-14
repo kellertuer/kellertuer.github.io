@@ -19,3 +19,7 @@ This page lists talks and provides supplementary slides.
 {{talks}}
 
 ## Further Conferences
+
+Furthermore I was lucky enough to join the following conferences.
+
+{{remainingconferences}}

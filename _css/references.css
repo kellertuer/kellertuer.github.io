@@ -196,3 +196,92 @@ ul.talks li span.info:before {
 ul.talks span.info {
     font-style: italic;
 }
+/* conferences below */
+ul.conferences {}
+ul.conferences li {
+    margin-top: 0.25rem;
+}
+ul.conferences li span.name:after {
+    content: "\A";
+    white-space: pre;
+}
+ul.conferences li span.dates {
+    margin-left:3rem;
+}
+/*
+ * List I Students
+ */
+img.floatleft {
+    width: auto;
+    float: left;
+    padding: 0;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-radius: 10px;
+}
+
+dl.supervised dt {
+    width: 4rem;
+    float: left;
+    clear: left;
+}
+
+dl.supervised dd {
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+}
+
+dl.supervised dd .with:before {
+    content: "\00a0(supervised together with ";
+}
+
+dl.supervised dd .with:after {
+    content: ")";
+}
+
+dl.supervised dd .student:after {
+    content: ".";
+}
+
+dl.supervised dd .title {
+    font-weight: bold;
+}
+
+dl.supervised dd .title:after {
+    content: ",\00a0";
+    font-weight: normal;
+}
+
+dl.supervised dd .thesis-type:after {
+    content: ".";
+}
+/*
+ * List II Lectures/exercises
+ */
+dl.courses dt {
+    width: 8rem;
+    float: left;
+    clear: left;
+    font-weight: lighter;
+}
+dl.courses dd {
+    margin-left: 8rem;
+    margin-bottom: 1.5rem;
+}
+dl.courses dd .name {
+    font-weight: bold;
+    font-size:large;
+}
+dl.courses dd .info:before,
+dl.courses dd .institute:before
+{
+    content: "\A";
+    white-space: pre;
+}
+dl.courses dd .with:before {
+    content: "\00a0 together with ";
+}
+dl.courses dd::after {
+    clear:both;
+}

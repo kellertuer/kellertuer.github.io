@@ -19,14 +19,15 @@
 #  video:
 #  with:
 #  highlight:
+- title: The Riemannian Chambolle–Pock Algorithm and Optimization on Manifolds in Julia
+  key: OWSCOM2020
+  conference: COM2020
+  date: 2020-11-17
+  slides: 2020-Oberwolfach.pdf
+
 - title: Manifolds in Julia – Manifolds.jl and ManifoldsBase.jl
   key: JuliaCon2020
-  conference:
-    name: JuliaCon 2020
-    url: "https://juliacon.org/2020/"
-    place: Everywhere (online)
-    start: 2020-07-27
-    end: 2020-07-31
+  conference: JuliaCon2020
   date: 2020-07-31
   slides: 2020-JuliaCon-Manifolds.pdf
   abstract: >
@@ -89,12 +90,7 @@
 
 - title: A Primal-Dual Algorithm for Convex Nonsmooth Optimization on Riemannian Manifolds
   key: ENuMath2019
-  conference:
-    name: European Numerical Mathematics and Advanced Applications Conference 2019
-    url: https://www.enumath2019.eu
-    end: 2019-10-04
-    start: 2019-09-30
-    place: Egmond aan Zee, The Netherlands
+  conference: ENUMATH2019
   date: 2019-10-04
   slides: 2019-ENuMath-RiemannianChambollePock.pdf
   abstract: >
@@ -109,25 +105,30 @@
 
 - title: Fenchel Duality Theory and a Primal-Dual Algorithm on Riemannian Manifolds
   key: WS-HL19
-  conference:
-    name: Modeling, interpolation, and approximation for waves and signals
-    url: http://www.math.uni-luebeck.de/mitarbeiter/prestin/Trilateral_Partnership/workshop2019.php
-    start: 2019-08-19
-    end: 2019-08-23
-    place: Lübeck, Germany
+  conference: MIAWS2019
   date: 2019-09-21
   slides: 2019-Luebeck-RiemannianChambollePock.pdf
   note: Invited Plenary Talk
 
 - title: A Primal-Dual Algorithm for Convex Nonsmooth Optimization on Riemannian Manifolds
   key: ICCOPT2019
-  conference:
-    name: 6<sup>th</sup> International Conference on Continuous Optimization
-    url: https://iccopt2019.berlin/
-    start: 2019-08-04
-    end: 2019-08-08
-    place: Berlin, Germany
+  conference: ICCOPT2019
   date: 2019-08-08
+  slides: 2019-Berlin-RiemannianChambollePock.pdf
+  abstract: >
+    Based on a Fenchel dual notion on Riemannian manifolds we investigate the
+    saddle point problem related to a nonsmooth convex optimization problem. We
+    derive a primal-dual hybrid gradient algorithm to compute the saddle point
+    using either an exact or a linearized approach for the involved nonlinear
+    operator. We investigate a sufficient condition for convergence of the
+    linearized algorithm on Hadamard manifolds. Numerical examples illustrate,
+    that on Hadamard manifolds we are on par with state of the art algorithms and
+    on general manifolds we outperform existing approaches.
+
+- title: A Primal-Dual Algorithm for Convex Nonsmooth Optimization on Riemannian Manifolds
+  key: WOPM2019
+  conference: WOPM2019
+  date: 2019-08-09
   slides: 2019-Berlin-RiemannianChambollePock.pdf
   abstract: >
     Based on a Fenchel dual notion on Riemannian manifolds we investigate the
@@ -141,12 +142,7 @@
 
 - title: "A Variational Model for Data Fitting on Manifolds by Minimizing the Acceleration of a Bézier Curve"
   key: ICIAM19
-  conference:
-    name: International Congress on Industrial and Applied Mathematics
-    url: https://iciam2019.org
-    start: 2019-07-19
-    end: 2019-07-16
-    place: Valencia, Spain
+  conference: ICIAM2019
   date: 2019-07-15
   slides: 2019-Valencia-MinimizerAccelerationBezier.pdf
   abstract: >
@@ -160,12 +156,7 @@
 
 - title: "A Variational Model for Data Fitting on Manifolds by Minimizing the Acceleration of a Bézier Curve"
   key: Euro19
-  conference:
-    name: 30th European Conference on Operational Research
-    url: https://www.euro2019dublin.com
-    start: 2019-06-23
-    end: 2019-06-26
-    place: Dublin, Ireland
+  conference: EURO2019
   date: 2019-06-24
   slides: 2019-Dublin-MinimizeAccelerationBezier.pdf
   abstract: >
@@ -240,12 +231,7 @@
 
 - title: Nonsmooth Optimization on Riemannian Manifolds and Manifold-Valued Data Processing
   key: IPAMGSW1
-  conference:
-    name: "Geometry and Learning from Data in 3D and Beyond, Workshop I: Geometric Processing"
-    url: http://www.ipam.ucla.edu/programs/workshops/workshop-i-geometric-processing/
-    start: 2019-04-01
-    end: 2019-04-05
-    place: Los Angeles, CA, USA
+  conference: GLD2019
   date: 2019-04-04
   slides: 2019-Los-Angeles-IPAM-SecondOrder.pdf
   video: https://ipam.wistia.com/medias/2s5zl96554
@@ -270,12 +256,7 @@
 
 - title: Intrinsic Formulation of KKT Conditions and Constraint Qualifications on Smooth Manifolds
   key: GAMM2019
-  conference:
-    name:  90<sup>th</sup>Annual Meeting of the  International Association of Applied Mathematics and Mechanics (Gesellschaft für angewandte Mathematik und Mechanik, GAMM)
-    url: https://jahrestagung.gamm-ev.de/index.php/2019/2019-annual-meeting
-    start: 2019-02-22
-    end: 2019-02-20
-    place: Vienna, Austria
+  conference: GAMM2019
   date: 2019-02-18
   slides: 2019-GAMM-KKT-on-manifolds.pdf
   abstract: >
@@ -349,12 +330,7 @@
   highlight: 3
 
 - title: A Variational Model for Data Fitting on Manifolds by Minimizing the Acceleration of a Bézier Curve
-  conference:
-    name: Mecklenburg Workshop – Approximation Methods and Fast Algorithms
-    url: http://www.math.uni-luebeck.de/hasenwinkel2018/
-    place: Hasenwinkel, Germany
-    start: 2018-09-10
-    end: 2018-09-14
+  conference: HaWi2018
   date: 2018-09-11
   key: HaWi18
   slides: 2018-Haseniwnkel-AccBezier.pdf
@@ -410,12 +386,7 @@
     given on a pixel grid, for example when dealing with nonlocal methods.
 
 - title: A parallel Douglas-Rachford Algorithm for Data on Hadamard Manifolds
-  conference:
-    name: 23rd International Symposium on Mathematical Programming
-    url: https://ismp2018.sciencesconf.org
-    start: 2018-07-01
-    end: 2018-07-06
-    place: Bordeaux, France
+  conference: ISMP2018
   key: ISMP18
   date: 2018-07-01
   slides: 2018-ISMP18-DouglasRachford.pdf
@@ -435,12 +406,7 @@
 
 - title: Nonlocal Inpainting of Manifold-valued Data on Finite Weighted Graphs
   key: SIAMIS18
-  conference:
-    name: SIAM Conference of Imaging Science 2018
-    url: https://www.siam-is18.dm.unibo.it
-    start: 2018-06-05
-    end: 2018-06-08
-    place: Bologna, Italy
+  conference: SIAMIS2018
   date: 2018-06-07
   slides: 2018-SIAM-IS-Bologna.pdf
   link: https://www.siam-is18.dm.unibo.it/presentations/156
@@ -457,12 +423,7 @@
   note: "Invited talk within the Session Minisymposium #31 “Variational Approaches for Regularizing Nonlinear Geometric Data”"
 
 - title: The Graph-Infinity Laplacian for Manifold-valued Data
-  conference:
-    name:  89<sup>th</sup>Annual Meeting of the  International Association of Applied Mathematics and Mechanics (Gesellschaft für angewandte Mathematik und Mechanik, GAMM)
-    url: http://gamm2018.de
-    start: 2018-03-19
-    end: 2018-03-23
-    place: München, Germany
+  conference: GAMM2018
   key: GAMM2018
   date: 2018-03-22
   slides: 2018-GAMM-Munich.pdf
@@ -485,12 +446,7 @@
 
 - title: Nonlocal Inpainting of Manifold-valued Data on Finite Weighted Graphs
   key: GSI17
-  conference:
-    name: 3<sup>rd</sup> Conference on Geometric Science of Information
-    url: http://gsi2017.org/
-    start: 2017-11-07
-    end: 2017-11-09
-    place: Paris, France
+  conference: GSI2017
   date: 2017-11-07
   literature-reference: BergmannTenbrinck-2017
   slides: 2017-GSI-Paris.pdf
@@ -515,12 +471,7 @@
 
 - title: MVIRT – A Toolbox for Manifold-valued Image Restoration
   key: ICIP17
-  conference:
-    name: IEEE International Conference on Image Processing (ICIP) 2017
-    url: http://2017.ieeeicip.org
-    start: 2017-09-17
-    place: Bejing, China
-    end: 2017-09-20
+  conference: ICIP2017
   date: 2017-09-17
   slides: https://sigport.org/documents/mvirt-toolbox-manifold-value-image-restoration
   link: https://www2.securecms.com/ICIP2017/Papers/PublicSessionIndex3.asp?Sessionid=1001
@@ -542,12 +493,7 @@
   note: Invited talk within the Special Session “Trends in Statistical Analysis of Manifold-Valued Data – Theory and Applications to Imaging”, supported by a DAAD conference travel grant
 
 - title: Infimal Convolution Coupling of First and Second Order Differences on Manifold-Valued Images
-  conference:
-    name: 6<sup>th</sup> International Conference on Scale Space and Variational Methods in Computer Vision
-    url: http://ssvm2017.compute.dtu.dk
-    start: 2017-06-04
-    end: 2017-06-08
-    place: Kolding, Denmark
+  conference: SSVM2017
   doi: 10.1007/978-3-319-58771-4_36
   key: SSVM2017
   literature-reference: BergmannFitschenPerschSteidl-2017-2
@@ -587,23 +533,14 @@
    - Pierre-Antoine Absil
 
 - title: A Graph Framework for Manifold-valued Data
-  conference:
-    name: 87<sup>th</sup>Annual Meeting of the  International Association of Applied Mathematics and Mechanics (Gesellschaft für angewandte Mathematik und Mechanik, GAMM)
-    start: 2017-03-06
-    end: 2017-03-10
-    place: "Weimar &amp; Ilmenau, Germany"
+  conference: GAMM2017
   key: GAMM2017
   date: 2017-03-07
   slides: 2017-GAMM-Weimar-Graph-Laplace.pdf
   highlight: 4
 
 - title: A Second Order Non-smooth Variational Model for Restoring Manifold-valued Image
-  conference:
-    name: Mecklenburg Workshop – Approximation Methods and Data Analysis
-    url: http://www.math.uni-luebeck.de/mitarbeiter/prestin/workshop/hasenwinkel2016/
-    start: 2016-09-05
-    end: 2016-09-09
-    place: Hasenwinkel, Germany
+  conference: HaWi2016
   key: HaWi2016
   date: 2016-09-08
 
@@ -624,32 +561,20 @@
     - Daniel Tenbrinck
 
 - title: A Second Order Non-smooth Variational Model for Restoring Manifold-valued images
-  conference:
-    name: 37<sup>th</sup> Northern German Colloquium on Applied Analysis and Numerical Mathematics
-    start: 2016-04-22
-    end: 2016-04-23
-    place: Lübeck, Germany
+  conference: NoKo2016
   key: NoKO2016
   slides: 2016-GAMM-Braunschweig.pdf
   date: 2016-03-23
 
 - title: A Second Order Non-smooth Variational Model for Restoring Manifold-valued images
-  conference:
-    name: 86<sup>th</sup>Annual Meeting of the  International Association of Applied Mathematics and Mechanics (Gesellschaft für angewandte Mathematik und Mechanik, GAMM)
-    start: 2016-03-07
-    end: 2016-03-11
-    place: Braunschweig, Germany
+  conference: GAMM2016
   key: GAMM2016
   slides: 2016-GAMM-Braunschweig.pdf
   date: 2016-03-07
   note: Invited talk within the Young Researchers Minisymposium YR 3 “Dedicated regularization for variational image processing”
 
 - title: A Second Order Non-smooth Variational Model for Restoring Manifold-valued images
-  conference:
-    name: Variational Methods for Dynamic Inverse Problems and imaging
-    place: Münster, Germany
-    start: 2015-09-28
-    end: 2015-09-30
+  conference: VMDIPI2015
   key: VMDIPI2015
   date: 2015-09-30
   slides: 2015-Muenster-VMDIPI.pdf
@@ -672,12 +597,7 @@
   note: Invited talk
 
 - title: The anisotropic Strang-Fix conditions
-  conference:
-    name: Mecklenburger Workshop – Approximation Methods and Function Spaces
-    url: http://www.math.uni-luebeck.de/workshop/hasenwinkel2015.php
-    place: Hasenwinkel, Germany
-    start: 2015-03-16
-    end: 2015-03-20
+  conference: HaWi2015
   key: HaWi2015
   date: 2015-03-18
   slides: 2015-Hasenwinkel.pdf
@@ -704,12 +624,7 @@
   note: Invited talk and research stay at ICB
 
 - title: Second Order TV-Type Regularization Methods for Manifold-Valued Images
-  conference:
-    name: SIAM Conference of Imaging Sciences 2016
-    url: https://www.siam.org/meetings/is16/
-    start: 2016-05-23
-    place: Albuquerque, NM, USA
-    end: 2016-05-26
+  conference: SIAMIS2016
   key: SIAMIS16
   date: 2016-05-24
   slides: https://www.pathlms.com/siam/courses/2426/sections/3293/documents/2945
@@ -736,13 +651,8 @@
    This is joint work with M. Bačák, J. Persch, G. Steidl, and A. Weinmann.
 
 - title: Inpainting of Cyclic Data using First and Second Order Differences
-  conference:
-    name: 10th International Conference on Energy Minimizing Methods in Computer Vision and Pattern Recognition
-    url: http://ias.ust.hk/conf/emmcvpr/
-    place: Hong Kong
-    start: 2015-01-13
-    end: 2015-01-16
-  key: EMMCVPR16
+  conference: EMMCVPR2015
+  key: EMMCVPR15
   date: 2015-01-14
   slides: 2015-EMMCVPR15-Hongkong.pdf
   abstract: >
@@ -760,22 +670,13 @@
     demonstrate the performance of our algorithm.
 
 - title: Second Order Differences of Cyclic Data and Applications in Variational Denoising
-  conference:
-    name: Deutsch-französischer Workshop Mathematische Bildverarbeitung
-    place: Fraunhofer ITWM, Kaiserslautern, Germany
-    start: 2014-10-06
-    end: 2014-10-08
+  conference: DFW2014
   key: DFW2014
   date: 2014-10-07
   slides: 2014-IPaPR-Goettingen.pdf
 
 - title: Second Order Differences of Cyclic Data and Applications in Variational Denoising
-  conference:
-    name: Mathematical Image Processing and Phase Retrieval
-    url: http://na.math.uni-goettingen.de/Sigphase14/Signal_phase14.html
-    place: Göttingen, Germany
-    start: 2014-09-01
-    end: 2014-09-03
+  conference: MIP2014
   key: MIP2014
   date: 2014-09-02
   slides: 2014-IPaPR-Goettingen.pdf
@@ -792,54 +693,31 @@
   note: Invited talk and research stay at ICB
 
 - title: Multivariate anisotrope Interpolation auf dem Torus
-  conference:
-    name: Mecklenburger Workshop – Approximationsmethoden und schnelle Algorithmen
-    url: http://www.math.uni-luebeck.de/mitarbeiter/prestin/workshop/hasenwinkel2014/hasenwinkel2014.php
-    place: Hasenwinkel, Germany
-    start: 2014-03-17
-    end: 2014-03-20
+  conference: HaWi2014
   key: HaWi2014
   date: 2014-03-18
   slides: 2014-Hasenwinkel.pdf
 
 - title: Multivariate Anisotropic periodic Wavelets
-  conference:
-    name: 85<sup>th</sup>Annual Meeting of the  International Association of Applied Mathematics and Mechanics (Gesellschaft für angewandte Mathematik und Mechanik, GAMM)
-    place: Erlangen, Germany
-    start: 2014-03-10
-    end: 2014-03-14
+  conference: GAMM2014
   key: GAMM2014
   date: 2014-03-12
   slides: 2014-GAMM-Erlangen.pdf
 
 - title: Multivariate Anisotropic Wavelets on the Torus
-  conference:
-    name: Workshop on Advances in Image Processing
-    url: http://www.mathematik.uni-kl.de/events/aip/
-    place: Anweiler am Trifels, Germany
-    start: 2013-09-30
-    end: 2013-10-02
+  conference: AIP2013
   key: AIP2013
   date: 2013-10-01
   slides: 2011-NoKo-Bergmann.pdf
 
 - title: Multivariate anisotrope Wavelets auf dem Torus
-  conference:
-    name: Mecklenburger Workshop &mdash; Approximationsmethoden und schnelle Algorithmen
-    url: http://www.math.uni-luebeck.de/mitarbeiter/prestin/workshop/hasenwinkel2013/hasenwinkel2013.html
-    place: Hasenwinkel, Germany
-    start: 2013-06-20
-    end: 2013-06-23
+  conference: HaWi2013
   key: HaWi2013
   date: 2013-06-21
   slides: 2013-NoKo-Clausthal.pdf
 
 - title: Multivariate anisotrope Wavelets auf dem Torus
-  conference:
-    name: 32. Norddeutsches Kolloquium über angewandte Analysis und Numerische Mathematik
-    place: Clausthal, Germany
-    start: 2013-05-03
-    end: 2013-05-04
+  conference: NoKo2013
   key: NoKo2013
   date: 2013-05-03
   slides: 2013-NoKo-Clausthal.pdf
@@ -855,23 +733,13 @@
   slides: 2013-Kaiserslautern.pdf
 
 - title: The multivariate anisotropic Wavelet Transform on the Torus
-  conference:
-    name: Workshop on Mathematics for Life Sciences
-    url: http://www.math.uni-luebeck.de/EUMLS/2012.php
-    end: 2012-09-14
-    start: 2012-09-03
-    place: Kiev, Ukraine
+  conference: EUMLS2012
   key: Kiev2012
   date: 2012-09-10
   slides: 2012-Kyiv-EUMLS.pdf
 
 - title: Die multivariate periodische Wavelet-Transformation
-  conference:
-    name: 32. Norddeutsches Kolloquium über angewandte Analysis und Numerische Mathematik
-    url: http://www.dfg-spp1324.de/nuhagtools/event_NEW/make.php?event=NOKO11
-    start: 2011-05-27
-    end: 2011-05-28
-    place: Institut für Mathematik, Universität Osnabrück, Osnabrück, Germany
+  conference: NoKo2011
   key: NoKo0211
   date: 2011-05-27
   link: http://www.dfg-spp1324.de/nuhagtools/talks/talks_details.php?id=1323&nl=Y
@@ -893,23 +761,13 @@
     wählt.
 
 - title: Multivariate translationsinvariante R&auml;ume
-  conference:
-    name: 21. Rhein-Ruhr Workshop
-    url: http://www.fernuni-hagen.de/numerik/ORR+RRW/RRW/ArchivRRW/WS10-11/workshop2011.html
-    place: Königswinter, Germany
-    start: 2011-02-04
-    end: 2011-02-05
+  conference: RRW2011
   key: RRW2011
   date: 2011-02-5
   slides: 2011-Koenigswinter-Bergmann.pdf
 
 - title: Multivariate Periodic Function Spaces
-  key: Dgs11
-  conference:
-    name: Sparse Representations and Efficitent Sensing of Data
-    start: 2011-01-30
-    end: 2011-02-04
-    place: Dagstuhl Seminar, Dagstuhl, Germany
+  conference: Dagstuhl2011
   key: Dagstuhl2011
   date: 2011-02-03
   doi: 10.4230/DagRep.1.1.108

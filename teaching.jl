@@ -78,3 +78,52 @@ function format_supervision(entry)
     </dd>
     """
 end
+
+#
+#
+#
+#
+#
+function isless_course_date(a::Dict,b::Dict)
+    if !haskey(a, "date") && !haskey(b, "date") || a["date"]==b["date"]
+        return a["name"] < b["name"]
+    end
+    !haskey(a, "date") && return false #a not finished but b, then a is not less
+    !haskey(b, "date") && return true
+    date_a = parse(Date, string(a["date"]))
+    date_b = parse(Date, string(b["date"]))
+    return !(isless(date_a,date_b))
+end
+
+
+hfun_lectures() = courses(teaching["lectures"])
+hfun_exercises() = courses(teaching["exercises"])
+
+function courses(list_of_courses)
+    list_html = ""
+    list = sort(collect(list_of_courses), lt=isless_course_date)
+    for entry ∈ list
+        info = """$(entry_to_html(entry,"note"))"""
+        if haskey(entry,"with")
+            names = join( [
+                has_name(name) ? hfun_person([name,"link_shortname"]) : """<span class="person unknown">$name</span>""" for name ∈ entry["with"]
+                ], ", ", ", and ")
+            info = """$(info)<span class="with">$names</span>
+                """
+        end
+        instname = haskey(entry,"university") ? institute_name(entry["university"],"short") : ""
+        (length(info) > 0) && (info = """
+                                        <span class="info">$info</span>""")
+        list_html = """$(list_html)
+                       <dt class="semester">$(get(entry,"term",""))</dt>
+                       <dd class="course">
+                           $(entry_to_html(entry,"name"; link="link"))$(entry_to_html(entry,"text"))$(instname)$info
+                       </dd>
+                    """
+    end
+    return """
+              <dl class="courses">
+              $(list_html)
+              </dl>
+           """
+end

@@ -80,7 +80,10 @@ if a `url` is given the institute is linked to said url.
 function hfun_institute(param::Vector{String})::String
     name = param[1]
     style = (length(param) > 1 ? param[2] : "full")
-    s = "";
+    return institute_name(name,style)
+end
+function institute_name(name,style)
+    display_name = "";
     if haskey(institutes,name)
         display_name = haskey(institutes[name], style) ? institutes[name][style] : institutes[name]["name"]
         if haskey(institutes[name],"url")

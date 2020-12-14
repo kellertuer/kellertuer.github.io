@@ -1,3 +1,11 @@
+# Teaching
+
 @def title = "Teaching."
 
-# Teaching
+## Lectures
+
+{{lectures}}
+
+## Exercises & Seminars
+
+{{exercises}}
