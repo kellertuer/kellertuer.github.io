@@ -137,7 +137,36 @@ function hfun_remainingconferences()
         </ul>
     """
 end
-
+function hfun_forthcomingconferences()
+    sorted_conf = sort(collect(conferences), lt = (a,b) -> a[2]["start"] > b[2]["start"])
+    s = "";
+    for conf in sorted_conf
+        if conf[2]["start"] > Dates.now()-Week(2) # all that are newer than 2 weeks
+            s = """$s
+                   <li>$(fomat_conference(conf[2]))
+                   <span class="icons">
+                    $(get(conf[2], "talk", false) ? """<i class="fas fa-chalkboard-teacher"></i>""" : "")
+                    $(get(conf[2], "organizer", false) ? """<i class="fas fa-chair"></i>""" : "")
+                    </span>
+                   </li>
+                """
+        end
+    end
+    if length(s) > 0
+        return """
+                  <h2>Forthcoming Conferences</h2>
+                  <p>I will be attending the following conferences</p>
+                  <ul class="conferences">
+                  $(s)
+                  </ul>
+        """
+    else
+        return """
+                  <h2>Forthcoming Conferences</h2>
+                  <p>There are currently no forthcoming conferences stored here, that I plan to attend</p>
+              """
+    end
+end
 function fomat_conference(conf::Dict)
     s = """
            $(entry_to_html(conf,"name"; link="url"))
