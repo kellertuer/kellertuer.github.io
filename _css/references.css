@@ -91,7 +91,7 @@ ol.bibliography li i.ai-orcid-square,
 ol.bibliography li i.ai-orcid {
     color:#a6ce39;
 }
-ul.nav-icons {
+ol.bibliography li ul.nav-icons {
     margin: 0;
     margin-top: .75rem;
     padding: 0;
@@ -171,7 +171,7 @@ ul.talks span.dates:before
 }
 ul.talks span.name:after,
 ul.talks span.institute:after,
-ul.talks span.dates:after,
+ul.talks span.dates:after
 {
     content: ",\00a0";
 }
@@ -179,4 +179,13 @@ ul.talks span.place:after,
 ul.talks span.university:after
 {
     content: ".";
+}
+ul.talks li ul.nav-icons {
+    margin: 0;
+    margin-top: -.1 25rem;
+    padding: 0;
+    display: block;
+    float: right;
+    margin-bottom: 1rem;
+    list-style-type: none;
 }
