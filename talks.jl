@@ -110,9 +110,11 @@ function format_talk(talk::Dict)
         """
     # content: abstract
     if haskey(talk,"abstract") # abstract content
+        abstract = strip(talk["abstract"])
+        abstract = replace(abstract, "\n" => "\n\n")
         ts = """$ts
         <div id="$key-abstract" class="blockicon abstract collapse fas fa-lg fa-file-alt">
-            <div class="content">$(fd2html(talk["abstract"]; internal=true))</div>
+            <div class="content">$(fd2html(abstract; internal=true))</div>
         </div>
         """
     end
