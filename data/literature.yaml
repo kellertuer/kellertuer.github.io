@@ -181,7 +181,7 @@
         We illustrate the generalized Basic Scheme on an anisotropic laminate and a generalized ellipsoidal Hashin structure.
         For both we give an analytical solution to the elasticity problem, in two- and three dimensions, respectively.
         We then illustrate the possibilities of choosing a pattern.
-        Compared to classical grids this introduces both a reduction of computation time and a reduced error of the numerical method. It also allows for anisotropic subsampling, i.e.~choosing a sub lattice of a pixel or voxel grid based on anisotropy information of the material at hand.
+        Compared to classical grids this introduces both a reduction of computation time and a reduced error of the numerical method. It also allows for anisotropic subsampling, i.e. choosing a sub lattice of a pixel or voxel grid based on anisotropy information of the material at hand.
     author:
         - Ronny Bergmann
         - Dennis Merkert
@@ -474,7 +474,7 @@
         Like these classical images, manifold-valued data might suffer from measurement errors in form of noise or missing data.
         In this paper we present the manifold-valued image restoration toolbox (MVIRT) that provides implementations of classical image processing tasks.
         Based on recent developments in variational methods for manifold-valued image processing methods, like total variation regularization, the toolbox provides easy access to work with these algorithms.
-        The toolbox is implemented in Matlab, open source, and easily extendible, e.g.~with own manifolds, noise models or further algorithms.
+        The toolbox is implemented in Matlab, open source, and easily extendible, e.g. with own manifolds, noise models or further algorithms.
         This paper introduces the main mathematical methods as well as numerical examples.
     author:
         - Ronny Bergmann
