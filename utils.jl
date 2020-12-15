@@ -13,7 +13,7 @@ include("teaching.jl")
 # Overview projects
 #
 function hfun_projectslist()
-    project_files = filter!(x -> endswith(x, ".md") && x != "index.md", readdir(joinpath(@__DIR__, "projects")))
+    project_files = filter!(x -> endswith(x, ".md") && x != "index.md", readdir("projects"))
     # collect dates
     projects = [
         Dict( [var => pagevar("projects/$project", var) for var ∈ ["title", "partners", "start", "end", "summary"]] )

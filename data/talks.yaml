@@ -39,26 +39,26 @@
     local computation of distances and angles. These features enable construction of
     efficient algorithms that respect the nonlinear structure, for example for optimization,
     interpolation, and statistical modeling.
-    <br><br>
-    In this talk, we demonstrate various tools that <a href="https://juliamanifolds.github.io/Manifolds.jl/stable/">Manifolds.jl</a> provides for working with
+
+    In this talk, we demonstrate various tools that [Manifolds.jl](https://juliamanifolds.github.io/Manifolds.jl/stable/) provides for working with
     manifolds. With these tools, you can for example explicitly locally linearize points
     using inverse retractions and orthonormal bases. You can also compute intrinsic
     statistics, such as the Riemannian mean and variance, of data on manifolds. We also
-    extend <a href="https://juliastats.org/Distributions.jl/stable/">Distributions.jl</a> to support distributions on arbitrary manifolds, which can be
+    extend [Distributions.jl](https://juliastats.org/Distributions.jl/stable/) to support distributions on arbitrary manifolds, which can be
     used to generate random points on a manifold or for statistical modeling.
-    <br><br>
-    <a href="https://juliamanifolds.github.io/Manifolds.jl/stable/">Manifolds.jl</a> implements a library of manifolds and provides combinators to construct new
+
+    [Manifolds.jl](https://juliamanifolds.github.io/Manifolds.jl/stable/) implements a library of manifolds and provides combinators to construct new
     manifolds from these. Examples are the product manifold of two manifolds, the power
     manifold, the tangent bundle, and Lie groups. Using a trait-based system, any manifold
     may be augmented with additional geometric structure, including various metrics, without
     sacrificing efficiency.
-    <br><br>
-    We also present the light-weight interface package <a href="https://juliamanifolds.github.io/Manifolds.jl/stable/interface.html">ManifoldsBase.jl</a>, which enables users
-    to easily extend <a href="https://juliamanifolds.github.io/Manifolds.jl/stable/">Manifolds.jl</a> with new algorithms and additional manifolds thanks to
+
+    We also present the light-weight interface package [ManifoldsBase.jl](https://juliamanifolds.github.io/Manifolds.jl/stable/interface.html), which enables users
+    to easily extend [Manifolds.jl](https://juliamanifolds.github.io/Manifolds.jl/stable/) with new algorithms and additional manifolds thanks to
     multiple dispatch. The interface can also be used to develop new, stand-alone projects.
     It is minimally restrictive and makes it possible to write algorithms that are
     independent from any concrete implementations of the manifolds. One package that uses
-    this interface is <a href="https://manoptjl.org">Manopt.jl</a>, which provides optimization algorithms on Riemannian
+    this interface is [Manopt.jl](https://manoptjl.org), which provides optimization algorithms on Riemannian
     manifolds, with a focus on high-dimensional and non-smooth optimization.
   link: https://live.juliacon.org/talk/KCFCMQ
   video: https://youtu.be/md-FnDGCh9M
@@ -165,7 +165,7 @@
     like wind field approximation, rigid body motion interpolation, or sphere-valued
     data analysis. The resulting curve should strike a balance between data
     proximity and a smoothing regularization constraint.
-    <br><br>
+
     In this talk we present a variational model to fit a composite Bézier curve
     to the set of data points on a Riemannian manifold. The resulting curve is
     obtained in such a way that its mean squared acceleration is minimal in addition
@@ -198,7 +198,7 @@
     errors like presence of noise or incompleteness. Hence there is a need to
     perform data processing tasks like denoising, inpainting or interpolation
     on these manifold-valued data.
-    <br><br>
+
     In this talk we present variational models for these tasks involving discrete second order differences for manifold-valued data.
     To compute a minimizer of such a the model, we obtain a high-dimensional, possibly non-smooth, optimization problem defined on a Riemannian manifold.
     We present algorithms to efficiently solve these problems and illustrate their performance.
@@ -224,7 +224,7 @@
     errors like presence of noise or incompleteness. Hence there is a need to
     perform data processing tasks like denoising, inpainting or interpolation
     on these manifold-valued data.
-    <br><br>
+
     In this talk we present variational models for these tasks involving discrete second order differences for manifold-valued data.
     To compute a minimizer of such a the model, we obtain a high-dimensional, possibly non-smooth, optimization problem defined on a Riemannian manifold.
     We present algorithms to efficiently solve these problems and illustrate their performance.
@@ -246,7 +246,7 @@
     errors like presence of noise or incompleteness. Hence there is a need to
     perform data processing tasks like denoising, inpainting or even interpolation
     on these manifold-valued data.
-    <br><br>
+
     In this talk we present variational methods and nonsmooth optimization
     algorithms for processing manifold-valued data. For the first, we present first
     and second order difference based priors and their application to the tasks
@@ -285,7 +285,7 @@
     or sphere-valued data analysis.
     The resulting curve should strike a balance between data proximity and
     a smoothing regularization constraint.
-    <br><br>
+
     In this talk we present a variational model to fit a composite Bézier curve
     to the set of data points $d_0,\dots,d_n$ on a Riemannian manifold $\mathcal
     M$. The resulting curve is obtained in such a way that its mean squared
@@ -316,7 +316,7 @@
     or sphere-valued data analysis.
     The resulting curve should strike a balance between data proximity and
     a smoothing regularization constraint.
-    <br><br>
+
     In this talk we present a variational model to fit a composite Bézier curve
     to the set of data points $d_0,\dots,d_n$ on a Riemannian manifold $\mathcal
     M$. The resulting curve is obtained in such a way that its mean squared
@@ -342,7 +342,7 @@
     or sphere-valued data analysis.
     The resulting curve should strike a balance between data proximity and
     a smoothing regularization constraint.
-    <br><br>
+
     In this talk we present a variational model to fit a composite Bézier curve
     to the set of data points $d_0,\dots,d_n$ on a Riemannian manifold $\mathcal
     M$. The resulting curve is obtained in such a way that its mean squared
@@ -379,7 +379,7 @@
     denoising, inpainting or segmentation on these manifold-valued images. Recently
     the ROF-Model for TV regularization has been transferred to the setting of
     manifold-valued images to perform such image processing tasks.
-    <br><br>
+
     In this talk we present methods and algorithms to compute the TV regularization
     for manifold-valued images efficiently using variational methods. We present
     generalizations to second order models, and to the case, where the data is not
@@ -434,7 +434,7 @@
             values in InSAR imaging or when dealing with diffusion tensors in
             DT-MRI. Furthermore, to process not only rectangular domains and
             regular grids, graphs can be employed to model both data on
-            arbitrary (sampled) manifolds as well as nonlocal vicinity. <br><br>
+            arbitrary (sampled) manifolds as well as nonlocal vicinity.
             In this talk we extend a framework for processing discrete
             manifold-valued data to the task of inpainting missing values, such
             that the inpainted area nonlocally incorporates data into the
@@ -647,7 +647,7 @@
    proximal point algorithm, where the proximal maps can be computed using
    Jacobian fields. The algorithm is then applied to several examples on the
    aforementioned manifolds to illustrate the efficiency of the algorithm.
-   <br><br>
+
    This is joint work with M. Bačák, J. Persch, G. Steidl, and A. Weinmann.
 
 - title: Inpainting of Cyclic Data using First and Second Order Differences

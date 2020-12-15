@@ -43,12 +43,12 @@ function hfun_talks(params::Vector{String}=String[])
                 (lastyear != 0) && (s = "$s\n</ul>") # close old list
                 s = """$s
                        <h3 class="year">$(newyear)</h3>
-                       <ul class="talks">
+                       <ul class="talks fa-ul">
                 """
             else
                 if lastyear==0
                     s = """$s
-                           <ul class="talks">
+                           <ul class="talks fa-ul">
                         """
                 end
             end
@@ -56,7 +56,7 @@ function hfun_talks(params::Vector{String}=String[])
         end
         haskey(talk,"conference") && push!(exclude_conf,talk["conference"])
         s = """$s
-            <li>$(format_talk(talk))</li>
+            <li><span class="fa-li"><i class="fas fa-chalkboard-teacher"></i></span>$(format_talk(talk))</li>
             """
     end
     s = "$s \n</ul>" # close old list
@@ -112,7 +112,7 @@ function format_talk(talk::Dict)
     if haskey(talk,"abstract") # abstract content
         ts = """$ts
         <div id="$key-abstract" class="blockicon abstract collapse fas fa-lg fa-file-alt">
-            <div class="content">$((talk["abstract"]))</div>
+            <div class="content">$(fd2html(talk["abstract"]; internal=true))</div>
         </div>
         """
     end
@@ -127,12 +127,12 @@ function hfun_remainingconferences()
     for conf in sorted_conf
         if conf[2]["start"] < Dates.now()
             s = """$s
-                   <li>$(fomat_conference(conf[2]))</li>
+                   <li><span class="fa-li"><i class="fas fa-users"></i></span>$(fomat_conference(conf[2]))</li>
                 """
         end
     end
     return """
-        <ul class="conferences">
+        <ul class="conferences fa-ul">
         $(s)
         </ul>
     """
@@ -143,7 +143,7 @@ function hfun_forthcomingconferences()
     for conf in sorted_conf
         if conf[2]["start"] > Dates.now()-Week(2) # all that are newer than 2 weeks
             s = """$s
-                   <li>$(fomat_conference(conf[2]))
+                   <li><span class="fa-li"><i class="fas fa-users"></i></span>$(fomat_conference(conf[2]))
                    <span class="icons">
                     $(get(conf[2], "talk", false) ? """<i class="fas fa-chalkboard-teacher"></i>""" : "")
                     $(get(conf[2], "organizer", false) ? """<i class="fas fa-chair"></i>""" : "")
@@ -156,7 +156,7 @@ function hfun_forthcomingconferences()
         return """
                   <h2>Forthcoming Conferences</h2>
                   <p>I will be attending the following conferences</p>
-                  <ul class="conferences">
+                  <ul class="conferences fa-ul">
                   $(s)
                   </ul>
         """
