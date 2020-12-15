@@ -112,7 +112,7 @@ function format_talk(talk::Dict)
     if haskey(talk,"abstract") # abstract content
         ts = """$ts
         <div id="$key-abstract" class="blockicon abstract collapse fas fa-lg fa-file-alt">
-            <div class="content">$(talk["abstract"])</div>
+            <div class="content">$((talk["abstract"]))</div>
         </div>
         """
     end

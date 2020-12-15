@@ -203,8 +203,8 @@
         In order to translate variational models and partial differential equations to a graph, certain operators have been investigated and successfully applied to real-world applications involving graph models.
         So far the graph framework has been limited to real- and vector-valued functions on Euclidean domains.
         In this paper we generalize this model to the case of manifold-valued data.
-        We introduce the basic calculus needed to formulate variational models and partial differential equations for manifold-valued functions and discuss the proposed graph framework for two particular families of operators, namely, the isotropic and anisotropic graph \(p\)-Laplacian operators, \(p\geq 1\).
-        Based on the choice of \(p\) we are in particular able to solve optimization problems on manifold-valued functions involving total variation (\(p=1\)) and Tikhonov (\(p=2\)) regularization.
+        We introduce the basic calculus needed to formulate variational models and partial differential equations for manifold-valued functions and discuss the proposed graph framework for two particular families of operators, namely, the isotropic and anisotropic graph $p$-Laplacian operators, $p\geq 1$.
+        Based on the choice of $p$ we are in particular able to solve optimization problems on manifold-valued functions involving total variation ($p=1$) and Tikhonov ($p=2$) regularization.
         Finally, we present numerical results from processing both synthetic as well as real-world manifold-valued data, e.g., from diffusion tensor imaging (DTI) and light detection and ranging (LiDAR) data.
     author:
         - Ronny Bergmann
@@ -328,10 +328,10 @@
 "BergmannChanHielscherPerschSteidl-2016":
     abstract:
         The paper addresses the generalization of the half-quadratic minimization method for the restoration of images having values in a complete, connected Riemannian manifold.
-        We recall the half-quadratic minimization method using the notation of the \(c\)-transform and adapt the algorithm to our special variational setting.
+        We recall the half-quadratic minimization method using the notation of the $c$-transform and adapt the algorithm to our special variational setting.
         We prove the convergence of the method for Hadamard spaces.
-        Extensive numerical examples for images with values on spheres, in the rotation group \(\operatorname\{SO\}(3)\), and in the manifold of positive definite matrices demonstrate the excellent performance of the algorithm.
-        In particular, the method with \(\operatorname\{SO\}(3)\)-valued data shows promising results for the restoration of images obtained from Electron Backscattered Diffraction which are of interest in material science.
+        Extensive numerical examples for images with values on spheres, in the rotation group $\operatorname\{SO\}(3)$, and in the manifold of positive definite matrices demonstrate the excellent performance of the algorithm.
+        In particular, the method with $\operatorname\{SO\}(3)$-valued data shows promising results for the restoration of images obtained from Electron Backscattered Diffraction which are of interest in material science.
     author:
         - Ronny Bergmann
         - Raymond Chan
@@ -373,12 +373,12 @@
 
 "BergmannLausSteidlWeinmann-2014":
     abstract: >
-        In many image and signal processing applications, such as interferometric synthetic aperture radar (SAR), electroencephalogram (EEG) data analysis, ground-based astronomy, and color image restoration, in HSV or LCh spaces the data has its range on the one-dimensional sphere \(\mathbb S^1\).
+        In many image and signal processing applications, such as interferometric synthetic aperture radar (SAR), electroencephalogram (EEG) data analysis, ground-based astronomy, and color image restoration, in HSV or LCh spaces the data has its range on the one-dimensional sphere $\mathbb S^1$.
         Although the minimization of total variation (TV) regularized functionals is among the most popular methods for edge-preserving image restoration, such methods were only very recently applied to cyclic structures.
         However, as for Euclidean data, TV regularized variational methods suffer from the so-called staircasing effect. This effect can be avoided by involving higher order derivatives into the functional.
         This is the first paper which uses higher order differences of cyclic data in regularization terms of energy functionals for image restoration.
-        We introduce absolute higher order differences for \(\mathbb S^1\)-valued data in a sound way which is independent of the chosen representation system on the circle.
-        Our absolute cyclic first order difference is just the geodesic distance between points. Similar to the geodesic distances, the absolute cyclic second order differences have only values in \([0,\pi]\).
+        We introduce absolute higher order differences for $\mathbb S^1$-valued data in a sound way which is independent of the chosen representation system on the circle.
+        Our absolute cyclic first order difference is just the geodesic distance between points. Similar to the geodesic distances, the absolute cyclic second order differences have only values in $[0,\pi]$.
         We update the cyclic variational TV approach by our new cyclic second order differences.
         To minimize the corresponding functional we apply a cyclic proximal point method which was recently successfully proposed for Hadamard manifolds.
         Choosing appropriate cycles this algorithm can be implemented in an efficient way. The main steps require the evaluation of proximal mappings of our cyclic differences for which we provide analytical expressions.

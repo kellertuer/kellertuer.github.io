@@ -118,7 +118,7 @@ function format_bibtex_entry(entry,key)
     if haskey(entry,"abstract") # abstract content
         s = """$s
         <div id="$key-abstract" class="blockicon abstract collapse fas fa-lg fa-file-alt">
-            <div class="content">$(entry["abstract"])</div>
+            <div class="content">$((entry["abstract"]))</div>
         </div>
         """
     end

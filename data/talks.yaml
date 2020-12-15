@@ -553,7 +553,7 @@
     place: Münster, Germany
   date: 2016-05-11
   abstract: >
-    In many real world situations, measured data is noisy and nonlinear, i.e., the data is given as values in a certain manifold or on a submanifold of the euclidean space the measurements are taken in. Examples are InSAR images and the hue channel of HSV, where the entries are phase-valued, directions in \(\mathbb R n\), which are data given on sphere \(\mathbb S^{n−1}\), and diffusion tensor magnetic resonance imaging, where the obtained data items are symmetric positive definite \(3\times 3\) matrices.
+    In many real world situations, measured data is noisy and nonlinear, i.e., the data is given as values in a certain manifold or on a submanifold of the euclidean space the measurements are taken in. Examples are InSAR images and the hue channel of HSV, where the entries are phase-valued, directions in $\mathbb R n$, which are data given on sphere $\mathbb S^{n−1}$, and diffusion tensor magnetic resonance imaging, where the obtained data items are symmetric positive definite $3\times 3$ matrices.
 
     In this talk we extend the recently introduced total variation model on manifolds by a second order TV type model. We first introduce second order differences on manifolds in a sound way using the induced metric on Riemannian manifolds. By avoiding a definition involving tangent bundles, this definition allows for a minimization employing the inexact cyclic proximal point algorithm, where the proximal maps can be computed using Jacobian fields. The algorithm is then applied to several examples on the aforementioned manifolds to illustrate the efficiency of the algorithm.
   note: Invited talk and week research stay
@@ -591,7 +591,7 @@
     In many real world situations, measured data is noisy and nonlinear, i.e.,
     the data is given as values in a certain manifold. Examples are InSAR images
     and the hue channel of HSV, where the entries are phase-valued, directions
-    in \(R^n\), which are data given on \(S^{n-1}\), and diffusion tensor magnetic
+    in $R^n$, which are data given on $S^{n-1}$, and diffusion tensor magnetic
     resonance imaging, where the obtained data items are symmetric positive
     definite matrices.
   note: Invited talk
@@ -635,8 +635,8 @@
    In many real world situations, measured data is noisy and nonlinear, i.e.,
    the data is given as values in a certain manifold. Examples are
    Interferometric Synthetic Aperture Radar (InSAR) images or the hue channel of
-   HSV, where the entries are phase-valued, directions in \(\mathbb R^n\),
-   which are data given on \(\mathbb S^{n-1}\), and diffusion tensor magnetic
+   HSV, where the entries are phase-valued, directions in $\mathbb R^n$,
+   which are data given on $\mathbb S^{n-1}$, and diffusion tensor magnetic
    resonance imaging (DT-MRI), where the obtained pixel of the image are
    symmetric positive definite matrices.<br/><br>
    In this talk we extend the recently introduced total variation model on
