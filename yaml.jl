@@ -20,11 +20,11 @@ function entries_to_group(data,keys; classes=keys, group_class="group", iconstyl
               </span>
            """
 end
-function entry_to_list_icon(data,key; linkprefix="", iconstyle="fas", icon="")
+function entry_to_list_icon(data,key; linkprefix="", iconstyle="fas", icon="", title=get(data,key,key))
     !haskey(data,key) && return ""
      return """
                <li>
-                   <a href="$(linkprefix)$(data[key])" title="$(data[key])" target="_blank">
+                   <a href="$(linkprefix)$(data[key])" title="$(title)" target="_blank">
                        <i class="$iconstyle $icon"></i>
                    </a>
                 </li>

@@ -38,7 +38,7 @@ function append_citekey(citekey)
         push!(cite_keys,citekey)
         Franklin.set_var!(Franklin.LOCAL_VARS, "cite_keys", cite_keys)
     end
-    return """<span class="cite">$(citekey)</span>"""
+    return """<span class="cite"><a href="#$(citekey)">$(citekey)</a></span>"""
 end
 """
     {{references}}
@@ -53,12 +53,10 @@ function hfun_references(params)
     if length(params) > 0
         sortby = params[1]
     end
-    print(sortby)
     list_literature = ""
     isnothing(locvar("cite_keys")) && return "A"
     unique_keys = unique(locvar("cite_keys"))
     (sortby=="alphabet") && (unique_keys = sort(unique_keys))
-    print(unique_keys)
     for key in unique_keys
         list_literature = """$list_literature
             $(format_bibtex_entry(literature[key],key; list_style="key"))
@@ -181,6 +179,10 @@ function format_bibtex_entry(entry,key; list_style="number")
     s = """$(s)$(entry_to_list_icon(entry,"doi"; linkprefix="http://dx.doi.org/", iconstyle="ai ai-lg", icon="ai-doi"))"""
     s = """$(s)$(entry_to_list_icon(entry,"github"; linkprefix="https://github.com/", iconstyle="fab fa-lg", icon="fa-github"))"""
     s = """$(s)$(entry_to_list_icon(entry,"link"; iconstyle="fas fa-lg", icon="fa-link"))"""
+    s = """$(s)$(entry_to_list_icon(entry,"pdf"; iconstyle="fas fa-lg", icon="fa-file-pdf"))"""
+    if haskey(entry,"isbn_link") && haskey(entry,"isbn")
+        s = """$(s)$(entry_to_list_icon(entry,"isbn_link"; iconstyle="fas fa-lg", icon="fa-book", title="ISBN: $(entry["isbn"])"))"""
+    end
     s = """$s
         </ul>
     """

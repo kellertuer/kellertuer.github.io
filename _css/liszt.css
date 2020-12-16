@@ -7,6 +7,15 @@
 .error {
     color: #CC3311;
 }
+p .cite:before {
+    content: "["
+}
+p .cite:after {
+    content: "]"
+}
+p .cite {
+    font-size: small;
+}
 ol.bibliography, ol.literature {
     margin-bottom: .5rem;
     list-style-type: none;

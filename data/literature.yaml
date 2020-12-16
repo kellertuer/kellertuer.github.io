@@ -1,4 +1,74 @@
-"Key":
-  author:
-    - A
-    - B
+StorathWeinmann-2020:
+    author:
+        - Storath, M.
+        - Andreas Weinmann
+    abstract: >
+        In this paper, we consider the variational regularization of manifold-valued data in the inverse problems setting. In particular, we consider total variation and total generalized variation regularization for manifold-valued data with indirect measurement operators. We provide results on the well-posedness and present algorithms for a numerical realization of these models in the manifold setup. Further, we provide experimental results for synthetic and real data to show the potential of the proposed schemes for applications.
+    title: Variational Regularization of Inverse Problems for Manifold-Valued Data
+    journaltitle: "Information and Inference: A Journal of the IMA"
+    year: 2020
+    month: 06
+    eprint: 1804.10432
+    eprinttype: arXiv
+    doi: 10.1093/imaiai/iaaa010
+
+EHGDSNBW-2019:
+    author:
+        - Esposito, M.
+        - Hennersperger, C.
+        - Gobl, R.
+        - Demaret, L.
+        - Storath, M.
+        - Navab, M.
+        - Baust, M.
+        - Andreas Weinmann
+    doi: 10.1109/tmi.2019.2898480
+    year: 2019
+    volume: 38
+    number: 10
+    pages: 2245–2258
+    title: "Total Variation Regularization of Pose Signals With an Application to 3D Freehand Ultrasound"
+    journaltitle: "IEEE Transactions on Medical Imaging"
+
+BrediesHollerStorathWeinmann:2018-1:
+    author:
+      - Bredies, K.
+      - Holler, H.
+      - Storath, M.
+      - Andreas Weinmann
+    doi: 10.1137/17M1147597
+    journaltitle: "{SIAM} Journal on Imaging Sciences"
+    number: 3
+    pages: 1785–1848
+    title: "Total Generalized Variation for Manifold-Valued Data"
+    volume: 11
+    year: 2018
+
+LausNikolovaPerschSteidl-2017:
+    author:
+      - Friederike Laus
+      - Mila Nikolova
+      - Johannes Persch
+      - Gabriele Steidl
+    doi: 10.1137/16m1087114
+    number: 1
+    volume: 10
+    year: 2017
+    pages: 416–448
+    title: A Nonlocal Denoising Algorithm for Manifold-Valued Images Using Second Order Statistics
+    journaltitle: "SIAM Journal on Imaging Sciences"
+
+LangemannPrestin2009:
+    author:
+        - Jürgen Prestin
+        - Dirk Langemann
+    abstract: >
+        General multivariate periodic wavelets are an efficient tool for the approximation of multidimensional functions, which feature dominant directions of the periodicity. One-dimensional shift invariant spaces and tensor-product wavelets are generalized to multivariate shift invariant spaces on non-tensor-product patterns. In particular, the algebraic properties of the automorphism group are investigated. Possible patterns are classified. By divisibility considerations, decompositions of shift invariant spaces are given. The results are applied to construct multivariate orthogonal Dirichlet kernels and the respective wavelets. Furthermore a closure theorem is proven.
+    doi: 10.1016/j.acha.2009.07.001
+    journaltitle: Applied Computational Harmonic Analysis
+    number: 1
+    pages: 46–66
+    title: Multivariate periodic wavelet analysis
+    volume: 28
+    year: 2010
+    pdf: https://www.math.uni-luebeck.de/mitarbeiter/prestin/ps/lgmjppre.pdf

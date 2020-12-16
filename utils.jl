@@ -19,7 +19,7 @@ function hfun_projectslist()
     projects = [
         Dict(
             push!(
-                [var => pagevar("projects/$project", var) for var ∈ ["title", "subtitle", "collaborators", "end", "logo", "start", "summary", "url", "url_text"]],
+                [var => pagevar("projects/$project", var) for var ∈ ["title", "subtitle", "collaborators", "end", "logo", "more", "start", "summary", "url", "url_text"]],
                 "project" => project[1:end-3], # remove md
             )
         )
@@ -62,6 +62,10 @@ function hfun_projectslist()
             urltext = !isnothing(project["url_text"]) ? project["url_text"] : project["url"]
             urlspan = """<span class="link"><a href="$(project["url"])">$(urltext)</a></span>"""
         end
+        morelink = ""
+        if isnothing(project["more"]) || project["more"]
+            morelink = """<span class="more"><a href="$(project["project"])/">more>></a></span>"""
+        end
         s = """$s<dt>
                     <span class="title">$(project["title"])</span>
                     $(subtitlespan)
@@ -74,7 +78,7 @@ function hfun_projectslist()
                     $coll
                </div>
                $(!(isnothing(project["summary"])) ? fd2html(project["summary"]; internal=true) : "")
-               <span class="more"><a href="$(project["project"])/">more>></a></span>
+               $morelink
                </dd>
             """
     end

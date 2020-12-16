@@ -6,6 +6,7 @@
 @def url_text = "JuliaManifolds"
 @def logo = "manifoldsjl-logo.png"
 @def start = "2019-06-02"
+@def more = false
 @def summary = " [Manifolds.jl](https://juliamanifolds.github.io/Manifolds.jl/stable/) implements a library of manifolds and provides combinators to construct new
     manifolds from these. Examples are the product manifold of two manifolds, the power
     manifold, the tangent bundle, and Lie groups. Using a trait-based system, any manifold

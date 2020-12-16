@@ -150,6 +150,15 @@ people:
             full: Friederike Laus
             short: F. Laus
         title: Dr.
+    Dirk Langemann:
+        affiliation: TU Braunschweig
+        name:
+            bib: Langemann, D.
+            full: Dirk Langemann
+            short: D. Langemann
+        title: Prof. Dr.
+        url: https://www.tu-braunschweig.de/ipde/personal/langemann
+        orcid: 0000-0002-0523-9235
     Jan Lellmann:
         affiliation: Universität zu Lübeck
         name:
@@ -158,6 +167,7 @@ people:
             bib: Lellmann, J.
         title: Prof. Dr.
         url: https://www.mic.uni-luebeck.de/people/jan-lellmann.html
+        orcid: 0000-0002-5243-0331
     Estefanía Loayza-Romero:
         name:
             full: Estefanía Loayza-Romero
@@ -181,6 +191,7 @@ people:
             short: D. Merkert
             bib: Merkert, D.
         title: "Dr."
+        orcid: 0000-0003-4677-2543
     Ali Moghiseh:
         name:
             bib: Moghiseh, A.
