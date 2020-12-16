@@ -2,9 +2,10 @@
 
 @def title = "Non-Smooth Variational Models with Second Order and Local Anisotropy Priors for Restoring Cyclic and Manifold-Valued Images"
 @def start = "2015"
+@def end = "2019"
 @def collaborators = ["Gabriele Steidl", "Andreas Weinmann"]
 @def url = "http://gepris.dfg.de/gepris/projekt/288750882"
-@def url_text = "DFG-Project BE 5888/2-1"
+@def url_text = "DFG-Project<br>BE 5888/2-1"
 @def summary = "Variational methods in imaging are nowadays developing towards a quite universal and flexible tool, allowing for highly successful approaches on various imaging tasks. Many useful techniques rely on non-smooth, convex functionals. Combinations of first and second order derivatives in regularization functionals or the incorporation of anisotropies steered by the local structures of the image have led to very powerful image restoration techniques. Splitting algorithms together with primal-dual optimization methods are the state-of-the-art techniques for minimizing these functionals. Their strength consists in the splitting of the original problem into a sequence of proximal mappings which can be computed efficiently."
 
 Variational methods in imaging are nowadays developing towards a quite universal and flexible tool, allowing for highly successful approaches on various imaging tasks. Many useful techniques rely on non-smooth, convex functionals. Combinations of first and second order derivatives in regularization functionals or the incorporation of anisotropies steered by the local structures of the image have led to very powerful image restoration techniques. Splitting algorithms together with primal-dual optimization methods are the state-of-the-art techniques for minimizing these functionals. Their strength consists in the splitting of the original problem into a sequence of proximal mappings which can be computed efficiently.

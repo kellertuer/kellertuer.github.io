@@ -240,7 +240,9 @@ dl.supervised dd {
     margin-left: 4rem;
     margin-bottom: 1rem;
 }
-
+dl.supervised dd .info span.url {
+    display:block;
+}
 dl.supervised dd .with:before {
     content: "\00a0(supervised together with ";
 }
@@ -293,4 +295,94 @@ dl.courses dd .with:before {
 }
 dl.courses dd::after {
     clear:both;
+}
+/*
+ *
+ * Projects
+ *
+ */
+dl.projectlist dt:before {
+    clear:both;
+}
+dl.projectlist dt {
+    margin-top: 2rem;
+}
+dl.projectlist dt span.subtitle:before {
+    content: "\00a0–\00a0";
+}
+dl.projectlist dd {
+    display: inline-block;
+    width: 100%;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+dl.projectlist dd .info {
+    float:right;
+    border-left : 1px solid;
+    padding: 1rem;
+    padding-right: 0rem;
+    margin: 0px;
+    min-width: 140px;
+    margin-left: .5rem;
+    margin-top: .25rem;
+    margin-bottom: 0rem;
+}
+dd .info .link:after {
+    content: "\A";
+    white-space: pre;
+}
+dd .info .collaborators ul:before {
+    content:"with";
+}
+dd .info .collaborators ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 0.5rem;
+}
+dd .info .collaborators ul li i.ai-orcid {
+    color: #a6ce39;
+}
+dd .info .logo {
+    margin-top:-1.25rem;
+}
+dd .info .logo img {
+    width: 125px;
+}
+dd p {
+    padding-top:1rem;
+    margin-bottom: 0px;
+}
+dd .more {
+    float: right;
+}
+/*
+ special list
+ */
+div.inlinelist ul {
+    padding-inline-start: 0px;
+    list-style-type: none;
+    display: inline;
+}
+
+div.inlinelist ul li {
+    display: inline;
+}
+
+div.inlinelist ul li p {
+    display: inline;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+div.inlinelist ul li:after {
+    content: ', '
+}
+
+div.inlinelist ul li:last-child:after {
+    content: '.'
+}
+
+span.highlight {
+    font-style: italic;
 }

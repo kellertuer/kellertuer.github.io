@@ -12,11 +12,26 @@ people:
             bib: Arf, J. N.
             full: Jeremias N. Arf
             short: J. N. Arf
+    Seth Axen:
+        name:
+            full: Seth D. Axen
+            short: S. D. Axen
+            bib: Axen, S. D.
+        title_post: PhD
+        orcid: 0000-0003-3933-8247
+        url: https://sethaxen.com
     Miroslav Bačák:
         name:
             full: "Miroslav Bačák"
             bib: "Bačák, M."
             short: "M. Bačák"
+    Mateusz Baran:
+        name:
+            full: Mateusz Baran
+            bib: Baran, M.
+            short: M. Baran
+        title: Prof. Dr.
+        orcid: 0000-0001-9667-5579
     Lukas Baumgärtner:
         affiliation: "HU Berlin"
         name:
