@@ -1,6 +1,30 @@
 using YAML, Dates
 literature = YAML.load_file("data/literature.yaml")
+#
+#
+# Cite fun
+#
+#
+"""
+"""
+function hfun_cite(params)
+    citekey = params[1]
+    if !haskey(literature, citekey)
+        return """<span class="error">key $citekey not found in library.</span>"""
+    end
+    if isnothing(locvar("cite_keys"))
+        Franklin.LOCAL_VARS["cite_keys"] = Franklin.dpair([citekey])
+    else
+        cite_keys = Franklin.locvar("cite_keys")
+        push!(cite_keys,citekey)
+        Franklin.set_var!(Franklin.LOCAL_VARS, "cite_keys", cite_keys)
+    end
+    print(Franklin.locvar("cite_keys"))
+    return """<span class="cite">$(citekey)</span>"""
+end
+function hfun_references()
 
+end
 """
     isless_bibtex(a,b)
 
@@ -145,7 +169,8 @@ function format_bibtex_code(
     entry,
     key;
     excludes = ["biblatextype", "image", "link", "file", "github", "publication_date"],
-    field_joins = ["author", "editor"] )
+    field_joins = ["author", "editor"]
+    )
     s = "";
     for f ∈ keys(entry)
         if f ∉ excludes
