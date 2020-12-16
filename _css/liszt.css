@@ -261,7 +261,7 @@ img.floatleft {
     float: left;
     padding: 0;
     margin-bottom: 1rem;
-    margin-left: 2rem;
+    margin-left: 0rem;
     margin-right: 2rem;
     border-radius: 10px;
 }

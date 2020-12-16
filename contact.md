@@ -23,9 +23,8 @@
 ~~~
 
 ### Miscelanea
-A short list of pages, where you can find me, too
-* Within the [Mathematics Genealogy Project](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=180383)
-* at the [Zentralblatt Mathematik](https://zbmath.org/authors/?s=0&q=Bergmann%2C+Ronny).
+* My [Erd&#337;s number](https://oakland.edu/enp/) is 3, by courtesy of {{person "Jürgen Prestin"}}.
+* you can find me within the [Mathematics Genealogy Project](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=180383)
 
 Research has the advantage that you get around! It brought me to
 
