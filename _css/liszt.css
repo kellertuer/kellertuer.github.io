@@ -1,4 +1,13 @@
-ol.bibliography {
+:root {
+    --block-background: #f8f8f8;
+    --small: 14px;
+    --normal: 19px;
+    --text-color: hsv(0, 0%, 20%);
+}
+.error {
+    color: #CC3311;
+}
+ol.bibliography, ol.literature {
     margin-bottom: .5rem;
     list-style-type: none;
     margin-left: 2ex;
@@ -13,70 +22,87 @@ ol.bibliography > li:before {
     padding-right: .5em;
     text-align: right;
 }
-ol.bibliography > li {
+ol.literature {
+    list-style-type: none;
+}
+ol.bibliography > li,
+ol.literature > li {
     min-height: 85px;
-    counter-increment: bibitem -1;
     padding-bottom:2rem;
     clear: both;
 }
-ol.bibliography > li abbr {
-    font-weight: bold;
-    padding-right: 1rem;
+ol.bibliography > li {
+        counter-increment: bibitem -1;
 }
 /*
  * Fields
 */
-ol.bibliography li span.title {
+ol.literature li .li-label:before {
+    content:"[";
+    color: var(--text-color);
+}
+ol.literature li .li-label:after {
+    content: "]";
+    color: var(--text-color);
+}
+ol.literature li .li-label {
+    font-size:small;
+    margin-left:-3.5rem;
+    color: #41a1c6;
+    white-space: nowrap;
+    margin-right: .4em;
+    /* adjust to your requirements */
+}
+ol li span.title {
     font-weight: bold;
 }
-ol.bibliography li span.title:before
+ol li span.title:before
 {
     content: "\A";
     white-space: pre;
 }
-ol.bibliography li span.volume {
+ol li span.volume {
     font-weight: bold;
     margin-left:1ex;
 }
-ol.bibliography li span.note:before {
+ol li span.note:before {
     content: ",\00a0";
 }
-
-ol.bibliography li span.note:after {
+ol li span.note:after {
     content: ".";
 }
-ol.bibliography li span.note {
+ol li span.note {
     font-style: italic;
 }
-ol.bibliography li span.number:before,
-ol.bibliography li span.issue:before
+ol li span.number:before,
+ol li span.issue:before
 {
     content: "(";
 }
-ol.bibliography li span.number:after,
-ol.bibliography li span.issue:after {
+ol li span.number:after,
+ol li span.issue:after {
     content: ")";
 }
-ol.bibliography li span.number {
+ol li span.number {
     margin-left: 0ex;
 }
-ol.bibliography li span.year:before {
+ol li span.year:before {
     content: "\00a0(";
 }
-ol.bibliography li span.year:after {
+ol li span.year:after {
     content: ").";
 }
-ol.bibliography li span.pages:before {
+ol li span.pages:before {
     content: ",\00a0\00a0pp.\00a0"
 }
-ol.bibliography div.item-icon-wrapper {
+ol div.item-icon-wrapper {
     margin-top:-2ex;
     float: right;
     width: 125px;
     margin-left: 1rem;
     margin-bottom: 1rem;
 }
-ol.bibliography div.item-icon-wrapper img {
+ol div.item-icon-wrapper img {
     width: 125px;
     margin:0;
     padding:0;
@@ -87,11 +113,12 @@ ol.bibliography div.item-icon-wrapper img {
 /*
  * Links & nav-icons & logos
  */
-ol.bibliography li i.ai-orcid-square,
-ol.bibliography li i.ai-orcid {
+ol li i.ai-orcid-square,
+ol li i.ai-orcid
+{
     color:#a6ce39;
 }
-ol.bibliography li ul.nav-icons {
+ol li ul.nav-icons {
     margin: 0;
     margin-top: .75rem;
     padding: 0;

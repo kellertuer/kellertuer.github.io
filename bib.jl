@@ -1,5 +1,6 @@
 using YAML, Dates
-literature = YAML.load_file("data/literature.yaml")
+bibliography = YAML.load_file("data/bibliography.yaml")
+literature = merge(YAML.load_file("data/literature.yaml"),bibliography)
 #
 #
 # Cite fun
@@ -8,10 +9,28 @@ literature = YAML.load_file("data/literature.yaml")
 """
 """
 function hfun_cite(params)
-    citekey = params[1]
-    if !haskey(literature, citekey)
-        return """<span class="error">key $citekey not found in library.</span>"""
+    s = "";
+    for citekey in params
+        if !haskey(literature, citekey)
+            s = return """<span class="error">key $citekey not found in library.</span>"""
+        else
+        s = "$(s)$(append_citekey(citekey))"
+        end
     end
+    return s
+end
+function hfun_nocite(params)
+    s = "";
+    for citekey in params
+        if !haskey(literature, citekey)
+            s = """$s<span class="error">key $citekey not found in library.</span>"""
+        else
+            append_citekey(citekey)
+        end
+    end
+    return s
+end
+function append_citekey(citekey)
     if isnothing(locvar("cite_keys"))
         Franklin.LOCAL_VARS["cite_keys"] = Franklin.dpair([citekey])
     else
@@ -19,11 +38,37 @@ function hfun_cite(params)
         push!(cite_keys,citekey)
         Franklin.set_var!(Franklin.LOCAL_VARS, "cite_keys", cite_keys)
     end
-    print(Franklin.locvar("cite_keys"))
     return """<span class="cite">$(citekey)</span>"""
 end
-function hfun_references()
+"""
+    {{references}}
 
+print the references used in this page, where the first parameter can be set to "alphabet"
+to order the references alphabetically (poor-mans way by key name). Otherwise their occurence
+is used as order.
+"""
+hfun_references() = hfun_references([])
+function hfun_references(params)
+    sortby = "occurence"
+    if length(params) > 0
+        sortby = params[1]
+    end
+    print(sortby)
+    list_literature = ""
+    isnothing(locvar("cite_keys")) && return "A"
+    unique_keys = unique(locvar("cite_keys"))
+    (sortby=="alphabet") && (unique_keys = sort(unique_keys))
+    print(unique_keys)
+    for key in unique_keys
+        list_literature = """$list_literature
+            $(format_bibtex_entry(literature[key],key; list_style="key"))
+        """
+    end
+    return """<h2>References</h2>
+              <ol class="literature">
+              $list_literature
+              </ol>
+           """
 end
 """
     isless_bibtex(a,b)
@@ -45,14 +90,14 @@ end
     {{library types file}}
 
 print a library restricted to the comma separated list of types, from the optional library
-`file`, which defaults to using the preloaded `data/literature.yaml`.
+`file`, which defaults to using the preloaded `data/bibliography.yaml`.
 
 If no types are given all will be printed
 
 """
-function hfun_library(params)
+function hfun_bibliography(params)
     types = (length(params)>0) ? lowercase.(strip.(split(params[1],","))) : ["all",]
-    library = (length(params)>1) ? YAML.load_file(params[2]) : literature
+    library = (length(params)>1) ? YAML.load_file(params[2]) : bibliography
     reduced_library = filter( x-> (x[2]["biblatextype"] ∈ types) || ("all" ∈ types), library)
     list_html = "";
     if length(params) > 2
@@ -81,10 +126,10 @@ hfun_library() = hfun_library([])
 """
 function hfun_bibentry(params)
     key = params[1]
-    library = (length(params)>1) ? YAML.load_file(params[2]) : literature
+    library = (length(params)>1) ? YAML.load_file(params[2]) : bibliography
     entry = library[key]
     !(haskey(library,key)) && return "<li> key $key not found in library.</li>"
-    return format_bibtex_entry(entry,key)
+    return format_bibtex_entry(entry,key; list_style="key")
 end
 function formatspan(entry,field; class=field, prefix="", remove=[])
     s = "";
@@ -99,13 +144,13 @@ function formatspan(entry,field; class=field, prefix="", remove=[])
     return s
 end
 formatlazyspan(entry,field; kwargs...) = haskey(entry,field) ? formatspan(entry,field; kwargs...) : ""
-function format_bibtex_entry(entry,key)
+function format_bibtex_entry(entry,key; list_style="number")
     names = join( [ has_name(name) ? hfun_person([name,"bibname_fnorcid"]) : """<span class="person unknown">$name</span>""" for name ∈ entry["author"] ], ", ")
     s = """<a name="$(key)"></a>"""
     if haskey(entry,"image") #image in assets
         s = """$s
             <div class="item-icon-wrapper">
-                <img src="../assets/bib/$(entry["image"])" alt="Publication illustration image">
+                <img src="/assets/bib/$(entry["image"])" alt="Publication illustration image">
             </div>
             """
     end
@@ -154,12 +199,18 @@ function format_bibtex_entry(entry,key)
             <div class="content">$(format_bibtex_code(entry, key))</div>
         </div>
         """
-    return """<li>$s</li>"""
+    #print some label? for the default number we just print a li and the numbering will be done by the outer ol in css
+    key_label  = ""
+    # otherwise we print a span for the label and the formatting has to still be done in css
+    if lowercase(list_style) == "key"
+        key_label="""<span class="li-label">$key</span>"""
+    end
+    return """<li>$(key_label)$s</li>"""
 end
 """
     format_bibtex_code(entry,key)
 
-use the dictionary `entry` and the literature `key` to format a biblatex output.
+use the dictionary `entry` and the bibliography `key` to format a biblatex output.
 the type os taken from the `biblatextype` field (defaults to "article").
 You can `exclude` a set of fields (by default those that are currently used to enhance the entry)
 and the `joined` fields are arrays that are joined with `and` after the fields are checked for

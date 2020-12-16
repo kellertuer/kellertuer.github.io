@@ -2,19 +2,19 @@
 
 @def title = "Publications."
 
-{{library online data/literature.yaml Preprint}}
+{{bibliography online data/bibliography.yaml Preprint}}
 
 ## Journal Articles
-{{library article}}
+{{bibliography article}}
 
 ## Book Chapter
 
-{{library incollecition data/literature.yaml}}
+{{bibliography incollecition data/bibliography.yaml}}
 
 ## Peer-reviewed Conference Proceedings
 
-{{library inproceedings data/literature.yaml}}
+{{bibliography inproceedings data/bibliography.yaml}}
 
-{{library thesis data/literature.yaml Theses}}
+{{bibliography thesis data/bibliography.yaml Theses}}
 
-{{library misc data/literature.yaml Misc}}
+{{bibliography misc data/bibliography.yaml Misc}}

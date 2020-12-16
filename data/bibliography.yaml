@@ -1,0 +1,730 @@
+"BergmannHerzogSilvaLouzeiroTenbrinckVidal-Nunez-2020":
+    abstract: >
+        In this paper, we introduce a definition of Fenchel conjugate and Fenchel biconjugate on Hadamard manifolds based on the tangent bundle.
+        Our definition overcomes the inconvenience that the conjugate depends on the choice of a certain point on the manifold, as previous definitions required.
+        On the other hand, this new definition still possesses properties known to hold in the Euclidean case.
+        The tangent bundle approach even yields a broader interpretation of the Fenchel conjugate in the Euclidean case itself.
+        Most prominently, our definition of the Fenchel conjugate provides a Fenchel-Moreau Theorem for geodesically convex, proper, lower semicontinuous functions.
+        In addition, this framework allows us to develop a theory of separation of convex sets on Hadamard manifolds, and we obtain a strict separation theorem.
+    author:
+        - Ronny Bergmann
+        - Roland Herzog
+        - Mauricio Silva Louzeiro
+        - Daniel Tenbrinck
+        - José Vidal-Núñez
+    biblatextype: article
+    eprint: 1908.02022
+    eprinttype: arxiv
+    image: Fenchel.png
+    journaltitle: Foundations of Computational Mathematics
+    note: accepted for publication
+    publication_date: 2020-11-06
+    title: "{F}enchel duality for Convex Optimization and a Primal Dual Algorithm on Riemannian Manifolds"
+    year: 2020
+
+"BergmannHerrmannHerzogSchmidtVidal-Nunez-2020-2":
+    abstract: >
+        An analogue of the total variation prior for the normal vector field along the boundary of piecewise flat shapes in 3D is introduced.
+        A major class of examples are triangulated surfaces as they occur for instance in finite element computations.
+        The analysis of the functional is based on a differential geometric setting in which the unit normal vector is viewed as an element of the two-dimensional sphere manifold.
+        It is found to agree with the discrete total mean curvature known in discrete differential geometry.
+        A split Bregman iteration is proposed for the solution of discretized shape optimization problems, in which the total variation of the normal appears as a regularizer.
+        Unlike most other priors, such as surface area, the new functional allows for piecewise flat shapes.
+        As two applications, a mesh denoising and a geometric inverse problem of inclusion detection type involving a partial differential equation are considered.
+        Numerical experiments confirm that polyhedral shapes can be identified quite accurately.
+    author:
+        - Ronny Bergmann
+        - Marc Herrmann
+        - Roland Herzog
+        - Stephan Schmidt
+        - José Vidal-Núñez
+    biblatextype: article
+    doi: 10.1088/1361-6420/ab6d5c
+    eprint: 1908.07916
+    eprinttype: arxiv
+    image: TVofNormal.png
+    journaltitle: Inverse Problems
+    number: 5
+    pages: "054003"
+    publication_date: 2020-04-10
+    title: Discrete total variation of the normal vector field as shape prior with applications in geometric inverse problems
+    volume: 36
+    year: 2020
+
+"BergmannHerrmannHerzogSchmidtVidal-Nunez-2020-1":
+    abstract: >
+        An analogue of the total variation prior for the normal vector field along the boundary of smooth shapes in 3D is introduced.
+        The analysis of the total variation of the normal vector field is based on a differential geometric setting in which the unit normal vector is viewed as an element of the two-dimensional sphere manifold.
+        It is shown that spheres are stationary points when the total variation of the normal is minimized under an area constraint.
+        Shape calculus is used to characterize the relevant derivatives.
+        Since the total variation functional is non-differentiable whenever the boundary contains flat regions, an extension of the split Bregman method to manifold valued functions is proposed.
+    author:
+        - Ronny Bergmann
+        - Marc Herrmann
+        - Roland Herzog
+        - Stephan Schmidt
+        - JoséVidal-Núñez
+    biblatextype: article
+    doi: 10.1088/1361-6420/ab6d5b
+    eprint: 1902.07240
+    eprinttype: arxiv
+    image: TVofNormal.png
+    journaltitle: Inverse Problems
+    number: 5
+    pages: "054004"
+    publication_date: 2020-04-10
+    title: Total variation of the normal vector field as shape prior
+    volume: 36
+    year: 2020
+
+"BergmannMerkert-2020":
+    abstract: >
+        In this paper we derive a discretisation of the equation of quasi-static elasticity in homogenization in form of a variational formulation and the so-called Lippmann-Schwinger equation, in anisotropic spaces of translates of periodic functions.
+        We unify and extend the truncated Fourier series approach, the constant finite element ansatz and the anisotropic lattice derivation.
+        The resulting formulation of the Lippmann-Schwinger equation in anisotropic translation invariant spaces unifies and analyses for the first time both the Fourier methods and finite element approaches in a common mathematical framework.
+        We further define and characterize the resulting periodised Green operator.
+        This operator coincides in case of a Dirichlet kernel corresponding to a diagonal matrix with the operator derived for the Galerkin projection stemming from the truncated Fourier series approach and to the anisotropic lattice derivation for all other Dirichlet kernels.
+        Additionally, we proof the boundedness of the periodised Green operator.
+        The operator further constitutes a projection if and only if the space of translates is generated by a Dirichlet kernel. Numerical examples for    both the de la Vallée Poussin means and Box splines illustrate the flexibility of this framework.
+    author:
+        - Ronny Bergmann
+        - Dennis Merkert
+    biblatextype: article
+    eprint: 1701.04685
+    eprinttype: arXiv
+    image: Translates.png
+    journaltitle: Applied and Computational Harmonic Analysis
+    number: 1
+    pages: 266–292
+    title:  "{FFT}-based homogenization on periodic anisotropic translation invariant spaces"
+    volume: 48
+    year: 2020
+    doi: 10.1016/j.acha.2018.05.003
+
+"BergmannHerzog-2019":
+    abstract: >
+        Karush-Kuhn-Tucker (KKT) conditions for equality and inequality constrained optimization problems on smooth manifolds are formulated.
+        Under the Guignard constraint qualification, local minimizers are shown to admit Lagrange multipliers.
+        The linear independence, Mangasarian-Fromovitz, and Abadie constraint qualifications are also formulated, and the chain “LICQ implies MFCQ implies ACQ implies GCQ” is proved.
+        Moreover, classical connections between these constraint qualifications and the set of Lagrange multipliers are established, which parallel the results in Euclidean space.
+        The constrained Riemannian center of mass on the sphere serves as an illustrating numerical example.
+    author:
+        - Ronny Bergmann
+        - Roland Herzog
+    biblatextype: article
+    doi: 10.1137/18M1181602
+    eprint: 1804.06214
+    eprinttype: arxiv
+    image: KKT.png
+    journaltitle: SIAM Journal on Optimization
+    number: 4
+    pages: 2423–2444
+    title: Intrinsic formulation of KKT conditions and constraint qualifications on smooth manifolds
+    volume: 29
+    year: 2019
+
+"BergmannGousenburger-2018":
+    abstract: >
+        We derive a variational model to fit a composite Bézier curve to a set of data points on a Riemannian manifold.
+        The resulting curve is obtained in such a way that its mean squared acceleration is minimal in addition to remaining close the data points.
+        We approximate the acceleration by discretizing the squared second order derivative along the curve.
+        We derive a closed-form, numerically stable and efficient algorithm to compute the gradient of a Bézier curve on manifolds with respect to its control points, expressed as a concatenation of so-called adjoint Jacobi fields.
+        Several examples illustrate the capabilities and validity of this approach both for interpolation and approximation.
+        The examples also illustrate that the approach outperforms previous works tackling this problem.
+    author:
+        - Ronny Bergmann
+        - Pierre-Yves Gousenbourger
+    biblatextype: article
+    doi: 10.3389/fams.2018.00059
+    eprint: 1807.10090
+    eprinttype: arxiv
+    image: S2BezierArt.png
+    journaltitle: Frontiers in Applied Mathematics and Statistics
+    publication_date: 2018-12-12
+    title: A variational model for data fitting on manifolds by minimizing the acceleration of a {B}ézier curve
+    year: 2018
+
+"BergmannFitschenPerschSteidl-2018":
+    abstract: >
+        We generalize discrete variational models  involving the infimal convolution (IC) of first and second order differences and the total generalized variation (TGV) to manifold-valued images.
+        We propose both  extrinsic and intrinsic approaches.
+        The extrinsic models are based on embedding the manifold into an Euclidean space of higher dimension with manifold constraints.
+        An alternating direction methods of multipliers can be employed for finding the minimizers.
+        However, the components within the extrinsic IC or TGV decompositions live in the embedding space  which makes their interpretation difficult.
+        Therefore we investigate two intrinsic approaches:
+        for Lie groups, we employ the group action within the models;
+        for more general manifolds our IC model is based on recently developed absolute second order differences on manifolds, while our TGV approach uses an approximation of the parallel transport by the pole ladder.
+        For computing the minimizers of the intrinsic   models we apply gradient descent algorithms. Numerical examples demonstrate that our approaches work well for certain manifolds.
+    author:
+        - Ronny Bergmann
+        - Jan Henrik Fitschen
+        - Johannes Persch
+        - Gabriele Steidl
+    biblatextype: article
+    doi: 10.1007/s10851-018-0840-y
+    eprint: 1709.01343
+    eprinttype: arxiv
+    image: Priors.png
+    issue: 9
+    journaltitle: Journal of Mathematical Imaging and Vision
+    pages: 1459–1481
+    volume: 60
+    title: Priors with coupled first and second order differences for manifold-valued image processing
+    year: 2018
+
+"BergmannMerkert-2018":
+    abstract: >
+        In order to take structural anisotropies of a given composite and different shapes of its unit cell into account, we generalize the Basic Scheme in homogenization by Moulinec and Suquet to arbitrary sampling lattices and tilings of the $d$-dimensional Euclidean space.
+        We employ a Fourier transform for these lattices by introducing the corresponding set of sample points, the so called pattern, and its frequency set, the generating set, both representing the anisotropy of both the shape of the unit cell and the chosen preferences in certain sampling directions.
+        In several cases, this Fourier transform is of lower dimension than the space itself.
+        For the so called rank-$1$-lattices it even reduces to a one-dimensional Fourier transform having the same leading coefficient as the fastest Fourier transform implementation available.
+        We illustrate the generalized Basic Scheme on an anisotropic laminate and a generalized ellipsoidal Hashin structure.
+        For both we give an analytical solution to the elasticity problem, in two- and three dimensions, respectively.
+        We then illustrate the possibilities of choosing a pattern.
+        Compared to classical grids this introduces both a reduction of computation time and a reduced error of the numerical method. It also allows for anisotropic subsampling, i.e. choosing a sub lattice of a pixel or voxel grid based on anisotropy information of the material at hand.
+    author:
+        - Ronny Bergmann
+        - Dennis Merkert
+    biblatextype: article
+    image: Lattice.png
+    issue: 1
+    doi: 10.1016/j.camwa.2018.04.008
+    eprint: 1605.05712
+    eprinttype: arXiv
+    journaltitle: Computers & Mathematics with Applications.
+    pages: 125–140
+    title: "A framework for {FFT}-based homogenization on anisotropic lattices"
+    volume: 76
+    year: 2018
+
+"BergmannTenbrinck-2018":
+    abstract: >
+        Graph-based methods have been proposed as a unified framework for discrete calculus of local and nonlocal image processing methods in the recent years.
+        In order to translate variational models and partial differential equations to a graph, certain operators have been investigated and successfully applied to real-world applications involving graph models.
+        So far the graph framework has been limited to real- and vector-valued functions on Euclidean domains.
+        In this paper we generalize this model to the case of manifold-valued data.
+        We introduce the basic calculus needed to formulate variational models and partial differential equations for manifold-valued functions and discuss the proposed graph framework for two particular families of operators, namely, the isotropic and anisotropic graph $p$-Laplacian operators, $p\geq 1$.
+        Based on the choice of $p$ we are in particular able to solve optimization problems on manifold-valued functions involving total variation ($p=1$) and Tikhonov ($p=2$) regularization.
+        Finally, we present numerical results from processing both synthetic as well as real-world manifold-valued data, e.g., from diffusion tensor imaging (DTI) and light detection and ranging (LiDAR) data.
+    author:
+        - Ronny Bergmann
+        - Daniel Tenbrinck
+    biblatextype: article
+    doi: 10.1137/17M1118567
+    eprint: 1702.05293
+    eprinttype: arXiv
+    image: GraphLaplace.png
+    issue: 1
+    journaltitle: SIAM Journal on Imaging Sciences
+    pages: 325–360
+    title: A graph framework for manifold-valued data
+    volume: 11
+    year: 2018
+
+"BergmannFitschenPerschSteidl-2017-1":
+    abstract: >
+        Based on an idea of Åström et. al. [2017, JMIV] we propose a new iterative multiplicative filtering algorithm for label assignment matrices which can be used for the supervised partitioning of data.
+        Starting with a row-normalized matrix containing the averaged distances between prior features and observed ones, the method assigns in a very efficient way labels to the data.
+        We interpret the algorithm as a gradient ascent method with respect to a certain function on the product manifold of positive numbers followed by a reprojection onto a subset of the probability simplex consisting of vectors whose components are bounded away from zero by a small constant.
+        While such boundedness away from zero is necessary to avoid an arithmetic underflow, our convergence results imply that they are also necessary for theoretical reasons.
+        Numerical examples show that the proposed simple and fast algorithm leads to very good results.
+        In particular we apply the method for the partitioning of manifold-valued images.
+    author:
+        - Ronny Bergmann
+        - Jan Henrik Fitschen
+        - Johannes Persch
+        - Gabriele Steidl
+    biblatextype: article
+    doi: 10.1007/s11263-017-0995-9
+    eprint: 1604.08714
+    eprinttype: arXiv
+    image: Labeling.png
+    issue: 3
+    journaltitle: International Journal of Computer Vision
+    pages: 435–453
+    title: Iterative multiplicative filters for data labeling
+    volume: 123
+    year: 2017
+
+"BergmannWeinmann-2016":
+    abstract: >
+        In this paper we consider denoising and inpainting problems for higher dimensional combined cyclic and linear space valued data.
+        These kind of data appear when dealing with nonlinear color spaces such as HSV, and they can be obtained by changing the space domain of, e.g., an optical flow field to polar coordinates.
+        For such nonlinear data spaces, we develop algorithms for the solution of the corresponding second order total variation (TV) type problems for denoising, inpainting as well as the combination of both. We provide a convergence analysis and we apply the algorithms to concrete problems.
+    author:
+        - Ronny Bergmann
+        - Andreas Weinmann
+    biblatextype: article
+    doi: 10.1007/s10851-015-0627-3
+    eprint: 1501.02684
+    eprinttype: arXiv
+    image: vecs1r.png
+    journaltitle: Journal of Mathematical Imaging and Vision
+    number: 3
+    pages: 401–427
+    title: "A second order {TV}-type approach for inpainting and denoising higher dimensional combined cyclic and vector space data"
+    volume: 55
+    year: 2016
+
+"BacakBergmannSteidlWeinmann-2016":
+    abstract: >
+        We introduce a new non-smooth variational model for the restoration of manifold-valued data which includes second order differences in the regularization term.
+        While such models were successfully applied for real-valued images, we introduce the second order difference and the corresponding variational models for manifold data, which up to now only existed for cyclic data.
+        The approach requires a combination of techniques from numerical analysis, convex optimization and differential geometry.
+        First, we establish a suitable definition of absolute second order differences for signals and images with values in a manifold.
+        Employing this definition, we introduce a variational denoising model based on first and second order differences in the manifold setup.
+        In order to minimize the corresponding functional, we develop an algorithm using an inexact cyclic proximal point algorithm.
+        We propose an efficient strategy for the computation of the corresponding proximal mappings in symmetric spaces utilizing the machinery of Jacobi fields.
+        For the $n$-sphere and the manifold of symmetric positive definite matrices, we demonstrate the performance of our algorithm in practice.
+        We prove the convergence of the proposed exact and inexact variant of the cyclic proximal point algorithm in Hadamard spaces.
+        These results which are of interest on its own include, e.g., the manifold of symmetric positive definite matrices.
+    author:
+        - Miroslav Bačák
+        - Ronny Bergmann
+        - Gabriele Steidl
+        - Andreas Weinmann
+    biblatextype: article
+    doi: 10.1137/15M101988X
+    eprinttype: arxiv
+    eprint: 1506.02409
+    image: secondOrderS2.png
+    journaltitle: SIAM Journal on Scientific Computing
+    number: 1
+    pages: A567–A597
+    title: A second order non-smooth variational model for restoring manifold-valued images
+    volume: 38
+    year: 2016
+
+"BergmannPerschSteidl-2016":
+    abstract: >
+        We are interested in restoring images having values in a symmetric Hadamard manifold by minimizing a functional with a quadratic data term and a total variation like regularizing term.
+        To solve the convex minimization problem, we extend the Douglas-Rachford algorithm and its parallel version to symmetric Hadamard manifolds.
+        The core of the Douglas-Rachford algorithm are reflections of the functions involved in the functional to be minimized.
+        In the Euclidean setting the reflections of convex lower semicontinuous functions are nonexpansive.
+        As a consequence, convergence results for Krasnoselski-Mann iterations imply the convergence of the Douglas-Rachford algorithm.
+        Unfortunately, this general results does not carry over to Hadamard manifolds, where proper convex lower semicontinuous functions can have expansive reflections.
+        However, splitting our restoration functional in an appropriate way, we have only to deal with special functions namely, several distance-like functions and an indicator functions of a special convex sets.
+        We prove that the reflections of certain distance-like functions on Hadamard manifolds are nonexpansive which is an interesting result on its own.
+        Furthermore, the reflection of the involved indicator function is nonexpansive on Hadamard manifolds with constant curvature so that the Douglas-Rachford algorithm converges here.
+
+        Several numerical examples demonstrate the advantageous performance of the suggested algorithm compared to other existing methods as the cyclic proximal point algorithm or half-quadratic minimization.
+        Numerical convergence is also observed in our experiments on the Hadamard manifold of symmetric positive definite matrices with the affine invariant metric which does not have a constant curvature.
+    author:
+        - Ronny Bergmann
+        - Johannes Persch
+        - Gabriele Steidl
+    biblatextype: article
+    doi: 10.1137/15M1052858
+    eprint: 1512.02814
+    eprinttype: arXiv
+    image: DouglasRachford.png
+    journaltitle: SIAM Journal on Imaging Sciences
+    number: 3
+    pages: 901–937
+    title: "A parallel {D}ouglas–{R}achford algorithm for minimizing {ROF}-like functionals on images with values in symmetric {H}adamard manifolds"
+    volume: 9
+    year: 2016
+
+"BergmannChanHielscherPerschSteidl-2016":
+    abstract:
+        The paper addresses the generalization of the half-quadratic minimization method for the restoration of images having values in a complete, connected Riemannian manifold.
+        We recall the half-quadratic minimization method using the notation of the $c$-transform and adapt the algorithm to our special variational setting.
+        We prove the convergence of the method for Hadamard spaces.
+        Extensive numerical examples for images with values on spheres, in the rotation group $\operatorname\{SO\}(3)$, and in the manifold of positive definite matrices demonstrate the excellent performance of the algorithm.
+        In particular, the method with $\operatorname\{SO\}(3)$-valued data shows promising results for the restoration of images obtained from Electron Backscattered Diffraction which are of interest in material science.
+    author:
+        - Ronny Bergmann
+        - Raymond Chan
+        - Ralf Hielscher
+        - Johannes Persch
+        - Gabriele Steidl
+    doi: 10.3934/ipi.2016001
+    eprint: 1505.07029
+    eprinttype: arXiv
+    image: HalfQuad.png
+    journaltitle: Inverse Problems and Imaging
+    number: 2
+    pages: 281–304
+    title: Restoration of manifold-valued images by half-quadratic minimization
+    biblatextype: article
+    volume: 10
+    year: 2016
+
+"BergmannPrestin-2015":
+    abstract: >
+        In this paper we present a general approach to multivariate periodic wavelets generated by scaling functions of de la Vallée Poussin type.
+        These scaling functions and their corresponding wavelets are determined by their Fourier coefficients, which are sample values of a function, that can be chosen arbitrarily smooth, even with different smoothness in each direction.
+        This construction generalizes the one-dimensional de la Vallée Poussin means to the multivariate case and enables the construction of wavelet systems, where the set of dilation matrices for the two-scale relation of two spaces of the multiresolution analysis may contain shear and rotation matrices.
+        It further enables the functions contained in each of the function spaces from the corresponding series of scaling spaces to have a certain direction or set of directions as their focus, which is illustrated by detecting jumps of certain directional derivatives of higher order.
+    author:
+        - Ronny Bergmann
+        - Jürgen Prestin
+    doi: 10.1007/s00041-014-9372-z
+    eprint: 1402.3710
+    eprinttype: arXiv
+    image: dlVP.png
+    journaltitle: Journal of Fourier Analysis and Applications
+    number: 2
+    pages: 342–369
+    title: Multivariate periodic wavelets of de la Vallée Poussin type
+    biblatextype: article
+    volume: 21
+    year: 2015
+
+"BergmannLausSteidlWeinmann-2014":
+    abstract: >
+        In many image and signal processing applications, such as interferometric synthetic aperture radar (SAR), electroencephalogram (EEG) data analysis, ground-based astronomy, and color image restoration, in HSV or LCh spaces the data has its range on the one-dimensional sphere $\mathbb S^1$.
+        Although the minimization of total variation (TV) regularized functionals is among the most popular methods for edge-preserving image restoration, such methods were only very recently applied to cyclic structures.
+        However, as for Euclidean data, TV regularized variational methods suffer from the so-called staircasing effect. This effect can be avoided by involving higher order derivatives into the functional.
+        This is the first paper which uses higher order differences of cyclic data in regularization terms of energy functionals for image restoration.
+        We introduce absolute higher order differences for $\mathbb S^1$-valued data in a sound way which is independent of the chosen representation system on the circle.
+        Our absolute cyclic first order difference is just the geodesic distance between points. Similar to the geodesic distances, the absolute cyclic second order differences have only values in $[0,\pi]$.
+        We update the cyclic variational TV approach by our new cyclic second order differences.
+        To minimize the corresponding functional we apply a cyclic proximal point method which was recently successfully proposed for Hadamard manifolds.
+        Choosing appropriate cycles this algorithm can be implemented in an efficient way. The main steps require the evaluation of proximal mappings of our cyclic differences for which we provide analytical expressions.
+        Under certain conditions we prove the convergence of our algorithm. Various numerical examples with artificial as well as real-world data demonstrate the advantageous performance of our algorithm.
+    author:
+        - Ronny Bergmann
+        - Friederike Laus
+        - Gabriele Steidl
+        - Andreas Weinmann
+    doi: 10.1137/140969993
+    eprint: 1405.5349
+    eprinttype: arXiv
+    image: s1tv12.png
+    journaltitle: SIAM Journal on Imaging Sciences
+    number: 4
+    pages: 2916–2953
+    title: Second order differences of cyclic data and applications in variational denoising
+    biblatextype: article
+    volume: 7
+    year: 2014
+
+"Bergmann-2013-2":
+    abstract: >
+        We introduce a fast Fourier transform on regular d-dimensional lattices.
+        We investigate properties of congruence class representants, i.e. their ordering, to classify directions and derive a Cooley–Tukey algorithm.
+        Despite the fast Fourier techniques itself, there is also the advantage of this transform to be parallelized efficiently, yielding faster versions than the one-dimensional Fourier transform.
+        These properties of the lattice can further be used to perform a fast multivariate wavelet decomposition, where the wavelets are given as trigonometric polynomials.
+        Furthermore the preferred directions of the decomposition itself can be characterized.
+    author:
+        - Ronny Bergmann
+    doi: 10.1016/j.acha.2012.07.007
+    eprint: 1107.5415v2
+    eprinttype: arXiv
+    image: FFT.png
+    journaltitle: Applied and Computational Harmonic Analysis
+    number: 1
+    pages: 39–51
+    title: The fast {F}ourier transform and fast wavelet transform for patterns on the torus
+    biblatextype: article
+    volume: 35
+    year: 2013
+#
+# Conference Proceedings
+#
+"HerzogHerrmannBergmannSchmidtVidal-Nunez-2019":
+    abstract: >
+        This paper presents a novel approach to the formulation and solution of discrete geometry processing problems including mesh denoising.
+        The main quantity of interest is the piecewise constant unit normal vector field, which we consider on piecewise flat, triangulated surfaces.
+        In a similar fashion as one does for images defined on 'flat' domains, our goal is to remove noise while preserving shape features such as sharp edges.
+        To this end, we model a denoising problem via a quadratic vertex tracking term and a regularizer based on the total variation of the normal vector field.
+        Since the latter has values on the unit sphere, its total variation reduces to a finite sum of the geodesic distances of neighboring normals.
+        We solve the model numerically by applying split-Bregmann iterations and provide results for the 'fandisk' benchmark.
+    author:
+        - Ronny Bergmann
+        - Roland Herzog
+        - Marc Herrmann
+        - Stephan Schmidt
+        - José Vidal-Núñez
+    booktitle: 90th Annual Meeting of the International Association of Applied Mathematics and Mechanics (GAMM)
+    doi: 10.1002/pamm.201900189
+    editor:
+        - Gesellschaft für Angewandte Mathematik und Mechanik (GAMM)
+    image: TVofNormal.png
+    publisher: Wiley-Blackwell
+    title: Geometry processing problems using the total variation of the normal vector field
+    biblatextype: inproceedings
+    year: 2019
+
+"BergmannHerzogLoayzaWelker2019":
+    abstract: >
+        In general, it is not easy to decide whether to use a discretize–then–optimize or optimize–then–discretize approach to solve PDE-constrained optimization problems.
+        Shape optimization problems are particularly challenging due to the infinite dimensional, nonlinear structure of shape spaces. One option to overcome this drawback is to choose finite dimensional shape spaces, i.e., to discretize first.
+        Nevertheless, this limits the amount of available tools coming from function spaces.
+        In this note, we aim to show advantages and disadvantages of both approaches based on a simple shape optimization problem.
+    author:
+        - Ronny Bergmann
+        - Roland Herzog
+        - Estefan íaLoayza-Romero
+        - Kathrin Welker
+    biblatextype: inproceedings
+    booktitle: 90th Annual Meeting of the International Association of Applied Mathematics and Mechanics (GAMM)
+    doi: 10.1002/pamm.201900067
+    editor:
+        - Gesellschaft für Angewandte Mathematik und Mechanik (GAMM)
+    publisher: Wiley-Blackwell
+    title: "Shape optimization: what to do first, optimize or discretize?"
+    year: 2019
+
+"Bergmann-2017":
+    abstract: >
+        In many real life application measured data takes its values on Riemannian manifolds.
+        For the special case of the Euclidean space this setting includes the classical grayscale and color images.
+        Like these classical images, manifold-valued data might suffer from measurement errors in form of noise or missing data.
+        In this paper we present the manifold-valued image restoration toolbox (MVIRT) that provides implementations of classical image processing tasks.
+        Based on recent developments in variational methods for manifold-valued image processing methods, like total variation regularization, the toolbox provides easy access to work with these algorithms.
+        The toolbox is implemented in Matlab, open source, and easily extendible, e.g. with own manifolds, noise models or further algorithms.
+        This paper introduces the main mathematical methods as well as numerical examples.
+    author:
+        - Ronny Bergmann
+    biblatextype: inproceedings
+    booktitle: IEEE International Conference on Image Processing, IEEE ICIP 2017, Beijing, China, September 17–20, 2017
+    doi: 10.1109/ICIP.2017.8296271
+    image: secondOrderS2.png
+    title:  MVIRT A toolbox for manifold-valued image restoration
+    year: 2017
+
+"BergmannTenbrinck-2017":
+    abstract: >
+        Recently, there has been a strong ambition to translate models and algorithms from traditional image processing to non-Euclidean domains, e.g., to manifold-valued data.
+        While the task of denoising has been extensively studied in the last years, there was rarely an attempt to perform image inpainting on manifold-valued data. In this paper we present a nonlocal inpainting method for manifold-valued data given on a finite weighted graph.
+        We introduce a new graph infinity-Laplace operator based on the idea of discrete minimizing Lipschitz extensions, which we use to formulate the inpainting problem as PDE on the graph. Furthermore, we derive an explicit numerical solving scheme, which we evaluate on two classes of synthetic manifold-valued images.
+    author:
+        - Ronny Bergmann
+        - Daniel Tenbrinck
+    biblatextype: inproceedings
+    booktitle: Geometric Science of Information – 3rd Conference on Geometric Science of Information
+    doi: 10.1007/978-3-319-68445-1
+    editor:
+        - Nielsen, F.
+        - Barbaresco, F.
+    eprint: 1704.06424
+    eprinttype: arXiv
+    image: InfLaplace.jpg
+    pages: 604–612
+    publisher: Springer International Publishing
+    title: Nonlocal inpainting of manifold-valued data on finite weighted graphs
+    year: 2017
+
+"BergmannFitschenPerschSteidl-2017-2":
+    abstract: >
+        Recently infimal convolution type functions were used in regularization terms of variational models for restoring and decomposing images.
+        This is the first attempt to generalize the infimal convolution of first and second order differences to manifold-valued images.
+        We propose both an extrinsic and an intrinsic approach.
+        Our focus is on the second one since the summands arising in the infimal convolution lie on the manifold themselves and not in the higher dimensional embedding space.
+        We demonstrate by numerical examples that the approach works well on the circle, the 2-sphere, the rotation group, and the manifold of positive definite matrices with the affine invariant metric.
+    author:
+        - Ronny Bergmann
+        - Jan Henrik Fitschen
+        - Johannes Persch
+        - Gabriele Steidl
+    biblatextype: inproceedings
+    booktitle: "Scale Space and Variational Methods in Computer Vision: 6th International Conference, SSVM 2017, Kolding, Denmark, June 4-8, 2017, Proceedings"
+    editor:
+        - Lauze, F.
+        - Dong, Y.
+        - Dahl, A. B.
+    pages: 447–459
+    publisher: Springer International Publishing
+    title: Infimal Convolution Coupling of First and Second Order Differences on Manifold-Valued Images
+    year: 2017
+    doi: 10.1007/978-3-319-58771-4_36
+    img: Priors.png
+
+"BergmannMerkert-2017":
+    abstract: >
+        We approximate the quasi-static equation of linear elasticity in translation invariant spaces on the torus.
+        This unifies different FFT-based discretisation methods into a common framework and extends them to anisotropic lattices.
+        We analyse the connection between the discrete solution spaces and demonstrate the numerical benefits.
+        Finite element methods arise as a special case of periodised Box spline translates.
+    author:
+        - Ronny Bergmann
+        - Dennis Merkert
+    biblatextype: inproceedings
+    booktitle: 2017 International Conference on Sampling Theory and Applications (SampTA)
+    doi: 10.1109/SAMPTA.2017.8024347
+    image: Translates.png
+    pages: 396-399
+    title: Approximation of periodic PDE solutions with anisotropic translation invariant spaces
+    year: 2017
+
+"BergmannWeinmann-2015":
+    abstract: >
+        Cyclic data arise in various image and signal processing applications such as interferometric synthetic aperture radar, electroencephalogram data analysis, and color image restoration in HSV or LCh spaces.
+        In this paper we introduce a variational inpainting model for cyclic data which utilizes our definition of absolute cyclic second order differences.
+        Based on analytical expressions for the proximal mappings of these differences we propose a cyclic proximal point algorithm (CPPA) for minimizing the corresponding functional.
+        We choose appropriate cycles to implement this algorithm in an efficient way.
+        We further introduce a simple strategy to initialize the unknown inpainting region.
+        Numerical results both for synthetic and real-world data demonstrate the performance of our algorithm.
+    author:
+        - Ronny Bergmann
+        - Andreas Weinmann
+    biblatextype: inproceedings
+    booktitle: Energy Minimization Methods in Computer Vision and Pattern Recognition, 10th International Conference on, EMMCVPR 2015, Hong Kong
+    doi: 10.1007/978-3-319-14612-6_12
+    eprint: 1410.1998
+    eprinttype: arXiv
+    editor:
+        - Tai, X.-C.
+        - Bae, E.
+        - Chan, T. F.
+        - Leung, S. Y.
+        - Lysaker, M.
+    image: vecs1r.png
+    pages: 155–168
+    publisher: Springer
+    title: Inpainting of cyclic data using first and second order differences
+    year: 2015
+
+"OezguenSchuberBergmannBennewitzStrauss-2015":
+    abstract: >
+        The present study deals with the extraction of neural correlates evoked by tactile stimulation of the human fingertip.
+        A reciprocal sliding procedure was performed using a home-built tribometer while simultaneously electroencephalographic (EEG) data from the somatosensory cortex was recorded.
+        The tactile stimuli were delivered by a sliding block with equidistant, perpendicular ridges.
+        The experiments were designed and performed in a fully passive way to prevent attentional locked influences from the subjects.
+        In order to improve the signal-to-noise ratio (SNR) of event related single-trials (ERPs), nonlocal means in addition to 2D-anisotropic denoising schemes based on tight Gabor frames were applied.
+        This novel approach allowed for an easier extraction of ERP alternations.
+        A negative correlation between the latency of the P100 component of the resulting brain responses and the intensity of the underlying lateral forces was found.
+        These findings lead to the conclusion that an increasing stimulus intensity results in a decreasing latency of the brain responses.
+    author:
+        - Novaf Oezguen
+        - Kristof Schubert
+        - Ronny Bergmann
+        - Roland Bennewitz
+        - Daniel Strauss
+    biblatextype: inproceedings
+    booktitle: Engineering in Medicine and Biology Society (EMBC), 37th Annual International Conference of the IEEE
+    doi: 10.1109/EMBC.2015.7320277
+    image: s1tv12.png
+    pages: 8115-8118
+    title: Relating tribological stimuli to somatosensory electroencephalographic responses
+    year: 2015
+
+"BergmannPrestin-2014":
+    abstract: >
+        We investigate the error of periodic interpolation, when sampling a function on an arbitrary pattern on the torus.
+        We generalize the periodic Strang-Fix conditions to an anisotropic setting and provide an upper bound for the error of interpolation.
+        These conditions and the investigation of the error especially take different levels of smoothness along certain directions into account.
+    author:
+        - Ronny Bergmann
+        - Jürgen Prestin
+    biblatextype: inproceedings
+    doi: 10.1007/978-3-319-06404-8_3
+    editor:
+        - Fasshauer, G.
+        - Schumaker, L.
+    eprint: 1309.3432
+    booktitle: "Approximation Theory XIV: San Antonio 2013"
+    eprinttype: arXiv
+    image: dlVP.png
+    pages: 27–44
+    title: Multivariate anisotropic interpolation on the torus
+    year: 2014
+#
+# Book Chapter
+#
+"BergmannLausPerschSteidl2019":
+    author:
+        - Ronny Bergmann
+        - Friederike Laus
+        - Johannes Persch
+        - Gabriele Steidl
+    biblatextype: incollection
+    booktitle: "Processing, Analyzing and Learning of Images, Shapes, and Forms: Part 2"
+    doi: 10.1016/bs.hna.2019.07.005
+    editor:
+        - Kimmel, R.
+        - Tai, X.-C.
+    chapter: 14
+    pages: 553–578
+    title: Recent advances in denoising of manifold-valued images
+    year: 2019
+    series: Handbook of Numerical Analysis
+    volume: 20
+    publisher: Elsevier
+#
+# Theses
+#
+"Bergmann-2018":
+    author:
+        - Ronny Bergmann
+    biblatextype: thesis
+    school: Technische Universität Kaiserslautern
+    type: cumulative habilitation thesis
+    title: Variational Methods for Manifold-valued Image Processing
+    year: 2018
+
+"Bergmann-2013-1":
+    abstract: >
+        Die translationsinvarianten Räume sind seit Ende der 1980er Jahre ein wichtiges Werkzeug in der Zerlegung und Analyse von Daten und Funktionen.
+        Sie stellen eine Funktion in verschiedenen Detailstufen dar, wobei sich auf jeder Stufe lokale Eigenschaften der Funktion in den Koeffizienten der Translate wiederfinden.
+        Dazu ist es notwendig, dass die Funktionen einer solchen Zerlegung gut lokalisiert sind.
+        Dies überträgt sich dann auf die von den Translaten der Wavelets aufgespannten orthogonalen Komplemente innerhalb der gestaffelten Räume.
+        Neben diesen theoretischen Eigenschaften haben vor allem die schnellen Algorithmen der Wavelet-Transformation zur großen Verbreitung und Anwendung der Wavelets geführt.
+        In den 1990er Jahren wurden periodische Wavelets entwickelt und in den letzten Jahren mehrdimensionale Wavelets, wie die Shearlets oder Curvelets, die insbesondere spezielle Richtungen in der Zerlegung einer Funktion bevorzugen.
+
+        Diese Arbeit widmet sich den mehrdimensionalen periodischen translationsinvarianten Räumen, die insbesondere allgemeiner sind als diejenigen, die lediglich durch Tensorproduktbildung aus dem Eindimensionalen hervorgehen, und somit eine Anisotropie in ihren Fourier- Koeffizienten besitzen und gewisse Richtungseigenschaften haben.
+        Diese Richtungspräferenz spiegelt sich auch in den Mustern wider, mit denen die Translate der Funktionen die hier betrachteten Räume bilden.
+
+        Zunächst wird für die periodischen translationsinvarianten Räume auf dem Torus der Interpolationsfehler betrachtet. Dazu werden die anisotropen periodischen Strang-Fix-Bedingungen eingeführt und mit ihnen Fehlerabschätzungen angegeben, welche die Räume bezüglich der Approximationsgüte für Funktionen mit bestimmten Glattheitseigenschaften charakterisieren.
+
+        Für die anisotrope periodische Wavelet-Transformation werden Algorithmen vorgestellt, die in ihrer Komplexität den schnellen Algorithmen der eindimensionalen Wavelets entsprechen und dabei insbesondere dimensionsunabhängig sind.
+        Wichtigste Werkzeuge sind dazu die schnelle Fourier-Transformation und die den Wavelets zu Grunde liegenden Zwei-Skalen-Gleichungen der Multiskalen-Analyse.
+        Außerdem wird durch diese Beschreibung eine Richtungsklassifikation der betrachteten Wavelets auf den Mustern möglich.
+
+        Ausgehend von den de la Vallée Poussin-Mitteln wird dann eine Verallgemeinerung vorgestellt, bei der lokalisierte anisotrope periodische Wavelets konstruiert werden, deren Fourier-Koeffizienten als Abtastung einer beliebig glatten Funktion gegeben sind, deren Träger endlich ist. Dies verallgemeinert sowohl die eindimensionalen de la Vallée Poussin-Wavelets als auch die multivariaten Dirichlet-Wavelets.
+        Für spezielle glatte Funktionen gelingt es, in der Konstruktion anstelle der rekursiven Definition eine explizite Darstellung der Fourier-Koeffizienten anzugeben und somit für diese lokalisierten Wavelets eine gesamte Multiskalen-Analyse zu konstruieren.
+    author:
+        - Ronny Bergmann
+    biblatextype: thesis
+    file: https://ronnybergmann.net/theses/Bergmann__Translationsinvariante_Raeume_multivariater_anisotroper_Funktionen_auf_dem_Torus.pdf
+    github: https://github.com/kellertuer/MPAWL
+    image: dlVP.png
+    link: https://www.shaker.de/de/content/catalogue/index.asp?lang=de&ID=8&ISBN=978-3-8440-2266-7
+    language: german
+    note: "similarily: Shaker Verlag, ISBN 978-3844022667, 2013."
+    school: Universität zu Lübeck
+    type: Dissertation
+    title: Translationsinvariante Räume multivariater anisotroper Funktionen auf dem Torus
+    year: 2013
+
+"Bergmann-2009":
+    abstract: >
+        Für wissenschaftliche Arbeiten in der Graphentheorie, vor allem bei den allgemeineren Hypergraphen, sind Darstellungen zur Erklärung und Erläuterung von großer Bedeutung.
+        Diese Arbeit schafft daher die Grundlagen einer Darstellung von Hypergraphen, die in dem Programm „Gravel“, einem Editor für ebendiese, umgesetzt wurden.
+
+        Für Bilder von Hypergraphen werden in dieser Arbeit theoretische Grundlagen entwickelt, die auf Basis der NURBS-Kurven eine Darstellung der Hyperkanten ermöglicht.
+        Dazu werden die Eigenschaften von periodischen NURBS-Kurven betrachtet und Algorithmen zur interaktiven Modifikation vorgestellt.
+        Der Begriff des Hyperkantenumrisses und seiner Gültigkeit wird eingeführt, um formelle Anforderungen an die Darstellung zu schaffen.
+        Auf Grundlage der genannten Begriffe wird das Programm „Gravel“ zum Zeichnen von Graphen und Hypergraphen entwickelt und implementiert.
+    author:
+        - Ronny Bergmann
+    biblatextype: thesis
+    file: http://ronnyberg,ann.net/theses/Bergmann__Interaktive_und_automatisierte_Hypergraphenvisualisierung_mittels_NURBS-Kurven.pdf
+    github: kellertuer/Gravel
+    image: dipl.png
+    language: german
+    school: Universität zu Lübeck
+    title: Interaktive und automatisierte Hypergraphenvisualisierung mittels NURBS-Kurven
+    type: Diplomarbeit
+    year: 2009
+#
+# Misc
+#
+"BergmannLausPerschSteidl-2017":
+    author:
+        - Ronny Bergmann
+        - Friederike Laus
+        - Johannes Persch
+        - Gabriele Steidl
+    biblatextype: misc
+    image: CaminoRest.png
+    journaltitle: Siam News
+    link: https://sinews.siam.org/Details-Page/processing-manifold-valued-images
+    number: 8
+    pages: 1 & 3
+    publication_date: 2017-10-01
+    title: Manifold-valued Image Processing
+    volume: 50
+    year: 2017
