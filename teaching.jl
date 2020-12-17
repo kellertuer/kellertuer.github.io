@@ -71,11 +71,9 @@ function format_supervision(entry)
     end
     return """<dt>$df</dt>
     <dd>
-        <span class="student">$(students)</span>
-        <span class="title">$(entry["title"])</span>
-        <span class="thesis-type">$(thesis)</span>
-        $(with_names)
-    </dd>
+    <span class="student">$(students)</span>
+    <span class="title">$(fd2html(entry["title"]; internal=true))</span>
+    <span class="thesis-type">$(thesis)</span>$(with_names)</dd>
     """
 end
 

@@ -163,10 +163,7 @@ function hfun_forthcomingconferences()
                   </ul>
         """
     else
-        return """
-                  <h2>Forthcoming Conferences</h2>
-                  <p>There are currently no forthcoming conferences stored here, that I plan to attend</p>
-              """
+        return ""
     end
 end
 function fomat_conference(conf::Dict)

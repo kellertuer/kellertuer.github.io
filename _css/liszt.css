@@ -4,6 +4,11 @@
     --normal: 19px;
     --text-color: hsv(0, 0%, 20%);
 }
+
+.no-number .katex-display::after {
+    counter-increment: nothing;
+    content: "";
+}
 .error {
     color: #CC3311;
 }
@@ -294,6 +299,10 @@ dl.supervised dd .student:after {
 dl.supervised dd .title {
     font-weight: bold;
 }
+.title p {
+    display: inline;
+    margin-right:-.45ex;
+}
 
 dl.supervised dd .title:after {
     content: ",\00a0";
@@ -320,6 +329,10 @@ dl.courses dd .name {
     font-weight: bold;
     font-size:large;
 }
+dl.courses dd .name a {
+    color:rgb(16, 71, 102);
+}
+
 dl.courses dd .info:before,
 dl.courses dd .institute:before
 {
