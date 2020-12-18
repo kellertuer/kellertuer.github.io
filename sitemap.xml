@@ -20,12 +20,6 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://ronnybergmann.net/Readme/index.html</loc>
-    <lastmod>2020-12-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
     <loc>https://ronnybergmann.net/talks/index.html</loc>
     <lastmod>2020-12-18</lastmod>
     <changefreq>monthly</changefreq>
@@ -86,13 +80,13 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://ronnybergmann.net/index.html</loc>
+    <loc>https://ronnybergmann.net/projects/manifoldsjl/index.html</loc>
     <lastmod>2020-12-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://ronnybergmann.net/projects/manifoldsjl/index.html</loc>
+    <loc>https://ronnybergmann.net/index.html</loc>
     <lastmod>2020-12-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
