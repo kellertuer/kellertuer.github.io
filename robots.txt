@@ -1,0 +1,4 @@
+Sitemap: https://ronnybergmann.net/sitemap.xml
+
+User-agent: *
+Disallow:
