@@ -2,7 +2,7 @@
 
 @def title = "Publications."
 
-{{bibliography online data/bibliography.yaml Preprint}}
+{{bibliography online data/bibliography.yaml Preprints}}
 
 ## Journal Articles
 {{bibliography article}}

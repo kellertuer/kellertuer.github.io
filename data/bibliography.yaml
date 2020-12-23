@@ -1,3 +1,23 @@
+"BaumgärtnerBergmannHerrmannHerzogSchmidtVidal-Nunez-2020":
+    abstract: >
+        In this paper we present a novel approach to solve surface mesh denoising and inpainting problems.
+        The purpose is not only to remove noise while preserving important features such as sharp edges, but also to fill in missing parts of the geometry.
+        A discrete variant of the total variation of the unit normal vector field serves as a regularizing functional to achieve this goal.
+        In order to solve the resulting problem, we present a novel variant of the split Bregman (ADMM) iteration.
+        Numerical examples are included demonstrating the performance of the method with some complex 3D geometries.
+    author:
+        - Lukas Baumgärtner
+        - Ronny Bergmann
+        - Marc Herrmann
+        - Roland Herzog
+        - Stephan Schmidt
+        - José Vidal-Núñez
+    biblatextype: online
+    eprint: 2012.11748
+    eprinttype: arXiv
+    title: Mesh Denoising and Inpainting using the Total Variation of the Normal
+    year: 2020
+
 "BergmannHerzogSilvaLouzeiroTenbrinckVidal-Nunez-2020":
     abstract: >
         In this paper, we introduce a definition of Fenchel conjugate and Fenchel biconjugate on Hadamard manifolds based on the tangent bundle.
@@ -14,7 +34,7 @@
         - José Vidal-Núñez
     biblatextype: article
     eprint: 1908.02022
-    eprinttype: arxiv
+    eprinttype: arXiv
     image: Fenchel.png
     journaltitle: Foundations of Computational Mathematics
     note: accepted for publication
@@ -41,7 +61,7 @@
     biblatextype: article
     doi: 10.1088/1361-6420/ab6d5c
     eprint: 1908.07916
-    eprinttype: arxiv
+    eprinttype: arXiv
     image: TVofNormal.png
     journaltitle: Inverse Problems
     number: 5
@@ -67,7 +87,7 @@
     biblatextype: article
     doi: 10.1088/1361-6420/ab6d5b
     eprint: 1902.07240
-    eprinttype: arxiv
+    eprinttype: arXiv
     image: TVofNormal.png
     journaltitle: Inverse Problems
     number: 5
@@ -114,7 +134,7 @@
     biblatextype: article
     doi: 10.1137/18M1181602
     eprint: 1804.06214
-    eprinttype: arxiv
+    eprinttype: arXiv
     image: KKT.png
     journaltitle: SIAM Journal on Optimization
     number: 4
@@ -137,7 +157,7 @@
     biblatextype: article
     doi: 10.3389/fams.2018.00059
     eprint: 1807.10090
-    eprinttype: arxiv
+    eprinttype: arXiv
     image: S2BezierArt.png
     journaltitle: Frontiers in Applied Mathematics and Statistics
     publication_date: 2018-12-12
@@ -163,7 +183,7 @@
     biblatextype: article
     doi: 10.1007/s10851-018-0840-y
     eprint: 1709.01343
-    eprinttype: arxiv
+    eprinttype: arXiv
     image: Priors.png
     issue: 9
     journaltitle: Journal of Mathematical Imaging and Vision
@@ -285,7 +305,7 @@
         - Andreas Weinmann
     biblatextype: article
     doi: 10.1137/15M101988X
-    eprinttype: arxiv
+    eprinttype: arXiv
     eprint: 1506.02409
     image: secondOrderS2.png
     journaltitle: SIAM Journal on Scientific Computing

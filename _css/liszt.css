@@ -109,6 +109,9 @@ ol li span.year:after {
 ol li span.pages:before {
     content: ",\00a0\00a0pp.\00a0"
 }
+ol li span.eprinttype:after {
+    content: ":\00a0";
+}
 ol div.item-icon-wrapper {
     margin-top:-2ex;
     float: right;
