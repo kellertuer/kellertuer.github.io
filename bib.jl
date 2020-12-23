@@ -152,10 +152,16 @@ function format_bibtex_entry(entry,key; list_style="number")
             </div>
             """
     end
+    eprinturl = ""
+    lowercase(get(entry,"eprinttype","")) == "arxiv" && (eprinturl = "https://arxiv.org/abs/")
+    eprint_text_link = """$(formatlazyspan(entry,"eprinttype"))
+    <a href="$(eprinturl)$(get(entry,"eprint",""))">$(get(entry,"eprint",""))</a>
+    """
     s = """$s
         $(names)$(formatspan(entry,"year"))$(formatspan(entry,"title"; remove=["{","}"]))
         <br>
         $(formatlazyspan(entry, "editor"; prefix="in: "))$(formatlazyspan(entry,"booktitle"; prefix= haskey(entry,"editor") ? ": " : "in: "))$(formatlazyspan(entry, "chapter"; prefix=", Chapter "))$(formatlazyspan(entry,"journaltitle";class="journal"))$(formatlazyspan(entry,"series"; prefix=", "))$(formatlazyspan(entry,"volume"))$(formatlazyspan(entry,"number"))$(formatlazyspan(entry,"issue"))$(formatlazyspan(entry,"pages"))$(formatlazyspan(entry,"publisher"; prefix=", "))$(formatlazyspan(entry,"type"))$(formatlazyspan(entry,"language"; prefix=", "))$(formatlazyspan(entry,"school"; prefix=", "))$(formatlazyspan(entry,"note"))
+        $( (get(entry, "biblatextype", "") == "online" || get(entry,"journaltitle","")=="") ? eprint_text_link : "")
         <ul class="nav nav-icons">
         """
     #bibtex icon
@@ -237,7 +243,7 @@ function format_bibtex_code(
                 v = entry[f]
             end
             multiline = lowercase(f) ∈ ["abstract"]
-            s = "$s\n    $(f) = {$(multiline ? "\n    " : "")$(v)$(multiline ? "    " : "")}"
+            s = "$s\n    $(f) = {$(multiline ? "\n    " : "")$(v)$(multiline ? "    " : "")},"
         end
     end
     s = """@$(get(entry, "biblatextype", "article")){$key,$s
