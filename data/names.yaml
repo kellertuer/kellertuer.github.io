@@ -125,6 +125,7 @@ people:
             full: "Marc Herrmann"
             short: "M. Herrmann"
             bib: "Herrmann, M."
+        orcid: 0000-0002-5490-3681
     Ralf Hielscher:
         name:
             bib: Hielscher, R.
@@ -245,6 +246,7 @@ people:
             full: Stephan Schmidt
             short: S. Schmidt
             bib: Schmidt, S.
+        orcid: 0000-0002-4888-0794
         url: https://www.mathematik.hu-berlin.de/de/personen/mitarb-vz/1693090
     Benedikt Schmitt:
         name:
