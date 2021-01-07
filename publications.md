@@ -9,7 +9,7 @@
 
 ## Book Chapter
 
-{{bibliography incollecition data/bibliography.yaml}}
+{{bibliography incollection data/bibliography.yaml}}
 
 ## Peer-reviewed Conference Proceedings
 
