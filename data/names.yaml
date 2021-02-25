@@ -348,6 +348,10 @@ people:
             full: Erik Wünsche
             short: E. Wünsche
 institutes:
+    'IMF':
+        name: Institutt for matematiske fag
+        short: IMF
+        url: https://www.ntnu.edu/imf
     'IfM':
         name: Institut für Mathematik
         short: Inst. f. Math.
@@ -367,6 +371,10 @@ institutes:
         name: Arbeitsgruppe Numerik partieller Differentialgleichungen
         short: NumaPDE
         url: https://www.tu-chemnitz.de/mathematik/part_dgl/
+    'NTNU':
+        name: Norges teknisk-naturvitenskapelige universitet
+        short: NTNU
+        url: https://ntnu.edu
     'TUC':
         name: Technische Universität Chemnitz
         short: TU Chemnitz
