@@ -3,18 +3,15 @@
 @def title = "Contact."
 
 ~~~
-<div style="white-space:pre">
-Ronny Bergmann
-Department of Mathematical Sciences
-Norwegian University of Science and Technology
-N-7491 Trondheim
-Norway
-
-E-mail: <a href="mailto:ronny.bergmann@ntnu.no">ronny.bergmann@ntnu.no</a>
-
-Office: Sentralbygg 2, 1302, Gløshaugen
-
-</div>
+Ronny Bergmann<br/>
+Department of Mathematical Sciences<br/>
+Norwegian University of Science and Technology<br/>
+N-7491 Trondheim<br/>
+Norway<br/>
+<br/>
+E-mail: <a href="mailto:ronny.bergmann@ntnu.no">ronny.bergmann@ntnu.no</a><br/>
+<br/>
+Office: Sentralbygg 2, 1302, Gløshaugen<br/>
 <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=10.386529695242645%2C63.41164048507657%2C10.421763192862274%2C63.42356613469509&amp;layer=mapnik&amp;marker=63.41760392997316%2C10.404146444052458" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=63.4176&amp;mlon=10.4041#map=15/63.4176/10.4041&amp;layers=N">Show in larger map</a></small>
 ~~~
 
