@@ -6,7 +6,7 @@
 Ronny Bergmann<br/>
 Department of Mathematical Sciences<br/>
 Norwegian University of Science and Technology<br/>
-N-7491 Trondheim<br/>
+NO-7491 Trondheim<br/>
 Norway<br/>
 <br/>
 E-mail: <a href="mailto:ronny.bergmann@ntnu.no">ronny.bergmann@ntnu.no</a><br/>
