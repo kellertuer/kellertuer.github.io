@@ -132,7 +132,8 @@ end
 function formatspan(entry,field; class=field, prefix="", remove=[])
     s = "";
     if entry[field] isa Vector #concat list
-        s = join( [ (has_name(name) ? hfun_person([name,"bibname_fnorcid"]) : """$(prefix)$(length(prefix)>0 ? " " : "")<span class="person unknown">$name</span>""") for name ∈ entry[field] ], ", ")
+        s = join( [ (has_name(name) ? hfun_person([name,"bibname_fnorcid"]) : """<span class="person unknown">$name</span>""") for name ∈ entry[field] ], ", ")
+        s = """$(prefix)$(length(prefix)>0 ? " " : "")$s"""
     else
         s = """$(prefix)$(length(prefix)>0 ? " " : "")<span class="$field">$(entry[field])</span>"""
     end
