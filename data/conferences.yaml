@@ -14,6 +14,20 @@
 #   place: Hasenwinkel
 #   organizer: true
 #   talk: true
+Informs2021:
+  name: Informs Annual Meeting 2021
+  url: http://meetings2.informs.org/wordpress/anaheim2021/
+  start: 2021-10-24
+  end: 2021-10-27
+  place: Anaheim,  CA, USA – and online
+  talk: true
+JuliaCon2021:
+  name: JuliaCon 2021
+  url: https://juliacon.org/2021/
+  start: 2021-07-28
+  end: 2021-07-30
+  place: online & everywhere
+  talk: false
 COM2020:
   name: "Mini-Workshop: Computational Optimization on Manifolds"
   url: https://www.mfo.de/occasion/2047c/www_view
@@ -42,6 +56,7 @@ JuliaCon2020:
   start: 2020-07-27
   end: 2020-07-31
   place: Everywhere (online)
+  talk: true
 ENUMATH2019:
   name: European Numerical Mathematics and Advanced Applications Conference 2019
   url: https://www.enumath2019.eu
