@@ -35,21 +35,14 @@ COM2020:
   end: 2020-11-21
   place: Oberwolfach - everywhere (online)
   talk: true
-#IFIPTV72020
-#  name: IFIP TC7 Conference on System Modelling and Optimization
-#  url: https://modemat.epn.edu.ec/ifip_tc7_2020/
-#  start: 2020-08-31
-#  end: 2020-09-04
-#  place: Quito, Ecuador
-#  talk: true
-#  organizer: true
-#MTNS2020_
-#  name: 24th International Symposium on Mathematical Theory of Networks and Systems
-#  url: https://mtns2020.eng.cam.ac.uk
-#  start: 2020-08-24
-#  end: 2020-08-28
-#  place: Cambridge, United Kingdom
-#  talk: true
+IFIPTV72021:
+  name: IFIP TC7 Conference on System Modelling and Optimization
+  url: https://modemat.epn.edu.ec/ifip_tc7_2021/
+  start: 2021-08-30
+  end: 2021-09-03
+  place: online (originally Quito, Ecuador)
+  talk: true
+  organizer: true
 JuliaCon2020:
   name: JuliaCon 2020
   url: https://juliacon.org/2020/
