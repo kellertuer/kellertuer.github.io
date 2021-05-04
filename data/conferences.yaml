@@ -14,6 +14,14 @@
 #   place: Hasenwinkel
 #   organizer: true
 #   talk: true
+GAMM2022:
+  name: Jahrestagung der Gesellschaft für angewandte Mathematik und Mechanik
+  start: 2022-08-15
+  end: 2022-08-19
+  place: Aachen, Germany
+#  url:
+#  talk: true
+#  organizer: true
 Informs2021:
   name: Informs Annual Meeting 2021
   url: http://meetings2.informs.org/wordpress/anaheim2021/
@@ -28,13 +36,6 @@ JuliaCon2021:
   end: 2021-07-30
   place: online & everywhere
   talk: false
-COM2020:
-  name: "Mini-Workshop: Computational Optimization on Manifolds"
-  url: https://www.mfo.de/occasion/2047c/www_view
-  start: 2020-11-15
-  end: 2020-11-21
-  place: Oberwolfach - everywhere (online)
-  talk: true
 IFIPTV72021:
   name: IFIP TC7 Conference on System Modelling and Optimization
   url: https://modemat.epn.edu.ec/ifip_tc7_2021/
@@ -43,6 +44,13 @@ IFIPTV72021:
   place: online (originally Quito, Ecuador)
   talk: true
   organizer: true
+COM2020:
+  name: "Mini-Workshop: Computational Optimization on Manifolds"
+  url: https://www.mfo.de/occasion/2047c/www_view
+  start: 2020-11-15
+  end: 2020-11-21
+  place: Oberwolfach - everywhere (online)
+  talk: true
 JuliaCon2020:
   name: JuliaCon 2020
   url: https://juliacon.org/2020/

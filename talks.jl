@@ -124,7 +124,7 @@ end
 function hfun_remainingconferences()
     filtered_conf = filter( x-> (x[1] ∉ exclude_conf), conferences)
     #print(filtered_conf)
-    sorted_conf = sort(collect(filtered_conf), lt = (a,b) -> a[2]["start"] < b[2]["start"])
+    sorted_conf = sort(collect(filtered_conf), lt = (a,b) -> a[2]["start"] > b[2]["start"])
     s = "";
     for conf in sorted_conf
         if conf[2]["start"] < Dates.now()
@@ -157,7 +157,7 @@ function hfun_forthcomingconferences()
     if length(s) > 0
         return """
                   <h2>Forthcoming Conferences</h2>
-                  <p>I will be attending the following conferences</p>
+                  <p>I plan to attend the following conferences</p>
                   <ul class="conferences fa-ul">
                   $(s)
                   </ul>
