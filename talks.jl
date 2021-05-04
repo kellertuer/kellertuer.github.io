@@ -124,7 +124,7 @@ end
 function hfun_remainingconferences()
     filtered_conf = filter( x-> (x[1] ∉ exclude_conf), conferences)
     #print(filtered_conf)
-    sorted_conf = sort(collect(filtered_conf), lt = (a,b) -> a[2]["start"] > b[2]["start"])
+    sorted_conf = sort(collect(filtered_conf), lt = (a,b) -> a[2]["start"] < b[2]["start"])
     s = "";
     for conf in sorted_conf
         if conf[2]["start"] < Dates.now()
@@ -140,15 +140,15 @@ function hfun_remainingconferences()
     """
 end
 function hfun_forthcomingconferences()
-    sorted_conf = sort(collect(conferences), lt = (a,b) -> a[2]["start"] > b[2]["start"])
+    sorted_conf = sort(collect(conferences), lt = (a,b) -> a[2]["start"] < b[2]["start"])
     s = "";
     for conf in sorted_conf
         if conf[2]["start"] > Dates.now()-Week(2) # all that are newer than 2 weeks
             s = """$s
                    <li><span class="fa-li"><i class="fas fa-users"></i></span>$(fomat_conference(conf[2]))
                    <span class="icons">
-                    $(get(conf[2], "talk", false) ? """<i class="fas fa-chalkboard-teacher"></i>""" : "")
-                    $(get(conf[2], "organizer", false) ? """<i class="fas fa-chair"></i>""" : "")
+                    $(get(conf[2], "talk", false) ? """<i class="fas fa-chalkboard-teacher" title="I am giving a talk"></i>""" : "")
+                    $(get(conf[2], "organizer", false) ? """<i class="fas fa-chair" title="I am organizing/chairing a session"></i>""" : "")
                     </span>
                    </li>
                 """
