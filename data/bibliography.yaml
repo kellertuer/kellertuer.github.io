@@ -39,6 +39,7 @@
     biblatextype: online
     eprint: 2012.11748
     eprinttype: arXiv
+    image: MeshDenoising.png
     title: Mesh Denoising and Inpainting using the Total Variation of the Normal
     year: 2020
 
