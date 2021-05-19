@@ -22,6 +22,14 @@ GAMM2022:
 #  url:
 #  talk: true
 #  organizer: true
+IFIPTV72021:
+  name: IFIP TC7 Conference on System Modelling and Optimization
+  url: https://modemat.epn.edu.ec/ifip_tc7_2021/
+  start: 2021-08-30
+  end: 2021-09-03
+  place: online (originally Quito, Ecuador)
+  talk: true
+  organizer: true
 Informs2021:
   name: Informs Annual Meeting 2021
   url: http://meetings2.informs.org/wordpress/anaheim2021/
@@ -36,14 +44,14 @@ JuliaCon2021:
   end: 2021-07-30
   place: online & everywhere
   talk: false
-IFIPTV72021:
-  name: IFIP TC7 Conference on System Modelling and Optimization
-  url: https://modemat.epn.edu.ec/ifip_tc7_2021/
-  start: 2021-08-30
-  end: 2021-09-03
-  place: online (originally Quito, Ecuador)
-  talk: true
-  organizer: true
+SSVM2021:
+  name: 8<sup>th</sup> International Conference on Scale Space and Variational Methods in Computer Vision
+  url: https://ssvm2021.sciencesconf.org
+  start: 2021-05-16
+  end: 2021-05-20
+  place: online (originally Cabourg, France)
+  talk: false
+# 2020
 COM2020:
   name: "Mini-Workshop: Computational Optimization on Manifolds"
   url: https://www.mfo.de/occasion/2047c/www_view

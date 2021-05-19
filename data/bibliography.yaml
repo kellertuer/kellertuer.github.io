@@ -39,6 +39,7 @@
     biblatextype: online
     eprint: 2012.11748
     eprinttype: arXiv
+    image: MeshDenoising.png
     title: Mesh Denoising and Inpainting using the Total Variation of the Normal
     year: 2020
 
@@ -180,7 +181,7 @@
         - Pierre-Yves Gousenbourger
     biblatextype: article
     doi: 10.3389/fams.2018.00059
-    eprint: 1807.10090
+    eprint: "1807.10090"
     eprinttype: arXiv
     image: S2BezierArt.png
     journaltitle: Frontiers in Applied Mathematics and Statistics
@@ -575,7 +576,7 @@
     title: Infimal Convolution Coupling of First and Second Order Differences on Manifold-Valued Images
     year: 2017
     doi: 10.1007/978-3-319-58771-4_36
-    img: Priors.png
+    image: Priors.png
 
 "BergmannMerkert-2017":
     abstract: >
@@ -688,6 +689,7 @@
     series: Handbook of Numerical Analysis
     volume: 20
     publisher: Elsevier
+    image: CaminoRest.png
 #
 # Theses
 #
@@ -699,6 +701,7 @@
     type: cumulative habilitation thesis
     title: Variational Methods for Manifold-valued Image Processing
     year: 2018
+    image: Habil.png
 
 "Bergmann-2013-1":
     abstract: >
