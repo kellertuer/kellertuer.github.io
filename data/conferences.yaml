@@ -20,8 +20,8 @@ GAMM2022:
   end: 2022-08-19
   place: Aachen, Germany
 #  url:
-#  talk: true
-#  organizer: true
+  talk: true
+  organizer: true
 IFIPTV72021:
   name: IFIP TC7 Conference on System Modelling and Optimization
   url: https://modemat.epn.edu.ec/ifip_tc7_2021/
