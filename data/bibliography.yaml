@@ -1,3 +1,28 @@
+"AxenBaranBergmannRzecki-2021":
+    abstract: >
+        For data given on a nonlinear space, like angles, symmetric positive matrices, the
+        sphere, or the hyperbolic space, there is often enough structure to form
+        a Riemannian manifold. We present the Julia package Manifolds.jl, providing a fast
+        and easy to use library of Riemannian manifolds and Lie groups. We introduce a
+        common interface, available in ManifoldsBase.jl, with which new manifolds,
+        applications, and algorithms can be implemented. We demonstrate the utility of
+        Manifolds.jl using Bézier splines, an optimization task on manifolds, and a principal
+        component analysis on nonlinear data. In a benchmark, Manifolds.jl outperforms
+        existing packages in Matlab or Python by several orders of magnitude and is about
+        twice as fast as a comparable package implemented in C++.
+    author:
+        - Seth Axen
+        - Mateusz Baran
+        - Ronny Bergmann
+        - Krzysztof Rzecki
+    biblatextype: online
+    eprint: 2106.08777
+    eprinttype: arXiv
+    image: Casteljau.png
+    publication_date: 2021-06-16
+    title: "Manifolds.jl: An Extensible Julia Framework for Data Analysis on Manifolds"
+    year: 2021
+
 "BergmannHerzogSilvaLouzeiro-2021":
     abstract: >
         In this paper, we introduce a definition of Fenchel conjugate and Fenchel biconjugate

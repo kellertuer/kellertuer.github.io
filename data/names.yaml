@@ -240,6 +240,12 @@ people:
             bib: Rosandi, R.
             full: Rozan Rosandi
             short: R. Rosandi
+    Krzysztof Rzecki:
+        name:
+            bib: Rzecki, K.
+            full: Krzysztof Rzecki
+            short: K. Rzecki
+        orcid: 0000-0002-6834-2344
     Stephan Schmidt:
         affiliation: "HU Berlin"
         name:
