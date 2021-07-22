@@ -23,7 +23,7 @@
     title: "Manifolds.jl: An Extensible Julia Framework for Data Analysis on Manifolds"
     year: 2021
 
-"BergmannHerzogSilvaLouzeiro-2021":
+"SilvaLouzeiroBergmannHerzog-2021":
     abstract: >
         In this paper, we introduce a definition of Fenchel conjugate and Fenchel biconjugate
         on Hadamard manifolds based on the tangent bundle. Our definition overcomes the
@@ -36,9 +36,9 @@
         In addition, this framework allows us to develop a theory of separation of convex
         sets on Hadamard manifolds, and a strict separation theorem is obtained.
     author:
+        - Mauricio Silva Louzeiro
         - Ronny Bergmann
         - Roland Herzog
-        - Mauricio Silva Louzeiro
     biblatextype: online
     eprint: 2102.11155
     eprinttype: arXiv
