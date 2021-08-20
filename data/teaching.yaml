@@ -1,4 +1,10 @@
 lectures:
+  - term: Høst 2021
+    date: 2021-08-24
+    name: TMA4215 Numerisk matematikk
+    note: Numerical Mathematics
+    university: NTNU
+    link: https://www.ntnu.edu/studies/courses/TMA4215
   - term: WS&nbsp;2017/18
     date: 2017-10-01
     name: Höhere Mathematik III – Vektoranalysis
@@ -18,7 +24,7 @@ lectures:
     university: TUK
   - term: SS&nbsp;2015
     date: 2015-04-01
-    name: “Foundations of Image Processing”
+    name: Foundations of Image Processing
     university: TUK
 exercises:
   - term: WS&nbsp;2020/21
