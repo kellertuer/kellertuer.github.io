@@ -1,1 +1,440 @@
-@charset "utf-8";:root{--block-background:#f8f8f8;--small:14px;--normal:19px;--text-color:hsv(0,0%,20%)}.no-number .katex-display::after{counter-increment:nothing;content:""}.error{color:#C31}p .cite:before{content:"["}p .cite:after{content:"]"}p .cite{font-size:small}ol.bibliography,ol.literature{margin-bottom:.5rem;list-style-type:none;margin-left:2ex}.references ol.bibliography{counter-reset:bibitem;list-style-type:none}ol.bibliography>li:before{margin-left:-2em;content:"["counter(bibitem) "]";padding-right:.5em;text-align:right}ol.literature{list-style-type:none}ol.bibliography>li,ol.literature>li{min-height:85px;padding-bottom:2rem;clear:both}ol.bibliography>li{counter-increment:bibitem -1}ol.literature li .li-label:before{content:"[";color:var(--text-color)}ol.literature li .li-label:after{content:"]";color:var(--text-color)}ol.literature li .li-label{font-size:small;margin-left:-3.5rem;color:#41a1c6;white-space:nowrap;margin-right:.4em}ol li span.title{font-weight:bold}ol li span.title:before{content:"\A";white-space:pre}ol li span.volume{font-weight:bold;margin-left:1ex}ol li span.note:before{content:",\00a0"}ol li span.note:after{content:"."}ol li span.note{font-style:italic}ol li span.number:before,ol li span.issue:before{content:"("}ol li span.number:after,ol li span.issue:after{content:")"}ol li span.number{margin-left:0}ol li span.year:before{content:"\00a0("}ol li span.year:after{content:")."}ol li span.pages:before{content:",\00a0\00a0pp.\00a0"}ol li span.eprinttype:after{content:":\00a0"}ol div.item-icon-wrapper{margin-top:-2ex;float:right;width:125px;margin-left:1rem;margin-bottom:1rem}ol div.item-icon-wrapper img{width:125px;margin:0;padding:0;border:1px solid black;border:1px solid rgba(0,0,0,0.5)}ol li i.ai-orcid-square,ol li i.ai-orcid{color:#a6ce39}ol li ul.nav-icons{margin:0;margin-top:.75rem;padding:0;display:block;margin-bottom:1rem;list-style-type:none}ul.nav-icons li{display:inline}ul.nav-icons li a{color:#41a1c6;text-decoration:none;border-bottom:0}div.abstract{margin-top:-1rem;padding-top:1rem}div.abstract div.content:before{content:"Abstract.";font-weight:bold;padding-right:2rem}div.bibtex{margin-bottom:.5rem}div.abstract div.content,div.bibtex div.content{width:94%;margin-left:4%;margin-right:2%;margin-top:-.5rem;padding-top:0;padding-bottom:0;font-weight:400;padding-left:2%;border-left:1px solid black}div.abstract div.content{font-size:66%}div.bibtex div.content{white-space:pre-wrap;font-family:monospace;font-size:50%}.collapse{display:none}.collapsing{opacity:.3}.collapse.in{display:block}.year{padding-bottom:0;margin-bottom:0}ul.talks{list-style-type:none}ul.talks li{padding-top:1rem}ul.talks span.title{font-weight:bold}ul.talks span.title:after,ul.talks span.dates:before{content:"\A";white-space:pre}ul.talks span.name:after,ul.talks span.institute:after,ul.talks span.dates:after{content:",\00a0"}ul.talks span.place:after,ul.talks span.university:after{content:"."}ul.talks li ul.nav-icons{margin:0;margin-top:-.1 25rem;padding:0;display:block;float:right;margin-bottom:1rem;list-style-type:none}ul.talks li span.info:before{content:"\A";white-space:pre}ul.talks span.info{font-style:italic}ul.conferences{}ul.conferences li{margin-top:.25rem}ul.conferences li span.name:after{content:"\A";white-space:pre}ul.conferences li span.dates{margin-left:3rem}ul.conferences li span.dates:after{content:",\00a0"}ul.conferences li span.icons{float:right}img.floatleft{width:auto;float:left;padding:0;margin-bottom:1rem;margin-left:0;margin-right:2rem;border-radius:10px}dl.supervised dt{width:4rem;float:left;clear:left}dl.supervised dd{margin-left:4rem;margin-bottom:1rem}dl.supervised dd .info span.url{display:block}dl.supervised dd .with:before{content:"\00a0(supervised together with "}dl.supervised dd .with:after{content:")"}dl.supervised dd .student:after{content:"."}dl.supervised dd .title{font-weight:bold}.title p{display:inline;margin-right:-.45ex}dl.supervised dd .title:after{content:",\00a0";font-weight:normal}dl.supervised dd .thesis-type:after{content:"."}dl.courses dt{width:8rem;float:left;clear:left;font-weight:lighter}dl.courses dd{margin-left:8rem;margin-bottom:1.5rem}dl.courses dd .name{font-weight:bold;font-size:large}dl.courses dd .name a{color:#104766}dl.courses dd .info:before,dl.courses dd .institute:before{content:"\A";white-space:pre}dl.courses dd .with:before{content:"\00a0 together with "}dl.courses dd::after{clear:both}dl.projectlist dt:before{clear:both}dl.projectlist dt{margin-top:2rem}dl.projectlist dt span.subtitle:before{content:"\00a0–\00a0"}dl.projectlist dd{display:inline-block;width:100%;padding-left:0;margin-left:0}dl.projectlist dd .info{float:right;border-left:1px solid;padding:1rem;padding-right:0;margin:0;min-width:140px;margin-left:.5rem;margin-top:.25rem;margin-bottom:0}dd .info .link:after{content:"\A";white-space:pre}dd .info .collaborators ul:before{content:"with"}dd .info .collaborators ul{list-style-type:none;padding:0;margin:0;margin-top:.5rem}dd .info .collaborators ul li i.ai-orcid{color:#a6ce39}dd .info .logo{margin-top:-1.25rem}dd .info .logo img{width:125px}dd p{padding-top:1rem;margin-bottom:0}dd .more{float:right}div.inlinelist ul{padding-inline-start:0;list-style-type:none;display:inline}div.inlinelist ul li{display:inline}div.inlinelist ul li p{display:inline;margin-block-start:0;margin-block-end:0}div.inlinelist ul li:after{content:','}div.inlinelist ul li:last-child:after{content:'.'}span.highlight{font-style:italic}
+:root {
+    --block-background: #f8f8f8;
+    --small: 14px;
+    --normal: 19px;
+    --text-color: hsv(0, 0%, 20%);
+}
+
+.no-number .katex-display::after {
+    counter-increment: nothing;
+    content: "";
+}
+.error {
+    color: #CC3311;
+}
+p .cite:before {
+    content: "["
+}
+p .cite:after {
+    content: "]"
+}
+p .cite {
+    font-size: small;
+}
+ol.bibliography, ol.literature {
+    margin-bottom: .5rem;
+    list-style-type: none;
+    margin-left: 2ex;
+}
+.references ol.bibliography {
+    counter-reset: bibitem;
+    list-style-type: none;
+}
+ol.bibliography > li:before {
+    margin-left: -2em;
+    content: "["counter(bibitem) "]";
+    padding-right: .5em;
+    text-align: right;
+}
+ol.literature {
+    list-style-type: none;
+}
+ol.bibliography > li,
+ol.literature > li {
+    min-height: 85px;
+    padding-bottom:2rem;
+    clear: both;
+}
+ol.bibliography > li {
+        counter-increment: bibitem -1;
+}
+/*
+ * Fields
+*/
+ol.literature li .li-label:before {
+    content:"[";
+    color: var(--text-color);
+}
+ol.literature li .li-label:after {
+    content: "]";
+    color: var(--text-color);
+}
+ol.literature li .li-label {
+    font-size:small;
+    margin-left:-3.5rem;
+    color: #41a1c6;
+    white-space: nowrap;
+    margin-right: .4em;
+    /* adjust to your requirements */
+}
+ol li span.title {
+    font-weight: bold;
+}
+ol li span.title:before
+{
+    content: "\A";
+    white-space: pre;
+}
+ol li span.volume {
+    font-weight: bold;
+    margin-left:1ex;
+}
+ol li span.note:before {
+    content: ",\00a0";
+}
+ol li span.note:after {
+    content: ".";
+}
+ol li span.note {
+    font-style: italic;
+}
+ol li span.number:before,
+ol li span.issue:before
+{
+    content: "(";
+}
+ol li span.number:after,
+ol li span.issue:after {
+    content: ")";
+}
+ol li span.number {
+    margin-left: 0ex;
+}
+ol li span.year:before {
+    content: "\00a0(";
+}
+ol li span.year:after {
+    content: ").";
+}
+ol li span.pages:before {
+    content: ",\00a0\00a0pp.\00a0"
+}
+ol li span.eprinttype:after {
+    content: ":\00a0";
+}
+ol div.item-icon-wrapper {
+    margin-top:-2ex;
+    float: right;
+    width: 125px;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+ol div.item-icon-wrapper img {
+    width: 125px;
+    margin:0;
+    padding:0;
+    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+/*
+ * Links & nav-icons & logos
+ */
+ol li i.ai-orcid-square,
+ol li i.ai-orcid
+{
+    color:#a6ce39;
+}
+ol li ul.nav-icons {
+    margin: 0;
+    margin-top: .75rem;
+    padding: 0;
+    display:block;
+    /* float: right; */
+    margin-bottom: 1rem;
+    list-style-type: none;
+}
+ul.nav-icons li {
+    display: inline;
+}
+ul.nav-icons li a {
+    /*
+    color: #ECF5F9;
+    color: rgba(236, 245, 249, 0.9);
+    */
+    color: #41a1c6;
+    text-decoration: none;
+    border-bottom: 0px;
+}
+div.abstract {
+    margin-top:-1rem;
+    padding-top:1rem;
+}
+div.abstract div.content:before{
+    content:"Abstract.";
+    font-weight: bold;
+    padding-right:2rem;
+}
+div.bibtex {
+    margin-bottom: .5rem;
+}
+div.abstract div.content,
+div.bibtex div.content {
+    width:94%;
+    margin-left:4%;
+    margin-right:2%;
+    margin-top:-.5rem;
+    padding-top:0px;
+    padding-bottom:0px;
+    font-weight:normal;
+    padding-left: 2%;
+    border-left: 1px solid black;
+}
+div.abstract div.content {
+    font-size: 66%;
+}
+div.bibtex div.content {
+    white-space: pre-wrap;
+    font-family: monospace;
+    font-size: 50%;
+}
+.collapse {
+    display: none;
+}
+.collapsing {
+    opacity: 0.3;
+}
+.collapse.in {
+    display: block;
+}
+/*
+ * Talks
+ */
+ .year {padding-bottom:0; margin-bottom:0;}
+ul.talks {
+    list-style-type: none;
+}
+ul.talks li {
+    padding-top:1rem;
+}
+ul.talks span.title {
+    font-weight: bold;
+}
+ul.talks span.title:after,
+ul.talks span.dates:before
+{
+    content: "\A";
+    white-space: pre;
+}
+ul.talks span.name:after,
+ul.talks span.institute:after,
+ul.talks span.dates:after
+{
+    content: ",\00a0";
+}
+ul.talks span.place:after,
+ul.talks span.university:after
+{
+    content: ".";
+}
+ul.talks li ul.nav-icons {
+    margin: 0;
+    margin-top: -.1 25rem;
+    padding: 0;
+    display: block;
+    float: right;
+    margin-bottom: 1rem;
+    list-style-type: none;
+}
+ul.talks li span.info:before {
+    content: "\A";
+    white-space: pre;
+}
+ul.talks span.info {
+    font-style: italic;
+}
+/* conferences below */
+ul.conferences {}
+ul.conferences li {
+    margin-top: 0.25rem;
+}
+ul.conferences li span.name:after {
+    content: "\A";
+    white-space: pre;
+}
+ul.conferences li span.dates {
+    margin-left:3rem;
+}
+ul.conferences li span.dates:after {
+    content:",\00a0";
+}
+ul.conferences li span.icons {
+    float:right;
+}
+/*
+ * List I Students
+ */
+img.floatleft {
+    width: auto;
+    float: left;
+    padding: 0;
+    margin-bottom: 1rem;
+    margin-left: 0rem;
+    margin-right: 2rem;
+    border-radius: 10px;
+}
+
+dl.supervised dt {
+    width: 4rem;
+    float: left;
+    clear: left;
+}
+
+dl.supervised dd {
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+}
+dl.supervised dd .info span.url {
+    display:block;
+}
+dl.supervised dd .with:before {
+    content: "\00a0(supervised together with ";
+}
+
+dl.supervised dd .with:after {
+    content: ")";
+}
+
+dl.supervised dd .student:after {
+    content: ".";
+}
+
+dl.supervised dd .title {
+    font-weight: bold;
+}
+.title p {
+    display: inline;
+    margin-right:-.45ex;
+}
+
+dl.supervised dd .title:after {
+    content: ",\00a0";
+    font-weight: normal;
+}
+
+dl.supervised dd .thesis-type:after {
+    content: ".";
+}
+/*
+ * List II Lectures/exercises
+ */
+dl.courses dt {
+    width: 8rem;
+    float: left;
+    clear: left;
+    font-weight: lighter;
+}
+dl.courses dd {
+    margin-left: 8rem;
+    margin-bottom: 1.5rem;
+}
+dl.courses dd .name {
+    font-weight: bold;
+    font-size:large;
+}
+dl.courses dd .name a {
+    color:rgb(16, 71, 102);
+}
+
+dl.courses dd .info:before,
+dl.courses dd .institute:before
+{
+    content: "\A";
+    white-space: pre;
+}
+dl.courses dd .with:before {
+    content: "\00a0 together with ";
+}
+dl.courses dd::after {
+    clear:both;
+}
+/*
+ *
+ * Projects
+ *
+ */
+dl.projectlist dt:before {
+    clear:both;
+}
+dl.projectlist dt {
+    margin-top: 2rem;
+}
+dl.projectlist dt span.subtitle:before {
+    content: "\00a0–\00a0";
+}
+dl.projectlist dd {
+    display: inline-block;
+    width: 100%;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+dl.projectlist dd .info {
+    float:right;
+    border-left : 1px solid;
+    padding: 1rem;
+    padding-right: 0rem;
+    margin: 0px;
+    min-width: 140px;
+    margin-left: .5rem;
+    margin-top: .25rem;
+    margin-bottom: 0rem;
+}
+dd .info .link:after {
+    content: "\A";
+    white-space: pre;
+}
+dd .info .collaborators ul:before {
+    content:"with";
+}
+dd .info .collaborators ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 0.5rem;
+}
+dd .info .collaborators ul li i.ai-orcid {
+    color: #a6ce39;
+}
+dd .info .logo {
+    margin-top:-1.25rem;
+}
+dd .info .logo img {
+    width: 125px;
+}
+dd p {
+    padding-top:1rem;
+    margin-bottom: 0px;
+}
+dd .more {
+    float: right;
+}
+/*
+ special list
+ */
+div.inlinelist ul {
+    padding-inline-start: 0px;
+    list-style-type: none;
+    display: inline;
+}
+
+div.inlinelist ul li {
+    display: inline;
+}
+
+div.inlinelist ul li p {
+    display: inline;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+div.inlinelist ul li:after {
+    content: ', '
+}
+
+div.inlinelist ul li:last-child:after {
+    content: '.'
+}
+
+span.highlight {
+    font-style: italic;
+}
