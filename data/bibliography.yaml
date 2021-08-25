@@ -68,7 +68,7 @@
     title: Mesh Denoising and Inpainting using the Total Variation of the Normal
     year: 2020
 
-"BergmannHerzogSilvaLouzeiroTenbrinckVidal-Nunez-2020":
+"BergmannHerzogSilvaLouzeiroTenbrinckVidal-Nunez-2021":
     abstract: >
         In this paper, we introduce a definition of Fenchel conjugate and Fenchel biconjugate on Hadamard manifolds based on the tangent bundle.
         Our definition overcomes the inconvenience that the conjugate depends on the choice of a certain point on the manifold, as previous definitions required.
@@ -89,8 +89,8 @@
     journaltitle: Foundations of Computational Mathematics
     doi: 10.1007/s10208-020-09486-5
     publication_date: 2020-11-06
-    title: "{F}enchel duality for Convex Optimization and a Primal Dual Algorithm on Riemannian Manifolds"
-    year: 2020
+    title: "{F}enchel duality for Convex Optimization and a Primal Dual Algorithm on {R}iemannian Manifolds"
+    year: 2021
 
 "BergmannHerrmannHerzogSchmidtVidal-Nunez-2020-2":
     abstract: >
