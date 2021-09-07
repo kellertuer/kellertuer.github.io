@@ -19,6 +19,32 @@
 #  video:
 #  with:
 #  highlight:
+- title: Fenchel Duality Theory on Riemannian Manifolds
+  key: IFIPTC72021-2
+  conference: IFIPTC72021
+  date: 2021-09-02
+  slides: 2021-IFIP-Fenchel-Duality.pdf
+  abstract: >
+    In this talk we introduces a new duality theory that generalizes the classical Fenchel
+    conjugation to functions defined on Riemannian manifolds. We investigate its properties,
+    e.g., the Fenchel–Young inequality and the characterization of the convex sub differential
+    using the analogue of the Fenchel--Moreau Theorem.
+  note: Talk within the Minisymposium “Manifolds and Optimization”.
+
+- title: A Primal-Dual Algorithm for Convex Nonsmooth Optimization on Riemannian Manifolds
+  key: IFIPTC72021-1
+  conference: IFIPTC72021
+  date: 2021-08-31
+  slides: 2021-IFIP-RCPA.pdf
+  abstract: >
+    Based on a Fenchel dual notion on Riemannian manifolds we investigate the saddle point
+    problem related to a nonsmooth convex optimization problem. We derive a primal-dual
+    hybrid gradient algorithm to compute the saddle point using either an exact or a
+    linearized approach for the involved nonlinear operator. We investigate a sufficient
+    condition for convergence of the linearized algorithm on Hadamard manifolds.
+    Numerical examples illustrate, that on Hadamard manifolds we are on par with state
+    of the art algorithms and on general manifolds we outperform existing approaches.
+  note: Talk within the Minisymposium “Non-Smooth First-order Methods, Convex, and Non-convex”.
 - title: The Riemannian Chambolle–Pock Algorithm and Optimization on Manifolds in Julia
   key: OWSCOM2020
   conference: COM2020
