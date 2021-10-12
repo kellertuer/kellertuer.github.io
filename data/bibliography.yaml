@@ -1,3 +1,26 @@
+"BergmannHerzogOrtizLopezSchiela-2021":
+    abstract: >
+        We consider optimization problems with manifold-valued constraints.
+        These generalize classical equality and inequality constraints to a setting in which
+        both the domain and the codomain of the constraint mapping are smooth manifolds.
+        We model the feasible set as the preimage of a submanifold with corners of the
+        codomain. The latter is a subset which corresponds to a convex cone locally in
+        suitable charts. We study first- and second-order optimality conditions for this
+        class of problems. We also show the invariance of the relevant quantities with
+        respect to local representations of the problem.
+    author:
+        - Ronny Bergmann
+        - Roland Herzog
+        - Julián Ortiz López
+        - Anton Schiela
+    biblatextype: online
+    eprint: 2110.04882
+    eprinttype: arXiv
+    image: tangent_cone.png
+    title: "First- and Second-Order Analysis for Optimization Problems with Manifold-Valued Constraints"
+    publication_date: 2021-10-12
+    year: 2021
+
 "AxenBaranBergmannRzecki-2021":
     abstract: >
         For data given on a nonlinear space, like angles, symmetric positive matrices, the

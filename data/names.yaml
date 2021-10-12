@@ -219,6 +219,10 @@ people:
         name:
             full: Novaf Oezguen
             bib: Oezguen, N.
+    Julián Ortiz López:
+        name:
+            full: Julián Ortiz López
+            bib: Ortiz López, J.
     Johannes Persch:
         name:
             full: Johannes Persch
@@ -276,6 +280,13 @@ people:
             bib: Settelmeier, J.
             full: Jens Settelmeier
             short: J. Settelmeier
+    Anton Schiela:
+        affiliation: Universität Bayreuth
+        name:
+            bib: Schiela, A.
+            full: Anton Schiela
+            short: A. SChiela
+        orcid: 0000-0002-6959-2951
     Mauricio Silva Louzeiro:
         affiliation: "TU Chemnitz"
         name:
