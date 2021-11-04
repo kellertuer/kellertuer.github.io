@@ -17,7 +17,7 @@ function hfun_projectslist()
     project_files = filter!(x -> endswith(x, ".md") && x != "index.md", readdir("projects"))
     # collect dates
     projects = [
-        Dict(
+        Dict{String, Union{Nothing, String, Vector{String},Bool}}(
             push!(
                 [var => pagevar("projects/$project", var) for var ∈ ["title", "subtitle", "collaborators", "end", "logo", "more", "start", "summary", "url", "url_text"]],
                 "project" => project[1:end-3], # remove md

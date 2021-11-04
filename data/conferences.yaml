@@ -22,6 +22,12 @@ GAMM2022:
 #  url:
   talk: true
   organizer: true
+MaGIC2022:
+  name: Manifold and Geometric Integration Colloquia 2022
+  start: 2022-02-28
+  end: 2022-03-04
+  place: Ilsetra, Norway
+  url: https://sites.google.com/view/magic-2022/home/
 IFIPTC72021:
   name: IFIP TC7 Conference on System Modelling and Optimization
   url: https://modemat.epn.edu.ec/ifip_tc7_2021/
