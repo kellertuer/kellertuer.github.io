@@ -19,6 +19,32 @@
 #  video:
 #  with:
 #  highlight:
+- title: Reproduzierbarkeit von numerischen Experimenten
+  key: GDMS-Seminar
+  seminar:
+    name: Seminar der GMDS-Nachwuchsförderung
+    url: https://www.gmds.de/de/ueber-uns/organisation/praesidiumskommissionen/nachwuchsfoerderung-in-der-gmds/
+    place: online
+  date: 2021-11-12
+
+- title: A Primal-Dual Algorithm for Convex Nonsmooth Optimization on Riemannian Manifolds
+  key: INFORMS-2021
+  conference: Informs2021
+  date: 2021-10-26
+  slides: 2021-INFORMS-RCPA.pdf
+  abstract: >
+    In this talk we introduce a new duality theory that generalizes the classical Fenchel
+    conjugation to functions defined on Riemannian manifolds. The Fenchel conjugate is
+    employed to derive a Riemannian primal-dual optimization algorithm. This generalizes
+    the primal-dual algorithm by Chambolle and Pock to Riemannian manifolds. We prove that
+    this algorithm converges to a critical point for the case of Hadamard manifolds under
+    appropriate assumptions.
+    Numerical examples illustrate the performance of the algorithm, which competes with the
+    recently derived Douglas-Rachford algorithm on manifolds of non-positive curvature.
+    Furthermore we show numerically that our novel algorithm even converges on manifolds of
+    positive curvature.
+  note: Talk within the Session “Optimization on Manifolds”.
+
 - title: Fenchel Duality Theory on Riemannian Manifolds
   key: IFIPTC72021-2
   conference: IFIPTC72021
