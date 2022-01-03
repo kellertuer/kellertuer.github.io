@@ -46,7 +46,7 @@
     title: "Manifolds.jl: An Extensible Julia Framework for Data Analysis on Manifolds"
     year: 2021
 
-"SilvaLouzeiroBergmannHerzog-2021":
+"SilvaLouzeiroBergmannHerzog-2022":
     abstract: >
         In this paper, we introduce a definition of Fenchel conjugate and Fenchel biconjugate
         on Hadamard manifolds based on the tangent bundle. Our definition overcomes the
@@ -68,7 +68,9 @@
     image: Fenchel.png
     publication_date: 2021-02-23
     title: "{F}enchel Duality and a Separation Theorem on Hadamard Manifolds"
-    year: 2021
+    year: 2022
+    journaltitle: SIAM Journal on Optimization
+    note: "accepted for publication."
 
 "BaumgärtnerBergmannHerrmannHerzogSchmidtVidal-Nunez-2020":
     abstract: >
