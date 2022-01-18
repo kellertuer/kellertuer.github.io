@@ -41,7 +41,7 @@
     biblatextype: online
     eprint: 2106.08777
     eprinttype: arXiv
-    image: Casteljau.png
+    image: manifoldsjl-logo.png
     publication_date: 2021-06-16
     title: "Manifolds.jl: An Extensible Julia Framework for Data Analysis on Manifolds"
     year: 2021

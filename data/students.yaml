@@ -1,3 +1,8 @@
+- name: Renée Dornig
+  title: Constraint optimization on Manifolds
+  type: master
+  with:
+    - Roland Herzog
 - finished: 2019-07-16
   name: Felix Maschke
   title: Geodätische Regression auf Mannigfaltigkeiten mit Nebenbedingungen
