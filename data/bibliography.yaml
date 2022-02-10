@@ -16,6 +16,7 @@
         - Ronny Bergmann
     biblatextype: article
     doi: 10.21105/joss.03866
+    github: https://github.com/JuliaManifolds/Manopt.jl
     image: manoptjl-logo.png
     journaltitle: Journal of Open Source Software
     number: 70
@@ -836,6 +837,37 @@
     title: Interaktive und automatisierte Hypergraphenvisualisierung mittels NURBS-Kurven
     type: Diplomarbeit
     year: 2009
+#
+# Software
+#
+"manoptjl-zenodo-mostrecent":
+    author:
+        - Ronny Bergmann
+    biblatextype: software
+    copyright: MIT License
+    doi: 10.5281/zenodo.4290905
+    github: https://github.com/JuliaManifolds/Manopt.jl
+    image: manoptjl-logo.png
+    link: https://manoptjl.org
+    publication_date: 2016-11-20
+    publisher: Zenodo
+    title: Manopt.jl
+    year: since 2016
+"manifolds-zenodo-mostrecent":
+    author:
+        - Seth D. Axen
+        - Mateusz Baran
+        - Ronny Bergmann
+    biblatextype: software
+    copyright: MIT License
+    doi: 10.5281/ZENODO.4292129
+    image: manifoldsjl-logo.png
+    link: https://juliamanifolds.github.io/Manifolds.jl/
+    publication_date: 2019-06-05
+    publisher: Zenodo
+    title: Manifolds.jl
+    year: since 2019
+    github: https://github.com/JuliaManifolds/Manifolds.jl
 #
 # Misc
 #

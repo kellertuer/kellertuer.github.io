@@ -17,4 +17,6 @@
 
 {{bibliography thesis data/bibliography.yaml Theses}}
 
+{{bibliography software data/bibliography.yaml Software}}
+
 {{bibliography misc data/bibliography.yaml Misc}}
