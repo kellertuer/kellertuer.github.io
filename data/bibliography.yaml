@@ -1,3 +1,31 @@
+"Bergmann-2022":
+    abstract: >
+        [`Manopt.jl`](https://manoptjl.org) provides a set of optimization algorithms for
+        optimization problems given on a Riemannian manifold $\mathcal M$.
+        Based on a generic optimization framework, together with the interface
+        [`ManifoldsBase.jl`](https://github.com/JuliaManifolds/ManifoldsBase.jl) for
+        Riemannian manifolds, classical and recently developed methods are provided in an
+        efficient implementation. Algorithms include the derivative-free Particle Swarm and
+        Nelder–Mead algorithms, as well as classical gradient, conjugate gradient and
+        stochastic gradient descent. Furthermore, quasi-Newton methods like
+        a Riemannian L-BFGS and nonsmooth optimization algorithms like a Cyclic Proximal
+        Point Algorithm, a (parallel) Douglas-Rachford algorithm and a Chambolle-Pock
+        algorithm are provided, together with several basic cost functions, gradients and
+        proximal maps as well as debug and record capabilities.
+    author:
+        - Ronny Bergmann
+    biblatextype: article
+    doi: 10.21105/joss.03866
+    image: manoptjl-logo.png
+    journaltitle: Journal of Open Source Software
+    number: 70
+    pages: 3866
+    publisher: The Open Journal
+    publication_date: 2022-02-10
+    title: "Manopt.jl: Optimization on Manifolds in Julia"
+    volume: 7
+    year: 2022
+
 "BergmannHerzogOrtizLopezSchiela-2021":
     abstract: >
         We consider optimization problems with manifold-valued constraints.
