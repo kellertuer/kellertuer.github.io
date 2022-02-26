@@ -28,6 +28,7 @@ MaGIC2022:
   end: 2022-03-04
   place: Ilsetra, Norway
   url: https://sites.google.com/view/magic-2022/home/
+  talk: true
 IFIPTC72021:
   name: IFIP TC7 Conference on System Modelling and Optimization
   url: https://modemat.epn.edu.ec/ifip_tc7_2021/

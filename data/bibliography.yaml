@@ -1,3 +1,33 @@
+"Bergmann-2022":
+    abstract: >
+        [`Manopt.jl`](https://manoptjl.org) provides a set of optimization algorithms for
+        optimization problems given on a Riemannian manifold $\mathcal M$.
+        Based on a generic optimization framework, together with the interface
+        [`ManifoldsBase.jl`](https://github.com/JuliaManifolds/ManifoldsBase.jl) for
+        Riemannian manifolds, classical and recently developed methods are provided in an
+        efficient implementation. Algorithms include the derivative-free Particle Swarm and
+        Nelder–Mead algorithms, as well as classical gradient, conjugate gradient and
+        stochastic gradient descent. Furthermore, quasi-Newton methods like
+        a Riemannian L-BFGS and nonsmooth optimization algorithms like a Cyclic Proximal
+        Point Algorithm, a (parallel) Douglas-Rachford algorithm and a Chambolle-Pock
+        algorithm are provided, together with several basic cost functions, gradients and
+        proximal maps as well as debug and record capabilities.
+    author:
+        - Ronny Bergmann
+    biblatextype: article
+    doi: 10.21105/joss.03866
+    pdf: https://www.theoj.org/joss-papers/joss.03866/10.21105.joss.03866.pdf
+    github: https://github.com/JuliaManifolds/Manopt.jl
+    image: manoptjl-logo.png
+    journaltitle: Journal of Open Source Software
+    number: 70
+    pages: 3866
+    publisher: The Open Journal
+    publication_date: 2022-02-10
+    title: "Manopt.jl: Optimization on Manifolds in Julia"
+    volume: 7
+    year: 2022
+
 "BergmannHerzogOrtizLopezSchiela-2021":
     abstract: >
         We consider optimization problems with manifold-valued constraints.
@@ -41,12 +71,12 @@
     biblatextype: online
     eprint: 2106.08777
     eprinttype: arXiv
-    image: Casteljau.png
+    image: manifoldsjl-logo.png
     publication_date: 2021-06-16
     title: "Manifolds.jl: An Extensible Julia Framework for Data Analysis on Manifolds"
     year: 2021
 
-"SilvaLouzeiroBergmannHerzog-2021":
+"SilvaLouzeiroBergmannHerzog-2022":
     abstract: >
         In this paper, we introduce a definition of Fenchel conjugate and Fenchel biconjugate
         on Hadamard manifolds based on the tangent bundle. Our definition overcomes the
@@ -68,7 +98,9 @@
     image: Fenchel.png
     publication_date: 2021-02-23
     title: "{F}enchel Duality and a Separation Theorem on Hadamard Manifolds"
-    year: 2021
+    year: 2022
+    journaltitle: SIAM Journal on Optimization
+    note: "accepted for publication"
 
 "BaumgärtnerBergmannHerrmannHerzogSchmidtVidal-Nunez-2020":
     abstract: >
@@ -774,7 +806,7 @@
     author:
         - Ronny Bergmann
     biblatextype: thesis
-    file: https://ronnybergmann.net/theses/Bergmann__Translationsinvariante_Raeume_multivariater_anisotroper_Funktionen_auf_dem_Torus.pdf
+    pdf: https://ronnybergmann.net/theses/Bergmann__Translationsinvariante_Raeume_multivariater_anisotroper_Funktionen_auf_dem_Torus.pdf
     github: https://github.com/kellertuer/MPAWL
     image: dlVP.png
     language: german
@@ -798,7 +830,7 @@
     author:
         - Ronny Bergmann
     biblatextype: thesis
-    file: http://ronnyberg,ann.net/theses/Bergmann__Interaktive_und_automatisierte_Hypergraphenvisualisierung_mittels_NURBS-Kurven.pdf
+    pdf: http://ronnybergmann.net/theses/Bergmann__Interaktive_und_automatisierte_Hypergraphenvisualisierung_mittels_NURBS-Kurven.pdf
     github: kellertuer/Gravel
     image: dipl.png
     language: german
@@ -806,6 +838,37 @@
     title: Interaktive und automatisierte Hypergraphenvisualisierung mittels NURBS-Kurven
     type: Diplomarbeit
     year: 2009
+#
+# Software
+#
+"manoptjl-zenodo-mostrecent":
+    author:
+        - Ronny Bergmann
+    biblatextype: software
+    copyright: MIT License
+    doi: 10.5281/zenodo.4290905
+    github: https://github.com/JuliaManifolds/Manopt.jl
+    image: manoptjl-logo.png
+    link: https://manoptjl.org
+    publication_date: 2016-11-20
+    publisher: Zenodo
+    title: Manopt.jl
+    year: since 2016
+"manifolds-zenodo-mostrecent":
+    author:
+        - Seth D. Axen
+        - Mateusz Baran
+        - Ronny Bergmann
+    biblatextype: software
+    copyright: MIT License
+    doi: 10.5281/ZENODO.4292129
+    image: manifoldsjl-logo.png
+    link: https://juliamanifolds.github.io/Manifolds.jl/
+    publication_date: 2019-06-05
+    publisher: Zenodo
+    title: Manifolds.jl
+    year: since 2019
+    github: https://github.com/JuliaManifolds/Manifolds.jl
 #
 # Misc
 #

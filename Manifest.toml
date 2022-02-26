@@ -42,9 +42,10 @@ uuid = "7b1f6079-737a-58dc-b8bc-7a2ca5c1b5ee"
 
 [[Franklin]]
 deps = ["Dates", "DelimitedFiles", "DocStringExtensions", "ExprTools", "FranklinTemplates", "HTTP", "Literate", "LiveServer", "Logging", "Markdown", "NodeJS", "OrderedCollections", "Pkg", "REPL", "Random"]
-git-tree-sha1 = "6a4239afb856b0316afecd948c81677cfdd00673"
+git-tree-sha1 = "85c3934124729aabc03c0cca76cacbc33f0609ab"
+pinned = true
 uuid = "713c75ef-9fc9-4b05-94a9-213340da978e"
-version = "0.10.60"
+version = "0.10.58"
 
 [[FranklinTemplates]]
 deps = ["LiveServer"]
@@ -185,7 +186,7 @@ deps = ["InteractiveUtils", "Markdown", "Sockets", "Unicode"]
 uuid = "3fa0cd96-eef1-5676-8a61-b3b8758bbffb"
 
 [[Random]]
-deps = ["Serialization"]
+deps = ["SHA", "Serialization"]
 uuid = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 
 [[SHA]]
