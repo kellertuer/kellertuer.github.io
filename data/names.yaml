@@ -153,6 +153,16 @@ people:
             full: Lisa Kausch
             short: L. Kausch
         url: https://www.dkfz.de/en/mic/team/people/Lisa_Kausch.html
+    Even Stephansen Kjemsås:
+        name:
+            bib: Kjemsås, E. Stephansen
+            full: Even Stephansen Kjemsås
+            short: E. S. Kjemsås
+    Johannes Voll Kolstø:
+        name:
+            bib: Kolstø, J. Voll
+            full: Johannes Voll Kolstø
+            short: J. V. Kollstø
     Friederike Laus:
         name:
             bib: Laus, F.

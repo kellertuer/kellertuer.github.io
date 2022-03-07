@@ -4,7 +4,7 @@ teaching = YAML.load_file("data/teaching.yaml")
 
 """
     is_less_supervision(a,b)
-    return, whether a is a jounger student project than b, where if they are equal
+    return, whether a is a younger student project than b, where if they are equal
     we go for alphabetica, for example also if both are not finished yet
 """
 function isless_finished(a::Dict,b::Dict)
@@ -12,7 +12,7 @@ function isless_finished(a::Dict,b::Dict)
         return a["name"] < b["name"]
     end
     !haskey(a, "finished") && return false #a not finished but b, then a is not less
-    !haskey(b, "finished") && return true
+    !haskey(b, "finished") && return false
     # if both are finished compare finished dates
     date_a = parse(Date, string(a["finished"]))
     date_b = parse(Date, string(b["finished"]))
@@ -30,9 +30,10 @@ If no types are given all will be printed
 function hfun_students(params)
     types = (length(params)>0) ? lowercase.(strip.(split(params[1],","))) : ["all",]
     theses = (length(params)>1) ? YAML.load_file(params[2]) : students
-    reduced_theses = filter( x-> (x["type"] ∈ types) || ("all" ∈ types), theses)
+    reduced_theses = filter( x-> (x["type"] ∈ types) || ("all" ∈ types), theses)
     list_html = "";
-    list = sort(collect(reduced_theses), lt=isless_finished)
+    #list = sort(collect(reduced_theses), lt=isless_finished)
+    list = collect(reduced_theses)
     for entry ∈ list
         list_html = """$(list_html)
                         $(format_supervision(entry))

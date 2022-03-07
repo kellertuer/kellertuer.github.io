@@ -1,3 +1,9 @@
+- name: Even Stephansen Kjemsås
+  title: The Riemannian Frank-Wolfe Algorithm
+  type: master
+- name: Johannes Voll Kolstø
+  title: Support Vector Machines on Riemannian Manifolds
+  type: master
 - name: Renée Dornig
   title: Constraint optimization on Manifolds
   type: master
@@ -24,7 +30,8 @@
 #
 # Bachelor theses
 #
-- name: Jan-Philipp Pfaue
+- finished: 2022-03-07
+  name: Jan-Philipp Pfaue
   title: Constrained optimization on Riemannian manifolds using geodesic polygonal sets
   type: bachelor
 - finished: 2020-12-18
