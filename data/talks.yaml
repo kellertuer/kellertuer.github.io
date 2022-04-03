@@ -19,6 +19,12 @@
 #  video:
 #  with:
 #  highlight:
+- title: The Riemannian Chambolle–Pock Algorithm
+  key: MaGIC-2022
+  conference: MaGIC2022
+  date: 2022-03-02
+  slides: 2022-MaGIC-RiemannianChambollePock.pdf
+
 - title: Reproduzierbarkeit von numerischen Experimenten
   key: GDMS-Seminar
   seminar:

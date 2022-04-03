@@ -153,6 +153,16 @@ people:
             full: Lisa Kausch
             short: L. Kausch
         url: https://www.dkfz.de/en/mic/team/people/Lisa_Kausch.html
+    Even Stephansen Kjemsås:
+        name:
+            bib: Kjemsås, E. Stephansen
+            full: Even Stephansen Kjemsås
+            short: E. S. Kjemsås
+    Johannes Voll Kolstø:
+        name:
+            bib: Kolstø, J. Voll
+            full: Johannes Voll Kolstø
+            short: J. V. Kolstø
     Friederike Laus:
         name:
             bib: Laus, F.
@@ -214,7 +224,7 @@ people:
             full: Sebastian J. Neumayer
             bib: Neumayer, S. J.
             short: S. J. Neumayer
-        url: https://www.math.tu-berlin.de/fachgebiete_ag_modnumdiff/angewandte_mathematik/v_menue/team/sebastian_neumayer/v_menue/sebastian_neumayer/
+        url: https://people.epfl.ch/sebastian.neumayer
     Novaf Oezguen:
         name:
             full: Novaf Oezguen
