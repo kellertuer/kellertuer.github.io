@@ -14,6 +14,14 @@
 #   place: Hasenwinkel
 #   organizer: true
 #   talk: true
+GAMM2022:
+  name: Jahrestagung der Gesellschaft für angewandte Mathematik und Mechanik
+  start: 2022-08-15
+  end: 2022-08-19
+  place: Aachen, Germany
+  url: https://jahrestagung.gamm-ev.de/annual-meeting-2022/
+  talk: true
+  organizer: true
 ICCOPT22:
   name: International Conference on Continuous Optimization 2022
   start: 2022-07-25
@@ -28,14 +36,12 @@ JuliaCon2022:
   start: 2022-07-27
   end: 2022-07-29
   place: online & everywhere
-GAMM2022:
-  name: Jahrestagung der Gesellschaft für angewandte Mathematik und Mechanik
-  start: 2022-08-15
-  end: 2022-08-19
-  place: Aachen, Germany
-  url: https://jahrestagung.gamm-ev.de/annual-meeting-2022/
-  talk: true
-  organizer: true
+ESGI2022:
+  name: European Study Group with Industry (ESGI) 156
+  start: 2022-06-13
+  end: 2022-06-17
+  place: Ålesund, Norway
+  url: https://www.ntnu.edu/imf/esgi-156
 MaGIC2022:
   name: Manifold and Geometric Integration Colloquia 2022
   start: 2022-02-28
