@@ -170,7 +170,7 @@ function fomat_conference(conf::Dict)
     s = """
            $(entry_to_html(conf,"name"; link="url"))
            $(format_duratuion(conf["start"],get(conf,"end",conf["start"])))
-           $(entry_to_html(conf,"place"))
+           $(entry_to_html(conf,"place"; class="place end"))
         """
     return s
 end
@@ -193,5 +193,5 @@ function format_duratuion(s::Date, e::Date=s)
         # different months
         d = """$(Dates.format(s,"U d")) &mdash; $(Dates.format(e,"U d, yyyy"))"""
     end
-    return """<span class="dates">$(d)</span>"""
+    return """<span class="dates comma">$(d)</span>"""
 end
