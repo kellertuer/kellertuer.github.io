@@ -14,6 +14,13 @@
 #   place: Hasenwinkel
 #   organizer: true
 #   talk: true
+Geo2Int:
+  name: Workshop in Geometry and Geometric integration
+  start: 2022-09-07
+  end: 2022-09-09
+  place: "Bergen, Norway"
+  url: https://sites.google.com/view/geo2int/home
+  talk: true
 GAMM2022:
   name: Jahrestagung der Gesellschaft für angewandte Mathematik und Mechanik
   start: 2022-08-15

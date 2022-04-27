@@ -255,11 +255,14 @@ ul.conferences li span.name:after {
 ul.conferences li span.dates {
     margin-left:3rem;
 }
-ul.conferences li span.dates:after {
+ul.conferences li span.comma:after {
     content:",\00a0";
 }
 ul.conferences li span.icons {
     float:right;
+}
+ul.conferences li span.end:after {
+    content:".";
 }
 /*
  * List I Students
