@@ -1,3 +1,32 @@
+"SilvaLouzeiroBergmannHerzog-2022":
+    abstract: >
+        In this paper, we introduce a definition of Fenchel conjugate and Fenchel biconjugate
+        on Hadamard manifolds based on the tangent bundle. Our definition overcomes the
+        inconvenience that the conjugate depends on the choice of a certain point on the
+        manifold, as previous definitions required. On the other hand, this new definition
+        still possesses properties known to hold in the Euclidean case. It even yields a
+        broader interpretation of the Fenchel conjugate in the Euclidean case itself.
+        Most prominently, our definition of the Fenchel conjugate provides a Fenchel-Moreau
+        Theorem for geodesically convex, proper, lower semicontinuous functions.
+        In addition, this framework allows us to develop a theory of separation of convex
+        sets on Hadamard manifolds, and a strict separation theorem is obtained.
+    author:
+        - Mauricio Silva Louzeiro
+        - Ronny Bergmann
+        - Roland Herzog
+    biblatextype: article
+    doi: 10.1137/21M1400699
+    eprint: 2102.11155
+    eprinttype: arXiv
+    image: Fenchel.png
+    number: 2
+    pages: 854-873
+    publication_date: 2022-05-12
+    title: "{F}enchel Duality and a Separation Theorem on Hadamard Manifolds"
+    volume: 32
+    year: 2022
+    journaltitle: SIAM Journal on Optimization
+
 "Bergmann-2022":
     abstract: >
         [`Manopt.jl`](https://manoptjl.org) provides a set of optimization algorithms for
@@ -75,32 +104,6 @@
     publication_date: 2021-06-16
     title: "Manifolds.jl: An Extensible Julia Framework for Data Analysis on Manifolds"
     year: 2021
-
-"SilvaLouzeiroBergmannHerzog-2022":
-    abstract: >
-        In this paper, we introduce a definition of Fenchel conjugate and Fenchel biconjugate
-        on Hadamard manifolds based on the tangent bundle. Our definition overcomes the
-        inconvenience that the conjugate depends on the choice of a certain point on the
-        manifold, as previous definitions required. On the other hand, this new definition
-        still possesses properties known to hold in the Euclidean case. It even yields a
-        broader interpretation of the Fenchel conjugate in the Euclidean case itself.
-        Most prominently, our definition of the Fenchel conjugate provides a Fenchel-Moreau
-        Theorem for geodesically convex, proper, lower semicontinuous functions.
-        In addition, this framework allows us to develop a theory of separation of convex
-        sets on Hadamard manifolds, and a strict separation theorem is obtained.
-    author:
-        - Mauricio Silva Louzeiro
-        - Ronny Bergmann
-        - Roland Herzog
-    biblatextype: online
-    eprint: 2102.11155
-    eprinttype: arXiv
-    image: Fenchel.png
-    publication_date: 2021-02-23
-    title: "{F}enchel Duality and a Separation Theorem on Hadamard Manifolds"
-    year: 2022
-    journaltitle: SIAM Journal on Optimization
-    note: "accepted for publication"
 
 "BaumgärtnerBergmannHerrmannHerzogSchmidtVidal-Nunez-2020":
     abstract: >
