@@ -1,5 +1,11 @@
 lectures:
-  - term: Høst 2021
+  - term: Vår 2022
+    date: 2022-01-10
+    name: TMA4125 Matematikk 4N
+    note: Differential equations and Fourier analysis
+    university: NTNU
+    link: https://www.ntnu.edu/studies/courses/TMA4125
+  - term: Høst 2021 and Høst 2022
     date: 2021-08-24
     name: TMA4215 Numerisk matematikk
     note: Numerical Mathematics
@@ -60,12 +66,12 @@ exercises:
     link: https://www.tu-chemnitz.de/mathematik/part_dgl/teaching/SS2020_Computerpraktikum/index.en.php
   - term: SS&nbsp;2020
     date: 2020-04-01
-    name: Mathematics for Chemnists and Economics II
+    name: Mathematics for Chemists and Economics II
     note: Exercise and Practicals
     university: TUC
   - term: WS&nbsp;2019/20
     date: 2019-10-01
-    name: Mathematics for Chemnists and Economics I
+    name: Mathematics for Chemists and Economics I
     note: Exercise and Practicals
     university: TUC
   - term: WS&nbsp;2019/20
@@ -91,7 +97,7 @@ exercises:
   - term: WS&nbsp;2018/19
     date: 2018-10-01
     name: "Höhere Mathematik III (If, Ph, ET)"
-    note: Exercises and Praticals for computer scientists , covering vector calculus.
+    note: Exercises and Tutorials for computer scientists , covering vector calculus.
     university: TUC
   - term: SS&nbsp;2019
     date: 2019-04-01
