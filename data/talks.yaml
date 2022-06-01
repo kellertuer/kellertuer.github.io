@@ -35,7 +35,8 @@
     characterization of the convex subdifferential using the analogue of the
     Fenchel--Moreau Theorem. These properties of the Fenchel conjugate are employed
     to derive a Riemannian primal-dual optimization algorithm, and to prove its
-    convergence for the case of Hadamard manifolds under appropriate assumptions.<br>
+    convergence for the case of Hadamard manifolds under appropriate assumptions.
+
     Numerical results in Julia illustrate the performance of the algorithm, which competes
     with the recently derived Douglas–Rachford algorithm on manifolds of
     nonpositive curvature. Furthermore we show numerically that our novel algorithm
