@@ -19,6 +19,28 @@
 #  video:
 #  with:
 #  highlight:
+- title: Fenchel Duality Theory and a Primal-Dual Algorithm on Riemannian Manifolds
+  key: SDU-IMADA-Seminar2022
+  seminar:
+    name: Seminar
+    institute: IMADA
+    university: Syddansk Universitet
+    place: Odense, Denmark
+  date: 2022-06-02
+  slides: 2022-Odense-RCPA.pdf
+  abstract: >
+    In this talk we introduces a new duality theory that generalizes the classical
+    Fenchel conjugation to functions defined on Riemannian manifolds. We
+    investigate its properties, e.g., the Fenchel–Young inequality and the
+    characterization of the convex subdifferential using the analogue of the
+    Fenchel--Moreau Theorem. These properties of the Fenchel conjugate are employed
+    to derive a Riemannian primal-dual optimization algorithm, and to prove its
+    convergence for the case of Hadamard manifolds under appropriate assumptions.<br>
+    Numerical results in Julia illustrate the performance of the algorithm, which competes
+    with the recently derived Douglas–Rachford algorithm on manifolds of
+    nonpositive curvature. Furthermore we show numerically that our novel algorithm
+    even converges on manifolds of positive curvature.
+  highlight: 2
 - title: Splitting Methods for Non-smooth Optimization on Manifolds
   key: DNA-Seminar2022
   seminar:
@@ -34,7 +56,6 @@
   conference: MaGIC2022
   date: 2022-03-02
   slides: 2022-MaGIC-RiemannianChambollePock.pdf
-
 - title: Reproduzierbarkeit von numerischen Experimenten
   key: GDMS-Seminar
   seminar:
@@ -142,7 +163,6 @@
     url: "https://www.birmingham.ac.uk/research/activity/mathematics/optimization/ona-seminar.aspx"
   date: 2020-02-26
   slides: 2020-Birmingham-RiemannianChambollePock.pdf
-  highlight: 2
 
 - title: Fenchel Duality Theory and a Primal-Dual Algorithm on Riemannian Manifolds
   key: Braunschweig2019
