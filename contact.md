@@ -27,6 +27,7 @@ Research has the advantage that you get around! It brought me to
 ~~~
 <div class="inlinelist">
 ~~~
+* \highlight{Odense (Denmark)}
 * Birmingham (United Kingdom)
 * Egmond aan Zee (The Netherlands)
 * Valencia

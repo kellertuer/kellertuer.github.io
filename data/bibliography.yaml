@@ -809,11 +809,11 @@
     author:
         - Ronny Bergmann
     biblatextype: thesis
-    pdf: https://ronnybergmann.net/theses/Bergmann__Translationsinvariante_Raeume_multivariater_anisotroper_Funktionen_auf_dem_Torus.pdf
+    pdf: /theses/Bergmann__Translationsinvariante_Raeume_multivariater_anisotroper_Funktionen_auf_dem_Torus.pdf
     github: https://github.com/kellertuer/MPAWL
     image: dlVP.png
     language: german
-    note: "similarily: Shaker Verlag, ISBN 978-3844022667, 2013."
+    note: "similarily: Shaker Verlag, ISBN 978-3844022667, 2013"
     isbn: 978-3-8440-2266-7
     isbn_link: https://www.shaker.de/de/content/catalogue/index.asp?lang=de&ID=8&ISBN=978-3-8440-2266-7
     school: Universität zu Lübeck
