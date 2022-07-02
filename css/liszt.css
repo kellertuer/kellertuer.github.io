@@ -206,6 +206,7 @@ ul.talks {
 }
 ul.talks li {
     padding-top:1rem;
+    padding-bottom:1rem;
 }
 ul.talks span.title {
     font-weight: bold;
