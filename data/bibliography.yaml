@@ -1,3 +1,29 @@
+"BaumgärtnerBergmannHerzogSchmidtVidal-Nunez-2022":
+    abstract: >
+        We propose a novel discrete concept for the total generalized variation (TGV),
+        which has originally been derived to reduce the staircasing effect in classical
+        total variation (TV) regularization, in image denoising problems. We describe
+        discrete, second-order TGV for piecewise constant functions on triangular meshes,
+        thus allowing the TGV functional to be applied to more general data structures than
+        pixel images, and in particular in the context of finite element discretizations.
+        Particular attention is given to the description of the kernel of the TGV functional,
+        which, in the continuous setting, consists of linear polynomials. We discuss how to
+        take advantage of this kernel structure using piecewise constant functions on
+        triangular meshes. Numerical experiments include denoising and inpainting problems
+        for images defined on non-standard grids, including data from a 3D scanner.
+    author:
+        - Lukas Baumgärtner
+        - Ronny Bergmann
+        - Roland Herzog
+        - Stephan Schmidt
+        - José Vidal-Núñez
+    biblatextype: online
+    eprint: 2206.12331
+    eprinttype: arXiv
+    image: tgv_pwc.png
+    title: Total Generalized Variation for Piecewise Constant Functions with Applications in Imaging
+    year: 2022
+
 "SilvaLouzeiroBergmannHerzog-2022":
     abstract: >
         In this paper, we introduce a definition of Fenchel conjugate and Fenchel biconjugate
