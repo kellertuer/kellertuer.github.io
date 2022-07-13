@@ -65,6 +65,7 @@ function format_supervision(entry)
     (entry["type"]=="master") && (thesis = "master thesis")
     (entry["type"]=="bachelor") && (thesis = "bachelor thesis")
     (entry["type"]=="studentproject") && (thesis = "student project")
+    (entry["type"]=="specialisationproject") && (thesis = "specialisation project")
     with_names = "";
     if haskey(entry,"with")
         with_names = join( [ has_name(name) ? hfun_person([name,"link_shortname"]) : """<span class="person unknown">$name</span>""" for name ∈ entry["with"] ], ", ", ", and ")
