@@ -19,8 +19,13 @@
 #  video:
 #  with:
 #  highlight:
+- title: Manopt.jl – Numerical Optimization on Riemannian Manifolds
+  key: ICCOPT2022-Talk
+  conference: ICCOPT22
+  date: 2022-07-26
+  slides: 2022-ICCOPT-Manoptjl.pdf
 - title: Manopt.jl – Optimization on Riemannian Manifolds
-  note: This is an extended verion of the Lightning Talk given at the <a href="">JuliaCon 2022.
+  note: This is an extended version of the Lightning Talk given at the JuliaCon 2022.
   key: JuliaCon2022Ext
   conference: JuliaCon2022
   date: 2022-07-27
