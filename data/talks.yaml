@@ -77,6 +77,7 @@
     algorithms like a Cyclic Proximal Point Algorithm, a (parallel) Douglas-Rachford
     algorithm and a Chambolle-Pock algorithm are provided, together with several basic
     cost functions, gradients and proximal maps as well as debug and record capabilities.
+  video: https://youtu.be/dJz1klEutRY
 - title: Modelling Fire Incidents Response Times in Ålesund
   conference: ESGI2022
   key: ESGI156
@@ -127,7 +128,6 @@
     url: https://www.gmds.de/de/ueber-uns/organisation/praesidiumskommissionen/nachwuchsfoerderung-in-der-gmds/
     place: online
   date: 2021-11-12
-
 - title: A Primal-Dual Algorithm for Convex Nonsmooth Optimization on Riemannian Manifolds
   key: INFORMS-2021
   conference: Informs2021
