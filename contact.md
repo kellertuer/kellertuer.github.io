@@ -27,7 +27,11 @@ Research has the advantage that you get around! It brought me to
 ~~~
 <div class="inlinelist">
 ~~~
+
+* Bethlehem, PA (USA)
+* Ålesund (Norway)
 * \highlight{Odense (Denmark)}
+* \highlight{Ilsetra (Norway)}
 * Birmingham (United Kingdom)
 * Egmond aan Zee (The Netherlands)
 * Valencia
@@ -68,4 +72,5 @@ Research has the advantage that you get around! It brought me to
 ~~~
 </div>
 ~~~
+
 as well as several small workshop venues in Germany
