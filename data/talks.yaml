@@ -51,6 +51,7 @@
     algorithms like a Cyclic Proximal Point Algorithm, a (parallel) Douglas-Rachford
     algorithm and a Chambolle-Pock algorithm are provided, together with several basic
     cost functions, gradients and proximal maps as well as debug and record capabilities.
+  video: https://youtu.be/thbekfsyhCE
 - title: Manopt.jl – Optimization on Riemannian Manifolds
   key: JuliaCon2022Lightning
   conference: JuliaCon2022
