@@ -19,6 +19,22 @@
 #  video:
 #  with:
 #  highlight:
+- title: The RIemannian Chambolle-Pock algorithm
+  conference: GAMM2022
+  key: GAMM2022
+  date: 2022-08-18
+  slides: 2022-GAMM-Chambolle-Pock.pdf
+  abstract: >
+    Based on a Fenchel dual notion on Riemannian manifolds we investigate the saddle point
+    problem related to a nonsmooth convex optimization problem.
+    We derive a primal-dual
+    hybrid gradient algorithm, also known as Chambolle-Pock algorithm in imaging, to compute
+    the saddle point using either an exact or a linearized approach for the involved
+    nonlinear operator.
+    We investigate a sufficient condition for convergence of the linearized algorithm on
+    Hadamard manifolds. Numerical examples illustrate, that on Hadamard manifolds we are on
+    par with state of the art algorithms and on general manifolds we outperform existing
+    approaches.
 - title: Manopt.jl – Numerical Optimization on Riemannian Manifolds
   key: ICCOPT2022-Talk
   conference: ICCOPT22
