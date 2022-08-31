@@ -19,6 +19,30 @@
 #  video:
 #  with:
 #  highlight:
+- title: Fenchel Duality Theory and a Primal-Dual Algorithm on Riemannian Manifolds
+  key: SDU-IMADA-Seminar2022
+  conference: Geo2Int
+  key: Geo2IntRCPA
+  date: 2022-09-09
+  slides: 2022-Geo2Int-RCPA.pdf
+  abstract: >
+    In this talk we introduces a new duality theory that generalizes the classical
+    Fenchel conjugation to functions defined on Riemannian manifolds. We
+    investigate its properties, e.g., the Fenchel–Young inequality and the
+    characterization of the convex subdifferential using the analogue of the
+    Fenchel--Moreau Theorem. These properties of the Fenchel conjugate are employed
+    to derive a Riemannian primal-dual optimization algorithm, and to prove its
+    convergence for the case of Hadamard manifolds under appropriate assumptions.
+
+    Numerical results in Julia illustrate the performance of the algorithm, which competes
+    with the recently derived Douglas–Rachford algorithm on manifolds of
+    nonpositive curvature. Furthermore we show numerically that our novel algorithm
+    even converges on manifolds of positive curvature.
+- title: Manifolds.jl
+  conference: Geo2Int
+  key: Geo2IntManifolds
+  date: 2022-09-07
+  slides: 2022-Geo2Int-Manifoldsjl.pdf
 - title: The RIemannian Chambolle-Pock algorithm
   conference: GAMM2022
   key: GAMM2022
