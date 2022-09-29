@@ -24,6 +24,31 @@
     title: Total Generalized Variation for Piecewise Constant Functions with Applications in Imaging
     year: 2022
 
+"BergmannHerzogOrtizLopezSchiela-2022":
+    abstract: >
+        We consider optimization problems with manifold-valued constraints.
+        These generalize classical equality and inequality constraints to a setting in which
+        both the domain and the codomain of the constraint mapping are smooth manifolds.
+        We model the feasible set as the preimage of a submanifold with corners of the
+        codomain. The latter is a subset which corresponds to a convex cone locally in
+        suitable charts. We study first- and second-order optimality conditions for this
+        class of problems. We also show the invariance of the relevant quantities with
+        respect to local representations of the problem.
+    author:
+        - Ronny Bergmann
+        - Roland Herzog
+        - Julián Ortiz López
+        - Anton Schiela
+    biblatextype: article
+    doi: 10.1007/s10957-022-02107-x
+    eprint: 2110.04882
+    eprinttype: arXiv
+    image: tangent_cone.png
+    journaltitle: Journal of Optimization Theory and Applications
+    publication_date: 2022-09-29
+    title: "First- and Second-Order Analysis for Optimization Problems with Manifold-Valued Constraints"
+    year: 2022
+
 "SilvaLouzeiroBergmannHerzog-2022":
     abstract: >
         In this paper, we introduce a definition of Fenchel conjugate and Fenchel biconjugate
@@ -82,29 +107,6 @@
     title: "Manopt.jl: Optimization on Manifolds in Julia"
     volume: 7
     year: 2022
-
-"BergmannHerzogOrtizLopezSchiela-2021":
-    abstract: >
-        We consider optimization problems with manifold-valued constraints.
-        These generalize classical equality and inequality constraints to a setting in which
-        both the domain and the codomain of the constraint mapping are smooth manifolds.
-        We model the feasible set as the preimage of a submanifold with corners of the
-        codomain. The latter is a subset which corresponds to a convex cone locally in
-        suitable charts. We study first- and second-order optimality conditions for this
-        class of problems. We also show the invariance of the relevant quantities with
-        respect to local representations of the problem.
-    author:
-        - Ronny Bergmann
-        - Roland Herzog
-        - Julián Ortiz López
-        - Anton Schiela
-    biblatextype: online
-    eprint: 2110.04882
-    eprinttype: arXiv
-    image: tangent_cone.png
-    title: "First- and Second-Order Analysis for Optimization Problems with Manifold-Valued Constraints"
-    publication_date: 2021-10-12
-    year: 2021
 
 "AxenBaranBergmannRzecki-2021":
     abstract: >
