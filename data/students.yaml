@@ -12,6 +12,12 @@
   finished: 2022-06-24
   title: Support Vector Machines on Riemannian Manifolds
   type: master
+- finished: 2021-06-01
+  name: Manuel Weiß
+  title: The Chambolle-Pock Algorithm for Geometry Labeling and Segmentation based on the Normal Vector Field
+  type: master
+  with:
+    - Roland Herzog
 - finished: 2019-07-16
   name: Felix Maschke
   title: Geodätische Regression auf Mannigfaltigkeiten mit Nebenbedingungen
@@ -37,14 +43,20 @@
   name: Jan-Philipp Pfaue
   title: Constrained optimization on Riemannian manifolds using geodesic polygonal sets
   type: bachelor
+  with:
+    - Roland Herzog
 - finished: 2020-12-18
   name: Tom-Christian Riemer
   title: The Riemannian BFGS Method and its Implementation in Julia
   type: bachelor
+  with:
+    - Roland Herzog
 - finished: 2019-11-07
   name: Renée Dornig
   title: Regularized Clustering of Manifold-Valued Data
   type: bachelor
+  with:
+    - Roland Herzog
 - finished: 2019-05-29
   name: Erik Wünsche
   title: $L^1$-TV-Regularisierung von rotationswertigen Daten

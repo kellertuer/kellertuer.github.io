@@ -377,6 +377,13 @@ people:
             short: B. Wirth
         title: Prof. Dr.
         url: https://www.uni-muenster.de/Cells-in-Motion/people/all/wirth-b.php
+    Manuel Weiß:
+        affiliation: Scientific Computing and Optimization, IWR, Univesity of Heidelberg
+        name:
+            bib: Weiß, M.
+            full: Manuel Weiß
+            short: M. Weiß
+        url: https://scoop.iwr.uni-heidelberg.de/team/mweiß/
     Erik Wünsche:
         name:
             bib: Wünsche, E.
