@@ -120,14 +120,14 @@ people:
         title: "Dr."
         url: "https://pgousenbourg.github.io/"
     Roland Herzog:
-        affiliation: "TU Chemnitz"
+        affiliation: "Heidelberg University"
         name:
             full: "Roland Herzog"
             short: "R. Herzog"
             bib: "Herzog, R."
         orcid: 0000-0003-2164-6575
         title: "Prof. Dr."
-        url: "https://tu-chemnitz.de/herzog"
+        url: "https://scoop.iwr.uni-heidelberg.de/team/rherzog/"
     Marc Herrmann:
         name:
             full: "Marc Herrmann"
