@@ -47,11 +47,23 @@ function hfun_students(params)
 end
 function format_supervision(entry)
     # (1) date finished?
-    df = ""
+    date_format = ""
     if haskey(entry, "finished")
-        df = Dates.format(entry["finished"], "uuu<br>yyyy")
+        if haskey(entry,"start")
+            ds = Dates.format(entry["start"], "yyyy")
+            df = Dates.format(entry["finished"], "yyyy")
+            date_format = "$(ds)&nbsp;&mdash;&nbsp;$(df)"
+        else
+            df1 = Dates.format(entry["finished"], "uuu")
+            df2 = Dates.format(entry["finished"], "yyyy")
+            date_format = """$(df1)&nbsp;$(df2)"""
+        end
+    elseif haskey(entry,"start")
+        ds1 = Dates.format(entry["start"], "uuu")
+        ds2 = Dates.format(entry["start"], "yyyy")
+        date_format = """<span class="time-meta">since</span>$(ds1)&nbsp;$(ds2)"""
     else
-        df = "current"
+        date_format = "current"
     end
     # name(s)
     students = ""
@@ -66,16 +78,21 @@ function format_supervision(entry)
     (entry["type"]=="bachelor") && (thesis = "bachelor thesis")
     (entry["type"]=="studentproject") && (thesis = "student project")
     (entry["type"]=="specialisationproject") && (thesis = "specialisation project")
+    (entry["type"]=="phd-active") && (thesis = "PhD project")
     with_names = "";
     if haskey(entry,"with")
         with_names = join( [ has_name(name) ? hfun_person([name,"link_shortname"]) : """<span class="person unknown">$name</span>""" for name ∈ entry["with"] ], ", ", ", and ")
         with_names = """<span class="with">$(with_names)</span>"""
     end
-    return """<dt>$df</dt>
+    note = ""
+    if haskey(entry,"note")
+        note = """\n<span class="note">$(entry["note"])</a>"""
+    end
+    return """<dt>$(date_format)</dt>
     <dd>
     <span class="student">$(students)</span>
     <span class="title">$(fd2html(entry["title"]; internal=true))</span>
-    <span class="thesis-type">$(thesis)</span>$(with_names)</dd>
+    <span class="thesis-type">$(thesis)</span>$(with_names)$(note)</dd>
     """
 end
 

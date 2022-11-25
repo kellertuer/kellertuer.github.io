@@ -279,13 +279,20 @@ img.floatleft {
 }
 
 dl.supervised dt {
-    width: 4rem;
+    width: 6rem;
     float: left;
     clear: left;
 }
 
+dl.supervised dt span.time-meta {
+    font-weight: normal;
+    display: block;
+    font-size: 80%;
+    line-height: 70%;
+}
+
 dl.supervised dd {
-    margin-left: 4rem;
+    margin-left: 6rem;
     margin-bottom: 1rem;
 }
 dl.supervised dd .info span.url {
@@ -306,6 +313,20 @@ dl.supervised dd .student:after {
 dl.supervised dd .title {
     font-weight: bold;
 }
+
+dl.supervised dd .note {
+
+    font-style: italic;
+    display: inline-block;
+    margin-top: .25rem;
+    font-size: 90%;
+    line-height: 110%;
+}
+dl.supervised dd .note:before {
+    content: ' ';
+    display: block;
+}
+
 .title p {
     display: inline;
     margin-right:-.45ex;
