@@ -1,13 +1,38 @@
+#
+# PhD Students
+#
+- name: Hajg Jasa
+  title: Numerical Methods for Non-smooth Optimization on Riemannian Manifolds
+  type: phd-active
+  start: 2022-08-22
+#
+# Master theses
+#
 - name: Renée Dornig
   finished: 2022-09-26
   title: Constraint Optimization on Manifolds
   type: master
   with:
     - Roland Herzog
+  note: |
+    The code of this thesis was the main basis for
+    <a href="https://manoptjl.org/stable/solvers/augmented_Lagrangian_method/">
+    The Augmented Lagrangian Method
+    </a> and
+    <a href="https://manoptjl.org/stable/solvers/exact_penalty_method/">
+    The Exact Penalty Method
+    </a>
+    available within <a href="https://manoptjl.org">Manopt.jl</a>.
 - name: Even Stephansen Kjemsås
   finished: 2022-07-12
   title: The Riemannian Frank-Wolfe Algorithm
   type: master
+  note: |
+    The code of this thesis was the basis for
+    <a href="https://manoptjl.org/stable/solvers/FrankWolfe/">
+    The Frank-Wolfe Algorithm
+    </a>
+    available within <a href="https://manoptjl.org">Manopt.jl</a>.
 - name: Johannes Voll Kolstø
   finished: 2022-06-24
   title: Support Vector Machines on Riemannian Manifolds
@@ -51,6 +76,9 @@
   type: bachelor
   with:
     - Roland Herzog
+  note: |
+    The code is available at within <a href="https://manoptjl.org">Manopt.jl</a>,
+    see <a href="https://manoptjl.org/stable/solvers/quasi_Newton/">Riemannian quasi Newton Methods</a>.
 - finished: 2019-11-07
   name: Renée Dornig
   title: Regularized Clustering of Manifold-Valued Data
@@ -134,6 +162,10 @@
   finished: 2022-01-04
   title: Optimization on the symplectic and the symplectic Stiefel manifold
   type: specialisationproject
+  note: |
+    The code is available at within <a href="https://juliamanifolds.github.io/Manifolds.jl/stable/">Manifolds.jl</a>,
+    see <a href="https://juliamanifolds.github.io/Manifolds.jl/stable/manifolds/symplectic.html">The symplectic Manifold</a>
+    and the <a href="https://juliamanifolds.github.io/Manifolds.jl/stable/manifolds/symplecticstiefel.html">The symplectic Stiefel Manifold</a>.
 #
 # student projects
 #

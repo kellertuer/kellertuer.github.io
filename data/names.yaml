@@ -44,7 +44,7 @@ people:
             full: Roland Bennewitz
             bib: Bennewitz, R.
     Ronny Bergmann:
-        affiliation: "TU Chemnitz"
+        affiliation: "NTNU, Trondheim"
         arxiv: 0000-0001-8342-7218
         github: kellertuer
         name:
@@ -54,8 +54,8 @@ people:
         orcid: 0000-0001-8342-7218
         title: "PD Dr."
         twitter: "ronnybergmann_"
+        mastodon: "https://scholar.social/@ronnybergmann"
         url: "http://uni.ronnybergmann.net"
-        scholar: "0zk7y3cAAAAJ"
     Nicolas Boumal:
         affiliation: EPFL Lausanne
         name:
@@ -146,6 +146,14 @@ people:
             full: Henning Huth
             bib: Huth, H.
             short: H. Huth
+    Hajg Jasa:
+        affiliation: "NTNU, Trondheim"
+        name:
+            full: Hajg Jasa,
+            bib: Jasa, Hajg
+            short: H. Jasa
+        url: "https://www.ntnu.no/ansatte/hajg.jasa"
+
     Lisa Kausch:
         affiliation: DKFZ Heidelberg
         name:

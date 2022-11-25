@@ -2,6 +2,9 @@
 
 @def title = "Students"
 
+## PhD Students
+{{students phd-active}}
+
 ## Supervised Master Theses
 {{students master}}
 
