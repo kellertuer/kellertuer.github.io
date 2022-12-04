@@ -88,11 +88,22 @@ function format_supervision(entry)
     if haskey(entry,"note")
         note = """\n<span class="note">$(entry["note"])</a>"""
     end
+    println(note)
+    s = ""
+    s = """$(s)$(entry_to_list_icon(entry,"link"; iconstyle="fas fa-lg", icon="fa-link"))"""
+    s = """$(s)$(entry_to_list_icon(entry,"pdf"; iconstyle="fas fa-lg", icon="fa-file-pdf"))"""
+    (length(s) > 0) && (s = """
+    <ul class="nav nav-icons">
+    $s
+    </ul>
+    """)
+    println("\n\n$s")
     return """<dt>$(date_format)</dt>
     <dd>
     <span class="student">$(students)</span>
     <span class="title">$(fd2html(entry["title"]; internal=true))</span>
-    <span class="thesis-type">$(thesis)</span>$(with_names)$(note)</dd>
+    <span class="thesis-type">$(thesis)</span>$(with_names)$(note)$s
+    </dd>
     """
 end
 
