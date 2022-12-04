@@ -135,7 +135,7 @@ ol li i.ai-orcid
 {
     color:#a6ce39;
 }
-ol li ul.nav-icons {
+ol li ul.nav-icons, dl dd ul.nav-icons {
     margin: 0;
     margin-top: .75rem;
     padding: 0;
@@ -143,6 +143,9 @@ ol li ul.nav-icons {
     /* float: right; */
     margin-bottom: 1rem;
     list-style-type: none;
+}
+dl.supervised dd ul.nav-icons {
+    float: right;
 }
 ul.nav-icons li {
     display: inline;

@@ -33,10 +33,18 @@
     The Frank-Wolfe Algorithm
     </a>
     available within <a href="https://manoptjl.org">Manopt.jl</a>.
+  pdf: https://ntnuopen.ntnu.no/ntnu-xmlui/bitstream/handle/11250/3019960/no.ntnu%3ainspera%3a104646180%3a20910798.pdf?sequence=1&isAllowed=y
+  link: https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/3019960
 - name: Johannes Voll Kolstø
   finished: 2022-06-24
   title: Support Vector Machines on Riemannian Manifolds
   type: master
+  link: https://hdl.handle.net/11250/3030014
+  pdf: https://ntnuopen.ntnu.no/ntnu-xmlui/bitstream/handle/11250/3030014/no.ntnu%3ainspera%3a104646180%3a37160080.pdf?sequence=1&isAllowed=y
+  note: |
+    This thesis was awarded the <a href="https://www.ntnu.no/nrprisen">NR Prisen</a>
+    for the best master thesis in mathematics at NTNU within the study year 2021/2022.
+    <br>Congratulations Johannes!
 - finished: 2021-06-01
   name: Manuel Weiß
   title: The Chambolle-Pock Algorithm for Geometry Labeling and Segmentation based on the Normal Vector Field
