@@ -19,6 +19,15 @@
 #  video:
 #  with:
 #  highlight:
+- title: Nonsmooth Optimization on Riemannian Manifolds in Manopt.jl
+  key: Seminar-Heidelberg-2022
+  date: 2022-12-08
+  seminar:
+    name: Optimization Research Seminar
+    institute: Scoop
+    university: Heidelberg University
+    place: Heidelberg, Germany
+  slides: 2022-Heidelberg-NonSmooth-Optim.pdf
 - title: Fenchel Duality Theory and a Primal-Dual Algorithm on Riemannian Manifolds
   key: SDU-IMADA-Seminar2022
   conference: Geo2Int
