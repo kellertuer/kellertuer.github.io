@@ -1,12 +1,18 @@
 lectures:
-  - term: Vår 2022
-    date: 2022-01-10
+  - term: Vår 2022 and Vår 2023
+    date: 2023-01-09
     name: TMA4125 Matematikk 4N
     note: Differential equations and Fourier analysis
     university: NTNU
     link: https://www.ntnu.edu/studies/courses/TMA4125
-  - term: Høst 2021 and Høst 2022
+  - term: Høst 2022
     date: 2021-08-24
+    name: TMA4310 Mathematical Subjects, Advanced Course
+    note: Reading Course, “<a href="https://www.nicolasboumal.net/book/index.html">An introduction to optimization on smooth manifolds</a>”
+    university: NTNU
+    link: https://www.ntnu.edu/studies/courses/TMA4310
+  - term: Høst 2021 and Høst 2022
+    date: 2022-08-24
     name: TMA4215 Numerisk matematikk
     note: Numerical Mathematics
     university: NTNU
@@ -46,24 +52,20 @@ exercises:
     name: Computerpraktikum
     note: Including coordination for the faculty
     university: TUC
-    link: https://www.tu-chemnitz.de/mathematik/part_dgl/teaching/WS2020_Computerpraktikum/index.en.php
   - term: WS&nbsp;2020/21
     date: 2020-10-01
     name: Optimization for Non-Mathematicians
     note: Exercises including programming in Matlab
     university: TUC
-    link: https://www.tu-chemnitz.de/mathematik/part_dgl/teaching/WS2019_Optimierung_für_Nichtmathematiker/index..de.php
   - term: SS&nbsp;2020
     date: 2020-04-01
     name: Optimization on Manifolds
     university: TUC
-    link: https://www.tu-chemnitz.de/mathematik/part_dgl/teaching/SS2020_Optimierung_auf_Mannigfaltigkeiten/index.de.php
   - term: SS&nbsp;2020
     date: 2020-04-01
     name: Computerpraktikum
     note: Including coordination for the faculty
     university: TUC
-    link: https://www.tu-chemnitz.de/mathematik/part_dgl/teaching/SS2020_Computerpraktikum/index.en.php
   - term: SS&nbsp;2020
     date: 2020-04-01
     name: Mathematics for Chemists and Economics II
@@ -79,13 +81,11 @@ exercises:
     name: Optimization for Non-Mathematicians
     note: Exercises including programming in Matlab
     university: TUC
-    link: https://www.tu-chemnitz.de/mathematik/part_dgl/teaching/WS2020_Optimierung_für_Nichtmathematiker/index..de.php
   - term: SS&nbsp;2019
     name: Modelling Seminar
     date: 2019-04-01
     note: Modelling and solving problems posed by companies,  within the data science study program
     university: TUC
-    link: https://www.tu-chemnitz.de/mathematik/part_dgl/teaching/Modellierungsseminar/index.en.php
   - term: WS&nbsp;2018/19
     date: 2018-10-01
     name: Computer-oriented Mathematics
@@ -93,7 +93,6 @@ exercises:
     with:
       - Roland Herzog
     university: TUC
-    link: https://www.tu-chemnitz.de/mathematik/part_dgl/teaching/WS2018_computer-orientierte_Mathematik/index.en.php
   - term: WS&nbsp;2018/19
     date: 2018-10-01
     name: "Höhere Mathematik III (If, Ph, ET)"
@@ -104,13 +103,11 @@ exercises:
     name: Computerpraktikum
     note: Including coordination for the whole Faculty
     university: TUC
-    link: https://www.tu-chemnitz.de/mathematik/part_dgl/teaching/SS2019_Computerpraktikum/index.en.php
   - term: WS&nbsp;2018/19
     date: 2018-10-01
     name: Computerpraktikum
     note: Including coordination for the whole Faculty
     university: TUC
-    link: https://www.tu-chemnitz.de/mathematik/part_dgl/teaching/WS2018_Computerpraktikum/index.en.php
   - term: WS&nbsp;2017/18
     date: 2017-10-01
     name: Seminar Learning
