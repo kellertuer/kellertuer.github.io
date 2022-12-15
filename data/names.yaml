@@ -397,6 +397,15 @@ people:
             bib: Wünsche, E.
             full: Erik Wünsche
             short: E. Wünsche
+    Ralf Zimmermann:
+        affilitation: SDU Odense
+        name:
+            bib: Zimmermann, R.
+            full: Ralf Zimmermann
+            short: R. Zimmermann
+        title: Prof. Dr.
+        url: https://portal.findresearcher.sdu.dk/da/persons/zimmermann
+        orcid: 0000-0003-1692- 3996
 institutes:
     'IMF':
         name: Institutt for matematiske fag
