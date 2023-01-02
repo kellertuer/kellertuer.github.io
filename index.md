@@ -21,8 +21,6 @@ Currently I am working on
 
 {{forthcomingconferences}}
 
-## Twitter
+## News
 
-~~~
-<a class="twitter-timeline" data-width="500" data-height="800" data-dnt="true" data-theme="light" href="https://twitter.com/ronnybergmann_?ref_src=twsrc%5Etfw">Tweets by ronnybergmann_</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-~~~
+For news see my [Mastodon feed for @ronnybergmann@scholar.social](https://scholar.social/@ronnybergmann).
