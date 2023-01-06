@@ -14,6 +14,20 @@
 #   place: Hasenwinkel
 #   organizer: true
 #   talk: true
+ICIAM2023:
+  name: 10th International Congress on Industrial and Applied Mathematics
+  url: https://iciam2023.org
+  start: 2023-08-20
+  end: 2023-08-25
+  place: Tokio, Japan & virtual
+  talk: true
+MaGIC2023:
+  name: Manifold and Geometric Integration Colloquia 2023
+  start: 2023-02-27
+  end: 2023-03-03
+  place: Ilsetra, Norway
+  url: https://sites.google.com/view/magic2023/home
+  talk: true
 EUCCO2023:
   name: European Conference on Computational Optimization
   start: 2023-09-25
@@ -143,7 +157,7 @@ SSVM2019:
   place: Hofgeismar
   talk: false
 ICIAM2019:
-  name: International Congress on Industrial and Applied Mathematics
+  name: 9th International Congress on Industrial and Applied Mathematics
   url: https://iciam2019.org
   start: 2019-07-15
   end: 2019-07-19
