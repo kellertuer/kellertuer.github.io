@@ -226,6 +226,11 @@ people:
             short: A. Moghiseh
         title: Dr.
         url: https://www.itwm.fraunhofer.de/en/departments/bv/staff/ali-moghiseh.html
+    Mathias Ravn Munkvold:
+        name:
+            full: Mathias Ravn Munkvold
+            bib: Munkvold, M. R.
+            short: M. R. Munkvold
     Sebastian Neumayer:
         affiliation: TU Berlin
         name:
@@ -322,6 +327,12 @@ people:
             short: B. Simeon
         title: Prof. Dr.
         url: https://www.mathematik.uni-kl.de/das/personen/leitung/simeon/
+    Solvor Sevland:
+        affiliation: NTNU
+        name:
+            full: Solvor Sevland
+            short: S. Sevland
+            bib: Sevland, S.
     Gabriele Steidl:
         affiliation: "TU Berlin"
         name:
@@ -407,6 +418,10 @@ people:
         url: https://portal.findresearcher.sdu.dk/da/persons/zimmermann
         orcid: 0000-0003-1692- 3996
 institutes:
+    'FGAW':
+        name: Fachgruppe “Angewandte Mathematik”
+        short: FG angew. Math.
+        url: https://www.tu.berlin/imageanalysis
     'IMF':
         name: Institutt for matematiske fag
         short: IMF
@@ -429,11 +444,14 @@ institutes:
     'NumaPDE':
         name: Arbeitsgruppe Numerik partieller Differentialgleichungen
         short: NumaPDE
-        url: https://www.tu-chemnitz.de/mathematik/part_dgl/
     'NTNU':
         name: Norges teknisk-naturvitenskapelige universitet
         short: NTNU
         url: https://ntnu.edu
+    'scoop':
+        name: Scientific Computing and Optimization
+        short: scoop
+        url: https://scoop.iwr.uni-heidelberg.de
     'TUC':
         name: Technische Universität Chemnitz
         short: TU Chemnitz

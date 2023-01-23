@@ -162,6 +162,14 @@
 #
 # specialisation projects
 #
+- name: Mathias Ravn Munkvold
+  finished: 2023-01-12
+  title: Low Rank Matrix Completion
+  type: specialisationproject
+- name: Solvor Sevland
+  finished: 2023-01-12
+  title: The Multivariate Fast Fourier Transform on the Pattern
+  type: specialisationproject
 - name: Even Stephansen Kjemsås
   finished: 2022-01-07
   title: Convolutions on Manifolds for Deep Learning
