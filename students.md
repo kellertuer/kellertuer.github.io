@@ -12,6 +12,7 @@
 {{students bachelor}}
 
 ## Supervised Specialisation Projects
+_see [TMA4500 Specialization Project, Ind Mat.](https://www.ntnu.edu/studies/courses/TMA4500)_
 {{students specialisationproject}}
 
 ## Supervised Student Projects
