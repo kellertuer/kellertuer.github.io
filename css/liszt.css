@@ -5,6 +5,11 @@
     --text-color: hsv(0, 0%, 20%);
 }
 
+span.institute {
+    color:rgb(16, 71, 102);
+    text-decoration: none;
+}
+
 .no-number .katex-display::after {
     counter-increment: nothing;
     content: "";
