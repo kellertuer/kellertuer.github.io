@@ -27,6 +27,7 @@
     image: hermite.png
     title: Multivariate Hermite interpolation of manifold-valued data
     year: 2022
+
 "BaumgärtnerBergmannHerzogSchmidtVidal-Nunez-2022":
     abstract: >
         We propose a novel discrete concept for the total generalized variation (TGV),
@@ -46,12 +47,18 @@
         - Roland Herzog
         - Stephan Schmidt
         - José Vidal-Núñez
-    biblatextype: online
+    biblatextype: article
+    doi: 10.1137/22M1505281
     eprint: 2206.12331
     eprinttype: arXiv
     image: tgv_pwc.png
+    journaltitle: SIAM Journal on Imaging Sciences
+    issue: 1
+    pages: 313-339
     title: Total Generalized Variation for Piecewise Constant Functions with Applications in Imaging
-    year: 2022
+    volume: 16
+    year: 2023
+
 
 "BergmannHerzogOrtizLopezSchiela-2022":
     abstract: >
