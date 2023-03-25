@@ -19,6 +19,11 @@
 #  video:
 #  with:
 #  highlight:
+- title: An Introduction to Optimization on Riemannian Manifolds
+  conference: COMDF23
+  key: COMDF-ManoptIntro
+  date: 2023-03-27
+  slides: 2023-Oslo-Intro-Manopt.pdf
 - title: Nonsmooth Optimization on Riemannian Manifolds in Manopt.jl
   key: Seminar-Heidelberg-2022
   date: 2022-12-08
@@ -29,7 +34,6 @@
     place: Heidelberg, Germany
   slides: 2022-Heidelberg-NonSmooth-Optim.pdf
 - title: Fenchel Duality Theory and a Primal-Dual Algorithm on Riemannian Manifolds
-  key: SDU-IMADA-Seminar2022
   conference: Geo2Int
   key: Geo2IntRCPA
   date: 2022-09-09
