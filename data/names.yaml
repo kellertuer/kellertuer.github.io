@@ -327,7 +327,7 @@ people:
             short: B. Simeon
         title: Prof. Dr.
         url: https://www.mathematik.uni-kl.de/das/personen/leitung/simeon/
-    Eliansteron M. Santos:
+    Elianderson M. Santos:
         name:
             full: Elianderson Meneses Santos
             short: E. M. Santos
@@ -343,8 +343,7 @@ people:
         name:
             full: João Carlos de Oliveria Souza
             short: J. C. O. Souza
-            bib: Souza, J. C. de O.
-        orcid:
+            bib: Souza, J. C. O.
     Gabriele Steidl:
         affiliation: "TU Berlin"
         name:
