@@ -93,7 +93,7 @@ people:
             bib: Engel, A.
             full: Annika Engel
             short: A. Engel
-    Orizon Ferreira:
+    Orizon P. Ferreira:
         affiliation: "Federal University of Goiás"
         name:
             full: Orizon P. Ferreira
@@ -327,12 +327,24 @@ people:
             short: B. Simeon
         title: Prof. Dr.
         url: https://www.mathematik.uni-kl.de/das/personen/leitung/simeon/
+    Eliansteron M. Santos:
+        name:
+            full: Elianderson Meneses Santos
+            short: E. M. Santos
+            bib: Santos, E. M.
+        orcid: 0000-0003-0936-9640
     Solvor Sevland:
         affiliation: NTNU
         name:
             full: Solvor Sevland
             short: S. Sevland
             bib: Sevland, S.
+    João Carlos O. Souza:
+        name:
+            full: João Carlos de Oliveria Souza
+            short: J. C. O. Souza
+            bib: Souza, J. C. de O.
+        orcid:
     Gabriele Steidl:
         affiliation: "TU Berlin"
         name:
