@@ -19,6 +19,15 @@
 #  video:
 #  with:
 #  highlight:
+- title: Nonsmooth Optimization on Riemannian Manifolds in Manopt.jl
+  key: Seminar-Bergen-2023
+  date: 2023-05-09
+  seminar:
+    name: Analysis and PDE Seminar
+    institute: Department of Mathematics
+    university: University of Bergen
+    place: Bergen, Norway
+  slides: 2023-Bergen-NonSmooth-Optim.pdf
 - title: An Introduction to Optimization on Riemannian Manifolds
   conference: COMDF23
   key: COMDF-ManoptIntro
