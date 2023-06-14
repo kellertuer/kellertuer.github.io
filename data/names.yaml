@@ -146,6 +146,13 @@ people:
             full: Henning Huth
             bib: Huth, H.
             short: H. Huth
+    Daan Huybrechs:
+        name:
+            full: Daan Huybrechs
+            bib: Huybrechs, D.
+            short: D. Huybrechs
+        title: "Prof. dr. ir."
+        url: https://people.cs.kuleuven.be/~daan.huybrechs/
     Hajg Jasa:
         affiliation: "NTNU, Trondheim"
         name:
@@ -171,6 +178,11 @@ people:
             bib: Kolstø, J. Voll
             full: Johannes Voll Kolstø
             short: J. V. Kolstø
+    Sebastian Bruhn Jensen:
+        name:
+            bib: Jensen, S. Bruhn
+            full: Sebastian Bruhn Jensen
+            short: S. B. Jensen
     Friederike Laus:
         name:
             bib: Laus, F.
@@ -195,6 +207,11 @@ people:
         title: Prof. Dr.
         url: https://www.mic.uni-luebeck.de/people/jan-lellmann.html
         orcid: 0000-0002-5243-0331
+    Veronique Lenaerts:
+        name:
+            full: Veronique Lenaerts
+            short: V. Lenaerts
+            bib: Lenaerts, V.
     Estefanía Loayza-Romero:
         name:
             full: Estefanía Loayza-Romero
@@ -246,6 +263,14 @@ people:
         name:
             full: Julián Ortiz López
             bib: Ortiz López, J.
+    Brynjulf Owren:
+        affiliation: NTNU
+        name:
+            full: Brynjulf Owren
+            bib: Owren, B.
+            short: B. Owren
+        title: "Prof. Dr."
+        url: https://www.ntnu.edu/employees/brynjulf.owren
     Johannes Persch:
         name:
             full: Johannes Persch

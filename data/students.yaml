@@ -8,6 +8,31 @@
 #
 # Master theses
 #
+- name: Veronique Lenaerts
+  finished: 2023-06-29
+  title: Regression of Time Series Data on Manifolds
+  type: master
+  with:
+    - Daan Huybrechs
+    - Brynjulf Owren
+  note: This thesis started during an exchange stay and is a master thesis at KU Leuven
+- name: Mathias Ravn Munkvold
+  finished: 2023-06-20
+  title: Adaptive Regularization with Cubics
+  type: master
+- name: Solvor Sevland
+  finished: 2023-06-15
+  title: Multivariate Periodic Wavelets on the Pattern
+  type: master
+- name: Sebastian Bruhn Jensen
+  finished: 2023-06-01
+  title: ""
+  type: master
+  with:
+    - Ralf Zimmermann
+  note: |
+    This thesis was conducted at SDU Odense.
+    Sebastian was staying at NTNU for two weeks to conduct his numerical experiments in Julia.
 - name: Renée Dornig
   finished: 2022-09-26
   title: Constraint Optimization on Manifolds
