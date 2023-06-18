@@ -155,12 +155,12 @@ people:
         url: https://people.cs.kuleuven.be/~daan.huybrechs/
     Hajg Jasa:
         affiliation: "NTNU, Trondheim"
+        orcid: 0009-0002-7917-0530
         name:
             full: Hajg Jasa,
             bib: Jasa, Hajg
             short: H. Jasa
         url: "https://www.ntnu.no/ansatte/hajg.jasa"
-
     Lisa Kausch:
         affiliation: DKFZ Heidelberg
         name:
