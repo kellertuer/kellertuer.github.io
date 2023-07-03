@@ -1,4 +1,10 @@
 lectures:
+  - term: Høst 2021, Høst 2022, Høst 2023
+    date: 2023-08-24
+    name: TMA4215 Numerisk matematikk
+    note: Numerical Mathematics
+    university: NTNU
+    link: https://www.ntnu.edu/studies/courses/TMA4215
   - term: Vår 2022 and Vår 2023
     date: 2023-01-09
     name: TMA4125 Matematikk 4N
@@ -11,12 +17,6 @@ lectures:
     note: Reading Course, “<a href="https://www.nicolasboumal.net/book/index.html">An introduction to optimization on smooth manifolds</a>”
     university: NTNU
     link: https://www.ntnu.edu/studies/courses/TMA4310
-  - term: Høst 2021 and Høst 2022
-    date: 2022-08-24
-    name: TMA4215 Numerisk matematikk
-    note: Numerical Mathematics
-    university: NTNU
-    link: https://www.ntnu.edu/studies/courses/TMA4215
   - term: WS&nbsp;2017/18
     date: 2017-10-01
     name: Höhere Mathematik III – Vektoranalysis
