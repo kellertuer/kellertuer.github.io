@@ -19,13 +19,15 @@ function hfun_projectslist()
     projects = [
         Dict{String, Union{Nothing, String, Vector{String},Bool}}(
             push!(
-                [var => pagevar("projects/$project", var) for var ∈ ["title", "subtitle", "collaborators", "end", "logo", "more", "start", "summary", "url", "url_text"]],
+                Pair{String,Union{Nothing, String, Vector{String},Bool}}[
+                    var => pagevar("projects/$project", var) for var ∈ ["title", "subtitle", "collaborators", "end", "logo", "more", "start", "summary", "url", "url_text"]
+                ],
                 "project" => project[1:end-3], # remove md
             )
         )
         for project ∈ project_files
         ]
-    sorted_projects = sort(projects, lt = (a,b) -> isnothing(a["end"])&&!isnothing(b["end"]) || isnothing(a["end"]) && (Date(a["start"]) > Date(b["start"])) || !isnothing(b["end"]) && (Date(a["end"]) > Date(b["end"])) )
+    sorted_projects = sort(projects, lt = (a,b) -> isnothing(a["end"]) && !isnothing(b["end"]) || isnothing(a["end"]) && ( isnothing(a["start"]) && !isnothing(b["Start"]) ||  Date(a["start"]) > Date(b["start"])) || !isnothing(b["end"]) && (Date(a["end"]) > Date(b["end"])) )
     s = ""
     for project in sorted_projects
         logospan = isnothing(project["logo"]) ? "" : """
