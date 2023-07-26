@@ -231,6 +231,17 @@ ul.talks span.dates:after
 {
     content: ",\00a0";
 }
+ul.talks span.note:before {
+    content: "\A";
+    white-space: pre;
+}
+ul.talks li span.note {
+    font-weight: normal;
+    font-style: italic;
+    display: block;
+    font-size: 80%;
+    line-height: 50%;
+}
 ul.talks span.place:after,
 ul.talks span.university:after
 {
@@ -260,6 +271,18 @@ ul.conferences li {
 ul.conferences li span.name:after {
     content: "\A";
     white-space: pre;
+}
+ul.conferences li span.note:before {
+    content: "\A";
+    white-space: pre;
+}
+ul.conferences li span.note {
+    margin-left: 3rem;
+    font-weight: normal;
+    font-style: italic;
+    display: block;
+    font-size: 80%;
+    line-height: 50%;
 }
 ul.conferences li span.dates {
     margin-left:3rem;

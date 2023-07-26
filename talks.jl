@@ -171,6 +171,7 @@ function fomat_conference(conf::Dict)
            $(entry_to_html(conf,"name"; link="url"))
            $(format_duratuion(conf["start"],get(conf,"end",conf["start"])))
            $(entry_to_html(conf,"place"; class="place end"))
+           $(entry_to_html(conf,"note"; class="note"))
         """
     return s
 end
