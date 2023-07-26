@@ -19,6 +19,25 @@
 #  video:
 #  with:
 #  highlight:
+- title: Fenchel Duality Theory and a Primal-Dual Algorithm on Riemannian Manifolds
+  key: ICML-2023
+  conference: ICMLDL2023
+  date: 2023-07-29
+  slides: 2023-ICML-Riemannian-Duality.pdf
+  abstract: >
+    In this talk we introduces a new duality theory that generalizes the classical
+    Fenchel conjugation to functions defined on Riemannian manifolds. We
+    investigate its properties, e.g., the Fenchel–Young inequality and the
+    characterization of the convex subdifferential using the analogue of the
+    Fenchel--Moreau Theorem. These properties of the Fenchel conjugate are employed
+    to derive a Riemannian primal-dual optimization algorithm, and to prove its
+    convergence for the case of Hadamard manifolds under appropriate assumptions.
+
+    Numerical results in Julia illustrate the performance of the algorithm, which competes
+    with the recently derived Douglas–Rachford algorithm on manifolds of
+    non-positive curvature. Furthermore we show numerically that our novel algorithm
+    even converges on manifolds of positive curvature.
+  highlight: 2
 - title: Nonsmooth Optimization on Riemannian Manifolds in Manopt.jl
   key: Seminar-Bergen-2023
   date: 2023-05-09
@@ -168,7 +187,6 @@
     with the recently derived Douglas–Rachford algorithm on manifolds of
     nonpositive curvature. Furthermore we show numerically that our novel algorithm
     even converges on manifolds of positive curvature.
-  highlight: 2
 - title: Splitting Methods for Non-smooth Optimization on Manifolds
   key: DNA-Seminar2022
   seminar:

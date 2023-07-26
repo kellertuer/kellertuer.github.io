@@ -16,12 +16,12 @@
 #   talk: true
 ICMLDL2023:
   name:  International Conference on Machine Learning
-  url: https://dp4ml.github.io
+  url: https://icml.cc
   start: 2023-07-28
   end: 2023-07-29
-  place: Hawaii, USA
+  place: Honolulu, Hawaii, USA
   talk: true
-  note: Within the workshop “Duality Principles for Modern Machine Learning”
+  note: Invited talk Within the workshop “<a href="https://dp4ml.github.io">Duality Principles for Modern Machine Learning</a>”
 COMDF23:
   name: Constrained Optimization Methods for Models in Data Fusion
   url: https://sites.google.com/view/maxpfeffer/constrained-optimization-methods-for-models-in-data-fusion
