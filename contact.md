@@ -28,46 +28,49 @@ Research has the advantage that you get around! It brought me to
 <div class="inlinelist">
 ~~~
 
+* \highlight{Honolulu, HI (USA)}
+* Bergen (Norway)
 * Bethlehem, PA (USA)
+* Aachen (Germany)
 * Ålesund (Norway)
 * \highlight{Odense (Denmark)}
 * \highlight{Ilsetra (Norway)}
 * Birmingham (United Kingdom)
 * Egmond aan Zee (The Netherlands)
-* Valencia
+* Valencia (Spain)
 * \highlight{Dublin (Ireland)}
-* Bad Honnef
+* Bad Honnef (Germany)
 * Vienna (Austria)
-* Dresden
+* Dresden (Germany)
 * \highlight{London (United Kingdom)}
 * Bologna (Italy)
-* Berlin
+* Berlin (Germany)
 * \highlight{Beijing (China)}
-* Mannheim
+* Mannheim (Germany)
 * \highlight{Kolding (Denmark)}
 * \highlight{Louvain-la-Neuve (Belgium)}
-* Weimar
+* Weimar (Germany)
 * \highlight{Albuquerque, NM (USA)}
-* Braunschweig
+* Braunschweig (Germany)
 * \highlight{Leicester (United Kingdom)}
-* Münster
-* Darmstadt
-* Bordeaux
+* Münster (Germany)
+* Darmstadt (Germany)
+* Bordeaux (France)
 * \highlight{Cambridge (United Kingdom)}
 * \highlight{Hong Kong (China)}
 * \highlight{Paris (France)}
-* Munich
-* Erlangen
-* Clausthal
-* Kaiserslautern
+* Munich (Germany)
+* Erlangen (Germany)
+* Clausthal (Germany)
+* Kaiserslautern (Germany)
 * \highlight{Kiev (Ukraine)}
-* Rostock
-* Leipzig
-* Marburg
+* Rostock (Germany)
+* Leipzig (Germany)
+* Marburg (Germany)
 * Strobl (Austria)
-* Osnabrück
-* Chemnitz
-* Freiberg
+* Osnabrück (Germany)
+* Chemnitz (Germany)
+* Freiberg (Germany)
 
 ~~~
 </div>
