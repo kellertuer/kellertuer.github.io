@@ -27,7 +27,7 @@ function hfun_projectslist()
         )
         for project ∈ project_files
         ]
-    sorted_projects = sort(projects, lt = (a,b) -> isnothing(a["end"]) && !isnothing(b["end"]) || isnothing(a["end"]) && ( isnothing(a["start"]) && !isnothing(b["Start"]) ||  Date(a["start"]) > Date(b["start"])) || !isnothing(b["end"]) && (Date(a["end"]) > Date(b["end"])) )
+    sorted_projects = sort(projects, lt = (a,b) -> isnothing(a["end"]) && !isnothing(b["end"]) || isnothing(a["end"]) && ( isnothing(a["start"]) && !isnothing(b["start"]) ||  Date(a["start"]) > Date(b["start"])) || !isnothing(a["end"]) && !isnothing(b["end"]) && (Date(a["end"]) > Date(b["end"])) )
     s = ""
     for project in sorted_projects
         logospan = isnothing(project["logo"]) ? "" : """
