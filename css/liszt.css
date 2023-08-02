@@ -142,11 +142,11 @@ ol li i.ai-orcid
 }
 ol li ul.nav-icons, dl dd ul.nav-icons {
     margin: 0;
-    margin-top: .75rem;
+    margin-top: .5rem;
     padding: 0;
     display:block;
     /* float: right; */
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
     list-style-type: none;
 }
 dl.supervised dd ul.nav-icons {
@@ -324,7 +324,7 @@ dl.supervised dt span.time-meta {
 
 dl.supervised dd {
     margin-left: 6rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 dl.supervised dd .info span.url {
     display:block;
