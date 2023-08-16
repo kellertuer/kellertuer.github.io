@@ -6,14 +6,13 @@
 #   start:
 #   end:
 #   place:
-# HaWi2021:
-#   name: Mecklenburg Workshop on Approximation Methods and Fast Algorithms
-#   url: https://www.math-conf.uni-osnabrueck.de/hasenwinkel2020/
-#  start: 2021-03-22
-#   end: 2021-03-26
-#   place: Hasenwinkel
-#   organizer: true
-#   talk: true
+Hasenwinkel2023:
+  name: From Modeling and Analysis to Approximation and Fast Algorithms
+  url: http://www.math.uni-luebeck.de/mitarbeiter/prestin/workshop/hasenwinkel2023-VW/
+  start: 2023-09-02
+  end: 2023-09-06
+  place: Hasenwinkel, Germany
+  talk: true
 ICMLDL2023:
   name:  International Conference on Machine Learning
   url: https://icml.cc
