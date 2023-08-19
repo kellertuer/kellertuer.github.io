@@ -19,6 +19,7 @@
     eprinttype: arXiv
     title: The difference of convex algorithm on Hadamard manifolds
     year: 2023
+
 "ZimmermannBergmann-2022":
     abstract: >
         In this paper, we propose two methods for multivariate Hermite interpolation
@@ -79,7 +80,6 @@
     title: Total Generalized Variation for Piecewise Constant Functions with Applications in Imaging
     volume: 16
     year: 2023
-
 
 "BergmannHerzogOrtizLopezSchiela-2022":
     abstract: >
@@ -165,7 +165,7 @@
     volume: 7
     year: 2022
 
-"AxenBaranBergmannRzecki-2021":
+"AxenBaranBergmannRzecki-2023":
     abstract: >
         For data given on a nonlinear space, like angles, symmetric positive matrices, the
         sphere, or the hyperbolic space, there is often enough structure to form
@@ -186,9 +186,11 @@
     eprint: 2106.08777
     eprinttype: arXiv
     image: manifoldsjl-logo.png
+    journaltitle: ACM Transactions on Mathematical Software
     publication_date: 2021-06-16
     title: "Manifolds.jl: An Extensible Julia Framework for Data Analysis on Manifolds"
-    year: 2021
+    note: "Accepted for publication"
+    year: 2023
 
 "BaumgärtnerBergmannHerrmannHerzogSchmidtVidal-Nunez-2020":
     abstract: >
