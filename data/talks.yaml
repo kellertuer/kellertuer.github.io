@@ -70,6 +70,11 @@
   key: COMDF-ManoptIntro
   date: 2023-03-27
   slides: 2023-Oslo-Intro-Manopt.pdf
+- title: The Difference of Convex Algorithm on Riemannian Manifolds
+  key: MaGIC2023-DoC
+  date: 2023-03-01
+  conference: MaGIC2023
+  slides: 2023-MaGIC-Difference-of-Convex.pdf
 - title: Nonsmooth Optimization on Riemannian Manifolds in Manopt.jl
   key: Seminar-Heidelberg-2022
   date: 2022-12-08
