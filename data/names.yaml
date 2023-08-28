@@ -174,10 +174,12 @@ people:
             full: Even Stephansen Kjemsås
             short: E. S. Kjemsås
     Johannes Voll Kolstø:
+        affiliation: NR
         name:
             bib: Kolstø, J. Voll
             full: Johannes Voll Kolstø
             short: J. V. Kolstø
+        url: https://nr.no/ansatte/johannes-voll-kolsto/
     Sebastian Bruhn Jensen:
         name:
             bib: Jensen, S. Bruhn
@@ -480,6 +482,10 @@ institutes:
     'NumaPDE':
         name: Arbeitsgruppe Numerik partieller Differentialgleichungen
         short: NumaPDE
+    'NR':
+        name: Norsk Regnesentral
+        short: NR
+        url: https://nr.no/
     'NTNU':
         name: Norges teknisk-naturvitenskapelige universitet
         short: NTNU
