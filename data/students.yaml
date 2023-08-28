@@ -20,6 +20,10 @@
   finished: 2023-06-20
   title: Adaptive Regularization with Cubics
   type: master
+  note: The code of this thesis is the Lanczos sub solver variant of
+    <a href="https://manoptjl.org/stable/solvers/adaptive-regularization-with-cubics/">
+    the ARC solver
+    </a> available within <a href="https://manoptjl.org">Manopt.jl</a>.
 - name: Solvor Sevland
   finished: 2023-06-15
   title: Multivariate Periodic Wavelets on the Pattern
