@@ -183,6 +183,7 @@
         - Ronny Bergmann
         - Krzysztof Rzecki
     biblatextype: online
+    doi: 10.1145/3618296
     eprint: 2106.08777
     eprinttype: arXiv
     image: manifoldsjl-logo.png
