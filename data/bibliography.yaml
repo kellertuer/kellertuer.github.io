@@ -1,4 +1,4 @@
-"BergmannFerreiraSantosSouza":
+"BergmannFerreiraSantosSouza:2023":
     abstract: >
         In this paper, we propose a Riemannian version of the difference of convex algorithm
         (DCA) to solve a minimization problem involving the difference of convex (DC) function.
@@ -19,6 +19,35 @@
     eprinttype: arXiv
     title: The difference of convex algorithm on Hadamard manifolds
     year: 2023
+
+"AxenBaranBergmannRzecki-2023":
+    abstract: >
+        For data given on a nonlinear space, like angles, symmetric positive matrices, the
+        sphere, or the hyperbolic space, there is often enough structure to form
+        a Riemannian manifold. We present the Julia package Manifolds.jl, providing a fast
+        and easy to use library of Riemannian manifolds and Lie groups. We introduce a
+        common interface, available in ManifoldsBase.jl, with which new manifolds,
+        applications, and algorithms can be implemented. We demonstrate the utility of
+        Manifolds.jl using Bézier splines, an optimization task on manifolds, and a principal
+        component analysis on nonlinear data. In a benchmark, Manifolds.jl outperforms
+        existing packages in Matlab or Python by several orders of magnitude and is about
+        twice as fast as a comparable package implemented in C++.
+    author:
+        - Seth Axen
+        - Mateusz Baran
+        - Ronny Bergmann
+        - Krzysztof Rzecki
+    biblatextype: article
+    doi: 10.1145/3618296
+    eprint: 2106.08777
+    eprinttype: arXiv
+    image: manifoldsjl-logo.png
+    journaltitle: ACM Transactions on Mathematical Software
+    publication_date: 2023-09-02
+    title: "Manifolds.jl: An Extensible Julia Framework for Data Analysis on Manifolds"
+    note: "Just Accepted"
+    year: 2023
+
 
 "ZimmermannBergmann-2022":
     abstract: >
@@ -164,34 +193,6 @@
     title: "Manopt.jl: Optimization on Manifolds in Julia"
     volume: 7
     year: 2022
-
-"AxenBaranBergmannRzecki-2023":
-    abstract: >
-        For data given on a nonlinear space, like angles, symmetric positive matrices, the
-        sphere, or the hyperbolic space, there is often enough structure to form
-        a Riemannian manifold. We present the Julia package Manifolds.jl, providing a fast
-        and easy to use library of Riemannian manifolds and Lie groups. We introduce a
-        common interface, available in ManifoldsBase.jl, with which new manifolds,
-        applications, and algorithms can be implemented. We demonstrate the utility of
-        Manifolds.jl using Bézier splines, an optimization task on manifolds, and a principal
-        component analysis on nonlinear data. In a benchmark, Manifolds.jl outperforms
-        existing packages in Matlab or Python by several orders of magnitude and is about
-        twice as fast as a comparable package implemented in C++.
-    author:
-        - Seth Axen
-        - Mateusz Baran
-        - Ronny Bergmann
-        - Krzysztof Rzecki
-    biblatextype: online
-    doi: 10.1145/3618296
-    eprint: 2106.08777
-    eprinttype: arXiv
-    image: manifoldsjl-logo.png
-    journaltitle: ACM Transactions on Mathematical Software
-    publication_date: 2021-06-16
-    title: "Manifolds.jl: An Extensible Julia Framework for Data Analysis on Manifolds"
-    note: "Accepted for publication"
-    year: 2023
 
 "BaumgärtnerBergmannHerrmannHerzogSchmidtVidal-Nunez-2020":
     abstract: >
