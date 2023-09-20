@@ -6,6 +6,12 @@
 #   start:
 #   end:
 #   place:
+Berlin2023:
+  name: Mathematics and Industry
+  url: https://mathplus.de/events/workshop-mathematics-and-industry/
+  start: 2023-11-03
+  place: Berlin, Germany
+  talk: true
 Hasenwinkel2023:
   name: From Modeling and Analysis to Approximation and Fast Algorithms
   url: http://www.math.uni-luebeck.de/mitarbeiter/prestin/workshop/hasenwinkel2023-VW/
