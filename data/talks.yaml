@@ -19,6 +19,11 @@
 #  video:
 #  with:
 #  highlight:
+- title: The Difference of Convex Algorithm on Riemannian Manifolds
+  key: EUCCO2023
+  conference: EUCCO2023
+  date: 2023-09-26
+  slides: 2023-EUCCO-Difference-of-Convex.pdf
 - title: Nonsmooth, nonconvex Optimization on Riemannian Manifolds
   key: HaWi2023
   conference: Hasenwinkel2023
