@@ -20,6 +20,38 @@
     title: The difference of convex algorithm on Hadamard manifolds
     year: 2023
 
+"ZimmermannBergmann-2023":
+    abstract: >
+        In this paper, we propose two methods for multivariate Hermite interpolation
+        of manifold-valued functions. On the one hand, we approach the problem via
+        for Hermite interpolation, the sampled derivative information is converted into
+        a condition on the derivatives of the associated weight functions.
+        It turns out that this requires the solution of linear systems of equations, but
+        no vector transport is necessary. This approach treats all given sample data points
+        equally and is intrinsic in the sense that it does not depend on local
+        coordinates or embeddings. As an alternative, we consider Hermite interpolation
+        in a tangent space. This is a straightforward approach, where one designated
+        point, for example one of the sample points or (one of) their center(s) of
+        mass, is chosen to act as the base point at which the tangent space is
+        attached.
+        The remaining sampled locations and sampled derivatives are mapped to
+        said tangent space. This requires a vector transport between different tangent
+        spaces. The actual interpolation is then conducted via classical vector space
+        operations. The interpolant depends on the selected base point.
+        The validity and performance of both approaches is illustrated by means
+        of numerical examples.
+    author:
+        - Ralf Zimmermann
+        - Ronny Bergmann
+    biblatextype: article
+    eprint: 2212.07281
+    eprinttype: arXiv
+    image: hermite.png
+    journaltitle: SIAM Journal on Scientific Computing
+    note: Accepted for publication
+    title: Multivariate Hermite interpolation of manifold-valued data
+    year: 2023
+
 "AxenBaranBergmannRzecki-2023":
     abstract: >
         For data given on a nonlinear space, like angles, symmetric positive matrices, the
@@ -47,37 +79,6 @@
     title: "Manifolds.jl: An Extensible Julia Framework for Data Analysis on Manifolds"
     note: "Just Accepted"
     year: 2023
-
-
-"ZimmermannBergmann-2022":
-    abstract: >
-        In this paper, we propose two methods for multivariate Hermite interpolation
-        of manifold-valued functions. On the one hand, we approach the problem via
-        for Hermite interpolation, the sampled derivative information is converted into
-        a condition on the derivatives of the associated weight functions.
-        It turns out that this requires the solution of linear systems of equations, but
-        no vector transport is necessary. This approach treats all given sample data points
-        equally and is intrinsic in the sense that it does not depend on local
-        coordinates or embeddings. As an alternative, we consider Hermite interpolation
-        in a tangent space. This is a straightforward approach, where one designated
-        point, for example one of the sample points or (one of) their center(s) of
-        mass, is chosen to act as the base point at which the tangent space is
-        attached.
-        The remaining sampled locations and sampled derivatives are mapped to
-        said tangent space. This requires a vector transport between different tangent
-        spaces. The actual interpolation is then conducted via classical vector space
-        operations. The interpolant depends on the selected base point.
-        The validity and performance of both approaches is illustrated by means
-        of numerical examples.
-    author:
-        - Ralf Zimmermann
-        - Ronny Bergmann
-    biblatextype: online
-    eprint: 2212.07281
-    eprinttype: arXiv
-    image: hermite.png
-    title: Multivariate Hermite interpolation of manifold-valued data
-    year: 2022
 
 "BaumgärtnerBergmannHerzogSchmidtVidal-Nunez-2022":
     abstract: >
