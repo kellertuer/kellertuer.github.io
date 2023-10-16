@@ -19,6 +19,27 @@
 #  video:
 #  with:
 #  highlight:
+- title: Nonsmooth, nonconvex Optimization on Riemannian Manifolds
+  key: OiO2023
+  seminar:
+    name: Optimization in Oslo
+    university: Simula Research Laboratory
+    place: Oslo, Norway
+    url: https://thomas-surowiec.github.io#main2
+  date: 2023-10-18
+  slides: 2023-Oslo-Manopt.pdf
+  abstract: >
+    When considering data in nonlinear spaces, like on the sphere, for
+    symmetric positive definite matrices, we arrive naturally at optimization tasks
+    that are defined on a Riemannian manifold.
+    Another approach is to rephrase a constrained optimization problem in Euclidean space as an
+    unconstrained problem in the manifold defined by the constraints. This might even lead to
+    the problem becoming convex, since the kind of convexity considered changes to geodesic
+    convexity on the manifold.
+    In this talk we consider recent advances in optimization on Riemannian manifolds, especially
+    for nonsmooth and/or nonconvex objective functions.
+    We discuss both theoretical aspects as well as numerical algorithms and their implementation
+    in Julia within the two packages [Manifolds.jl](https://juliamanifolds.github.io/Manifolds.jl/stable/) and [Manopt.jl](https://manoptjl.org).
 - title: The Difference of Convex Algorithm on Riemannian Manifolds
   key: EUCCO2023
   conference: EUCCO2023
