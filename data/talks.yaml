@@ -40,6 +40,8 @@
     for nonsmooth and/or nonconvex objective functions.
     We discuss both theoretical aspects as well as numerical algorithms and their implementation
     in Julia within the two packages [Manifolds.jl](https://juliamanifolds.github.io/Manifolds.jl/stable/) and [Manopt.jl](https://manoptjl.org).
+  video: https://www.youtube.com/watch?v=x0MTTWkITyc
+  highlight: 2
 - title: The Difference of Convex Algorithm on Riemannian Manifolds
   key: EUCCO2023
   conference: EUCCO2023
@@ -86,7 +88,7 @@
     with the recently derived Douglas–Rachford algorithm on manifolds of
     non-positive curvature. Furthermore we show numerically that our novel algorithm
     even converges on manifolds of positive curvature.
-  highlight: 2
+  highlight: 3
 - title: Nonsmooth Optimization on Riemannian Manifolds in Manopt.jl
   key: Seminar-Bergen-2023
   date: 2023-05-09
@@ -348,7 +350,6 @@
     independent from any concrete implementations of the manifolds. One package that uses
     this interface is [Manopt.jl](https://manoptjl.org), which provides optimization algorithms on Riemannian
     manifolds, with a focus on high-dimensional and non-smooth optimization.
-  link: https://live.juliacon.org/talk/KCFCMQ
   video: https://youtu.be/md-FnDGCh9M
   highlight: 1
 #
@@ -614,7 +615,7 @@
     with respect to its control points. This gradient can be expressed as a
     concatenation of so called adjoint Jacobi fields. Several examples illustrate
     the capabilities of this approach both for interpolation and approximation.
-  highlight: 3
+  highlight: 4
 
 - title: A Variational Model for Data Fitting on Manifolds by Minimizing the Acceleration of a Bézier Curve
   conference: HaWi2018
@@ -824,7 +825,6 @@
   key: GAMM2017
   date: 2017-03-07
   slides: 2017-GAMM-Weimar-Graph-Laplace.pdf
-  highlight: 4
 
 - title: A Second Order Non-smooth Variational Model for Restoring Manifold-valued Image
   conference: HaWi2016
