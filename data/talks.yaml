@@ -19,6 +19,15 @@
 #  video:
 #  with:
 #  highlight:
+- title: Optimierung auf Mannigfaltigkeiten und Open-Source Software
+  key: MuI2023
+  seminar:
+    name: Mathematik und Industrie
+    university: TU Berlin
+    place: Berlin, Germany
+    url: https://mathplus.de/events/workshop-mathematics-and-industry/
+  date: 2023-11-03
+  slides: 2023-Berlin-Manopt.pdf
 - title: Nonsmooth, nonconvex Optimization on Riemannian Manifolds
   key: OiO2023
   seminar:
