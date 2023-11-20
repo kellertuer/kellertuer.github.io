@@ -28,6 +28,7 @@ Research has the advantage that you get around! It brought me to
 <div class="inlinelist">
 ~~~
 
+* Heidelberg (Germany)
 * \highlight{Honolulu, HI (USA)}
 * Bergen (Norway)
 * Bethlehem, PA (USA)

@@ -19,13 +19,18 @@
 #  video:
 #  with:
 #  highlight:
+- title: Optimization on Riemannian Manifolds in Julia
+  key: RobNTNU2023
+  seminar:
+    name: Robotics and Automation group research seminar
+    university: NTNU
+    place: Trondheim, Norway
+    url: https://www.ntnu.edu/mtp/research/robotics_automation
+  date: 2023-11-16
+  slides: 2023-Trondheim-Manopt.pdf
 - title: Optimierung auf Mannigfaltigkeiten und Open-Source Software
   key: MuI2023
-  seminar:
-    name: Mathematik und Industrie
-    university: TU Berlin
-    place: Berlin, Germany
-    url: https://mathplus.de/events/workshop-mathematics-and-industry/
+  conference: Berlin2023
   date: 2023-11-03
   slides: 2023-Berlin-Manopt.pdf
 - title: Nonsmooth, nonconvex Optimization on Riemannian Manifolds
