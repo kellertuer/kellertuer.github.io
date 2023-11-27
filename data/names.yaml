@@ -387,6 +387,12 @@ people:
             bib: "Steidl, G."
         title: "Prof. Dr."
         url: http://page.math.tu-berlin.de/~steidl/
+    Jo Stokke:
+        affiliation: NTNU
+        name:
+            full: "Jo Stokke"
+            bib: "Stokke, J."
+            short: "J. Stokke"
     Inga Stolz:
         affiliation: Europa-Universität Flensburg
         name:
