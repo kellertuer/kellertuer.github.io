@@ -119,6 +119,14 @@ people:
             short: P.-Y. Gousenbourger
         title: "Dr."
         url: "https://pgousenbourg.github.io/"
+    Martin Hanik:
+        affiliation: Zuse Insitut Berlin
+        name:
+            bib: Hanik, M.
+            full: "Martin Hanik"
+            short: "M. Hanik"
+        title: "Dr."
+        url: https://www.zib.de/members/hanik
     Roland Herzog:
         affiliation: "Heidelberg University"
         name:
@@ -400,6 +408,15 @@ people:
         orcid: 0000-0002-4788-9332
         title: "Dr."
         url: https://en.www.math.fau.de/angewandte-mathematik-1/mitarbeiter/dr-daniel-tenbrinck/
+    Christoph von Tychowicz:
+        affiliation: Zuse Insitut Berlin
+        name:
+            bib: Tychowicz, C. von
+            full: "Christoph von Tychowicz"
+            short: "C. von Tychowicz"
+        orcid: 0000-0002-1447-4069
+        title: "Dr."
+        url: https://www.zib.de/members/vontycowicz
     José Vidal-Núñez:
         affiliation: "University of Alcalá de Henares"
         arxiv: vidalnunez_j_1

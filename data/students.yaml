@@ -197,9 +197,9 @@
   finished: 2023-10-16
   title: Manifold-Valued Graph Learning and Embedding Graphs
   type: specialisationproject
-  note: |
-    This project was done in collaboration with <a href="https://www.zib.de/visual/geometric-data-analysis-and-processing">Christoph von Tychowicz and Martin Hanik from
-    the Zuse Institut Berlin</a>.
+  with:
+    - Christoph von Tychowicz
+    - Martin Hanik
 - name: Mathias Ravn Munkvold
   finished: 2023-01-12
   title: Low Rank Matrix Completion
