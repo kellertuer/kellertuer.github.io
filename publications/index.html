@@ -168,7 +168,7 @@
 
 <span class="person">Axen, S. D.</span><sup><a href="https://orcid.org/0000-0003-3933-8247"><i class="ai ai-orcid"></i></a></sup>, <span class="person">Baran, M.</span><sup><a href="https://orcid.org/0000-0001-9667-5579"><i class="ai ai-orcid"></i></a></sup>, <span class="person">Bergmann, R.</span><sup><a href="https://orcid.org/0000-0001-8342-7218"><i class="ai ai-orcid"></i></a></sup>, <span class="person">Rzecki, K.</span><sup><a href="https://orcid.org/0000-0002-6834-2344"><i class="ai ai-orcid"></i></a></sup><span class="year">2023</span><span class="title">Manifolds.jl: An Extensible Julia Framework for Data Analysis on Manifolds</span>
 <br>
-<span class="journaltitle">ACM Transactions on Mathematical Software</span><span class="note">Just Accepted</span>
+<span class="journaltitle">ACM Transactions on Mathematical Software</span><span class="volume">49</span><span class="number">4</span>
 
 <ul class="nav nav-icons">
 
@@ -195,22 +195,23 @@
     </ul>
 
 <div id="AxenBaranBergmannRzecki-2023-abstract" class="blockicon abstract collapse fas fa-lg fa-file-alt">
-    <div class="content"><p>For data given on a nonlinear space, like angles, symmetric positive matrices, the sphere, or the hyperbolic space, there is often enough structure to form a Riemannian manifold. We present the Julia package Manifolds.jl, providing a fast and easy to use library of Riemannian manifolds and Lie groups. We introduce a common interface, available in ManifoldsBase.jl, with which new manifolds, applications, and algorithms can be implemented. We demonstrate the utility of Manifolds.jl using Bézier splines, an optimization task on manifolds, and a principal component analysis on nonlinear data. In a benchmark, Manifolds.jl outperforms existing packages in Matlab or Python by several orders of magnitude and is about twice as fast as a comparable package implemented in C&#43;&#43;.</p>
+    <div class="content"><p>We present the Julia package Manifolds.jl, providing a fast and easy-to-use library of Riemannian manifolds and Lie groups. This package enables working with data defined on a Riemannian manifold, such as the circle, the sphere, symmetric positive definite matrices, or one of the models for hyperbolic spaces. We introduce a common interface, available in ManifoldsBase.jl, with which new manifolds, applications, and algorithms can be implemented. We demonstrate the utility of Manifolds.jl using Bézier splines, an optimization task on manifolds, and principal component analysis on nonlinear data. In a benchmark, Manifolds.jl outperforms all comparable packages for low-dimensional manifolds in speed; over Python and Matlab packages, the improvement is often several orders of magnitude, while over C/C&#43;&#43; packages, the improvement is two-fold. For high-dimensional manifolds, it outperforms all packages except for Tensorflow-Riemopt, which is specifically tailored for high-dimensional manifolds.</p>
 </div>
 </div>
 
 <div id="AxenBaranBergmannRzecki-2023-bibtex" class="blockicon bibtex collapse fas fa-lg fa-file-code">
     <div class="content">@article{AxenBaranBergmannRzecki-2023,
+    number = {4},
     doi = {10.1145/3618296},
     author = {Axen, S. D. and Baran, M. and Bergmann, R. and Rzecki, K.},
     eprint = {2106.08777},
-    note = {Just Accepted},
     year = {2023},
     eprinttype = {arXiv},
+    volume = {49},
     journaltitle = {ACM Transactions on Mathematical Software},
     title = {Manifolds.jl: An Extensible Julia Framework for Data Analysis on Manifolds},
     abstract = {
-    For data given on a nonlinear space, like angles, symmetric positive matrices, the sphere, or the hyperbolic space, there is often enough structure to form a Riemannian manifold. We present the Julia package Manifolds.jl, providing a fast and easy to use library of Riemannian manifolds and Lie groups. We introduce a common interface, available in ManifoldsBase.jl, with which new manifolds, applications, and algorithms can be implemented. We demonstrate the utility of Manifolds.jl using Bézier splines, an optimization task on manifolds, and a principal component analysis on nonlinear data. In a benchmark, Manifolds.jl outperforms existing packages in Matlab or Python by several orders of magnitude and is about twice as fast as a comparable package implemented in C++.
+    We present the Julia package Manifolds.jl, providing a fast and easy-to-use library of Riemannian manifolds and Lie groups. This package enables working with data defined on a Riemannian manifold, such as the circle, the sphere, symmetric positive definite matrices, or one of the models for hyperbolic spaces. We introduce a common interface, available in ManifoldsBase.jl, with which new manifolds, applications, and algorithms can be implemented. We demonstrate the utility of Manifolds.jl using Bézier splines, an optimization task on manifolds, and principal component analysis on nonlinear data. In a benchmark, Manifolds.jl outperforms all comparable packages for low-dimensional manifolds in speed; over Python and Matlab packages, the improvement is often several orders of magnitude, while over C/C++ packages, the improvement is two-fold. For high-dimensional manifolds, it outperforms all packages except for Tensorflow-Riemopt, which is specifically tailored for high-dimensional manifolds.
     },
 }</div>
 </div>
@@ -2313,7 +2314,7 @@ Für Bilder von Hypergraphen werden in dieser Arbeit theoretische Grundlagen en
             <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0">
                 CC BY-NC-SA 4.0<img style="height:18px!important;margin-left:2px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" /><img style="height:18px!important;margin-left:2px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" /><img style="height:18px!important;margin-left:2px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" /><img style="height:18px!important;margin-left:2px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" /></a>.
             <br />
-            Last modified: November 27, 2023.
+            Last modified: December 15, 2023.
             Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
         </p>
   </div>
