@@ -54,16 +54,19 @@
 
 "AxenBaranBergmannRzecki-2023":
     abstract: >
-        For data given on a nonlinear space, like angles, symmetric positive matrices, the
-        sphere, or the hyperbolic space, there is often enough structure to form
-        a Riemannian manifold. We present the Julia package Manifolds.jl, providing a fast
-        and easy to use library of Riemannian manifolds and Lie groups. We introduce a
-        common interface, available in ManifoldsBase.jl, with which new manifolds,
-        applications, and algorithms can be implemented. We demonstrate the utility of
-        Manifolds.jl using Bézier splines, an optimization task on manifolds, and a principal
-        component analysis on nonlinear data. In a benchmark, Manifolds.jl outperforms
-        existing packages in Matlab or Python by several orders of magnitude and is about
-        twice as fast as a comparable package implemented in C++.
+        We present the Julia package Manifolds.jl, providing a fast and easy-to-use library
+        of Riemannian manifolds and Lie groups. This package enables working with data
+        defined on a Riemannian manifold, such as the circle, the sphere, symmetric positive
+        definite matrices, or one of the models for hyperbolic spaces. We introduce a common
+        interface, available in ManifoldsBase.jl, with which new manifolds, applications,
+        and algorithms can be implemented. We demonstrate the utility of Manifolds.jl using
+        Bézier splines, an optimization task on manifolds, and principal component analysis
+        on nonlinear data. In a benchmark, Manifolds.jl outperforms all comparable packages
+        for low-dimensional manifolds in speed; over Python and Matlab packages, the
+        improvement is often several orders of magnitude, while over C/C++ packages,
+        the improvement is two-fold. For high-dimensional manifolds, it outperforms all
+        packages except for Tensorflow-Riemopt, which is specifically tailored for
+        high-dimensional manifolds.
     author:
         - Seth Axen
         - Mateusz Baran
@@ -75,9 +78,10 @@
     eprinttype: arXiv
     image: manifoldsjl-logo.png
     journaltitle: ACM Transactions on Mathematical Software
-    publication_date: 2023-09-02
+    number: 4
+    publication_date: 2023-12-15
     title: "Manifolds.jl: An Extensible Julia Framework for Data Analysis on Manifolds"
-    note: "Just Accepted"
+    volume: 49
     year: 2023
 
 "BaumgärtnerBergmannHerzogSchmidtVidal-Nunez-2022":
