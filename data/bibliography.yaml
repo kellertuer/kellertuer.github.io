@@ -1,4 +1,4 @@
-"BergmannFerreiraSantosSouza:2023":
+"BergmannFerreiraSantosSouza:2024":
     abstract: >
         In this paper, we propose a Riemannian version of the difference of convex algorithm
         (DCA) to solve a minimization problem involving the difference of convex (DC) function.
@@ -14,13 +14,15 @@
         - Orizon P. Ferreira
         - Elianderson M. Santos
         - João Carlos O. Souza
-    biblatextype: online
+    biblatextype: article
     eprint: "2112.05250"
     eprinttype: arXiv
+    journaltitle: Journal of Optimization Theory and Applications
+    note: Accepted for publication
     title: The difference of convex algorithm on Hadamard manifolds
-    year: 2023
+    year: 2024
 
-"ZimmermannBergmann-2023":
+"ZimmermannBergmann-2024":
     abstract: >
         In this paper, we propose two methods for multivariate Hermite interpolation
         of manifold-valued functions. On the one hand, we approach the problem via
@@ -50,7 +52,7 @@
     journaltitle: SIAM Journal on Scientific Computing
     note: Accepted for publication
     title: Multivariate Hermite interpolation of manifold-valued data
-    year: 2023
+    year: 2024
 
 "AxenBaranBergmannRzecki-2023":
     abstract: >
