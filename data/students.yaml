@@ -193,6 +193,10 @@
 #
 # specialisation projects
 #
+- name: Markus A. Stokkenes
+  finished: 2024-01-12
+  title: Convolutional Neural Network Layers Equivariant Under Affine Lie Group Actions
+  type: specialisationproject
 - name: Jo Stokke
   finished: 2023-10-16
   title: Manifold-Valued Graph Learning and Embedding Graphs
