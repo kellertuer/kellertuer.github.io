@@ -6,6 +6,26 @@
 #   start:
 #   end:
 #   place:
+JuliaCon2024:
+  name: JuliaCon 2024
+  url: https://juliacon.org/2024/
+  start: 2024-07-09
+  end: 2024-07-13
+  place: Eindhoven, The Netherlands
+EURO24:
+  name: 33rd European Conference on Operational Research (Euro 24)
+  url: https://euro2024cph.dk
+  start: 2024-06-30
+  end: 2024-07-03
+  place: Copenhagen, Denmark
+  talk: true
+FNDG24:
+  name: Foundations of Numerical Differential Geometry
+  url: https://www.ntnu.edu/imf/fndg24
+  start: 2024-05-07
+  end: 2024-05-08
+  place: Trondheim, Norway
+  organizer: true
 Berlin2023:
   name: Mathematics and Industry
   url: https://mathplus.de/events/workshop-mathematics-and-industry/
