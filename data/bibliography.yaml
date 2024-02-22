@@ -1,3 +1,24 @@
+"BergmannHerzogJasa:2024":
+    abstract: >
+        We introduce the convex bundle method to solve convex, non-smooth optimization problems
+        on Riemannian manifolds. Each step of our method is based on a model that involves the
+        convex hull of previously collected subgradients, parallely transported into the current
+        serious iterate. This approach generalizes the dual form of classical bundle subproblems
+        in Euclidean space. We prove that, under mild conditions, the convex bundle method
+        converges to a minimizer. Several numerical examples implemented using the Julia
+        package [`Manopt.jl`](https://manoptjl.org) illustrate the performance of the proposed method and compare it
+        to the subgradient method, the cyclic proximal point, as well as the proximal bundle
+        algorithm from Hoseini Monjezi, Nobakhtian, Pouryayevali, 2021.
+    author:
+        - Ronny Bergmann
+        - Roland Herzog
+        - Hajg Jasa
+    biblatextype: online
+    eprint: "2402.13670"
+    eprinttype: arxiv
+    title: The Riemannian Convex Bundle Method
+    year: 2024
+
 "BergmannFerreiraSantosSouza:2024":
     abstract: >
         In this paper, we propose a Riemannian version of the difference of convex algorithm
