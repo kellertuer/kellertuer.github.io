@@ -1,4 +1,4 @@
-"BergmannHerzogJasa:2024":
+"BergmannHerzogJasa-2024":
     abstract: >
         We introduce the convex bundle method to solve convex, non-smooth optimization problems
         on Riemannian manifolds. Each step of our method is based on a model that involves the
@@ -19,7 +19,7 @@
     title: The Riemannian Convex Bundle Method
     year: 2024
 
-"BergmannFerreiraSantosSouza:2024":
+"BergmannFerreiraSantosSouza-2024":
     abstract: >
         In this paper, we propose a Riemannian version of the difference of convex algorithm
         (DCA) to solve a minimization problem involving the difference of convex (DC) function.
