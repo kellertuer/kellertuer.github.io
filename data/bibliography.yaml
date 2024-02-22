@@ -8,7 +8,7 @@
         converges to a minimizer. Several numerical examples implemented using the Julia
         package [`Manopt.jl`](https://manoptjl.org) illustrate the performance of the proposed method and compare it
         to the subgradient method, the cyclic proximal point, as well as the proximal bundle
-        algorithm from Hoseini Monjezi, Nobakhtian, Pouryayevali, 2021.
+        algorithm from [Hoseini Monjezi, Nobakhtian, Pouryayevali, 2021](https://doi.org/10.1093/imanum/drab091).
     author:
         - Ronny Bergmann
         - Roland Herzog
