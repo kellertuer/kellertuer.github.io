@@ -12,6 +12,7 @@ JuliaCon2024:
   start: 2024-07-09
   end: 2024-07-13
   place: Eindhoven, The Netherlands
+  talk: true
 EURO24:
   name: 33rd European Conference on Operational Research (Euro 24)
   url: https://euro2024cph.dk

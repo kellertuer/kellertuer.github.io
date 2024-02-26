@@ -36,10 +36,11 @@
         - Elianderson M. Santos
         - João Carlos O. Souza
     biblatextype: article
+    doi: 10.1007/s10957-024-02392-8
     eprint: "2112.05250"
     eprinttype: arXiv
     journaltitle: Journal of Optimization Theory and Applications
-    note: Accepted for publication
+    publication-date: 2024-02-26
     title: The difference of convex algorithm on Hadamard manifolds
     year: 2024
 
