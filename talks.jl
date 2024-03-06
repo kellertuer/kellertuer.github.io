@@ -123,7 +123,6 @@ end
 
 function hfun_remainingconferences()
     filtered_conf = filter( x-> (x[1] ∉ exclude_conf), conferences)
-    #print(filtered_conf)
     sorted_conf = sort(collect(filtered_conf), lt = (a,b) -> a[2]["start"] > b[2]["start"])
     s = "";
     for conf in sorted_conf

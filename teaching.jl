@@ -88,7 +88,6 @@ function format_supervision(entry)
     if haskey(entry,"note")
         note = """\n<span class="note">$(entry["note"])</a>"""
     end
-    println(note)
     s = ""
     s = """$(s)$(entry_to_list_icon(entry,"link"; iconstyle="fas fa-lg", icon="fa-link"))"""
     s = """$(s)$(entry_to_list_icon(entry,"pdf"; iconstyle="fas fa-lg", icon="fa-file-pdf"))"""
@@ -97,7 +96,6 @@ function format_supervision(entry)
     $s
     </ul>
     """)
-    println("\n\n$s")
     return """<dt>$(date_format)</dt>
     <dd>
     <span class="student">$(students)</span>

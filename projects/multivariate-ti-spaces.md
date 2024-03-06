@@ -1,13 +1,15 @@
 # Multivariate Anisotropic Translation Invariant Spaces on the Torus
 
-@def title = "Multivariate Anisotropic Translation Invariant Spaces on the Torus"
-@def subtitle = "PhD project"
-@def url = "https://github.com/kellertuer/MPAWL"
-@def url_text = "<i class=\"fab fa-github\"></i> MPAWL"
-@def logo = "dlVP.png"
-@def start = "2009-10-01"
-@def end = "2013-06-10"
-@def summary = "In my PhD thesis we investigated translation invariant spaces on anisotropic lattices, a corresponding fast Fourier transform as well as periodic wavelets and a fast wavelet transform. The corresponding wavelets are anisotropic and they are obtained by sampling smooth functions in the Fourier domain and hence have certain localization properties in time. Especially a generalization of the de la Vallée Poussin mean to the anisotropic multivariate case is derived and their corresponding wavelets are derived."
++++
+title = "Multivariate Anisotropic Translation Invariant Spaces on the Torus"
+subtitle = "PhD project"
+url = "https://github.com/kellertuer/MPAWL"
+url_text = "<i class=\"fab fa-github\"></i> MPAWL"
+logo = "dlVP.png"
+date_start = "2009-10-01"
+date_end = "2013-06-10"
+summary = "In my PhD thesis we investigated translation invariant spaces on anisotropic lattices, a corresponding fast Fourier transform as well as periodic wavelets and a fast wavelet transform. The corresponding wavelets are anisotropic and they are obtained by sampling smooth functions in the Fourier domain and hence have certain localization properties in time. Especially a generalization of the de la Vallée Poussin mean to the anisotropic multivariate case is derived and their corresponding wavelets are derived."
++++
 
 In my PhD thesis {{cite Bergmann-2013-1}} we investigated translation
 invariant spaces on anisotropic lattices, a corresponding fast Fourier
