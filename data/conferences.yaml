@@ -20,6 +20,12 @@ EURO24:
   end: 2024-07-03
   place: Copenhagen, Denmark
   talk: true
+SeminarUG:
+   name: Kolloquium über Angewandte Mathematik
+   url: https://events.goettingen-campus.de/event?eventId=12480339
+   start: 2024-06-11
+   place: Göttingen, Germany
+   talk: true
 OTiQC:
    name: Optimization Techniques in Quantum Chemistry
    url: https://sfb1481.rwth-aachen.de/news-events/events/optimization-qc
