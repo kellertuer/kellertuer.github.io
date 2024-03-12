@@ -20,6 +20,13 @@ EURO24:
   end: 2024-07-03
   place: Copenhagen, Denmark
   talk: true
+OTiQC:
+   name: Optimization Techniques in Quantum Chemistry
+   url: https://sfb1481.rwth-aachen.de/news-events/events/optimization-qc
+   start: 2024-06-05
+   end: 2024-06-07
+   place: Aachen, Germany
+   talk: true
 FNDG24:
   name: Foundations of Numerical Differential Geometry
   url: https://www.ntnu.edu/imf/fndg24
