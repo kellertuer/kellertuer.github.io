@@ -13,7 +13,7 @@ include("teaching.jl")
 #
 # Overview projects
 #
-function hfun_projectslist()
+@delay function hfun_projectslist()
     project_files = filter!(x -> endswith(x, ".md") && x != "index.md", readdir("projects"))
     # collect dates
     projects = [
