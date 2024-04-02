@@ -27,7 +27,7 @@ include("teaching.jl")
         )
         for project ∈ project_files
         ]
-    # @info projects
+    # # @info projects
     # is a earlier than b? first running projects (no end) sorted by start, then
     function dates_lt(a,b)
         if isnothing(a["date_end"]) && !isnothing(b["date_end"])
@@ -62,7 +62,7 @@ include("teaching.jl")
     sorted_projects = sort(projects, lt = dates_lt)
     s = ""
     for project_dates in sorted_projects
-        @info "projects/$(project_dates["project"]).md"
+        # @info "projects/$(project_dates["project"]).md"
         project = Dict(
             Pair{String,Union{Nothing,String,Vector{String},Bool}}[
                 var => pagevar("projects/$(project_dates["project"]).md",var)
@@ -70,7 +70,7 @@ include("teaching.jl")
         ]...,
             "project" => project_dates["project"],
         )
-        @info project
+        # @info project
         logospan = isnothing(project["logo"]) ? "" : """
             <span class="logo"><img src="../assets/projects/$(project["logo"])"/></span>
             """
@@ -88,8 +88,8 @@ include("teaching.jl")
             subtitlespan = """<span class="subtitle">$(project["subtitle"])</span>
                             """
         end
-        @info project
-        @info project["date_start"]
+        # @info project
+        # @info project["date_start"]
         timespan = ""
         !isnothing(project["date_start"]) && (timespan = Dates.format(Date(project["date_start"]),"yyyy"))
         if !isnothing(project["date_end"])
