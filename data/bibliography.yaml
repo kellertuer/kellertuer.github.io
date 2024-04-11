@@ -68,13 +68,18 @@
         - Ralf Zimmermann
         - Ronny Bergmann
     biblatextype: article
+    doi: 10.1137/22M1541071
     eprint: 2212.07281
     eprinttype: arXiv
     image: hermite.png
     journaltitle: SIAM Journal on Scientific Computing
-    note: Accepted for publication
     title: Multivariate Hermite interpolation of manifold-valued data
+    volume: 46
+    number: 2
+    pages: A1276–A1297
+    publication_date: 2024-04-10
     year: 2024
+    github: https://github.com/RalfZimmermannSDU/MultivarHermiteManifoldInterp_SISC
 
 "AxenBaranBergmannRzecki-2023":
     abstract: >
