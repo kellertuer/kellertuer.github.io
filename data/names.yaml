@@ -77,6 +77,14 @@ people:
         url: https://glaydston.ime.ufg.br
         orcid: 0000-0001-6983-4132
         title: Prof. Dr.
+    Elena Celledoni:
+        affiliation: NTNU
+        name:
+          bib: Celledoni, E.
+          full: Elena Celledoni
+          short: E. Celledoni
+        title: "Prof. Dr."
+        url: https://www.ntnu.edu/employees/elena.celledoni
     Raymond Chan:
         name:
             full: Raymond H. Chan
@@ -239,6 +247,15 @@ people:
             bib: Maschke, F.
             full: Felix Maschke
             short: F. Maschke
+    André Massing:
+        affiliation: NTNU
+        name:
+          bib: Massing, A.
+          full: André Massing
+          short: A. Massing
+          bib: Massing, A.
+        title: "Prof. Dr."
+        url: https://www.ntnu.edu/employees/andre.massing
     Dennis Merkert:
         name:
             full: Dennis Merkert
@@ -368,6 +385,14 @@ people:
             short: E. M. Santos
             bib: Santos, E. M.
         orcid: 0000-0003-0936-9640
+    Alexander Schmeding:
+        affiliation: NTNU
+        name:
+          bib: Schmeding, A.
+          full: Alexander Schmeding
+          short: A. Schmeding
+        title: "Prof. Dr."
+        url: https://www.ntnu.edu/employees/alexander.schmeding
     Solvor Sevland:
         affiliation: NTNU
         name:

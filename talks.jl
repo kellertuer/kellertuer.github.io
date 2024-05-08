@@ -3,7 +3,9 @@ using YAML, Dates
 talks = YAML.load_file("data/talks.yaml")
 conferences = YAML.load_file("data/conferences.yaml")
 
-exclude_conf = String[]
+# Exclude the ones I organized
+organized = ["FNDG24"]
+exclude_conf = organized
 
 function isless_talks(a::Dict,b::Dict)
     !haskey(a, "key") && error("Talk $a is missing a key")
@@ -26,8 +28,8 @@ function hfun_talks(params::Vector{String}=String[])
     if length(params) > 0
         highlights = true
         group_by_year = false
-    else
-        global exclude_conf = String[]
+    else # No parameters, all list -> build exclude
+        global exclude_conf = organized
     end
     s = "";
     lastyear = 0
