@@ -46,6 +46,13 @@ Berlin2023:
   start: 2023-11-03
   place: Berlin, Germany
   talk: true
+EUCCO2023:
+  name: European Conference on Computational Optimization
+  start: 2023-09-25
+  end: 2023-09-27
+  place: Heidelberg, Germany
+  url: https://scoop.iwr.uni-heidelberg.de/events/2023_eucco/
+  talk: true
 Hasenwinkel2023:
   name: From Modeling and Analysis to Approximation and Fast Algorithms
   url: http://www.math.uni-luebeck.de/mitarbeiter/prestin/workshop/hasenwinkel2023-VW/
@@ -81,13 +88,6 @@ MaGIC2023:
   end: 2023-03-03
   place: Ilsetra, Norway
   url: https://sites.google.com/view/magic2023/home
-  talk: true
-EUCCO2023:
-  name: European Conference on Computational Optimization
-  start: 2023-09-25
-  end: 2023-09-27
-  place: Heidelberg, Germany
-  url: https://scoop.iwr.uni-heidelberg.de/events/2023_eucco/
   talk: true
 Geo2Int:
   name: Workshop in Geometry and Geometric integration
