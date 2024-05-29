@@ -154,13 +154,6 @@ JuliaCon2021:
   end: 2021-07-30
   place: online & everywhere
   talk: false
-SSVM2021:
-  name: 8<sup>th</sup> International Conference on Scale Space and Variational Methods in Computer Vision
-  url: https://ssvm2021.sciencesconf.org
-  start: 2021-05-16
-  end: 2021-05-20
-  place: online (originally Cabourg, France)
-  talk: false
 # 2020
 COM2020:
   name: "Mini-Workshop: Computational Optimization on Manifolds"

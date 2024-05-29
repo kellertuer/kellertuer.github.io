@@ -165,7 +165,6 @@ ul.nav-icons li a {
     border-bottom: 0px;
 }
 div.abstract {
-    margin-top:-1rem;
     padding-top:1rem;
 }
 div.abstract div.content:before{
@@ -174,8 +173,15 @@ div.abstract div.content:before{
     padding-right:2rem;
 }
 div.bibtex {
+    padding-top: 1rem;
     margin-bottom: .5rem;
 }
+div.bibtext:before,
+div.abstract:before
+{
+    opacity: .5;
+}
+
 div.abstract div.content,
 div.bibtex div.content {
     width:94%;
@@ -187,6 +193,11 @@ div.bibtex div.content {
     font-weight:normal;
     padding-left: 2%;
     border-left: 1px solid black;
+    /* otherwise killed by FA6 :( */
+    font-family: "PT Sans", Helvetica, Arial, sans-serif;
+    font-size: -1;
+    line-height: 1rem;
+    font-size: 66%;
 }
 div.abstract div.content {
     font-size: 66%;
