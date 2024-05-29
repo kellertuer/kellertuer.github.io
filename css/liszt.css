@@ -176,7 +176,7 @@ div.bibtex {
     padding-top: 1rem;
     margin-bottom: .5rem;
 }
-div.bibtext:before,
+div.bibtex:before,
 div.abstract:before
 {
     opacity: .5;
