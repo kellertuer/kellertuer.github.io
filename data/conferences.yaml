@@ -6,6 +6,13 @@
 #   start:
 #   end:
 #   place:
+JQSSP:
+  name: Julia for numerical problems in quantum and solid-state physics
+  start: 2024-11-26
+  end: 2024-11-28
+  place: Lausanne, Switzerland
+  talk: true
+  url: https://www.cecam.org/workshop-details/julia-for-numerical-problems-in-quantum-and-solid-state-physics-1355
 JuliaCon2024:
   name: JuliaCon 2024
   url: https://juliacon.org/2024/
