@@ -19,6 +19,24 @@
 #  video:
 #  with:
 #  highlight:
+- title: Nonsmooth Optimization on Riemannian manifolds
+  key: NAMUG
+  conference: SeminarUG
+  date: 2024-06-11
+  slides: 2024-Goettingen-Nonsmooth.pdf
+  abstract: >
+    In many applications nonlinear data is measured, for example when considering
+    unit vectors, rotations, or (bases of) subspaces of a vector space.
+    Modelling this on a Riemannian manifold allows to both reduce the dimension
+    of the data stored as well as focusing on geometric properties of the measurement
+    space compared to constraining a total space the data is represented in.
+    In optimisation this yields unconstrained optimization algorithms, where we have to take
+    the geometry of the optimization domain into consideration.
+
+    In this talk we present recent developments in nonsmooth optimization on manifolds.
+    We generalize the Convex Bundle Method to Riemannian manifolds and investigate its convergence properties.
+    We further consider the task of minimizing the difference of two convex functions
+    defined on a manifold and discuss the Difference of Convex Algorithm.
 - title: The Riemannian Difference of Convex Algorithm in Manopt.jl
   key: OTiQCTalk
   conference: OTiQC
