@@ -19,6 +19,25 @@
 #  video:
 #  with:
 #  highlight:
+- title: Nonsmooth Optimization on Riemannian Manifolds in Manopt.jl
+  key: Euro24Manopt
+  conference: EURO24
+  date: 2024-07-03
+  link: https://www.euro-online.org/conferences/program/#abstract/540
+  slides: 2024-EURO-Manoptjl.pdf
+  abstract: >
+    In many applications nonlinear data is measured, for example when considering rotations,
+    bases of sub spaces or even sub spaces themselves. While this can be modelled as linear
+    data with constraints, this induce more complicated algorithms.
+    If the constraints on the other hand form a Riemannian manifold, for example the Special
+    Orthogonal group, the Stiefel or the Grassmann manifold, one can employ classical
+    unconstrained algorithms, while staying inherently feasible.
+    In the recent years these algorithms were extended to non-smooth objectives as well as
+    constrained optimization on manifolds.
+
+    In this talk, we present a framework and several algorithms that are available in [Manopt.jl](https://manoptjl.org),
+    which together with [Manifolds.jl](https://juliamanifolds.github.io/Manifolds.jl/stable/) forms a family of Julia packages to efficiently solve
+    optimization problems on Manifolds in Julia.
 - title: Nonsmooth Optimization on Riemannian manifolds
   key: NAMUG
   conference: SeminarUG
