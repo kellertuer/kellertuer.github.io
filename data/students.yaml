@@ -103,6 +103,10 @@
 #
 # Bachelor theses
 #
+- finished: 2024-06-17
+  name: Jacek Stanciewicz
+  title: Riemannian center of mass on Kendall's shape space
+  type: bachelor
 - finished: 2022-03-07
   name: Jan-Philipp Pfaue
   title: Constrained optimization on Riemannian manifolds using geodesic polygonal sets
@@ -193,7 +197,11 @@
 #
 # specialisation projects
 #
-- name: Markus A. Stokkenes
+- name: Sander Oddsen
+  finished: 2024-06-22
+  title: Derivative-free Optimization on Riemannian Manifolds
+  type: specialisationproject
+- name: Markus Stokkenes
   finished: 2024-01-12
   title: Convolutional Neural Network Layers Equivariant Under Affine Lie Group Actions
   type: specialisationproject

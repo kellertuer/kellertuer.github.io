@@ -282,6 +282,12 @@ people:
             bib: Neumayer, S. J.
             short: S. J. Neumayer
         url: https://people.epfl.ch/sebastian.neumayer
+    Sander Oddsen:
+        affiliation: NTNU
+        name:
+            full: Sander Engen Oddsen
+            bib: Oddsen, S. E.
+            short: S. E. Oddsen
     Novaf Oezguen:
         name:
             full: Novaf Oezguen
@@ -405,6 +411,12 @@ people:
             short: J. C. O. Souza
             bib: Souza, J. C. O.
         orcid: 0000-0003-4053-8211
+    Jacek Stanciewicz:
+        affiliation: NTNU
+        name:
+            full: Jacek Stanciewicz
+            bib: Stanciewicz, J.
+            short: J. Stanciewicz
     Gabriele Steidl:
         affiliation: "TU Berlin"
         name:
@@ -419,6 +431,12 @@ people:
             full: "Jo Stokke"
             bib: "Stokke, J."
             short: "J. Stokke"
+    Markus Stokkenes:
+        affiliation: NTNU
+        name:
+            full: "Markus A. Stokkenes"
+            bib: "Stokkenes, M."
+            short: "M. Stokkenes"
     Inga Stolz:
         affiliation: Europa-Universität Flensburg
         name:
