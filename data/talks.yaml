@@ -19,6 +19,29 @@
 #  video:
 #  with:
 #  highlight:
+- title: The Riemannian Difference of Convex Algorithm in Manopt.jl
+  key: Bayreuth2024
+  seminar:
+    name: Seminarvortrag
+    institute: Insitut für Mathematik
+    university: Universität Bayreuth
+    place: Nayreuth, Germany
+  date: 2024-07-17
+  slides: 2024-Bayreuth-Difference-of-Convex-Manopt.pdf
+  abstract: >
+    In many applications nonlinear data is measured, for example when considering
+    unit vectors, rotations, or (bases of) subspaces of a vector space.
+    Modelling this on a Riemannian manifold allows to both reduce the dimension
+    of the data stored as well as focusing on geometric properties of the measurement
+    space compared to constraining a total space the data is represented in.
+    In optimisation this yields unconstrained optimization algorithms, where we have to take
+    the geometry of the optimization domain into consideration.
+
+    In this talk we consider the task of minimizing the difference of two convex functions
+    defined on a manifold and present the Difference of Convex Algorithm.
+    To make algorithms in general more accessible, we then present the two Julia packages
+    [Manifolds.jl](https://juliamanifolds.github.io/Manifolds.jl/stable/) and [Manopt.jl](https://manoptjl.org), that allow to define and use Riemannian manifolds and
+    optimization algorithms employing numerical differential geometry, respectively.
 - title: Nonsmooth Optimization on Riemannian Manifolds in Manopt.jl
   key: Euro24Manopt
   conference: EURO24
