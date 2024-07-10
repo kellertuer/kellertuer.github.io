@@ -19,6 +19,15 @@
 #  video:
 #  with:
 #  highlight:
+- title: Quarto Extensions for the Julia Community
+  key: JuliaCon2024-Talk
+  conference: JuliaCon2024
+  date: 2024-07-12
+  slides: 2024-Quarto-JuliaCon.pdf
+  note: Talk together with
+  with:
+   - Patrick Altmeyer
+  link: https://pretalx.com/juliacon2024/talk/JGT893/
 - title: The Riemannian Difference of Convex Algorithm in Manopt.jl
   key: Bayreuth2024
   seminar:
