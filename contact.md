@@ -28,6 +28,8 @@ Research has the advantage that you get around! It brought me to
 <div class="inlinelist">
 ~~~
 
+* \highlight{Bayreuth, (Germany)}
+* Eindhoven (The Netherlands)
 * Copenhagen (Denmark)
 * Oslo (Norway)
 * Heidelberg (Germany)

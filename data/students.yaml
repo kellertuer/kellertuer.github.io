@@ -8,6 +8,10 @@
 #
 # Master theses
 #
+- name: Markus Stokkenes
+  finished: 2024-06-15
+  title: The Interior Point Newton Method for Constrained Optimization on Riemannian Manifolds
+  type: master
 - name: Veronique Lenaerts
   finished: 2023-06-29
   title: Regression of Time Series Data on Manifolds
