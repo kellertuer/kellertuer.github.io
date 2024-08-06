@@ -1,6 +1,12 @@
 lectures:
-  - term: Høst 2021, 2022, and 2023
-    date: 2023-08-24
+  - term: Høst 2024
+    date: 2024-08-21
+    name: TMA4310 Mathematical Subjects, Advanced Course
+    note: Reading Course, Introduction to Riemannian Manifolds
+    university: NTNU
+    link: https://wiki.math.ntnu.no/ma3001/2024h/riemanifolds/start
+  - term: each Høst 2021&mdash;2024
+    date: 2024-08-20
     name: TMA4215 Numerisk matematikk
     note: Numerical Mathematics
     university: NTNU
