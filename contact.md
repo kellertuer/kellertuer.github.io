@@ -63,6 +63,7 @@ Research has the advantage that you get around! It brought me to
 * Bordeaux (France)
 * \highlight{Cambridge (United Kingdom)}
 * \highlight{Hong Kong (China)}
+* * Göttingen (Germany)
 * \highlight{Paris (France)}
 * Munich (Germany)
 * Erlangen (Germany)
