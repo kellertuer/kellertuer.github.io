@@ -19,6 +19,15 @@
   finished: 2024-06-15
   title: The Interior Point Newton Method for Constrained Optimization on Riemannian Manifolds
   type: master
+  note: |
+    The code of this thesis was the main basis for
+    <a href="https://manoptjl.org/stable/solvers/interior_point_Newton/">
+    The Interior Point Newton Method
+    </a> including its <a href="https://manoptjl.org/stable/solvers/conjugate_residual/">
+    Conjugate Residual
+    </a> sub solver, both
+    available within <a href="https://manoptjl.org">Manopt.jl</a>.
+
 - name: Veronique Lenaerts
   finished: 2023-06-29
   title: Regression of Time Series Data on Manifolds
@@ -32,7 +41,7 @@
   title: Adaptive Regularization with Cubics
   type: master
   note: The code of this thesis is the Lanczos sub solver variant of
-    <a href="https://manoptjl.org/stable/solvers/adaptive-regularization-with-cubics/">
+    <a href="https://manoptjl.org/stable/solvers/adaptive-regularization-with-cubics/"> and
     the ARC solver
     </a> available within <a href="https://manoptjl.org">Manopt.jl</a>.
 - name: Solvor Sevland
@@ -118,6 +127,8 @@
   name: Jacek Stanciewicz
   title: Riemannian center of mass on Kendall's shape space
   type: bachelor
+  link: https://hdl.handle.net/11250/3143778
+  pdf: https://ntnuopen.ntnu.no/ntnu-xmlui/bitstream/handle/11250/3143778/no.ntnu%3ainspera%3a187609780%3a93106539.pdf?sequence=1&isAllowed=y
 - finished: 2022-03-07
   name: Jan-Philipp Pfaue
   title: Constrained optimization on Riemannian manifolds using geodesic polygonal sets

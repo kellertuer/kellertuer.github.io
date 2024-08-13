@@ -22,7 +22,3 @@ Currently I am working on
 * anisotropic periodic translation invariant spaces and Fourier based algorithms
 
 {{forthcomingconferences}}
-
-## News
-
-For news see my [Mastodon feed for @ronnybergmann@scholar.social](https://scholar.social/@ronnybergmann).
