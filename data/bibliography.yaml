@@ -1,3 +1,26 @@
+"SchielaHerzogBergmann-2024":
+    abstract: >
+        The classical concept of Fenchel conjugation is tailored to extended real-valued
+        functions defined on linear spaces. In this paper we generalize this concept to
+        functions defined on arbitrary sets that do not necessarily bear any structure at all.
+        This generalization is obtained by replacing linear test functions by general nonlinear ones.
+        Thus, we refer to it as nonlinear Fenchel conjugation. We investigate elementary
+        properties including the Fenchel-Moreau biconjugation theorem. Whenever the domain
+        exhibits additional structure, the restriction to a suitable subset of test
+        functions allows further results to be derived. For example, on smooth manifolds,
+        the restriction to smooth test functions allows us to state the Fenchel-Young
+        theorem for the viscosity Fréchet subdifferential. On Lie groups, the restriction
+        to real-valued group homomorphisms relates nonlinear Fenchel conjugation to infimal
+        convolution and yields a notion of convexity.
+    author:
+        - Anton Schiela
+        - Roland Herzog
+        - Ronny Bergmann
+    biblatextype: online
+    eprint: "2409.04492"
+    eprinttype: arxiv
+    title: Nonlinear Fenchel conjugates
+    year: 2024
 "BergmannHerzogJasa-2024":
     abstract: >
         We introduce the convex bundle method to solve convex, non-smooth optimization problems
