@@ -253,24 +253,30 @@
 
 "BaumgärtnerBergmannHerrmannHerzogSchmidtVidal-Nunez-2020":
     abstract: >
-        In this paper we present a novel approach to solve surface mesh denoising and inpainting problems.
-        The purpose is not only to remove noise while preserving important features such as sharp edges, but also to fill in missing parts of the geometry.
-        A discrete variant of the total variation of the unit normal vector field serves as a regularizing functional to achieve this goal.
-        In order to solve the resulting problem, we present a novel variant of the split Bregman (ADMM) iteration.
-        Numerical examples are included demonstrating the performance of the method with some complex 3D geometries.
+        We present a novel approach to denoising and inpainting problems for surface meshes.
+        The purpose of these problems is to remove noise or fill in missing parts while
+        preserving important features such as sharp edges. A discrete variant of the total
+        variation of the unit normal vector field serves as a regularizing functional
+        to achieve these goals. In order to solve the resulting problem, we use a version
+        of the split Bregman (ADMM) iteration adapted to the problem. A new formulation
+        of the total variation regularizer, as well as the use of an inexact Newton method
+        for the shape optimization step, bring significant speed-up compared to earlier methods.
+        Numerical examples are included, demonstrating the performance of our algorithm
+        with some complex 3D geometries.
     author:
         - Lukas Baumgärtner
         - Ronny Bergmann
-        - Marc Herrmann
         - Roland Herzog
         - Stephan Schmidt
         - José Vidal-Núñez
+        - Manuel Weiß
     biblatextype: online
     eprint: 2012.11748
     eprinttype: arXiv
     image: MeshDenoising.png
-    title: Mesh Denoising and Inpainting using the Total Variation of the Normal
+    title: Mesh Denoising and Inpainting using the Total Variation of the Normal and a Shape Newton Approach
     year: 2020
+    note: accepted for publication to SISC
 
 "BergmannHerzogSilvaLouzeiroTenbrinckVidal-Nunez-2021":
     abstract: >
