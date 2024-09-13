@@ -158,9 +158,9 @@
     <img src="/assets/bib/MeshDenoising.png" alt="Publication illustration image">
 </div>
 
-<span class="person">Baumgärtner, L.</span><sup><a href="https://orcid.org/0000-0003-1007-4815"><i class="ai ai-orcid"></i></a></sup>, <span class="person">Bergmann, R.</span><sup><a href="https://orcid.org/0000-0001-8342-7218"><i class="ai ai-orcid"></i></a></sup>, <span class="person">Herrmann, M.</span><sup><a href="https://orcid.org/0000-0002-5490-3681"><i class="ai ai-orcid"></i></a></sup>, <span class="person">Herzog, R.</span><sup><a href="https://orcid.org/0000-0003-2164-6575"><i class="ai ai-orcid"></i></a></sup>, <span class="person">Schmidt, S.</span><sup><a href="https://orcid.org/0000-0002-4888-0794"><i class="ai ai-orcid"></i></a></sup>, <span class="person">Vidal-Núñez, J.</span><sup><a href="https://orcid.org/0000-0002-1190-6700"><i class="ai ai-orcid"></i></a></sup><span class="year">2020</span><span class="title">Mesh Denoising and Inpainting using the Total Variation of the Normal</span>
+<span class="person">Baumgärtner, L.</span><sup><a href="https://orcid.org/0000-0003-1007-4815"><i class="ai ai-orcid"></i></a></sup>, <span class="person">Bergmann, R.</span><sup><a href="https://orcid.org/0000-0001-8342-7218"><i class="ai ai-orcid"></i></a></sup>, <span class="person">Herzog, R.</span><sup><a href="https://orcid.org/0000-0003-2164-6575"><i class="ai ai-orcid"></i></a></sup>, <span class="person">Schmidt, S.</span><sup><a href="https://orcid.org/0000-0002-4888-0794"><i class="ai ai-orcid"></i></a></sup>, <span class="person">Vidal-Núñez, J.</span><sup><a href="https://orcid.org/0000-0002-1190-6700"><i class="ai ai-orcid"></i></a></sup>, <span class="person">Weiß, M.</span><span class="year">2020</span><span class="title">Mesh Denoising and Inpainting using the Total Variation of the Normal and a Shape Newton Approach</span>
 <br>
-
+<span class="note">accepted for publication to SISC</span>
 <span class="eprinttype">arXiv</span>
 <a href="https://arxiv.org/abs/2012.11748">2012.11748</a>
 
@@ -184,19 +184,20 @@
     </ul>
 
 <div id="BaumgärtnerBergmannHerrmannHerzogSchmidtVidal-Nunez-2020-abstract" class="blockicon abstract collapse fas fa-lg fa-file-alt">
-    <div class="content"><p>In this paper we present a novel approach to solve surface mesh denoising and inpainting problems. The purpose is not only to remove noise while preserving important features such as sharp edges, but also to fill in missing parts of the geometry. A discrete variant of the total variation of the unit normal vector field serves as a regularizing functional to achieve this goal. In order to solve the resulting problem, we present a novel variant of the split Bregman &#40;ADMM&#41; iteration. Numerical examples are included demonstrating the performance of the method with some complex 3D geometries.</p>
+    <div class="content"><p>We present a novel approach to denoising and inpainting problems for surface meshes. The purpose of these problems is to remove noise or fill in missing parts while preserving important features such as sharp edges. A discrete variant of the total variation of the unit normal vector field serves as a regularizing functional to achieve these goals. In order to solve the resulting problem, we use a version of the split Bregman &#40;ADMM&#41; iteration adapted to the problem. A new formulation of the total variation regularizer, as well as the use of an inexact Newton method for the shape optimization step, bring significant speed-up compared to earlier methods. Numerical examples are included, demonstrating the performance of our algorithm with some complex 3D geometries.</p>
 </div>
 </div>
 
 <div id="BaumgärtnerBergmannHerrmannHerzogSchmidtVidal-Nunez-2020-bibtex" class="blockicon bibtex collapse fas fa-lg fa-file-code">
     <div class="content">@online{BaumgärtnerBergmannHerrmannHerzogSchmidtVidal-Nunez-2020,
     eprint = {2012.11748},
-    author = {Baumgärtner, L. and Bergmann, R. and Herrmann, M. and Herzog, R. and Schmidt, S. and Vidal-Núñez, J.},
+    author = {Baumgärtner, L. and Bergmann, R. and Herzog, R. and Schmidt, S. and Vidal-Núñez, J. and Weiß, M.},
+    note = {accepted for publication to SISC},
     year = {2020},
     eprinttype = {arXiv},
-    title = {Mesh Denoising and Inpainting using the Total Variation of the Normal},
+    title = {Mesh Denoising and Inpainting using the Total Variation of the Normal and a Shape Newton Approach},
     abstract = {
-    In this paper we present a novel approach to solve surface mesh denoising and inpainting problems. The purpose is not only to remove noise while preserving important features such as sharp edges, but also to fill in missing parts of the geometry. A discrete variant of the total variation of the unit normal vector field serves as a regularizing functional to achieve this goal. In order to solve the resulting problem, we present a novel variant of the split Bregman (ADMM) iteration. Numerical examples are included demonstrating the performance of the method with some complex 3D geometries.
+    We present a novel approach to denoising and inpainting problems for surface meshes. The purpose of these problems is to remove noise or fill in missing parts while preserving important features such as sharp edges. A discrete variant of the total variation of the unit normal vector field serves as a regularizing functional to achieve these goals. In order to solve the resulting problem, we use a version of the split Bregman (ADMM) iteration adapted to the problem. A new formulation of the total variation regularizer, as well as the use of an inexact Newton method for the shape optimization step, bring significant speed-up compared to earlier methods. Numerical examples are included, demonstrating the performance of our algorithm with some complex 3D geometries.
     },
 }</div>
 </div>
@@ -2424,7 +2425,7 @@ Für Bilder von Hypergraphen werden in dieser Arbeit theoretische Grundlagen en
             <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0">
                 CC BY-NC-SA 4.0<img style="height:18px!important;margin-left:2px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" /><img style="height:18px!important;margin-left:2px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" /><img style="height:18px!important;margin-left:2px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" /><img style="height:18px!important;margin-left:2px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" /></a>.
             <br />
-            Last modified: September 10, 2024.
+            Last modified: September 13, 2024.
             Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
         </p>
   </div>
