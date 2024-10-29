@@ -157,8 +157,8 @@ function hfun_forthcomingconferences()
     end
     if length(s) > 0
         return """
-                  <h2>Forthcoming Conferences</h2>
-                  <p>I plan to attend the following conferences</p>
+                  <h2>Forthcoming Events</h2>
+                  <p>I plan to attend the following conferences, workshops, or seminars</p>
                   <ul class="conferences fa-ul">
                   $(s)
                   </ul>
