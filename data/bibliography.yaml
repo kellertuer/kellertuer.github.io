@@ -1027,6 +1027,23 @@
 #
 # Misc
 #
+"CBZRS23":
+    author:
+        - Christmas, J.
+        - Ronny Bergmann
+        - Zhakatayev, A.
+        - Rebenda, J.
+        - Sing, S.
+    biblatextype: misc
+    journaltitle: ECMI Annual Report 2022
+    eprint: 2409.15282
+    eprinttype: arXiv
+    link: https://ecmiindmath.org/wp-content/uploads/2023/11/ecmiannrep2022.pdf
+    pages: 40–49
+    publication date: 01-12-2022
+    title: Modelling Fire Incidents Response Times in Ålesund
+    year: 2022
+    note: "<br>The arXiv preprint is an extended version of the report"
 "BergmannLausPerschSteidl-2017":
     author:
         - Ronny Bergmann
