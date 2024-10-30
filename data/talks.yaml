@@ -28,11 +28,12 @@
   with:
    - Patrick Altmeyer
   link: https://pretalx.com/juliacon2024/talk/JGT893/
+  video: https://youtu.be/vsU0paSSyZY?si=Gv6pH82Gm4nb7Kb3
 - title: The Riemannian Difference of Convex Algorithm in Manopt.jl
   key: Bayreuth2024
   seminar:
     name: Seminarvortrag
-    institute: Insitut für Mathematik
+    institute: Institut für Mathematik
     university: Universität Bayreuth
     place: Nayreuth, Germany
   date: 2024-07-17
