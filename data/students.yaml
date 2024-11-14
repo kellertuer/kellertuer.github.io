@@ -27,6 +27,8 @@
     Conjugate Residual
     </a> sub solver, both
     available within <a href="https://manoptjl.org">Manopt.jl</a>.
+  pdf: https://ntnuopen.ntnu.no/ntnu-xmlui/bitstream/handle/11250/3160215/no.ntnu%3ainspera%3a187375737%3a37300395.pdf
+  link: https://hdl.handle.net/11250/3160215
 
 - name: Veronique Lenaerts
   finished: 2023-06-29
