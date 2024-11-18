@@ -19,6 +19,11 @@
 #  video:
 #  with:
 #  highlight:
+- title: "Manopt.jl: Optimization on Riemannian Manifolds in Julia"
+  key: JQSSP2024-talk
+  conference: JQSSP2024
+  date: 2024-11-27
+  slides: 2024-Lausanne-Manopt.pdf
 - title: Quarto Extensions for the Julia Community
   key: JuliaCon2024-Talk
   conference: JuliaCon2024
