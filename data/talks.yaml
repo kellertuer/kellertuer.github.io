@@ -19,11 +19,40 @@
 #  video:
 #  with:
 #  highlight:
+- title: Nonlinear Fenchel Conjugates
+  key: Lausanne2024
+  seminar:
+    name: Mathicse Seminar
+    institute: Institute of Mathematics
+    university: EPFL
+    place: Lausanne, Switzerland
+    slides: 2024-Lausanne-Nonlinear-Fenchel-Conjugate.pdf
+  date: 2024-11-29
+  link: https://memento.epfl.ch/event/nonlinear-fenchel-conjugates/
+  slides: 2024-Lausanne-Nonlinear-Fenchel-Conjugate.pdf
+  abstract: >
+    Fenchel conjugates play an important role in nonsmooth optimization.
+    Especially in large scale, nonsmooth problems, like image processing, splitting methods
+    enable fast and efficient optimisation algorithms based on Fenchel duality.
+    Recently, a few different variants of Fenchel conjugates have been introduced on Manifolds.
+    The main challenge is, that the original Fenchel conjugate is defined as a supremum over
+    linear functions, which do not exist on manifolds.
+
+    In this talk we present a generalisation, the so-called nonlinear Fenchel conjugates.
+    We discuss, which properties can still be derived, for example how a biconjugate can be
+    introduced and how the relation between convolution and the Fenchel conjugate
+    are generalized to Lie groups.
+    As an application we present the Primal-Dual-Hybrid-Gradient or Chambolle-Pock algorithm
+    and illustrate its performance in an image denoising task for manifold-valued images.
 - title: "Manopt.jl: Optimization on Riemannian Manifolds in Julia"
   key: JQSSP2024-talk
   conference: JQSSP2024
   date: 2024-11-27
   slides: 2024-Lausanne-Manopt.pdf
+  abstract: >
+    In many applications nonlinear data is measured, for example when considering unit vectors, rotations, or (bases of) subspaces of a vector space. Modelling this on a Riemannian manifold allows to both reduce the dimension of the data stored as well as focusing on geometric properties of the measurement space compared to constraining a total space the data is represented in. In optimisation this yields unconstrained optimization algorithms, where we have to take the geometry of the optimization domain into consideration.
+
+    To make algorithms in general more accessible, we present the two Julia packages [Manopt.jl](https://manoptjl.org) and [Manifolds.jl](https://juliamanifolds.github.io/Manifolds.jl/stable/). Manopt.jl is a package for optimization on Riemannian manifolds, providing a unified interface to implement solvers as well as a large library of solvers. Since it is build on ManifoldsBase.jl and hence can be used to solve problems in any manifold implemented in Manifolds.jl.
 - title: Quarto Extensions for the Julia Community
   key: JuliaCon2024-Talk
   conference: JuliaCon2024
@@ -40,7 +69,7 @@
     name: Seminarvortrag
     institute: Institut für Mathematik
     university: Universität Bayreuth
-    place: Nayreuth, Germany
+    place: Bayreuth, Germany
   date: 2024-07-17
   slides: 2024-Bayreuth-Difference-of-Convex-Manopt.pdf
   abstract: >
