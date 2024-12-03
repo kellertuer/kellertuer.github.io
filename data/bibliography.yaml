@@ -1,3 +1,27 @@
+"BaumgärtnerBergmannHerzogSchmidtWeiß-2024":
+    abstract: >
+        We consider the problem of surface segmentation, where the goal is to partition
+        a surface represented by a triangular mesh. The segmentation is based on
+        the similarity of the normal vector field to a given set of label vectors.
+        We propose a variational approach and compare two different regularizers,
+        both based on a total variation measure. The first regularizer penalizes
+        the total variation of the assignment function directly, while the second regularizer
+        penalizes the total variation in the label space. In order to solve
+        the resulting optimization problems, we use variations of the split Bregman (ADMM)
+        iteration adapted to the problem at hand. While computationally more expensive,
+        the second regularizer yields better results in our experiments, in particular it
+        removes noise more reliably in regions of constant curvature.
+    author:
+        - Lukas Baumgärtner
+        - Ronny Bergmann
+        - Roland Herzog
+        - Stephan Schmidt
+        - Manuel Weiß
+    biblatextype: online
+    eprint: "2412.00445"
+    eprinttype: arxiv
+    title: Two Models for Surface Segmentation using the Total Variation of the Normal Vector
+    year: 2024
 "SchielaHerzogBergmann-2024":
     abstract: >
         The classical concept of Fenchel conjugation is tailored to extended real-valued
@@ -21,6 +45,7 @@
     eprinttype: arxiv
     title: Nonlinear Fenchel conjugates
     year: 2024
+
 "BergmannHerzogJasa-2024":
     abstract: >
         We introduce the convex bundle method to solve convex, non-smooth optimization problems
