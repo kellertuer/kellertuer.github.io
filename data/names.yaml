@@ -98,6 +98,11 @@ people:
             bib: Chan, R. H.
             short: R. H. Chan
         title: "Prof."
+    Marcus Alexander Lien Cid:
+        name:
+            full: Marcus Alexander Lien Cid
+            bib: Cid, M. A. Lien
+            short: M. A. L. Cid
     Renée Dornig:
         name:
             bib: Dornig, R.
@@ -164,6 +169,11 @@ people:
             short: R. Hielscher
         title: "Prof. Dr."
         url: https://tu-freiberg.de/fakult1/ana
+    Ole Gunnar Røsholt Hovland:
+        name:
+            full: Ole Gunnar Røsholt Hovland
+            bib: Hovland, O. G. Røsholt
+            short: O. G. R. Hovland
     Henning Huth:
         name:
             full: Henning Huth
@@ -283,12 +293,13 @@ people:
             bib: Munkvold, M. R.
             short: M. R. Munkvold
     Sebastian Neumayer:
-        affiliation: TU Berlin
+        affiliation: TU Chemnitz
         name:
             full: Sebastian J. Neumayer
             bib: Neumayer, S. J.
             short: S. J. Neumayer
-        url: https://people.epfl.ch/sebastian.neumayer
+        title: Prof. Dr.
+        url: https://www.tu-chemnitz.de/mathematik/invimg/index.en.php
     Sander Oddsen:
         affiliation: NTNU
         name:

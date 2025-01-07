@@ -221,6 +221,14 @@
 #
 # specialisation projects
 #
+- name: Ole Gunnar Røsholt Hovland
+  finished: 2025-01-03
+  title: Riemannian Optimization using second order Information on the Symplectic Stiefel manifold
+  type: specialisationproject
+- name: Marcus Alexander Lien Cid
+  finished: 2024-12-22
+  title: The Manifold Proximal Gradient Algorithm
+  type: specialisationproject
 - name: Sander Oddsen
   finished: 2024-06-22
   title: Derivative-free Optimization on Riemannian Manifolds
