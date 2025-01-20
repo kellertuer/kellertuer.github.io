@@ -10,11 +10,14 @@
 #
 - name: Jo Stokke
   finished: 2024-07-22
-  title: The Hypergraph p-Laplace for Manifold-valued Data and its Application in Machine- Learning
+  title: The Hypergraph p-Laplace for Manifold-valued Data and its Application in Machine-Learning
   type: master
   with:
     - Christoph von Tychowicz
     - Martin Hanik
+  pdf: https://ntnuopen.ntnu.no/ntnu-xmlui/bitstream/handle/11250/3168444/no.ntnu%3ainspera%3a187375737%3a47744595.pdf
+  link: https://hdl.handle.net/11250/3168444
+
 - name: Markus Stokkenes
   finished: 2024-06-15
   title: The Interior Point Newton Method for Constrained Optimization on Riemannian Manifolds
