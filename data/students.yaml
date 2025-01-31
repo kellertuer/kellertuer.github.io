@@ -8,6 +8,11 @@
 #
 # Master theses
 #
+- name: Sander Engen Oddsen
+  finished: 2025-01-31
+  title: The Riemannnian LTMADS to solve the Spectral Procrustes problem in Manopt.jl
+  type: master
+
 - name: Jo Stokke
   finished: 2024-07-22
   title: The Hypergraph p-Laplace for Manifold-valued Data and its Application in Machine-Learning
@@ -232,7 +237,7 @@
   finished: 2024-12-22
   title: The Manifold Proximal Gradient Algorithm
   type: specialisationproject
-- name: Sander Oddsen
+- name: Sander Engen Oddsen
   finished: 2024-06-22
   title: Derivative-free Optimization on Riemannian Manifolds
   type: specialisationproject
