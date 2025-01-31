@@ -1,3 +1,7 @@
+#
+#
+# Preprints
+
 "BaumgärtnerBergmannHerzogSchmidtWeiß-2024":
     abstract: >
         We consider the problem of surface segmentation, where the goal is to partition
@@ -66,6 +70,40 @@
     eprinttype: arxiv
     title: The Riemannian Convex Bundle Method
     year: 2024
+
+#
+#
+# Journal Papers
+
+"BaumgärtnerBergmannHerrmannHerzogSchmidtVidal-Nunez-2025":
+    abstract: >
+        We present a novel approach to denoising and inpainting problems for surface meshes.
+        The purpose of these problems is to remove noise or fill in missing parts while
+        preserving important features such as sharp edges. A discrete variant of the total
+        variation of the unit normal vector field serves as a regularizing functional
+        to achieve these goals. In order to solve the resulting problem, we use a version
+        of the split Bregman (ADMM) iteration adapted to the problem. A new formulation
+        of the total variation regularizer, as well as the use of an inexact Newton method
+        for the shape optimization step, bring significant speed-up compared to earlier methods.
+        Numerical examples are included, demonstrating the performance of our algorithm
+        with some complex 3D geometries.
+    author:
+        - Lukas Baumgärtner
+        - Ronny Bergmann
+        - Roland Herzog
+        - Stephan Schmidt
+        - José Vidal-Núñez
+        - Manuel Weiß
+    biblatextype: article
+    doi: 10.1137/24M1646121
+    eprint: 2012.11748
+    eprinttype: arXiv
+    image: MeshDenoising.png
+    issue: 1
+    journaltitle: SIAM Journal on Scientific Computing
+    volume: 47
+    title: Mesh Denoising and Inpainting using the Total Variation of the Normal and a Shape Newton Approach
+    year: 2025
 
 "BergmannFerreiraSantosSouza-2024":
     abstract: >
@@ -275,33 +313,6 @@
     title: "Manopt.jl: Optimization on Manifolds in Julia"
     volume: 7
     year: 2022
-
-"BaumgärtnerBergmannHerrmannHerzogSchmidtVidal-Nunez-2020":
-    abstract: >
-        We present a novel approach to denoising and inpainting problems for surface meshes.
-        The purpose of these problems is to remove noise or fill in missing parts while
-        preserving important features such as sharp edges. A discrete variant of the total
-        variation of the unit normal vector field serves as a regularizing functional
-        to achieve these goals. In order to solve the resulting problem, we use a version
-        of the split Bregman (ADMM) iteration adapted to the problem. A new formulation
-        of the total variation regularizer, as well as the use of an inexact Newton method
-        for the shape optimization step, bring significant speed-up compared to earlier methods.
-        Numerical examples are included, demonstrating the performance of our algorithm
-        with some complex 3D geometries.
-    author:
-        - Lukas Baumgärtner
-        - Ronny Bergmann
-        - Roland Herzog
-        - Stephan Schmidt
-        - José Vidal-Núñez
-        - Manuel Weiß
-    biblatextype: online
-    eprint: 2012.11748
-    eprinttype: arXiv
-    image: MeshDenoising.png
-    title: Mesh Denoising and Inpainting using the Total Variation of the Normal and a Shape Newton Approach
-    year: 2020
-    note: accepted for publication to SISC
 
 "BergmannHerzogSilvaLouzeiroTenbrinckVidal-Nunez-2021":
     abstract: >
