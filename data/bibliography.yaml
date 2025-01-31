@@ -101,6 +101,8 @@
     image: MeshDenoising.png
     issue: 1
     journaltitle: SIAM Journal on Scientific Computing
+    pages: A300–A324
+    publication-date: 2025-01-31
     volume: 47
     title: Mesh Denoising and Inpainting using the Total Variation of the Normal and a Shape Newton Approach
     year: 2025
