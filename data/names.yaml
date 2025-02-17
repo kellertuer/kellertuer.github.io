@@ -200,7 +200,6 @@ people:
             bib: Kausch, L.
             full: Lisa Kausch
             short: L. Kausch
-        url: https://www.dkfz.de/en/mic/team/people/Lisa_Kausch.html
     Even Stephansen Kjemsås:
         name:
             bib: Kjemsås, E. Stephansen
@@ -458,11 +457,11 @@ people:
     Inga Stolz:
         affiliation: Europa-Universität Flensburg
         name:
-            bib: Stolz, I.
-            full: Inga Stolz
-            short: I. Stolz
+            bib: Hein, I.
+            full: Inga Hein
+            short: I. Hein
         title: Dr.
-        url: https://www.uni-flensburg.de/mathematik/wer-wir-sind/mitarbeiterinnen-und-mitarbeiter/dr-inga-stolz/
+        url: https://www.uni-flensburg.de/mathematik/wer-wir-sind/mitarbeiterinnen-und-mitarbeiter/dr-inga-hein-ehem-stolz/
     Daniel Strauss:
         name:
             full: Daniel J. Strauss
