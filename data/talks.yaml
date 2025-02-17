@@ -20,16 +20,38 @@
 #  with:
 #  highlight:
 - title: Nonlinear Fenchel Conjugates
+  key: Saarbruecken2025
+  seminar:
+    name: MOP Seminar
+    institute: Mathematical Optimization for Data Science Group
+    university: Department of Mathematics and Computer Science, Saarland University
+    place: Saarbrücken, Germany & online
+    url: https://www.mop.uni-saarland.de/teaching/MOPResearchSeminar/index.shtml
+  date: 2025-02-20
+  slides: 2025-Saarbruecken-Nonlinear-Fenchel-Conjugates.pdf
+  abstract: >
+    Fenchel conjugates play an important role in nonsmooth optimization.Especially in large scale,
+    nonsmooth problems, like image processing, splitting methods enable fast and efficient optimisation
+    algorithms based on Fenchel duality. Recently, a few different variants of Fenchel conjugates
+    have been introduced on Manifolds. The main challenge is that the original Fenchel conjugate
+    is defined as a supremum over linear functions, which do not exist on manifolds.
+
+    In this talk we present a generalisation, the so-called nonlinear Fenchel conjugates.
+    We discuss which properties can still be derived, for example how a biconjugate can be
+    introduced and how the relationship between convolution and the Fenchel conjugate are
+    generalized to Lie groups. As an application we present
+    the Riemannian Difference of Convex algorithm
+    and illustrate its performance in a numerical example.
+- title: Nonlinear Fenchel Conjugates
   key: Lausanne2024
   seminar:
     name: Mathicse Seminar
     institute: Institute of Mathematics
     university: EPFL
     place: Lausanne, Switzerland
-    slides: 2024-Lausanne-Nonlinear-Fenchel-Conjugate.pdf
   date: 2024-11-29
   link: https://memento.epfl.ch/event/nonlinear-fenchel-conjugates/
-  slides: 2024-Lausanne-Nonlinear-Fenchel-Conjugate.pdf
+  slides: 2024-Lausanne-Nonlinear-Fenchel-Conjugates.pdf
   abstract: >
     Fenchel conjugates play an important role in nonsmooth optimization.
     Especially in large scale, nonsmooth problems, like image processing, splitting methods
