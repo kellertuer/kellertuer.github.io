@@ -161,7 +161,7 @@
     eprinttype: arXiv
     image: hermite.png
     journaltitle: SIAM Journal on Scientific Computing
-    title: Multivariate Hermite interpolation of manifold-valued data
+    title: Multivariate Hermite Interpolation on Riemannian Manifolds
     volume: 46
     number: 2
     pages: A1276–A1297
