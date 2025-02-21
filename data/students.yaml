@@ -12,6 +12,12 @@
   finished: 2025-01-31
   title: The Riemannnian LTMADS to solve the Spectral Procrustes problem in Manopt.jl
   type: master
+  note: |
+    The code of this thesis was the basis for the
+    <a href="https://manoptjl.org/stable/solvers/mesh_adaptive_direct_search/">
+    Mesh adaptive direct search
+    </a>
+    solver variant LTMADS, available within <a href="https://manoptjl.org">Manopt.jl</a>.
 
 - name: Jo Stokke
   finished: 2024-07-22
