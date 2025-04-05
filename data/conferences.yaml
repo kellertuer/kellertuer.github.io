@@ -283,10 +283,9 @@ GAMM2018:
   place: München, Germany
 MIA2018:
   name: Mathematics and Image Analysis 2018
-  talk: false
-  url: http://www.wias-berlin.de/workshops/MIA2018/
-  start: 2018-01-15
   end: 2018-01-17
+  start: 2018-01-15
+  talk: false
   url: http://www.wias-berlin.de/workshops/MIA2018/
   place: Berlin, Germany
 GSI2017:

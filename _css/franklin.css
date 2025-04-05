@@ -3,10 +3,8 @@
 ================================================================== */
 
 :root {
-  --block-background: #f8f8f8;
   --small: 14px;
   --normal: 19px;
-  --text-color: hsv(0, 0%, 20%);
 }
 
 li > p {margin: 0}
@@ -19,6 +17,7 @@ html {
   font-family: Helvetica, Arial, sans-serif;
   font-size: var(--normal);
   color: var(--text-color);
+  background: var(--background-color);
 }
 
 /* ==================================================================
@@ -56,7 +55,6 @@ html {
 
 .franklin-content .page-foot a {
   text-decoration: none;
-  color: #a6a2a0;
   text-decoration: underline;
 }
 
@@ -337,4 +335,13 @@ code {
   margin-bottom: 5px;
   border-radius: 0 10px 10px 0;
   border-left: 5px solid #4c9cf1;
+}
+
+/* ==================================================================
+    MENU
+================================================================== */
+
+.navbar-nav .nav-item {
+  padding-right: .5rem;
+  padding-left: .5rem;
 }

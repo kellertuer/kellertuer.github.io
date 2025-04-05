@@ -1,0 +1,16 @@
+:root {
+    --block-background: #f8f8f8;
+    --background-color: #f8f8f8;
+    --text-color: hsv(0, 0%, 20%);
+}
+
+.navbar {
+    box-shadow: none;
+    border-bottom: 1px solid var(--global-divider-color);
+    background-color: var(--global-bg-color);
+    opacity: .95;
+}
+
+.franklin-content .page-foot a {
+    color: #a6a2a0;
+}
