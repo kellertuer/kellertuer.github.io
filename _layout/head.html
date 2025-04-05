@@ -1,174 +1,20 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <style>
-    #back-to-top {
-      background: #000;
-      -webkit-border-radius: 50%;
-      -moz-border-radius: 50%;
-      border-radius: 50%;
-      bottom: 20px;
-      -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .26);
-      -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .26);
-      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .26);
-      color: #fff;
-      cursor: pointer;
-      display: block;
-      height: 56px;
-      opacity: 1;
-      outline: 0;
-      position: fixed;
-      right: 20px;
-      -webkit-tap-highlight-color: transparent;
-      -webkit-touch-callout: none;
-      -webkit-transition: bottom .2s, opacity .2s;
-      -o-transition: bottom .2s, opacity .2s;
-      -moz-transition: bottom .2s, opacity .2s;
-      transition: bottom .2s, opacity .2s;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-      width: 56px;
-      z-index: 1
-    }
-
-    #back-to-top svg {
-      display: block;
-      fill: currentColor;
-      height: 20px;
-      margin: 11px auto 0;
-      width: 20px
-    }
-
-    #back-to-top.hidden {
-      bottom: -56px;
-      opacity: 0
-    }
-  </style>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="author" content="Ronny Bergmann">
   <meta name="description" content="Associate Profesor (førsteamanuensis) at the Department of Mathemmatical Sciences, Norwegian University of Science and Technology (NTNU), Trondheim, Norway">
-  <link rel="stylesheet" href="/css/bootstrap.min.css">
-  <link defer="" rel="stylesheet" href="/css/academicons.min.css">
-  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/navbar.css">
   <script src="/js/theme.js"></script>
-  <style type="text/css"></style>
-  <style type="text/css">
-    .CtxtMenu_InfoClose {
-      top: .2em;
-      right: .2em;
-    }
-
-    .CtxtMenu_InfoContent {
-      overflow: auto;
-      text-align: left;
-      font-size: 80%;
-      padding: .4em .6em;
-      border: 1px inset;
-      margin: 1em 0px;
-      max-height: 20em;
-      max-width: 30em;
-      background-color: #EEEEEE;
-      white-space: normal;
-    }
-
-    .CtxtMenu_Info.CtxtMenu_MousePost {
-      outline: none;
-    }
-
-    .CtxtMenu_Info {
-      position: fixed;
-      left: 50%;
-      width: auto;
-      text-align: center;
-      border: 3px outset;
-      padding: 1em 2em;
-      background-color: #DDDDDD;
-      color: black;
-      cursor: default;
-      font-family: message-box;
-      font-size: 120%;
-      font-style: normal;
-      text-indent: 0;
-      text-transform: none;
-      line-height: normal;
-      letter-spacing: normal;
-      word-spacing: normal;
-      word-wrap: normal;
-      white-space: nowrap;
-      float: none;
-      z-index: 201;
-      border-radius: 15px;
-      /* Opera 10.5 and IE9 */
-      -webkit-border-radius: 15px;
-      /* Safari and Chrome */
-      -moz-border-radius: 15px;
-      /* Firefox */
-      -khtml-border-radius: 15px;
-      /* Konqueror */
-      box-shadow: 0px 10px 20px #808080;
-      /* Opera 10.5 and IE9 */
-      -webkit-box-shadow: 0px 10px 20px #808080;
-      /* Safari 3 & Chrome */
-      -moz-box-shadow: 0px 10px 20px #808080;
-      /* Forefox 3.5 */
-      -khtml-box-shadow: 0px 10px 20px #808080;
-      /* Konqueror */
-      filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color="gray", Positive="true");
-      /* IE */
-    }
-  </style>
-  <style type="text/css">
-    .CtxtMenu_MenuClose {
-      position: absolute;
-      cursor: pointer;
-      display: inline-block;
-      border: 2px solid #AAA;
-      border-radius: 18px;
-      -webkit-border-radius: 18px;
-      /* Safari and Chrome */
-      -moz-border-radius: 18px;
-      /* Firefox */
-      -khtml-border-radius: 18px;
-      /* Konqueror */
-      font-family: "Courier New", Courier;
-      font-size: 24px;
-      color: #F0F0F0
-    }
-
-    .CtxtMenu_MenuClose span {
-      display: block;
-      background-color: #AAA;
-      border: 1.5px solid;
-      border-radius: 18px;
-      -webkit-border-radius: 18px;
-      /* Safari and Chrome */
-      -moz-border-radius: 18px;
-      /* Firefox */
-      -khtml-border-radius: 18px;
-      /* Konqueror */
-      line-height: 0;
-      padding: 8px 0 6px
-        /* may need to be browser-specific */
-    }
-
-    .CtxtMenu_MenuClose:hover {
-      color: white !important;
-      border: 2px solid #CCC !important
-    }
-
-    .CtxtMenu_MenuClose:hover span {
-      background-color: #CCC !important
-    }
-
-    .CtxtMenu_MenuClose:hover:focus {
-      outline: none
-    }
-  </style>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Ronny Bergmann">
+    <meta name="description" content="Associate Profesor (førsteamanuensis) at the Department of Mathemmatical Sciences, Norwegian University of Science and Technology (NTNU), Trondheim, Norway">
+    <script src="/js/theme.js"></script>
     <link defer rel="stylesheet" href="/css/colors.css" media="" id="highlight_theme_light">
     <link defer rel="stylesheet" href="/css/colors-dark.css" media="none" id="highlight_theme_dark">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">

@@ -341,6 +341,13 @@ code {
     MENU
 ================================================================== */
 
+.navbar {
+  flex-wrap: nowrap;
+}
+.navbar-nav {
+    display: flex !important;
+    flex-basis: auto;
+}
 .navbar-nav .nav-item {
   padding-right: .5rem;
   padding-left: .5rem;

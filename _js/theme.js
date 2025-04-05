@@ -20,11 +20,8 @@ let setThemeSetting = (themeSetting) => {
 // Apply the computed dark or light theme to the website.
 let applyTheme = () => {
   let theme = determineComputedTheme();
-  transTheme();
   setHighlight(theme);
-
   document.documentElement.setAttribute("data-theme", theme);
-
   // Add class to tables.
   let tables = document.getElementsByTagName("table");
   for (let i = 0; i < tables.length; i++) {
