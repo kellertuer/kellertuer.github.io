@@ -1,21 +1,10 @@
-:root {
-    --block-background: #f8f8f8;
-    --small: 14px;
-    --normal: 19px;
-    --text-color: hsv(0, 0%, 20%);
-}
-
 span.institute {
-    color:rgb(16, 71, 102);
     text-decoration: none;
 }
 
 .no-number .katex-display::after {
     counter-increment: nothing;
     content: "";
-}
-.error {
-    color: #CC3311;
 }
 p .cite:before {
     content: "["
@@ -67,7 +56,6 @@ ol.literature li .li-label:after {
 ol.literature li .li-label {
     font-size:small;
     margin-left:-3.5rem;
-    color: #41a1c6;
     white-space: nowrap;
     margin-right: .4em;
     /* adjust to your requirements */
@@ -136,10 +124,6 @@ ol div.item-icon-wrapper img {
  * Links & nav-icons & logos
  */
 ol li i.ai-orcid-square,
-ol li i.ai-orcid
-{
-    color:#a6ce39;
-}
 ol li ul.nav-icons, dl dd ul.nav-icons {
     margin: 0;
     margin-top: .5rem;
@@ -156,11 +140,6 @@ ul.nav-icons li {
     display: inline;
 }
 ul.nav-icons li a {
-    /*
-    color: #ECF5F9;
-    color: rgba(236, 245, 249, 0.9);
-    */
-    color: #41a1c6;
     text-decoration: none;
     border-bottom: 0px;
 }
@@ -319,7 +298,15 @@ img.floatleft {
     margin-right: 2rem;
     border-radius: 10px;
 }
-
+img.floatright {
+    width: auto;
+    float: right;
+    padding: 0;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    margin-right: 0rem;
+    border-radius: 10px;
+}
 dl.supervised dt {
     width: 6rem;
     float: left;
@@ -399,9 +386,6 @@ dl.courses dd .name {
     font-weight: bold;
     font-size:large;
 }
-dl.courses dd .name a {
-    color:rgb(16, 71, 102);
-}
 
 dl.courses dd .info:before,
 dl.courses dd .institute:before
@@ -459,9 +443,6 @@ dd .info .collaborators ul {
     margin: 0px;
     margin-top: 0.5rem;
 }
-dd .info .collaborators ul li i.ai-orcid {
-    color: #a6ce39;
-}
 dd .info .logo {
     margin-top:-1.25rem;
 }
@@ -501,9 +482,4 @@ div.inlinelist ul li:after {
 }
 div.inlinelist ul li:last-child:after {
     content: '.'
-}
-
-span.highlight {
-    color:rgb(16, 71, 102);
-    font-style: italic;
 }

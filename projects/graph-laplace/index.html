@@ -1,62 +1,60 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="author" content="Ronny Bergmann">
+  <meta name="description" content="Associate Profesor (førsteamanuensis) at the Department of Mathemmatical Sciences, Norwegian University of Science and Technology (NTNU), Trondheim, Norway">
+
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <script src="https://kit.fontawesome.com/fa161533a3.js" crossorigin="anonymous"></script>
-  <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="/libs/katex/katex.min.css">
 
   
   <link rel="stylesheet" href="/css/franklin.css">
-<link rel="stylesheet" href="/css/poole_hyde.css">
 <link rel="stylesheet" href="/css/liszt.css">
 <!-- style adjustments -->
-<style>
-  html {font-size: 17px;}
-  .franklin-content {position: relative; padding-left: 8%; padding-right: 5%; line-height: 1.35em;}
-  @media (min-width: 940px) {
-    .franklin-content {width: 100%; margin-left: auto; margin-right: auto;}
-  }
-  @media (max-width: 768px) {
-    .franklin-content {padding-left: 3%; padding-right: 3%;}
-  }
-</style>
 <link rel="icon" href="/assets/favicon.ico">
 
-   <title>Ronny Bergmann | Processing Manifold-valued Data on Finite Weighted Graphs</title>  
+   <title>Ronny Bergmann | Processing Manifold-valued Data on Finite Weighted Graphs</title> 
 </head>
 <body>
-  <div class="sidebar">
-    <div class="container sidebar-sticky">
-        <div class="sidebar-about">
-            <h3><a href="/">Ronny Bergmann</a></h3>
-            <p class="lead">Associate Professor.</p>
-        </div>
-        <nav class="sidebar-nav">
-            <a class="sidebar-nav-item " href="/">About</a>
-            <a class="sidebar-nav-item active" href="/projects/">Projects</a>
-            <a class="sidebar-nav-item " href="/publications/">Publications</a>
-            <a class="sidebar-nav-item " href="/teaching/">Teaching</a>
-            <a class="sidebar-nav-item " href="/students/">Students</a>
-            <a class="sidebar-nav-item " href="/talks/">Talks &amp; Conferences</a>
-            <a class="sidebar-nav-item " href="/contact/">Contact</a>
-        </nav>
-        <div class="navicons">
-            <a rel="me" href="https://scholar.social/@ronnybergmann" target="_blank" ald="Mastodon Scholar Social Account"><i class="fab fa-mastodon"></i></a>
-            <a rel="me" href="https://bsky.app/profile/ronnybergmann.net" target="_blank" alt="Bluesky Account"><i class="fab fa-bluesky"></i></a>
+  <header>
+    <nav id="navbar" class="navbar fixed-top" role="navigation">
+        <div class="navbar-icons" id="navbar-icons">
+            <a rel="me" href="https://scholar.social/@ronnybergmann" target="_blank" ald="Mastodon Scholar Social Account"><i
+            class="fab fa-mastodon"></i></a>
+            <a rel="me" href="https://bsky.app/profile/ronnybergmann.net" target="_blank" alt="Bluesky Account"><i
+            class="fab fa-bluesky"></i></a>
             <a href="https://github.com/kellertuer" target="_blank" alt="GitHub Account"><i class="fab fa-github"></i></a>
             <a href="https://orcid.org/0000-0001-8342-7218" target="_blank" alt="ORCiD"><i class="ai ai-orcid"></i></a>
             <a href="https://arxiv.org/a/0000-0001-8342-7218" target="_blank" alt="ArXiv"><i class="ai ai-arxiv"></i></a>
-            <a href="http://uni.ronnybergmann.net" target="_blank" alt="My university profile page at NTNU"><i class="fas fa-briefcase"></i></a>
+            <a href="http://uni.ronnybergmann.net" target="_blank" alt="My university profile page at NTNU"><i
+            class="fas fa-briefcase"></i></a>
+        </div>
+        <div class="text-right navbar-menu" id="navbar-main-menu">
+            <ul class="navbar-list">
+                <li class="nav-item home "><a class="sidebar-nav-item " href="/">Moin.</a></li>
+                <!-- <li class="nav-item {{ispage projects/*}}active{{end}}">  <a class="sidebar-nav-item " href="/projects/">Projects</a></li> -->
+                <li class="nav-item ">  <a class="sidebar-nav-item" href="/publications/">Publications</a></li>
+                <li class="nav-item "><a class="sidebar-nav-item" href="/teaching/">Teaching</a></li>
+                <li class="nav-item "> <a class="sidebar-nav-item" href="/students/">Students</a></li>
+                <li class="nav-item "> <a class="sidebar-nav-item" href="/talks/">Talks</a></li>
+                <li class="nav-item "><a class="sidebar-nav-item " href="/contact/"><i class="fa-regular fa-address-card"></i></a></li>
+                <li class="toggle-container">
+                    <button type="button" data-theme-toggle id="theme-toggle" title="Change theme">
+                        <i class="fa-regular fa-sun" id="toggle_icon_dark"></i>
+                        <i class="fa-solid fa-moon" id="toggle_icon_light"></i>
+                    </button>
+                </li>
+            </ul>
         </div>
     </div>
-</div>
-<div class="content container">
-
+</header>
 <!-- Content appended here -->
 <div class="franklin-content"><h1 id="processing_manifold-valued_data_on_finite_weighted_graphs"><a href="#processing_manifold-valued_data_on_finite_weighted_graphs" class="header-anchor">Processing Manifold-valued Data on Finite Weighted Graphs</a></h1>
 
@@ -191,7 +189,7 @@ in:  <span class="person unknown">Nielsen, F.</span>, <span class="person unknow
             <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0">
                 CC BY-NC-SA 4.0<img style="height:18px!important;margin-left:2px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" /><img style="height:18px!important;margin-left:2px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" /><img style="height:18px!important;margin-left:2px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" /><img style="height:18px!important;margin-left:2px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" /></a>.
             <br />
-            Last modified: February 21, 2025.
+            Last modified: April 06, 2025.
             Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
         </p>
   </div>
@@ -206,4 +204,5 @@ in:  <span class="person unknown">Nielsen, F.</span>, <span class="person unknow
     
     
   </body>
+  <script src="/assets/js/theme.js"></script>
 </html>
