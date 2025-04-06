@@ -116,8 +116,7 @@ ol div.item-icon-wrapper img {
     width: 125px;
     margin:0;
     padding:0;
-    border: 1px solid black;
-    border: 1px solid rgba(0, 0, 0, 0.5);
+    border: 1px solid var(--table-border-color);
 }
 
 /*
