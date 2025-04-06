@@ -1,6 +1,9 @@
-# Moin.
-
 @def title = "Moin."
+
+\ronnybergmann
+
+## Moin.
+
 
 \floatrightimg{/assets/ronnybergmann.jpg}{R. Bergmann}
 I am Associate Professor ([Førsteamanuensis](https://en.wikipedia.org/wiki/Academic_ranks_in_Norway#Associate_professor)) at the {{Institute IMF}}, {{Institute NTNU}} (NTNU) in Trondheim, Norway, since March 2021.

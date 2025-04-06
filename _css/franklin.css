@@ -6,7 +6,8 @@
   --background-color: #ffffff;
   --gray-color: var(--gray-color);;
   --highlight-color: #b509ac;
-  --highlight-color2: #e042da;
+  --highlight-color-brighter: #e042da; /* 50% brighter */
+  --highlight-color-darker: #5a0556; /* 50% darker */
   --line-color: #ECF5F9;
   --table-border-color: black;
   --text-color: #000000;
@@ -16,7 +17,8 @@
   --background-color: #000000;
   --gray-color: darkgrey;
   --highlight-color: #41a1c6;
-  --highlight-color2: #204e61;
+  --highlight-color-brighter: #a8d3e6; /* 50% brighter */
+  --highlight-color-darker: #205063; /* 50% darker */
   --line-color: #130A06;
   --table-border-color: white;
   --text-color: #ffffff;
@@ -39,7 +41,8 @@ li > p {margin: 0}
 ================================================================== */
 
 html {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
+  /* font-family: Helvetica, Arial, sans-serif;*/
   font-size: var(--normal);
   color: var(--text-color);
   background: var(--background-color);
@@ -341,6 +344,27 @@ code {
 }
 
 /* ==================================================================
+NAME design slug
+================================================================== */
+
+#ronnybergmann {
+  position:relative;
+  text-align: right;
+  white-space: nowrap;
+  font-size: 28px;
+  margin-bottom:-28px;
+}
+
+#ronnybergmann .firstname {
+  font-weight: 700;
+}
+#ronnybergmann .firstname:after {
+  content:" ";
+}
+#ronnybergmann .lastname {
+  font-weight: 300;
+}
+/* ==================================================================
     MENU
 ================================================================== */
 
@@ -352,7 +376,7 @@ code {
   z-index: 1030;
 }
 .navbar {
-  border-bottom: 1px solid var(--gray-color);
+/*  border-bottom: 1px solid var(--gray-color); */
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -360,11 +384,9 @@ code {
   opacity: 95%;
 }
 
-.navbar .navbar-icons a {
-  color: var(--highlight-color);
-}
+.navbar .navbar-icons a,
 .navbar .navbar-icons a i.ai-orcid {
-  color: var(--highlight-color);
+  color: var(--highlight-color-brighter);
 }
 .navbar .navbar-menu {
   display: inline-block;
@@ -394,8 +416,10 @@ code {
   text-decoration: none;
 }
 .navbar-menu ul li.active a {
-
   color: var(--highlight-color);
+}
+.navbar-menu ul li a:hover {
+  color: var(--highlight-color-brighter);
 }
 .navbar-menu ul li.home a {
   font-weight: bold;
@@ -411,29 +435,33 @@ code {
   font-size:larger;
 }
 
+#theme-toggle i:hover {
+  color: var(--highlight-color-brighter);
+}
+
 /*
 LISTS COLORS
 */
 
 ul.nav-icons li a {
-  color: var(--highlight-color);
+  color: var(--highlight-color-brighter);
 }
 
 span.highlight {
-  color: var(--highlight-color2);
+  color: var(--highlight-color);
 }
 .error {
   color: #CC3311;
 }
 span.institute {
-  color: var(--highlight-color2);
+  color: var(--highlight-color-brighter);
 }
 i.ai-orcid {
   color: #a6ce39;
 }
 
 dl.courses dd .name a {
-  color: var(--highlight-color2);
+  color: var(--highlight-color-brighter);
 }
 ol.literature li .li-label {
   color: var(--highlight-color);
