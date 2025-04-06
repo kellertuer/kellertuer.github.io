@@ -388,6 +388,10 @@ NAME design slug
 .navbar .navbar-icons a i.ai-orcid {
   color: var(--highlight-color-brighter);
 }
+.navbar .navbar-icons a:hover,
+.navbar .navbar-icons a:hover i.ai-orcid {
+  color: var(--highlight-color);
+}
 .navbar .navbar-menu {
   display: inline-block;
   margin-right: 1ex;
