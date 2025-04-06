@@ -26,9 +26,9 @@ function updateButton({buttonEl, isDark }) {
   //buttonEl.innerText = newCta;
   if (isDark) {
     document.getElementById("toggle_icon_dark").style.display = "none";
-    document.getElementById("toggle_icon_light").style.display = "block";
+    document.getElementById("toggle_icon_light").style.display = "inline";
   } else {
-    document.getElementById("toggle_icon_dark").style.display = "block";
+    document.getElementById("toggle_icon_dark").style.display = "inline";
     document.getElementById("toggle_icon_light").style.display = "none";
   }
 }

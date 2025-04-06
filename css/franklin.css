@@ -10,6 +10,7 @@
   --highlight-color-darker: #5a0556; /* 50% darker */
   --line-color: #ECF5F9;
   --table-border-color: black;
+  --dark-grey: #101010;
   --text-color: #000000;
 }
 
@@ -21,6 +22,7 @@
   --highlight-color-darker: #205063; /* 50% darker */
   --line-color: #130A06;
   --table-border-color: white;
+  --dark-grey: #EFEFEF;
   --text-color: #ffffff;
 }
 
@@ -31,7 +33,7 @@
 :root {
   --small: 14px;
   --normal: 19px;
-  --menu: 17px
+  --menu: 16px;
 }
 
 li > p {margin: 0}
@@ -77,6 +79,26 @@ html {
   font-size: 70%;
 }
 
+.floatleft {
+  width: auto;
+  float: left;
+  padding: 0;
+  margin-bottom: 1rem;
+  margin-left: 0rem;
+  margin-right: 2rem;
+  border-radius: 10px;
+}
+
+.floatright {
+  width: auto;
+  float: right;
+  padding: 0;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+  margin-right: 0rem;
+  border-radius: 10px;
+}
+
 /* ==================================================================
     FOOT / COPYRIGHT
 ================================================================== */
@@ -115,7 +137,7 @@ html {
 }
 
 .franklin-content {
-  margin-top: 6rem !important;
+  margin-top: 3rem !important;
 }
 
 .franklin-content, .navbar {
@@ -132,6 +154,41 @@ html {
     margin-left: auto;
     margin-right: auto;
   }
+}
+
+/* On medium / mobile devices -> switch to Hamburger */
+@media (max-width: 768px) {
+    #navbar-main-menu {
+        position: fixed;
+        left:200%;
+        top: 2rem;
+        background-color: var(--background-color);
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        margin-left:-1em;
+      }
+      #navbar-main-menu.active {
+        left:0;
+      }
+      #navbar-main-menu ul {
+        flex-direction: column;
+        text-align: right;
+      }
+      #navbar-main-menu ul li.toggle-container {
+        margin-top:1ex;
+      }
+      nav #navbar-hamburger {
+        display:inherit;
+      }
+      img.floatright, img.floatleft {
+        width: auto;
+        margin: 0 auto;
+        float: none;
+        display:block;
+        margin-bottom: 1rem;
+        border-radius: 10px;
+      }
 }
 
 /* On narrow device, reduce margins. */
@@ -279,12 +336,6 @@ td {
     IMAGES in CONTENT
 ================================================================== */
 
-.franklin-content img {
-  width: 70%;
-  text-align: center;
-  padding-left: 10%;
-}
-
 .franklin-content .img-small img {
   width: 50%;
   text-align: center;
@@ -351,8 +402,14 @@ NAME design slug
   position:relative;
   text-align: right;
   white-space: nowrap;
-  font-size: 28px;
   margin-bottom:-28px;
+  margin-top:-12px;
+  font-size: 20px;
+}
+/* Start page a bit larger */
+#ronnybergmann.rbmain {
+  margin-top: 0px;
+  font-size: 28px;
 }
 
 #ronnybergmann .firstname {
@@ -368,6 +425,10 @@ NAME design slug
     MENU
 ================================================================== */
 
+.header {
+  border-bottom: 1px solid var(--gray-color);
+}
+
 .fixed-top {
   position: fixed;
   top: 0;
@@ -379,11 +440,15 @@ NAME design slug
 /*  border-bottom: 1px solid var(--gray-color); */
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   align-items: center;
   background-color: var(--background-color);
   opacity: 95%;
 }
 
+.navbar .navbar-icons {
+  display: inline-block;
+}
 .navbar .navbar-icons a,
 .navbar .navbar-icons a i.ai-orcid {
   color: var(--highlight-color-brighter);
@@ -392,7 +457,8 @@ NAME design slug
 .navbar .navbar-icons a:hover i.ai-orcid {
   color: var(--highlight-color);
 }
-.navbar .navbar-menu {
+.navbar .navbar-menu-container,
+.navbar .navbar-hamburger {
   display: inline-block;
   margin-right: 1ex;
   line-height: inherit;
@@ -402,7 +468,7 @@ NAME design slug
   margin-left:auto;
 }
 
-.navbar-menu ul {
+.navbar-menu-container ul {
   list-style-type: none;
   display: flex;
   flex-direction: row;
@@ -411,38 +477,49 @@ NAME design slug
   display:flex;
 }
 
-.navbar-menu ul li {
+.navbar-menu-container ul li,
+#navbar-hamburger ul li {
   display: inline;
   padding-left: 1ex;
 }
-.navbar-menu ul li a {
+.navbar-menu-container ul li a,
+#navbar-hamburger ul li a {
   color: var(--text-color);
   text-decoration: none;
 }
-.navbar-menu ul li.active a {
+.navbar-menu-container ul li.active a {
   color: var(--highlight-color);
 }
-.navbar-menu ul li a:hover {
+.navbar-menu-container ul li a:hover {
   color: var(--highlight-color-brighter);
 }
-.navbar-menu ul li.home a {
+.navbar-menu-container ul li.home a {
   font-weight: bold;
 }
-.navbar-menu ul .toggle-container {
-  padding-left: 1.5rem;
+.navbar-menu-container ul .toggle-container {
+  padding-left: 1rem;
 }
-#theme-toggle {
+#theme-toggle, #menu-toggle {
   padding: 0;
   border: 0;
   background-color: inherit;
   color: var(--global-text-color);
-  font-size:larger;
+  font-size: var(--normal);
 }
 
 #theme-toggle i:hover {
   color: var(--highlight-color-brighter);
 }
 
+/*
+Hamburger
+*/
+
+#navbar-hamburger {
+  display: none;
+}
+.hamburger i {
+}
 /*
 LISTS COLORS
 */

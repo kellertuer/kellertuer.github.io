@@ -23,8 +23,8 @@
    <title>Ronny Bergmann | Processing Manifold-valued Data on Finite Weighted Graphs</title> 
 </head>
 <body>
-  <header>
-    <nav id="navbar" class="navbar fixed-top" role="navigation">
+  <header class="header">
+    <nav class="navbar fixed-top" role="navigation">
         <div class="navbar-icons" id="navbar-icons">
             <a rel="me" href="https://scholar.social/@ronnybergmann" target="_blank" ald="Mastodon Scholar Social Account"><i
             class="fab fa-mastodon"></i></a>
@@ -33,22 +33,33 @@
             <a href="https://github.com/kellertuer" target="_blank" alt="GitHub Account"><i class="fab fa-github"></i></a>
             <a href="https://orcid.org/0000-0001-8342-7218" target="_blank" alt="ORCiD"><i class="ai ai-orcid"></i></a>
             <a href="https://arxiv.org/a/0000-0001-8342-7218" target="_blank" alt="ArXiv"><i class="ai ai-arxiv"></i></a>
+            <a href="https://scholar.google.de/citations?user=0zk7y3cAAAAJ&hl=en" target="_blank" alt="google scholar"><i class="ai ai-google-scholar"></i></a>
             <a href="http://uni.ronnybergmann.net" target="_blank" alt="My university profile page at NTNU"><i
             class="fas fa-briefcase"></i></a>
         </div>
-        <div class="text-right navbar-menu" id="navbar-main-menu">
+        <div class="text-right navbar-menu-container" id="navbar-main-menu">
             <ul class="navbar-list">
-                <li class="nav-item home "><a class="sidebar-nav-item " href="/">Moin.</a></li>
-                <!-- <li class="nav-item {{ispage projects/*}}active{{end}}">  <a class="sidebar-nav-item " href="/projects/">Projects</a></li> -->
+                <li class="nav-item home "><a class="nav-link" href="/">Moin.</a></li>
+                <!-- <li class="nav-item {{ispage projects/*}}active{{end}}">  <a class="nav-link" href="/projects/">Projects</a></li> -->
                 <li class="nav-item ">  <a class="sidebar-nav-item" href="/publications/">Publications</a></li>
                 <li class="nav-item "><a class="sidebar-nav-item" href="/teaching/">Teaching</a></li>
                 <li class="nav-item "> <a class="sidebar-nav-item" href="/students/">Students</a></li>
                 <li class="nav-item "> <a class="sidebar-nav-item" href="/talks/">Talks</a></li>
-                <li class="nav-item "><a class="sidebar-nav-item " href="/contact/"><i class="fa-regular fa-address-card"></i></a></li>
+                <li class="nav-item "><a class="nav-link" href="/contact/"><i class="fa-regular fa-address-card"></i></a></li>
                 <li class="toggle-container">
                     <button type="button" data-theme-toggle id="theme-toggle" title="Change theme">
                         <i class="fa-regular fa-sun" id="toggle_icon_dark"></i>
                         <i class="fa-solid fa-moon" id="toggle_icon_light"></i>
+                    </button>
+                </li>
+            </ul>
+        </div>
+        <div class="text-right navbar-menu-container" id="navbar-hamburger">
+            <ul class="navbar-list">
+                <li class="toggle-container">
+                    <button type="button" data-menu-toggle id="menu-toggle" title="toggle hamburger menu">
+                        <i class="fa-solid fa-bars" id="toggle-icon-menu"></i>
+                        <i class="fa-solid fa-x" id="toggle-icon-close"></i>
                     </button>
                 </li>
             </ul>
@@ -204,5 +215,6 @@ in:  <span class="person unknown">Nielsen, F.</span>, <span class="person unknow
     
     
   </body>
-  <script src="/assets/js/theme.js"></script>
+<script src="/assets/js/theme.js"></script>
+<script src="/assets/js/hamburger.js"></script>
 </html>

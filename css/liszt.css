@@ -289,24 +289,6 @@ ul.conferences li span.end:after {
 /*
  * List I Students
  */
-img.floatleft {
-    width: auto;
-    float: left;
-    padding: 0;
-    margin-bottom: 1rem;
-    margin-left: 0rem;
-    margin-right: 2rem;
-    border-radius: 10px;
-}
-img.floatright {
-    width: auto;
-    float: right;
-    padding: 0;
-    margin-bottom: 1rem;
-    margin-left: 2rem;
-    margin-right: 0rem;
-    border-radius: 10px;
-}
 dl.supervised dt {
     width: 6rem;
     float: left;
