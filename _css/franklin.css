@@ -166,7 +166,8 @@ html {
         width: 100%;
         text-align: center;
         transition: 0.3s;
-        margin-left:-1em;
+        padding-right:2rem;
+        margin-left: -1.5rem;
       }
       #navbar-main-menu.active {
         left:0;
