@@ -403,12 +403,13 @@ NAME design slug
   text-align: right;
   white-space: nowrap;
   margin-bottom:-28px;
-  margin-top:-12px;
+  margin-top:-6px;
   font-size: 20px;
 }
 /* Start page a bit larger */
 #ronnybergmann.rbmain {
   margin-top: 0px;
+  margin-top: -12px;
   font-size: 28px;
 }
 
