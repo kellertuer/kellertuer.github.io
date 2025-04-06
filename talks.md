@@ -1,5 +1,7 @@
 @def title = "Talks & Conferences"
 
+\ronnybergmann{normal}
+
 # Talks & Conferences
 
 ## Selected talks

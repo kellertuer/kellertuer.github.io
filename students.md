@@ -1,6 +1,8 @@
-# Students
+@def title = "Students."
 
-@def title = "Students"
+\ronnybergmann{normal}
+
+# Students
 
 ## PhD Students
 {{students phd-active}}

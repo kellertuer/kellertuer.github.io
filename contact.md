@@ -1,6 +1,8 @@
-# Contact
-
 @def title = "Contact."
+
+\ronnybergmann{normal}
+
+# Contact
 
 ~~~
 Ronny Bergmann<br/>
@@ -17,7 +19,7 @@ Office: <a href="https://link.mazemap.com/zarL7kJo" target="_blank">Sentralbygg 
 <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=10.386529695242645%2C63.41164048507657%2C10.421763192862274%2C63.42356613469509&amp;layer=mapnik&amp;marker=63.41760392997316%2C10.404146444052458" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=63.4176&amp;mlon=10.4041#map=15/63.4176/10.4041&amp;layers=N">Show in larger map</a></small>
 ~~~
 
-### Miscelanea
+## Miscelanea
 
 * My [Erd&#337;s number](https://oakland.edu/enp/) is 3, by courtesy of {{person "Jürgen Prestin"}}.
 * you can find me within the [Mathematics Genealogy Project](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=180383)

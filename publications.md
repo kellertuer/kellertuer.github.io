@@ -1,6 +1,8 @@
-# Publications
-
 @def title = "Publications."
+
+\ronnybergmann{normal}
+
+# Publications
 
 {{bibliography online data/bibliography.yaml Preprints}}
 
