@@ -1,41 +1,32 @@
 <header>
-    <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation">
-        <div class="container"> <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse"
-                data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span
-                    class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button>
-            <div class="container">
-                <div class="navicons">
-                    <a rel="me" href="https://scholar.social/@ronnybergmann" target="_blank" ald="Mastodon Scholar Social Account"><i
-                    class="fab fa-mastodon"></i></a>
-                    <a rel="me" href="https://bsky.app/profile/ronnybergmann.net" target="_blank" alt="Bluesky Account"><i
-                    class="fab fa-bluesky"></i></a>
-                    <a href="https://github.com/kellertuer" target="_blank" alt="GitHub Account"><i class="fab fa-github"></i></a>
-                    <a href="https://orcid.org/0000-0001-8342-7218" target="_blank" alt="ORCiD"><i class="ai ai-orcid"></i></a>
-                    <a href="https://arxiv.org/a/0000-0001-8342-7218" target="_blank" alt="ArXiv"><i class="ai ai-arxiv"></i></a>
-                    <a href="http://uni.ronnybergmann.net" target="_blank" alt="My university profile page at NTNU"><i
-                    class="fas fa-briefcase"></i></a>
-        </div>                </a>
-            </div>
-            <div class="collapse navbar-collapse text-right" id="navbarNav">
-                <ul class="navbar-nav ml-auto flex-nowrap">
-                    <li class="nav-item {{ispage index.html}}active{{end}}"><a class="sidebar-nav-item " href="/">Moin.</a></li>
-                    <li class="nav-item {{ispage projects/*}}active{{end}}">  <a class="sidebar-nav-item " href="/projects/">Projects</a></li>
-                    <li class="nav-item {{ispage publications/*}}active{{end}}">  <a class="sidebar-nav-item" href="/publications/">Publications</a></li>
-                    <li class="nav-item {{ispage teaching/*}}active{{end}}"><a class="sidebar-nav-item" href="/teaching/">Teaching</a></li>
-                    <li class="nav-item {{ispage students/*}}active{{end}}"> <a class="sidebar-nav-item" href="/students/">Students</a></li>
-                    <li class="nav-item {{ispage talks/*}}active{{end}}"> <a class="sidebar-nav-item" href="/talks/">Talks</a></li>
-                    <li class="nav-item {{ispage contact/*}}active{{end}}"><a class="sidebar-nav-item " href="/contact/"><i class="fa-regular fa-address-card"></i></a></li>
-                    <li class="toggle-container">
-                        <button id="light-toggle" title="Change theme">
-                            <i class="fa-regular fa-user" id="light-toggle-system"></i>
-                            <i class="fa-solid fa-moon" id="light-toggle-dark"></i>
-                            <i class="fa-regular fa-sun" id="light-toggle-light"></i>
-                        </button> </li>
-                </ul>
-            </div>
+    <nav id="navbar" class="navbar fixed-top" role="navigation">
+        <div class="navbar-icons" id="navbar-icons">
+            <a rel="me" href="https://scholar.social/@ronnybergmann" target="_blank" ald="Mastodon Scholar Social Account"><i
+            class="fab fa-mastodon"></i></a>
+            <a rel="me" href="https://bsky.app/profile/ronnybergmann.net" target="_blank" alt="Bluesky Account"><i
+            class="fab fa-bluesky"></i></a>
+            <a href="https://github.com/kellertuer" target="_blank" alt="GitHub Account"><i class="fab fa-github"></i></a>
+            <a href="https://orcid.org/0000-0001-8342-7218" target="_blank" alt="ORCiD"><i class="ai ai-orcid"></i></a>
+            <a href="https://arxiv.org/a/0000-0001-8342-7218" target="_blank" alt="ArXiv"><i class="ai ai-arxiv"></i></a>
+            <a href="http://uni.ronnybergmann.net" target="_blank" alt="My university profile page at NTNU"><i
+            class="fas fa-briefcase"></i></a>
         </div>
-    </nav> <progress id="progress" value="0" style="top: 57px;" max="318">
-        <div class="progress-container"> <span class="progress-bar"></span> </div>
-    </progress>
+        <div class="text-right navbar-menu" id="navbar-main-menu">
+            <ul class="navbar-list">
+                <li class="nav-item home {{ispage index.html}}active{{end}}"><a class="sidebar-nav-item " href="/">Moin.</a></li>
+                <!-- <li class="nav-item {{ispage projects/*}}active{{end}}">  <a class="sidebar-nav-item " href="/projects/">Projects</a></li> -->
+                <li class="nav-item {{ispage publications/*}}active{{end}}">  <a class="sidebar-nav-item" href="/publications/">Publications</a></li>
+                <li class="nav-item {{ispage teaching/*}}active{{end}}"><a class="sidebar-nav-item" href="/teaching/">Teaching</a></li>
+                <li class="nav-item {{ispage students/*}}active{{end}}"> <a class="sidebar-nav-item" href="/students/">Students</a></li>
+                <li class="nav-item {{ispage talks/*}}active{{end}}"> <a class="sidebar-nav-item" href="/talks/">Talks</a></li>
+                <li class="nav-item {{ispage contact/*}}active{{end}}"><a class="sidebar-nav-item " href="/contact/"><i class="fa-regular fa-address-card"></i></a></li>
+                <li class="toggle-container">
+                    <button type="button" data-theme-toggle id="theme-toggle" title="Change theme">
+                        <i class="fa-regular fa-sun" id="toggle_icon_dark"></i>
+                        <i class="fa-solid fa-moon" id="toggle_icon_light"></i>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
 </header>

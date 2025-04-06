@@ -1,10 +1,35 @@
 /* ==================================================================
+    COLOR SCHEME AND VARIABLES
+================================================================== */
+
+[data-theme="light"] {
+  --background-color: #ffffff;
+  --gray-color: var(--gray-color);;
+  --highlight-color: #b509ac;
+  --highlight-color2: #e042da;
+  --line-color: #ECF5F9;
+  --table-border-color: black;
+  --text-color: #000000;
+}
+
+[data-theme="dark"] {
+  --background-color: #000000;
+  --gray-color: darkgrey;
+  --highlight-color: #41a1c6;
+  --highlight-color2: #204e61;
+  --line-color: #130A06;
+  --table-border-color: white;
+  --text-color: #ffffff;
+}
+
+/* ==================================================================
     VARIABLES
 ================================================================== */
 
 :root {
   --small: 14px;
   --normal: 19px;
+  --menu: 17px
 }
 
 li > p {margin: 0}
@@ -61,10 +86,10 @@ html {
 .page-foot {
   font-size: 80%;
   font-family: Arial, serif;
-  color: #a6a2a0;
+  color: var(--gray-color);
   text-align: center;
   margin-top: 6em;
-  border-top: 1px solid lightgrey;
+  border-top: 1px solid var(--gray-color);;
   padding-top: 2em;
   margin-bottom: 4em;
 }
@@ -87,6 +112,10 @@ html {
 }
 
 .franklin-content {
+  margin-top: 6rem !important;
+}
+
+.franklin-content, .navbar {
   position: relative;
   padding-left: 12.5%;
   padding-right: 12.5%;
@@ -95,7 +124,7 @@ html {
 
 /* On wide screens, fix content width to a max value. */
 @media (min-width: 940px) {
-  .franklin-content {
+  .franklin-content, .navbar {
     width: 705px;
     margin-left: auto;
     margin-right: auto;
@@ -104,7 +133,7 @@ html {
 
 /* On narrow device, reduce margins. */
 @media (max-width: 480px) {
-  .franklin-content {
+  .franklin-content, .navbar {
     padding-left: 6%;
     padding-right: 6%;
   }
@@ -133,14 +162,14 @@ h6 {
 
 .franklin-content h1 {
   padding-bottom: 0.5em;
-  border-bottom: 3px #ECF5F9;
+  border-bottom: 3px var(--line-color);
   margin-top: 1.5em;
   margin-bottom: 1em;
 }
 
 .franklin-content h2 {
   padding-bottom: 0.3em;
-  border-bottom: 1px solid #ECF5F9;
+  border-bottom: 1px solid var(--line-color);
   margin-top: 2em;
   margin-bottom: 1em;
 }
@@ -169,12 +198,12 @@ h6 {
 td {
   font-size: var(--small);
   padding: 10px;
-  border: 1px solid black;
+  border: 1px solid var(--table-border-color);
 }
 
 .franklin-content blockquote {
   background: var(--block-background);
-  border-left: 7px solid #a8a8a8;
+  border-left: 7px solid var(--gray-color);
   margin: 1.5em 10px;
   padding: 0.5em 10px;
   font-style: italic;
@@ -194,7 +223,7 @@ td {
 }
 
 .franklin-content a {
-  color: #41a1c6;
+  color: var(--highlight-color);
   text-decoration: none;
 }
 
@@ -294,32 +323,6 @@ code {
   font-size: var(--small);
 }
 
-/* .franklin-content code { */
-
-/* background-color: rgba(27,31,35,0.05); */
-
-/* padding: 0.1em 0.2em; */
-
-/* border-radius: 2px; */
-
-/* font-size: 90%; } */
-
-.hljs {
-  font-size: var(--small);
-  line-height: 1.35em;
-  border-radius: 10px;
-}
-
-.hljs-meta,
-.hljs-metas,
-.hljs-metap { font-weight: bold; }
-
-.hljs-meta { color: rgb(25, 179, 51); }
-
-.hljs-metas { color: red; }
-
-.hljs-metap { color: rgb(51, 131, 231); }
-
 /* ==================================================================
     BOXES
 ================================================================== */
@@ -334,21 +337,104 @@ code {
   margin-top: 5px;
   margin-bottom: 5px;
   border-radius: 0 10px 10px 0;
-  border-left: 5px solid #4c9cf1;
+  border-left: 5px solid;
 }
 
 /* ==================================================================
     MENU
 ================================================================== */
 
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
 .navbar {
-  flex-wrap: nowrap;
+  border-bottom: 1px solid var(--gray-color);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: var(--background-color);
+  opacity: 95%;
 }
-.navbar-nav {
-    display: flex !important;
-    flex-basis: auto;
+
+.navbar .navbar-icons a {
+  color: var(--highlight-color);
 }
-.navbar-nav .nav-item {
-  padding-right: .5rem;
-  padding-left: .5rem;
+.navbar .navbar-icons a i.ai-orcid {
+  color: var(--highlight-color);
+}
+.navbar .navbar-menu {
+  display: inline-block;
+  margin-right: 1ex;
+  line-height: inherit;
+  white-space: nowrap;
+  font-size: var(--menu);
+  width:auto;
+  margin-left:auto;
+}
+
+.navbar-menu ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  padding-left: 1ex;
+  list-style: none;
+  display:flex;
+}
+
+.navbar-menu ul li {
+  display: inline;
+  padding-left: 1ex;
+}
+.navbar-menu ul li a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+.navbar-menu ul li.active a {
+
+  color: var(--highlight-color);
+}
+.navbar-menu ul li.home a {
+  font-weight: bold;
+}
+.navbar-menu ul .toggle-container {
+  padding-left: 1.5rem;
+}
+#theme-toggle {
+  padding: 0;
+  border: 0;
+  background-color: inherit;
+  color: var(--global-text-color);
+  font-size:larger;
+}
+
+/*
+LISTS COLORS
+*/
+
+ul.nav-icons li a {
+  color: var(--highlight-color);
+}
+
+span.highlight {
+  color: var(--highlight-color2);
+}
+.error {
+  color: #CC3311;
+}
+span.institute {
+  color: var(--highlight-color2);
+}
+i.ai-orcid {
+  color: #a6ce39;
+}
+
+dl.courses dd .name a {
+  color: var(--highlight-color2);
+}
+ol.literature li .li-label {
+  color: var(--highlight-color);
 }

@@ -2,7 +2,7 @@
 
 @def title = "Moin."
 
-\floatleftimg{/assets/ronnybergmann.jpg}{R. Bergmann}
+\floatrightimg{/assets/ronnybergmann.jpg}{R. Bergmann}
 I am Associate Professor ([Førsteamanuensis](https://en.wikipedia.org/wiki/Academic_ranks_in_Norway#Associate_professor)) at the {{Institute IMF}}, {{Institute NTNU}} (NTNU) in Trondheim, Norway, since March 2021.
 I was a postdoctoral researcher and deputy head of the
 {{institute NumaPDE}} {{institute TUC}}, led by {{person "Roland Herzog"}}, which I joined in April 2018 (since April 2021: {{institute scoop short}}@IWR Heidelberg).

@@ -1,9 +1,0 @@
-:root {
-    --block-background: #080808;
-    --background-color: #080808;
-    --text-color: hsv(0, 0%, 20%);
-}
-
-.franklin-content .page-foot a {
-    color: #3d3b3b;
-}
