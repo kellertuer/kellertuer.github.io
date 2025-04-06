@@ -403,23 +403,27 @@ NAME design slug
   text-align: right;
   white-space: nowrap;
   margin-bottom:-28px;
-  margin-top:-6px;
+  margin-top: 0px;
+  margin-right: -1.5rem;
   font-size: 20px;
 }
 /* Start page a bit larger */
 #ronnybergmann.rbmain {
   margin-top: 0px;
-  margin-top: -12px;
+  margin-top: 0px;
   font-size: 28px;
 }
 
 #ronnybergmann .firstname {
   font-weight: 700;
-}
-#ronnybergmann .firstname:after {
-  content:" ";
+  margin-right:.33rem;
 }
 #ronnybergmann .lastname {
+  font-weight: 300;
+}
+#ronnybergmann .domain {
+  color: var(--highlight-color);
+  font-size: small;
   font-weight: 300;
 }
 /* ==================================================================
@@ -427,7 +431,6 @@ NAME design slug
 ================================================================== */
 
 .header {
-  border-bottom: 1px solid var(--gray-color);
 }
 
 .fixed-top {
