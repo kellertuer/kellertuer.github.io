@@ -9,7 +9,7 @@
   --highlight-color-brighter: #e042da; /* 50% brighter */
   --highlight-color-darker: #5a0556; /* 50% darker */
   --line-color: #ECF5F9;
-  --table-border-color: black;
+  --table-border-color: rgba(0, 0, 0, 0.5);
   --dark-grey: #101010;
   --text-color: #000000;
 }
@@ -21,7 +21,7 @@
   --highlight-color-brighter: #a8d3e6; /* 50% brighter */
   --highlight-color-darker: #205063; /* 50% darker */
   --line-color: #130A06;
-  --table-border-color: white;
+  --table-border-color: rgba(255, 255, 255, 0.33);
   --dark-grey: #EFEFEF;
   --text-color: #ffffff;
 }
