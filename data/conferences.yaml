@@ -527,11 +527,11 @@ RRW2011:
   end: 2011-02-05
 Dagstuhl2011:
   talk: true
-  name: 21. Rhein-Ruhr Workshop
-  url: http://www.fernuni-hagen.de/numerik/ORR+RRW/RRW/ArchivRRW/WS10-11/workshop2011.html
-  place: Königswinter, Germany
-  start: 2011-02-04
-  end: 2011-02-05
+  name: "Dagstuhl Seminar: Sparse Representations and Efficient Sensing of Data"
+  url: https://www.dagstuhl.de/seminars/seminar-calendar/seminar-details/11051
+  place: Dagstuhl, Germany
+  start: 2011-01-30
+  end: 2011-02-04
 SAA23011:
   name: Summer School on Applied Analysis 2011
   talk: false

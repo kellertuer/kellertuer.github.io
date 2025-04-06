@@ -29,4 +29,4 @@ For instance:
 \newcommand{\highlight}[1]{~~~<span class="highlight">#1</span>~~~}
 \newcommand{\floatleftimg}[2]{~~~<img src="#1" alt="#2" class="floatleft"/>~~~}
 \newcommand{\floatrightimg}[2]{~~~<img src="#1" alt="#2" class="floatright"/>~~~}
-\newcommand{\ronnybergmann}[1]{~~~<div class="rb#1" id="ronnybergmann"><span class="firstname">Ronny</span><span class="lastname">Bergmann</span></div>~~~}
+\newcommand{\ronnybergmann}[1]{~~~<div class="rb#1" id="ronnybergmann"><span class="firstname">Ronny</span><span class="lastname">Bergmann</span><span class="domain">.net</span></div>~~~}
