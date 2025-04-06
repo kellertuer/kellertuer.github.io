@@ -170,7 +170,7 @@ div.bibtex div.content {
     padding-bottom:0px;
     font-weight:normal;
     padding-left: 2%;
-    border-left: 1px solid black;
+    border-left: 1px solid var(--table-border-color);
     /* otherwise killed by FA6 :( */
     font-family: "PT Sans", Helvetica, Arial, sans-serif;
     font-size: -1;
