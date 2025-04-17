@@ -290,6 +290,15 @@ people:
             full: Mathias Ravn Munkvold
             bib: Munkvold, M. R.
             short: M. R. Munkvold
+    Sandor Z. Nemeth:
+        affiliation: University of Birmingham
+        name:
+            full: Sándor Zoltán Németh
+            bib: Németh, S. Z.
+            short: S. Z. Németh
+        orcid: 0000-0001-9768-4530
+        title: Prof. Dr.
+        url: https://web.mat.bham.ac.uk/S.Z.Nemeth/
     Sebastian Neumayer:
         affiliation: TU Chemnitz
         name:
@@ -530,6 +539,12 @@ people:
             bib: Wünsche, E.
             full: Erik Wünsche
             short: E. Wünsche
+    Jinzhen Zhu:
+        affiliation: Univesity of Birmingham
+        name:
+            bib:  Zhu, J.
+            full: Jinzhen Zhu
+            short: J. Zhu
     Ralf Zimmermann:
         affilitation: SDU Odense
         name:
@@ -540,6 +555,9 @@ people:
         url: https://portal.findresearcher.sdu.dk/da/persons/zimmermann
         orcid: 0000-0003-1692- 3996
 institutes:
+    'University of Birmingham':
+        name: Theoretical & Computational Optimization Group, School of Mathematics, University of Birmingham
+        url: https://www.birmingham.ac.uk/research/activity/mathematics/optimisation-numerical-analysis
     'FGAW':
         name: Fachgruppe “Angewandte Mathematik”
         short: FG angew. Math.
