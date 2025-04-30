@@ -40,12 +40,23 @@
         <div class="text-right navbar-menu-container" id="navbar-main-menu">
             <ul class="navbar-list">
                 <li class="nav-item home "><a class="nav-link" href="/">Moin.</a></li>
-                <!-- <li class="nav-item {{ispage projects/*}}active{{end}}">  <a class="nav-link" href="/projects/">Projects</a></li> -->
-                <li class="nav-item ">  <a class="sidebar-nav-item" href="/publications/">Publications</a></li>
-                <li class="nav-item "><a class="sidebar-nav-item" href="/teaching/">Teaching</a></li>
-                <li class="nav-item "> <a class="sidebar-nav-item" href="/students/">Students</a></li>
-                <li class="nav-item "> <a class="sidebar-nav-item" href="/talks/">Talks</a></li>
-                <li class="nav-item "><a class="nav-link" href="/contact/"><i class="fa-regular fa-address-card"></i></a></li>
+                <li class="nav-item research active  ">
+                    <a><i class="fa-regular fa-book-open-reader"></i> Research</a>
+                    <ul class="submenu">
+                        <li class="nav-item "> <a class="sidebar-nav-item" href="/talks/">Talks</a></li>
+                        <li class="nav-item "> <a class="sidebar-nav-item"
+                    href="/publications/">Publications</a></li>
+                        <li class="nav-item active">  <a class="nav-link" href="/projects/">Projects</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item research  ">
+                    <a><i class="fa-regular fa-chalkboard"></i> Teaching</a>
+                    <ul class="submenu">
+                        <li class="nav-item "><a class="sidebar-nav-item" href="/lectures/"> Lectures</a></li>
+                        <li class="nav-item "> <a class="sidebar-nav-item" href="/students/">Students</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item "><a class="nav-link" href="/contact/"><i class="fa-regular fa-address-card"></i> Contact</a></li>
                 <li class="toggle-container">
                     <button type="button" data-theme-toggle id="theme-toggle" title="Change theme">
                         <i class="fa-regular fa-sun" id="toggle_icon_dark"></i>
@@ -71,7 +82,50 @@
 <h1 id="projects"><a href="#projects" class="header-anchor">Projects</a></h1>
 <dl class="projectlist">
           <dt>
-        <span class="title">Manifolds.jl</span>
+        <span class="title">LieGroups.jl</span>
+        
+   </dt>
+   <dd>
+   <div class="info">
+        <span class="logo"><img src="../assets/projects/liegroupsjl-logo.png"/></span>
+
+        <span class="link"><a href="https://juliamanifolds.github.io/LieGroups.jl/">JuliaManifolds</a></span>
+        <span class="timespan">
+since 2024
+</span>
+
+        <span class="collaborators">
+          <ul>
+          <li>
+            <span class="person">M. Baran</span><sup><a href="https://orcid.org/0000-0001-9667-5579"><i class="ai ai-orcid"></i></a></sup></li>
+          </ul>
+
+   </div>
+   <p><a href="https://juliamanifolds.github.io/LieGroups.jl/stable/">LieGroups.jl</a> implements an interface to implement Lie Groups and their corresponding Lie algebras as well as a library of Lie groups. These are build upon <a href="https://juliamanifolds.github.io/Manifolds.jl/stable/">Manifolds.jl</a>.</p>
+
+   
+   </dd>
+<dt>
+        <span class="title">Ethiopian Norwegian network in computational mathematics</span>
+        
+   </dt>
+   <dd>
+   <div class="info">
+        <span class="logo"><img src="../assets/projects/ENNCoMat-logo.png"/></span>
+
+        <span class="link"><a href="https://www.ntnu.edu/imf/enncomat">ENNCoMat</a></span>
+        <span class="timespan">
+since 2022
+</span>
+
+        
+   </div>
+   <p></p>
+
+   
+   </dd>
+<dt>
+        <span class="title">Manifolds.jl & ManifoldsBase.jl</span>
         
    </dt>
    <dd>
@@ -125,7 +179,7 @@ since 2016
 
         
         <span class="timespan">
-since 2016
+2016&mdash;2019
 </span>
 
         <span class="collaborators">
@@ -242,7 +296,7 @@ since 2016
             <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0">
                 CC BY-NC-SA 4.0<img style="height:18px!important;margin-left:2px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" /><img style="height:18px!important;margin-left:2px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" /><img style="height:18px!important;margin-left:2px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" /><img style="height:18px!important;margin-left:2px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" /></a>.
             <br />
-            Last modified: April 24, 2025.
+            Last modified: April 30, 2025.
             Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
         </p>
   </div>

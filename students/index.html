@@ -40,12 +40,23 @@
         <div class="text-right navbar-menu-container" id="navbar-main-menu">
             <ul class="navbar-list">
                 <li class="nav-item home "><a class="nav-link" href="/">Moin.</a></li>
-                <!-- <li class="nav-item {{ispage projects/*}}active{{end}}">  <a class="nav-link" href="/projects/">Projects</a></li> -->
-                <li class="nav-item ">  <a class="sidebar-nav-item" href="/publications/">Publications</a></li>
-                <li class="nav-item "><a class="sidebar-nav-item" href="/teaching/">Teaching</a></li>
-                <li class="nav-item active"> <a class="sidebar-nav-item" href="/students/">Students</a></li>
-                <li class="nav-item "> <a class="sidebar-nav-item" href="/talks/">Talks</a></li>
-                <li class="nav-item "><a class="nav-link" href="/contact/"><i class="fa-regular fa-address-card"></i></a></li>
+                <li class="nav-item research   ">
+                    <a><i class="fa-regular fa-book-open-reader"></i> Research</a>
+                    <ul class="submenu">
+                        <li class="nav-item "> <a class="sidebar-nav-item" href="/talks/">Talks</a></li>
+                        <li class="nav-item "> <a class="sidebar-nav-item"
+                    href="/publications/">Publications</a></li>
+                        <li class="nav-item ">  <a class="nav-link" href="/projects/">Projects</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item research  active">
+                    <a><i class="fa-regular fa-chalkboard"></i> Teaching</a>
+                    <ul class="submenu">
+                        <li class="nav-item "><a class="sidebar-nav-item" href="/lectures/"> Lectures</a></li>
+                        <li class="nav-item active"> <a class="sidebar-nav-item" href="/students/">Students</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item "><a class="nav-link" href="/contact/"><i class="fa-regular fa-address-card"></i> Contact</a></li>
                 <li class="toggle-container">
                     <button type="button" data-theme-toggle id="theme-toggle" title="Change theme">
                         <i class="fa-regular fa-sun" id="toggle_icon_dark"></i>
@@ -97,7 +108,20 @@
 Mesh adaptive direct search
 </a>
 solver variant LTMADS, available within <a href="https://manoptjl.org">Manopt.jl</a>.
-</a>
+</a><ul class="nav nav-icons">
+   <li>
+       <a href="https://hdl.handle.net/11250/3189974" title="https://hdl.handle.net/11250/3189974" target="_blank">
+           <i class="fas fa-lg fa-link"></i>
+       </a>
+    </li>
+   <li>
+       <a href="https://ntnuopen.ntnu.no/ntnu-xmlui/bitstream/handle/11250/3189974/no.ntnu%3ainspera%3a254283456%3a34541669.pdf" title="https://ntnuopen.ntnu.no/ntnu-xmlui/bitstream/handle/11250/3189974/no.ntnu%3ainspera%3a254283456%3a34541669.pdf" target="_blank">
+           <i class="fas fa-lg fa-file-pdf"></i>
+       </a>
+    </li>
+
+</ul>
+
 </dd>
 
 
@@ -624,7 +648,7 @@ and the <a href="https://juliamanifolds.github.io/Manifolds.jl/stable/manifolds/
             <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0">
                 CC BY-NC-SA 4.0<img style="height:18px!important;margin-left:2px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" /><img style="height:18px!important;margin-left:2px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" /><img style="height:18px!important;margin-left:2px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" /><img style="height:18px!important;margin-left:2px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" /></a>.
             <br />
-            Last modified: April 24, 2025.
+            Last modified: April 30, 2025.
             Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
         </p>
   </div>
