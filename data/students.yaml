@@ -18,6 +18,8 @@
     Mesh adaptive direct search
     </a>
     solver variant LTMADS, available within <a href="https://manoptjl.org">Manopt.jl</a>.
+  link: https://hdl.handle.net/11250/3189974
+  pdf: https://ntnuopen.ntnu.no/ntnu-xmlui/bitstream/handle/11250/3189974/no.ntnu%3ainspera%3a254283456%3a34541669.pdf
 
 - name: Jo Stokke
   finished: 2024-07-22

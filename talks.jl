@@ -7,14 +7,14 @@ conferences = YAML.load_file("data/conferences.yaml")
 organized = ["FNDG24"]
 exclude_conf = organized
 
-function isless_talks(a::Dict,b::Dict)
+function isless_talks(a::Dict, b::Dict)
     !haskey(a, "key") && error("Talk $a is missing a key")
     !haskey(b, "key") && error("Talk $b is missing a key")
     !haskey(a, "date") && error("Talk $(a["key"]) is missing a date")
     !haskey(b, "date") && error("Talk $(b["key"]) is missing a date")
     date_a = parse(Date, string(a["date"]))
     date_b = parse(Date, string(b["date"]))
-    return !(isless(date_a,date_b))
+    return !(isless(date_a, date_b))
 end
 
 """
@@ -22,7 +22,7 @@ end
 print the list of talks, either all grouped by year or the
 highlights orderred by their selected order
 """
-function hfun_talks(params::Vector{String}=String[])
+function hfun_talks(params::Vector{String} = String[])
     highlights = false
     group_by_year = true
     if length(params) > 0
@@ -31,24 +31,25 @@ function hfun_talks(params::Vector{String}=String[])
     else # No parameters, all list -> build exclude
         global exclude_conf = organized
     end
-    s = "";
+    s = ""
     lastyear = 0
-    sorted_talks = sort(collect(talks), lt=isless_talks)
+    sorted_talks = sort(collect(talks), lt = isless_talks)
     if highlights
-        filtered_talks = filter( x-> (haskey(x,"highlight")), talks)
-        sorted_talks = sort(collect(filtered_talks), lt = (a,b) -> a["highlight"] < b["highlight"])
+        filtered_talks = filter(x -> (haskey(x, "highlight")), talks)
+        sorted_talks =
+            sort(collect(filtered_talks), lt = (a, b) -> a["highlight"] < b["highlight"])
     end
     for talk ∈ sorted_talks
-        newyear = parse(Int, Dates.format(talk["date"],"yyyy"))
+        newyear = parse(Int, Dates.format(talk["date"], "yyyy"))
         if (newyear != lastyear)
-            if group_by_year==true
+            if group_by_year == true
                 (lastyear != 0) && (s = "$s\n</ul>") # close old list
                 s = """$s
                        <h3 class="year">$(newyear)</h3>
                        <ul class="talks fa-ul">
                 """
             else
-                if lastyear==0
+                if lastyear == 0
                     s = """$s
                            <ul class="talks fa-ul">
                         """
@@ -56,7 +57,7 @@ function hfun_talks(params::Vector{String}=String[])
             end
             lastyear = newyear
         end
-        haskey(talk,"conference") && push!(exclude_conf,talk["conference"])
+        haskey(talk, "conference") && push!(exclude_conf, talk["conference"])
         s = """$s
             <li><span class="fa-li"><i class="fas fa-chalkboard-teacher"></i></span>$(format_talk(talk))</li>
             """
@@ -66,17 +67,24 @@ function hfun_talks(params::Vector{String}=String[])
 end
 function format_talk(talk::Dict)
     key = talk["key"]
-    ts =  """<a name="$key"></a>"""
+    ts = """<a name="$key"></a>"""
     ts = """$(ts)$(entry_to_html(talk,"title"))"""
     #append seminar/conference
-    haskey(talk,"conference") && (ts = """$(ts)$(fomat_conference(conferences[talk["conference"]]))""")
-    haskey(talk,"seminar") && (ts = """$(ts)$(fomat_seminar(talk["seminar"], talk["date"]))""")
+    haskey(talk, "conference") &&
+        (ts = """$(ts)$(fomat_conference(conferences[talk["conference"]]))""")
+    haskey(talk, "seminar") &&
+        (ts = """$(ts)$(fomat_seminar(talk["seminar"], talk["date"]))""")
     # note & with TODO
     info = """$(entry_to_html(talk,"note"))"""
-    if haskey(talk,"with")
-        names = join( [
-            has_name(name) ? hfun_person([name,"link_shortname"]) : """<span class="person unknown">$name</span>""" for name ∈ talk["with"]
-            ], ", ", ", and ")
+    if haskey(talk, "with")
+        names = join(
+            [
+                has_name(name) ? hfun_person([name, "link_shortname"]) :
+                """<span class="person unknown">$name</span>""" for name ∈ talk["with"]
+            ],
+            ", ",
+            ", and ",
+        )
         info = """$(info)
                 <span class="with">$names</span>
              """
@@ -87,7 +95,7 @@ function format_talk(talk::Dict)
             <ul class="nav nav-icons">
         """
     # abstract
-    if haskey(talk,"abstract") #abstract icon
+    if haskey(talk, "abstract") #abstract icon
         ts = """$ts
         <li>
             <a data-toggle="collapse" href="#$key-abstract" title="toggle visibility of the abstract for $key">
@@ -111,7 +119,7 @@ function format_talk(talk::Dict)
             </ul>
         """
     # content: abstract
-    if haskey(talk,"abstract") # abstract content
+    if haskey(talk, "abstract") # abstract content
         abstract = strip(talk["abstract"])
         abstract = replace(abstract, "\n" => "\n\n")
         ts = """$ts
@@ -124,9 +132,9 @@ function format_talk(talk::Dict)
 end
 
 function hfun_remainingconferences()
-    filtered_conf = filter( x-> (x[1] ∉ exclude_conf), conferences)
-    sorted_conf = sort(collect(filtered_conf), lt = (a,b) -> a[2]["start"] > b[2]["start"])
-    s = "";
+    filtered_conf = filter(x -> (x[1] ∉ exclude_conf), conferences)
+    sorted_conf = sort(collect(filtered_conf), lt = (a, b) -> a[2]["start"] > b[2]["start"])
+    s = ""
     for conf in sorted_conf
         if conf[2]["start"] < Dates.now()
             s = """$s
@@ -141,10 +149,10 @@ function hfun_remainingconferences()
     """
 end
 function hfun_forthcomingconferences()
-    sorted_conf = sort(collect(conferences), lt = (a,b) -> a[2]["start"] < b[2]["start"])
-    s = "";
+    sorted_conf = sort(collect(conferences), lt = (a, b) -> a[2]["start"] < b[2]["start"])
+    s = ""
     for conf in sorted_conf
-        if conf[2]["start"] > Dates.now()-Week(2) # all that are newer than 2 weeks
+        if conf[2]["start"] > Dates.now() - Week(2) # all that are newer than 2 weeks
             s = """$s
                    <li><span class="fa-li"><i class="fas fa-users"></i></span>$(fomat_conference(conf[2]))
                    <span class="icons">
@@ -182,9 +190,9 @@ function fomat_seminar(seminar::Dict, date::Date)
         """
     return s
 end
-function format_duratuion(s::Date, e::Date=s)
+function format_duratuion(s::Date, e::Date = s)
     d = ""
-    if year(s) == year(e) && month(s)==month(e)
+    if year(s) == year(e) && month(s) == month(e)
         if day(s) == day(e)
             d = """$(Dates.format(s,"U d, yyyy"))""" # one day
         else

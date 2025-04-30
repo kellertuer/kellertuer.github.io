@@ -41,15 +41,22 @@ function hfun_person(params::Vector{String})::String
     shortname = get(person["name"], "short", fullname)
     bibname = person["name"]["bib"]
     title_fullname = "$(get(person, "title", ""))$(haskey(person,"title") ? " " : "")$(person["name"]["full"])"
-    occursin("fullname",style) && (s = fullname)
-    occursin("shortname",style) && (s = shortname)
+    occursin("fullname", style) && (s = fullname)
+    occursin("shortname", style) && (s = shortname)
     occursin("nametitle", style) && (s = title_fullname)
     occursin("bibname", style) && (s = bibname)
     occursin("plain_", style) && return s
     s = """<span class="person">$s</span>"""
-    (haskey(person,"url") && occursin("link_",style)) && (s = """<a href="$(person["url"])">$s</a>""")
+    (haskey(person, "url") && occursin("link_", style)) &&
+        (s = """<a href="$(person["url"])">$s</a>""")
     supnotes = ["twitter", "github", "orcid", "scholar", "arxiv"]
-    supurlprefixes = ["https://twitter.com/", "https://github.com/", "https://orcid.org/", "https://scholar.google.com/citations?user=", "https://arxiv.org/a/"]
+    supurlprefixes = [
+        "https://twitter.com/",
+        "https://github.com/",
+        "https://orcid.org/",
+        "https://scholar.google.com/citations?user=",
+        "https://arxiv.org/a/",
+    ]
     icons = [
         """<i class="fab fa-twitter"></i>""",
         """<i class="fab fa-github"></i>""",
@@ -57,16 +64,16 @@ function hfun_person(params::Vector{String})::String
         """<i class="ai ai-google-scholar"></i>""",
         """<i class="ai ai-arxiv"></i>""",
     ]
-    pos = [ occursin("_fn$fn", style) ? first(findfirst(fn,style)) : -1 for fn in supnotes]
+    pos = [occursin("_fn$fn", style) ? first(findfirst(fn, style)) : -1 for fn in supnotes]
     for i in sortperm(pos)
-        if haskey(person,supnotes[i]) && (pos[i] > 0)
+        if haskey(person, supnotes[i]) && (pos[i] > 0)
             s = """$s<sup><a href="$(supurlprefixes[i])$(person[supnotes[i]])">$(icons[i])</a></sup>"""
         end
     end
     return s
 end
 function has_name(key)
-    return haskey(names["people"],key)
+    return haskey(names["people"], key)
 end
 """
     {{institute name style}}
@@ -80,13 +87,15 @@ if a `url` is given the institute is linked to said url.
 function hfun_institute(param::Vector{String})::String
     name = param[1]
     style = (length(param) > 1 ? param[2] : "full")
-    return institute_name(name,style)
+    return institute_name(name, style)
 end
-function institute_name(name,style)
-    display_name = "";
-    if haskey(institutes,name)
-        display_name = haskey(institutes[name], style) ? institutes[name][style] : institutes[name]["name"]
-        if haskey(institutes[name],"url")
+function institute_name(name, style)
+    display_name = ""
+    if haskey(institutes, name)
+        display_name =
+            haskey(institutes[name], style) ? institutes[name][style] :
+            institutes[name]["name"]
+        if haskey(institutes[name], "url")
             display_name = """<a href="$(institutes[name]["url"])" alt="link to $display_name">$display_name</a>"""
         end
         display_name = """<span class="institute">$display_name</span>"""

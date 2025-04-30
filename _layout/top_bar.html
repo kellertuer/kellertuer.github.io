@@ -15,12 +15,23 @@
         <div class="text-right navbar-menu-container" id="navbar-main-menu">
             <ul class="navbar-list">
                 <li class="nav-item home {{ispage index.html}}active{{end}}"><a class="nav-link" href="/">Moin.</a></li>
-                <!-- <li class="nav-item {{ispage projects/*}}active{{end}}">  <a class="nav-link" href="/projects/">Projects</a></li> -->
-                <li class="nav-item {{ispage publications/*}}active{{end}}">  <a class="sidebar-nav-item" href="/publications/">Publications</a></li>
-                <li class="nav-item {{ispage teaching/*}}active{{end}}"><a class="sidebar-nav-item" href="/teaching/">Teaching</a></li>
-                <li class="nav-item {{ispage students/*}}active{{end}}"> <a class="sidebar-nav-item" href="/students/">Students</a></li>
-                <li class="nav-item {{ispage talks/*}}active{{end}}"> <a class="sidebar-nav-item" href="/talks/">Talks</a></li>
-                <li class="nav-item {{ispage contact/*}}active{{end}}"><a class="nav-link" href="/contact/"><i class="fa-regular fa-address-card"></i></a></li>
+                <li class="nav-item research {{ispage projects/*}}active{{end}} {{ispage publications/*}}active{{end}} {{ispage talks/*}}active{{end}}">
+                    <a><i class="fa-regular fa-book-open-reader"></i> Research</a>
+                    <ul class="submenu">
+                        <li class="nav-item {{ispage talks/*}}active{{end}}"> <a class="sidebar-nav-item" href="/talks/">Talks</a></li>
+                        <li class="nav-item {{ispage publications/*}}active{{end}}"> <a class="sidebar-nav-item"
+                    href="/publications/">Publications</a></li>
+                        <li class="nav-item {{ispage projects/*}}active{{end}}">  <a class="nav-link" href="/projects/">Projects</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item research {{ispage lectures/*}}active{{end}} {{ispage students/*}}active{{end}}">
+                    <a><i class="fa-regular fa-chalkboard"></i> Teaching</a>
+                    <ul class="submenu">
+                        <li class="nav-item {{ispage teaching/*}}active{{end}}"><a class="sidebar-nav-item" href="/lectures/"> Lectures</a></li>
+                        <li class="nav-item {{ispage students/*}}active{{end}}"> <a class="sidebar-nav-item" href="/students/">Students</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item {{ispage contact/*}}active{{end}}"><a class="nav-link" href="/contact/"><i class="fa-regular fa-address-card"></i> Contact</a></li>
                 <li class="toggle-container">
                     <button type="button" data-theme-toggle id="theme-toggle" title="Change theme">
                         <i class="fa-regular fa-sun" id="toggle_icon_dark"></i>

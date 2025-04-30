@@ -388,8 +388,9 @@ dl.courses dd::after {
 dl.projectlist dt:before {
     clear:both;
 }
-dl.projectlist dt {
+dl.projectlist dt {
     margin-top: 2rem;
+    font-weight: bold;
 }
 dl.projectlist dt span.subtitle:before {
     content: "\00a0–\00a0";
@@ -399,6 +400,7 @@ dl.projectlist dd {
     width: 100%;
     padding-left: 0px;
     margin-left: 0px;
+    margin-bottom: 1rem;
 }
 dl.projectlist dd .info {
     float:right;
@@ -411,7 +413,7 @@ dl.projectlist dd .info {
     margin-top: .25rem;
     margin-bottom: 0rem;
 }
-dd .info .link:after {
+dd .info .link:after, dd .info .logo:after {
     content: "\A";
     white-space: pre;
 }

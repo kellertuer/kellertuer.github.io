@@ -17,19 +17,19 @@ include("teaching.jl")
     project_files = filter!(x -> endswith(x, ".md") && x != "index.md", readdir("projects"))
     # collect dates
     projects = [
-        Dict{String, Union{Nothing, String, Vector{String},Bool}}(
+        Dict{String,Union{Nothing,String,Vector{String},Bool}}(
             push!(
-                Pair{String,Union{Nothing, String, Vector{String},Bool}}[
-                    var => pagevar("projects/$project", var) for var ∈ ["date_end", "date_start"]
+                Pair{String,Union{Nothing,String,Vector{String},Bool}}[
+                    var => pagevar("projects/$project", var) for
+                    var ∈ ["date_end", "date_start"]
                 ],
                 "project" => project[1:end-3], # remove md
-            )
-        )
-        for project ∈ project_files
-        ]
+            ),
+        ) for project ∈ project_files
+    ]
     # # @info projects
     # is a earlier than b? first running projects (no end) sorted by start, then
-    function dates_lt(a,b)
+    function dates_lt(a, b)
         if isnothing(a["date_end"]) && !isnothing(b["date_end"])
             # a is still running, but b is not so it is less than b
             return true
@@ -40,7 +40,8 @@ include("teaching.jl")
             return false
         end
         # Now end is either nothing for both or given for both
-        if (isnothing(a["date_start"]) && !isnothing(b["date_start"])) || (!isnothing(a["date_start"]) && isnothing(b["date_start"]))
+        if (isnothing(a["date_start"]) && !isnothing(b["date_start"])) ||
+           (!isnothing(a["date_start"]) && isnothing(b["date_start"]))
             # safety, one has no start but the other one has. The one with start is less
             # if a is nothing its less, otherwise b
             return isnothing(a["date_start"])
@@ -65,9 +66,20 @@ include("teaching.jl")
         # @info "projects/$(project_dates["project"]).md"
         project = Dict(
             Pair{String,Union{Nothing,String,Vector{String},Bool}}[
-                var => pagevar("projects/$(project_dates["project"]).md",var)
-                for var ∈ ["title", "subtitle", "collaborators", "date_end", "logo", "more", "date_start", "summary", "url", "url_text"]
-        ]...,
+                var => pagevar("projects/$(project_dates["project"]).md", var) for
+                var ∈ [
+                    "title",
+                    "subtitle",
+                    "collaborators",
+                    "date_end",
+                    "logo",
+                    "more",
+                    "date_start",
+                    "summary",
+                    "url",
+                    "url_text",
+                ]
+            ]...,
             "project" => project_dates["project"],
         )
         # @info project
@@ -91,7 +103,8 @@ include("teaching.jl")
         # @info project
         # @info project["date_start"]
         timespan = ""
-        !isnothing(project["date_start"]) && (timespan = Dates.format(Date(project["date_start"]),"yyyy"))
+        !isnothing(project["date_start"]) &&
+            (timespan = Dates.format(Date(project["date_start"]), "yyyy"))
         if !isnothing(project["date_end"])
             timespan = """<span class="timespan">
                           $(timespan)&mdash;$(Dates.format(Date(project["date_end"]),"yyyy"))
@@ -139,5 +152,5 @@ include("teaching.jl")
         date ≤ today() && write(io, "\n[$title]($url) $date \n")
     end
     return Franklin.fd2html(String(take!(io)), internal=true)
-  =#
+    =#
 end

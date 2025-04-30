@@ -1,6 +1,6 @@
 using YAML, Dates
 bibliography = YAML.load_file("data/bibliography.yaml")
-literature = merge(YAML.load_file("data/literature.yaml"),bibliography)
+literature = merge(YAML.load_file("data/literature.yaml"), bibliography)
 #
 #
 # Cite fun
@@ -9,18 +9,18 @@ literature = merge(YAML.load_file("data/literature.yaml"),bibliography)
 """
 """
 function hfun_cite(params)
-    s = "";
+    s = ""
     for citekey in params
         if !haskey(literature, citekey)
             s = return """<span class="error">key $citekey not found in library.</span>"""
         else
-        s = "$(s)$(append_citekey(citekey))"
+            s = "$(s)$(append_citekey(citekey))"
         end
     end
     return s
 end
 function hfun_nocite(params)
-    s = "";
+    s = ""
     for citekey in params
         if !haskey(literature, citekey)
             s = """$s<span class="error">key $citekey not found in library.</span>"""
@@ -28,14 +28,14 @@ function hfun_nocite(params)
             append_citekey(citekey)
         end
     end
-    return s
+    return ""
 end
 function append_citekey(citekey)
     if isnothing(locvar("cite_keys"))
         Franklin.LOCAL_VARS["cite_keys"] = Franklin.dpair([citekey])
     else
         cite_keys = Franklin.locvar("cite_keys")
-        push!(cite_keys,citekey)
+        push!(cite_keys, citekey)
         Franklin.set_var!(Franklin.LOCAL_VARS, "cite_keys", cite_keys)
     end
     return """<span class="cite"><a href="#$(citekey)">$(citekey)</a></span>"""
@@ -56,7 +56,7 @@ function hfun_references(params)
     list_literature = ""
     isnothing(locvar("cite_keys")) && return "A"
     unique_keys = unique(locvar("cite_keys"))
-    (sortby=="alphabet") && (unique_keys = sort(unique_keys))
+    (sortby == "alphabet") && (unique_keys = sort(unique_keys))
     for key in unique_keys
         list_literature = """$list_literature
             $(format_bibtex_entry(literature[key],key; list_style="key"))
@@ -72,16 +72,16 @@ end
     isless_bibtex(a,b)
 
 """
-function isless_bibtex(a::Dict,b::Dict)
+function isless_bibtex(a::Dict, b::Dict)
     #load either publication date or year
-    date_a = parse(Date, string( get(a, "publication_date", a["year"]) ))
-    date_b = parse(Date, string( get(b, "publication_date", b["year"]) ))
+    date_a = parse(Date, string(get(a, "publication_date", a["year"])))
+    date_b = parse(Date, string(get(b, "publication_date", b["year"])))
     if date_a == date_b
         # if same day (or year) sort by title
         return isless(a["title"], b["title"])
     else
         # order by reverse date, i.e. newest years top
-        return !(isless(date_a,date_b))
+        return !(isless(date_a, date_b))
     end
 end
 """
@@ -94,10 +94,11 @@ If no types are given all will be printed
 
 """
 function hfun_bibliography(params)
-    types = (length(params)>0) ? lowercase.(strip.(split(params[1],","))) : ["all",]
-    library = (length(params)>1) ? YAML.load_file(params[2]) : bibliography
-    reduced_library = filter( x-> (x[2]["biblatextype"] ∈ types) || ("all" ∈ types), library)
-    list_html = "";
+    types = (length(params) > 0) ? lowercase.(strip.(split(params[1], ","))) : ["all"]
+    library = (length(params) > 1) ? YAML.load_file(params[2]) : bibliography
+    reduced_library =
+        filter(x -> (x[2]["biblatextype"] ∈ types) || ("all" ∈ types), library)
+    list_html = ""
     if length(params) > 2
         title = params[3]
         if length(reduced_library) > 0
@@ -106,17 +107,17 @@ function hfun_bibliography(params)
                     """
         end
     end
-    list = sort(collect(reduced_library), lt=isless_bibtex, by=x->x[2])
+    list = sort(collect(reduced_library), lt = isless_bibtex, by = x -> x[2])
     for entry ∈ list
         list_html = """$(list_html)
                         $(format_bibtex_entry(entry[2],entry[1]))
                     """
     end
-    return  """
-            <ol class="bibliography" style="counter-reset:bibitem $(length(list)+1)">
-                $list_html
-            </ol>
-            """
+    return """
+           <ol class="bibliography" style="counter-reset:bibitem $(length(list)+1)">
+               $list_html
+           </ol>
+           """
 end
 hfun_library() = hfun_library([])
 """
@@ -124,15 +125,23 @@ hfun_library() = hfun_library([])
 """
 function hfun_bibentry(params)
     key = params[1]
-    library = (length(params)>1) ? YAML.load_file(params[2]) : bibliography
+    library = (length(params) > 1) ? YAML.load_file(params[2]) : bibliography
     entry = library[key]
-    !(haskey(library,key)) && return "<li> key $key not found in library.</li>"
-    return format_bibtex_entry(entry,key; list_style="key")
+    !(haskey(library, key)) && return "<li> key $key not found in library.</li>"
+    return format_bibtex_entry(entry, key; list_style = "key")
 end
-function formatspan(entry,field; class=field, prefix="", remove=[])
-    s = "";
+function formatspan(entry, field; class = field, prefix = "", remove = [])
+    s = ""
     if entry[field] isa Vector #concat list
-        s = join( [ (has_name(name) ? hfun_person([name,"bibname_fnorcid"]) : """<span class="person unknown">$name</span>""") for name ∈ entry[field] ], ", ")
+        s = join(
+            [
+                (
+                    has_name(name) ? hfun_person([name, "bibname_fnorcid"]) :
+                    """<span class="person unknown">$name</span>"""
+                ) for name ∈ entry[field]
+            ],
+            ", ",
+        )
         s = """$(prefix)$(length(prefix)>0 ? " " : "")$s"""
     else
         s = """$(prefix)$(length(prefix)>0 ? " " : "")<span class="$field">$(entry[field])</span>"""
@@ -142,11 +151,18 @@ function formatspan(entry,field; class=field, prefix="", remove=[])
     end
     return s
 end
-formatlazyspan(entry,field; kwargs...) = haskey(entry,field) ? formatspan(entry,field; kwargs...) : ""
-function format_bibtex_entry(entry,key; list_style="number")
-    names = join( [ has_name(name) ? hfun_person([name,"bibname_fnorcid"]) : """<span class="person unknown">$name</span>""" for name ∈ entry["author"] ], ", ")
+formatlazyspan(entry, field; kwargs...) =
+    haskey(entry, field) ? formatspan(entry, field; kwargs...) : ""
+function format_bibtex_entry(entry, key; list_style = "number")
+    names = join(
+        [
+            has_name(name) ? hfun_person([name, "bibname_fnorcid"]) :
+            """<span class="person unknown">$name</span>""" for name ∈ entry["author"]
+        ],
+        ", ",
+    )
     s = """<a name="$(key)"></a>"""
-    if haskey(entry,"image") #image in assets
+    if haskey(entry, "image") #image in assets
         s = """$s
             <div class="item-icon-wrapper">
                 <img src="/assets/bib/$(entry["image"])" alt="Publication illustration image">
@@ -154,7 +170,8 @@ function format_bibtex_entry(entry,key; list_style="number")
             """
     end
     eprinturl = ""
-    lowercase(get(entry,"eprinttype","")) == "arxiv" && (eprinturl = "https://arxiv.org/abs/")
+    lowercase(get(entry, "eprinttype", "")) == "arxiv" &&
+        (eprinturl = "https://arxiv.org/abs/")
     eprint_text_link = """$(formatlazyspan(entry,"eprinttype"))
     <a href="$(eprinturl)$(get(entry,"eprint",""))">$(get(entry,"eprint",""))</a>
     """
@@ -172,7 +189,7 @@ function format_bibtex_entry(entry,key; list_style="number")
                 <i class="fas fa-lg fa-file-code"></i>
             </a>
         </li>"""
-    if haskey(entry,"abstract") #abstract icon
+    if haskey(entry, "abstract") #abstract icon
         s = """$s
             <li>
                 <a data-toggle="collapse" href="#$key-abstract" title="toggle visibility of the abstract for $key">
@@ -180,20 +197,20 @@ function format_bibtex_entry(entry,key; list_style="number")
                 </a>
             </li>"""
     end
-    if lowercase(get(entry,"eprinttype",""))=="arxiv" #pdf icon -> arxiv
+    if lowercase(get(entry, "eprinttype", "")) == "arxiv" #pdf icon -> arxiv
         s = """$(s)$(entry_to_list_icon(entry,"eprint"; linkprefix="https://arxiv.org/pdf/", iconstyle="fas fa-lg", icon="fa-file-pdf"))"""
     end
     s = """$(s)$(entry_to_list_icon(entry,"doi"; linkprefix="http://dx.doi.org/", iconstyle="ai ai-lg", icon="ai-doi"))"""
     s = """$(s)$(entry_to_list_icon(entry,"github"; linkprefix="https://github.com/", iconstyle="fab fa-lg", icon="fa-github"))"""
     s = """$(s)$(entry_to_list_icon(entry,"link"; iconstyle="fas fa-lg", icon="fa-link"))"""
     s = """$(s)$(entry_to_list_icon(entry,"pdf"; iconstyle="fas fa-lg", icon="fa-file-pdf"))"""
-    if haskey(entry,"isbn_link") && haskey(entry,"isbn")
+    if haskey(entry, "isbn_link") && haskey(entry, "isbn")
         s = """$(s)$(entry_to_list_icon(entry,"isbn_link"; iconstyle="fas fa-lg", icon="fa-book", title="ISBN: $(entry["isbn"])"))"""
     end
     s = """$s
         </ul>
     """
-    if haskey(entry,"abstract") # abstract content
+    if haskey(entry, "abstract") # abstract content
         abstract = strip(entry["abstract"])
         abstract = replace(abstract, "\n" => "\n\n")
         s = """$s
@@ -209,10 +226,10 @@ function format_bibtex_entry(entry,key; list_style="number")
         </div>
         """
     #print some label? for the default number we just print a li and the numbering will be done by the outer ol in css
-    key_label  = ""
+    key_label = ""
     # otherwise we print a span for the label and the formatting has to still be done in css
     if lowercase(list_style) == "key"
-        key_label="""<span class="li-label">$key</span>"""
+        key_label = """<span class="li-label">$key</span>"""
     end
     return """<li>$(key_label)$s</li>"""
 end
@@ -229,15 +246,18 @@ function format_bibtex_code(
     entry,
     key;
     excludes = ["biblatextype", "image", "link", "file", "github", "publication_date"],
-    field_joins = ["author", "editor"]
-    )
-    s = "";
+    field_joins = ["author", "editor"],
+)
+    s = ""
     for f ∈ keys(entry)
         if f ∉ excludes
             v = ""
             if f ∈ field_joins
                 v = join(
-                    [ has_name(name) ? hfun_person([name, "plain_bibname"]) : name for name ∈ entry[f] ],
+                    [
+                        has_name(name) ? hfun_person([name, "plain_bibname"]) : name for
+                        name ∈ entry[f]
+                    ],
                     " and ",
                 )
             else

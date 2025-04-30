@@ -1,7 +1,7 @@
-# Manifolds.jl
+# Manifolds.jl & ManifoldsBase.jl
 
 +++
-title = "Manifolds.jl"
+title = "Manifolds.jl & ManifoldsBase.jl"
 collaborators = ["Seth Axen", "Mateusz Baran"]
 url = "https://juliamanifolds.github.io/Manifolds.jl/"
 url_text = "JuliaManifolds"
@@ -12,6 +12,6 @@ summary = "[Manifolds.jl](https://juliamanifolds.github.io/Manifolds.jl/stable/)
 
 Manifolds.jl provides a library of manifolds based on the [ManifoldsBase.jl](https://juliamanifolds.github.io/Manifolds.jl/stable/interface.html) interface to get an easy start to use manifolds within you project. It aims to provide a simple and efficient implementation of all necessary functions on manifolds.
 
-{{nocite AxenBaranBergmannRzecki-2021}}
+{{nocite AxenBaranBergmannRzecki-2023}}
 
 {{references}}
