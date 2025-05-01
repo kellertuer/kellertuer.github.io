@@ -90,6 +90,7 @@ function format_supervision(entry)
     (entry["type"] == "studentproject") && (thesis = "student project")
     (entry["type"] == "specialisationproject") && (thesis = "specialisation project")
     (entry["type"] == "phd-active") && (thesis = "PhD project")
+    (entry["type"] == "phd") && (thesis = "PhD thesis")
     with_names = ""
     if haskey(entry, "with")
         with_names = join(
@@ -104,7 +105,7 @@ function format_supervision(entry)
     end
     note = ""
     if haskey(entry, "note")
-        note = """\n<span class="note">$(entry["note"])</a>"""
+        note = """\n<span class="note">$(parse_persons(entry["note"]))</a>"""
     end
     s = ""
     s = """$(s)$(entry_to_list_icon(entry,"link"; iconstyle="fas fa-lg", icon="fa-link"))"""

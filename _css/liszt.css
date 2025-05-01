@@ -289,7 +289,7 @@ ul.conferences li span.end:after {
  * List I Students
  */
 dl.supervised dt {
-    width: 6rem;
+    width: 7rem;
     float: left;
     clear: left;
 }
@@ -302,7 +302,7 @@ dl.supervised dt span.time-meta {
 }
 
 dl.supervised dd {
-    margin-left: 6rem;
+    margin-left: 7rem;
     margin-bottom: 1.5rem;
 }
 dl.supervised dd .info span.url {

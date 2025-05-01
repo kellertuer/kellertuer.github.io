@@ -6,6 +6,8 @@
 
 ## PhD Students
 {{students phd-active}}
+{{students phd}}
+
 
 ## Supervised Master Theses
 {{students master}}
