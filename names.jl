@@ -31,7 +31,7 @@ where their order of appearance orders the supnotes.
 * `link_fullname_fntwitter` link the fullname to the url and add a twitter note
 * `bibname_fnorcid_fnscholar` add orcid and scholar footnotes to the bibname
 """
-function hfun_person(params::Vector{String})::String
+function hfun_person(params::Vector{String})
     name = params[1]
     style = (length(params) > 1) ? params[2] : "link_fullname"
     s = ""
@@ -74,6 +74,19 @@ function hfun_person(params::Vector{String})::String
 end
 function has_name(key)
     return haskey(names["people"], key)
+end
+function parse_persons(text::String)
+    # pattern {{person name format...}} so we match {{person X}} and replace the whole thing
+    r = r"\{\{person ([^\{\}]*)\}\}"
+    result = text
+    for m in eachmatch(r, text)
+        # Filter parameters
+        r2 = r"\s?\"?([^\"]+)\"?"
+        s = [m2.captures[1] for m2 in eachmatch(r2, m.captures[1])]
+        println(s)
+        result = replace(result, "$(m.match)" => hfun_person(String.(s)))
+    end
+    return result
 end
 """
     {{institute name style}}
