@@ -8,7 +8,7 @@ date_end = "2019"
 logo = "secondOrderIcon.png"
 collaborators = ["Andreas Weinmann"]
 url = "http://gepris.dfg.de/gepris/projekt/288750882"
-url_text = raw"DFG-Project<br>BE 5888/2-1"
+url_text = raw"DFG project<br>BE 5888/2-1"
 summary = "Variational methods in imaging are nowadays developing towards a quite universal and flexible tool, allowing for highly successful approaches on various imaging tasks. Many useful techniques rely on non-smooth, convex functionals. Combinations of first and second order derivatives in regularization functionals or the incorporation of anisotropies steered by the local structures of the image have led to very powerful image restoration techniques. Splitting algorithms together with primal-dual optimization methods are the state-of-the-art techniques for minimizing these functionals. Their strength consists in the splitting of the original problem into a sequence of proximal mappings which can be computed efficiently."
 +++
 
