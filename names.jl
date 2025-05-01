@@ -83,7 +83,6 @@ function parse_persons(text::String)
         # Filter parameters
         r2 = r"\s?\"?([^\"]+)\"?"
         s = [m2.captures[1] for m2 in eachmatch(r2, m.captures[1])]
-        println(s)
         result = replace(result, "$(m.match)" => hfun_person(String.(s)))
     end
     return result
