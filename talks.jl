@@ -71,9 +71,9 @@ function format_talk(talk::Dict)
     ts = """$(ts)$(entry_to_html(talk,"title"))"""
     #append seminar/conference
     haskey(talk, "conference") &&
-        (ts = """$(ts)$(fomat_conference(conferences[talk["conference"]]))""")
+        (ts = """$(ts)$(format_conference(conferences[talk["conference"]]))""")
     haskey(talk, "seminar") &&
-        (ts = """$(ts)$(fomat_seminar(talk["seminar"], talk["date"]))""")
+        (ts = """$(ts)$(format_seminar(talk["seminar"], talk["date"]))""")
     # note & with TODO
     info = """$(entry_to_html(talk,"note"))"""
     if haskey(talk, "with")
@@ -138,7 +138,7 @@ function hfun_remainingconferences()
     for conf in sorted_conf
         if conf[2]["start"] < Dates.now()
             s = """$s
-                   <li><span class="fa-li"><i class="fas fa-users"></i></span>$(fomat_conference(conf[2]))</li>
+                   <li><span class="fa-li"><i class="fas fa-users"></i></span>$(format_conference(conf[2]))</li>
                 """
         end
     end
@@ -154,9 +154,10 @@ function hfun_forthcomingconferences()
     for conf in sorted_conf
         if conf[2]["start"] > Dates.now() - Week(2) # all that are newer than 2 weeks
             s = """$s
-                   <li><span class="fa-li"><i class="fas fa-users"></i></span>$(fomat_conference(conf[2]))
+                   <li><span class="fa-li"><i class="fas fa-users"></i></span>$(format_conference(conf[2]))
                    <span class="icons">
-                    $(get(conf[2], "talk", false) ? """<i class="fas fa-chalkboard-teacher" title="I am giving a talk"></i>""" : "")
+                    $(get(conf[2], "poster", false) ? """<i class="fa-solid fa-chalkboard-user" title="I am presenting a poster"></i>""" : "")
+                    $(get(conf[2], "talk", false) ? """<i class="fa-solid fa-person-chalkboard" title="I am giving a talk"></i>""" : "")
                     $(get(conf[2], "organizer", false) ? """<i class="fas fa-chair" title="I am organizing/chairing a session"></i>""" : "")
                     </span>
                    </li>
@@ -175,22 +176,22 @@ function hfun_forthcomingconferences()
         return ""
     end
 end
-function fomat_conference(conf::Dict)
+function format_conference(conf::Dict)
     s = """
            $(entry_to_html(conf,"name"; link="url"))
-           $(format_duratuion(conf["start"],get(conf,"end",conf["start"])))
+           $(format_duration(conf["start"],get(conf,"end",conf["start"])))
            $(entry_to_html(conf,"place"; class="place end"))
            $(entry_to_html(conf,"note"; class="note"))
         """
     return s
 end
-function fomat_seminar(seminar::Dict, date::Date)
+function format_seminar(seminar::Dict, date::Date)
     s = """
-           $(entry_to_html(seminar,"name";link="url"))$(entry_to_html(seminar,"institute"))$(entry_to_html(seminar,"university"))$(format_duratuion(date))$(entry_to_html(seminar,"place"))
+           $(entry_to_html(seminar,"name";link="url"))$(entry_to_html(seminar,"institute"))$(entry_to_html(seminar,"university"))$(format_duration(date))$(entry_to_html(seminar,"place"))
         """
     return s
 end
-function format_duratuion(s::Date, e::Date = s)
+function format_duration(s::Date, e::Date = s)
     d = ""
     if year(s) == year(e) && month(s) == month(e)
         if day(s) == day(e)
