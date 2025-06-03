@@ -2,6 +2,31 @@
 #
 # Preprints
 
+"BaranBergmann-2025":
+    abstract: >
+        Geometry of the state space is known to play a crucial role in many applications
+        of Kalman filters, especially robotics and motion tracking. The Lie group-centric
+        approach is currently very common, although a Riemannian approach has also
+        been developed. In this work we explore the relationship between these
+        two approaches and develop a novel description of Kalman filters based on affine
+        connections that generalizes both commonly encountered descriptions.
+        We illustrate the results on two test problems involving the special Euclidean group
+        and the tangent bundle of a sphere in which the state is tracked by geometric
+        variants of the extended Kalman filter and the unscented Kalman filter.
+        The examples use a newly developed library [`GeometricKalman.jl`](https://github.com/JuliaManifolds/GeometricKalman.jl).
+        The new approach provides a greater freedom in selecting the structure of the state
+        space for state estimation and can be easily integrated with standard techniques
+        such as parameter estimation or covariance matrix estimation.
+    author:
+        - Mateusz Baran
+        - Ronny Bergmann
+    biblatextype: online
+    eprint: "2506.01086"
+    eprinttype: arxiv
+    image: GeometricKalman.png
+    title: A geometric perspective of state estimation using Kalman filters
+    year: 2025
+
 "BergmannFerreiraNemethZhu-2025":
     abstract: >
         This paper presents several new properties of the intrinsic $\kappa$-projection
@@ -59,6 +84,7 @@
     biblatextype: online
     eprint: "2412.00445"
     eprinttype: arxiv
+    image: TVNormal.png
     title: Two Models for Surface Segmentation using the Total Variation of the Normal Vector
     year: 2024
 
