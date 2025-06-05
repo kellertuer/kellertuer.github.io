@@ -14,6 +14,14 @@
 #
 # Master theses
 #
+- name: Marcus Alexander Lien Cid
+  finished: 2025-06-04
+  title: Intrinsic Newton’s Method for Nonlinear Mappings into Vector Bundles
+  type: master
+  with:
+    - Anton Schiela
+    - Laura Weigl
+
 - name: Sander Engen Oddsen
   finished: 2025-01-31
   title: The Riemannnian LTMADS to solve the Spectral Procrustes problem in Manopt.jl

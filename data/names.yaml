@@ -386,13 +386,6 @@ people:
             bib: Settelmeier, J.
             full: Jens Settelmeier
             short: J. Settelmeier
-    Anton Schiela:
-        affiliation: Universität Bayreuth
-        name:
-            bib: Schiela, A.
-            full: Anton Schiela
-            short: A. SChiela
-        orcid: 0000-0002-6959-2951
     Mauricio Silva Louzeiro:
         affiliation: "TU Chemnitz"
         name:
@@ -424,6 +417,14 @@ people:
           short: A. Schmeding
         title: "Prof. Dr."
         url: https://www.ntnu.edu/employees/alexander.schmeding
+    Anton Schiela:
+        affiliation: Universität Bayreuth
+        name:
+            bib: Schiela, A.
+            full: Anton Schiela
+            short: A. Schiela
+        orcid: 0000-0002-6959-2951
+        url: https://num.math.uni-bayreuth.de/en/team/anton-schiela/index.php
     Solvor Sevland:
         affiliation: NTNU
         name:
@@ -526,6 +527,13 @@ people:
             short: B. Wirth
         title: Prof. Dr.
         url: https://www.uni-muenster.de/Cells-in-Motion/people/all/wirth-b.php
+    Laura Weigl:
+        affiliation: "Universität Bayreuth"
+        name:
+            full: Laura Weigl
+            bib: Weigl, L.
+            short: L. Weigl
+        url: https://num.math.uni-bayreuth.de/en/team/laura-weigl/index.php
     Manuel Weiß:
         affiliation: Scientific Computing and Optimization, IWR, Univesity of Heidelberg
         name:
