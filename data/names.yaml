@@ -194,6 +194,13 @@ people:
             bib: Jasa, H.
             short: H. Jasa
         url: "https://www.ntnu.no/ansatte/hajg.jasa"
+    Paula John:
+        affiliation: "Georg-August-Universität Göttingen"
+        name:
+            full: Paula John
+            bib: John, P.
+            short: P. John
+        orcid: 0009-0009-2500-5485
     Lisa Kausch:
         affiliation: DKFZ Heidelberg
         name:
@@ -340,6 +347,14 @@ people:
             bib: Pfaue, J.-P.
             full: Jan-Philipp Pfaue
             short: J.-P. Pfaue
+    Max Pfeffer:
+        affiliation: "Georg-August-Universität Göttingen"
+        name:
+            full: Max Pfeiffer
+            bib: Pfeiffer, M.
+            short: M. Pfeiffer
+        orcid: 0000-0002-7739-4031
+        url: https://osm.math.uni-goettingen.de
     Jürgen Prestin:
         name:
             full: Jürgen Prestin

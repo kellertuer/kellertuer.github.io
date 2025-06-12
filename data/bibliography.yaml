@@ -2,6 +2,27 @@
 #
 # Preprints
 
+"BergmannJasaJohnPfeffer-2025":
+    abstract: >
+        We consider the proximal gradient method on Riemannian manifolds for functions that
+        are possibly not geodesically convex. Starting from the forward-backward-splitting,
+        we define an intrinsic variant of the proximal gradient method that uses proximal maps
+        defined on the manifold and therefore does not require or work in the embedding.
+        We investigate its convergence properties and illustrate its numerical performance,
+        particularly for nonconvex or nonembedded problems that are hence out of reach
+        for other methods.
+    author:
+        - Ronny Bergmann
+        - Hajg Jasa
+        - Paula John
+        - Max Pfeffer
+    biblatextype: online
+    eprint: "2506.09775"
+    eprinttype: arxiv
+    title: The Intrinsic Riemannian Proximal Gradient Method for Nonconvex Optimization
+    year: 2025
+    preprint-order: 6
+
 "BaranBergmann-2025":
     abstract: >
         Geometry of the state space is known to play a crucial role in many applications
@@ -26,6 +47,7 @@
     image: GeometricKalman.png
     title: A geometric perspective of state estimation using Kalman filters
     year: 2025
+    preprint-order: 5
 
 "BergmannFerreiraNemethZhu-2025":
     abstract: >
@@ -61,6 +83,7 @@
     image: projgrad.png
     title: On projection mappings and the gradient projection method on hyperbolic space forms
     year: 2025
+    preprint-order: 4
 
 "BaumgärtnerBergmannHerzogSchmidtWeiß-2024":
     abstract: >
@@ -87,6 +110,7 @@
     image: TVNormal.png
     title: Two Models for Surface Segmentation using the Total Variation of the Normal Vector
     year: 2024
+    preprint-order: 3
 
 "SchielaHerzogBergmann-2024":
     abstract: >
@@ -111,6 +135,7 @@
     eprinttype: arxiv
     title: Nonlinear Fenchel conjugates
     year: 2024
+    preprint-order: 2
 
 "BergmannHerzogJasa-2024":
     abstract: >
@@ -132,6 +157,7 @@
     eprinttype: arxiv
     title: The Riemannian Convex Bundle Method
     year: 2024
+    preprint-order: 1
 
 #
 #
