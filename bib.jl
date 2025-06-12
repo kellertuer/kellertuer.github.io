@@ -73,7 +73,13 @@ end
 
 """
 function isless_bibtex(a::Dict, b::Dict)
-    #load either publication date or year
+    # first check if both have a (existing/pos) preprint order
+    preprint_order_a = get(a, "preprint-order", 0)
+    preprint_order_b = get(b, "preprint-order", 0)
+    if preprint_order_a != preprint_order_b
+        return preprint_order_a > preprint_order_b
+    end
+    #otherwise first order by date, then by title
     date_a = parse(Date, string(get(a, "publication_date", a["year"])))
     date_b = parse(Date, string(get(b, "publication_date", b["year"])))
     if date_a == date_b
