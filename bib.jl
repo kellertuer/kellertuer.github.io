@@ -251,7 +251,7 @@ valid `names` (from `names.yaml`), where the `bib` form of `name` is taken
 function format_bibtex_code(
     entry,
     key;
-    excludes = ["biblatextype", "image", "link", "file", "github", "publication_date"],
+    excludes = ["biblatextype", "image", "link", "file", "github", "publication_date", "preprint-order"],
     field_joins = ["author", "editor"],
 )
     s = ""
