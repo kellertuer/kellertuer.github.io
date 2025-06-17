@@ -833,7 +833,7 @@
 # Conference Proceedings
 #
 
-"HerzogHerrmannBergmannSchmidtVidal-Nunez-2019":
+"BergmannHerrmannHerzogSchmidtVidal-Nunez-2019":
     abstract: >
         This paper presents a novel approach to the formulation and solution of discrete geometry processing problems including mesh denoising.
         The main quantity of interest is the piecewise constant unit normal vector field, which we consider on piecewise flat, triangulated surfaces.
@@ -843,8 +843,8 @@
         We solve the model numerically by applying split-Bregmann iterations and provide results for the 'fandisk' benchmark.
     author:
         - Ronny Bergmann
-        - Roland Herzog
         - Marc Herrmann
+        - Roland Herzog
         - Stephan Schmidt
         - José Vidal-Núñez
     booktitle: 90th Annual Meeting of the International Association of Applied Mathematics and Mechanics (GAMM)
@@ -866,7 +866,7 @@
     author:
         - Ronny Bergmann
         - Roland Herzog
-        - Estefan íaLoayza-Romero
+        - Estefanía Loayza-Romero
         - Kathrin Welker
     biblatextype: inproceedings
     booktitle: 90th Annual Meeting of the International Association of Applied Mathematics and Mechanics (GAMM)
