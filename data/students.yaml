@@ -14,6 +14,14 @@
 #
 # Master theses
 #
+
+- name: Ole Gunnar Røsholt Hovland
+  finished: 2025-07-02
+  title: Riemannian Optimization applied to Kohn-Sham Density Functional Theory
+  type: master
+  with:
+    - Michael Herbst
+
 - name: Marcus Alexander Lien Cid
   finished: 2025-06-04
   title: Intrinsic Newton’s Method for Nonlinear Mappings into Vector Bundles

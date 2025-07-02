@@ -64,7 +64,7 @@ people:
         mastodon: "https://scholar.social/@ronnybergmann"
         url: "http://uni.ronnybergmann.net"
     Nicolas Boumal:
-        affiliation: EPFL Lausanne
+        affiliation: EPF Lausanne
         name:
             full: Nicolas Boumal
             short: N. Boumal
@@ -126,6 +126,14 @@ people:
             full: Jan Henrik Fitschen
             bib: Fitschen, J. H.
         title: "Dr."
+    Michael Herbst:
+        affiliation: EPF Lausanne
+        name:
+            full: Michael F. Herbst
+            bib: Herbst, M. F.
+            short: M. F. Herbst
+        title: "Prof. Dr."
+        url: https://michael-herbst.com
     Leif Goebel:
         name:
             bib: Goebel, L.
