@@ -73,13 +73,17 @@ ol li span.volume {
     margin-left:1ex;
 }
 ol li span.note:before {
-    content: ",\00a0";
+    /* content: ",\00a0"; */
+    content: "\A";
+    white-space: pre;
 }
 ol li span.note:after {
     content: ".";
 }
 ol li span.note {
     font-style: italic;
+    font-size: smaller;
+    line-height: 0.9rem;
 }
 ol li span.number:before,
 ol li span.issue:before
