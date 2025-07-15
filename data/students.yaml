@@ -48,7 +48,7 @@
   title: The Hypergraph p-Laplace for Manifold-valued Data and its Application in Machine-Learning
   type: master
   with:
-    - Christoph von Tychowicz
+    - Christoph von Tycowicz
     - Martin Hanik
   pdf: https://ntnuopen.ntnu.no/ntnu-xmlui/bitstream/handle/11250/3168444/no.ntnu%3ainspera%3a187375737%3a47744595.pdf
   link: https://hdl.handle.net/11250/3168444
@@ -280,7 +280,7 @@
   title: Manifold-Valued Graph Learning and Embedding Graphs
   type: specialisationproject
   with:
-    - Christoph von Tychowicz
+    - Christoph von Tycowicz
     - Martin Hanik
 - name: Mathias Ravn Munkvold
   finished: 2023-01-12

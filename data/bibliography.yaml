@@ -2,6 +2,30 @@
 #
 # Preprints
 
+"StokkeBergmannHanikvonTycowicz-2025":
+    abstract: >
+        Hypergraphs extend traditional graphs by enabling the representation of N-ary
+        relationships through higher-order edges. Akin to a common approach of deriving graph
+        Laplacians, we define function spaces and corresponding symmetric products on
+        the nodes and edges to derive hypergraph Laplacians. While this has been done before
+        for Euclidean features, this work generalizes previous hypergraph Laplacian
+        approaches to accommodate manifold-valued hypergraphs for many commonly encountered
+        manifolds.
+    author:
+        - Jo Stokke
+        - Ronny Bergmann
+        - Martin Hanik
+        - Christoph von Tycowicz
+    biblatextype: online
+    eprint: "2507.10335"
+    eprinttype: arxiv
+    note: >
+        Accepted for presentation at the
+        <a href="https://conference-gsi.org">7th International Conference on Geometric Science of Information</a>
+    title: p-Laplacians for Manifold-valued Hypergraphs
+    year: 2025
+    preprint-order: 7
+
 "BergmannJasaJohnPfeffer-2025":
     abstract: >
         We consider the proximal gradient method on Riemannian manifolds for functions that
@@ -1172,7 +1196,7 @@
     publication date: 01-12-2022
     title: Modelling Fire Incidents Response Times in Ålesund
     year: 2022
-    note: "<br>The arXiv preprint is an extended version of the report"
+    note: "The arXiv preprint is an extended version of the report"
 "BergmannLausPerschSteidl-2017":
     author:
         - Ronny Bergmann

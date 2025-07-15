@@ -153,6 +153,7 @@ people:
             bib: Hanik, M.
             full: "Martin Hanik"
             short: "M. Hanik"
+        orcid: 0000-0002-7120-4081
         title: "Dr."
         url: https://www.zib.de/members/hanik
     Roland Herzog:
@@ -507,12 +508,12 @@ people:
         orcid: 0000-0002-4788-9332
         title: "Dr."
         url: https://en.www.math.fau.de/angewandte-mathematik-1/mitarbeiter/dr-daniel-tenbrinck/
-    Christoph von Tychowicz:
+    Christoph von Tycowicz:
         affiliation: Zuse Insitut Berlin
         name:
             bib: Tychowicz, C. von
-            full: "Christoph von Tychowicz"
-            short: "C. von Tychowicz"
+            full: "Christoph von Tycowicz"
+            short: "C. von Tycowicz"
         orcid: 0000-0002-1447-4069
         title: "Dr."
         url: https://www.zib.de/members/vontycowicz
