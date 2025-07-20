@@ -105,6 +105,8 @@ function format_talk(talk::Dict)
     end
     # pdf (slides)
     ts = """$(ts)$(entry_to_list_icon(talk,"slides"; iconstyle="fas fa-lg", icon="fa-file-pdf"))"""
+    # poster
+    ts = """$(ts)$(entry_to_list_icon(talk,"poster"; iconstyle="fas fa-lg", icon="fa-chalkboard-user", linkprefix="/poster/"))"""
     # video
     ts = """$(ts)$(entry_to_list_icon(talk,"video"; iconstyle="fas fa-lg", icon="fa-file-video"))"""
     # ref
