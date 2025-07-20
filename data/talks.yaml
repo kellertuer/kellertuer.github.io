@@ -19,6 +19,25 @@
 #  video:
 #  with:
 #  highlight:
+- title: Recent new features and algorithms in Manopt.jl
+  key: ManoptPoster
+  conference: JuliaCon2025
+  date: 2025-07-24
+  poster: Manopt-poster-JuliaCon2025.pdf
+  abstract: >
+    [`Manopt.jl`](https://manoptjl.org) is a Julia package to define and perform optimisation tasks,
+    that are defined on a Riemannian manifold. Based on [`ManifoldsBase.jl`](https://juliamanifolds.github.io/ManifoldsBase.jl/stable/)
+    all algorithms are implemented on a generic or abstract Riemannian manifold and hence work for example on all manifolds defined in [`Manifolds.jl`](https://juliamanifolds.github.io/Manifolds.jl/stable/).
+- title: Groups and smooth geometry using LieGroups.jl
+  key: LieGroupsTalk
+  conference: JuliaCon2025
+  date: 2025-07-24
+  slides: 2025-Liegroups-JuliaCon.pdf
+  abstract: >
+      Lie groups are a tool to work with groups where the group operation is smooth, for example the set of rotation matrices or the collection of all possible translations and rotations on a Euclidean space.
+
+      In this talk we introduce the package [LieGroups.jl](https://juliamanifolds.github.io/LieGroups.jl/) to perform numerical operations on and work with Lie groups in numerical tasks, for example when working with physical quantities such as rotations, translations and velocities.
+
 - title: Nonlinear Fenchel Conjugates
   key: Saarbruecken2025
   seminar:
