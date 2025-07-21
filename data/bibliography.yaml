@@ -2,6 +2,40 @@
 #
 # Preprints
 
+"WeiglBergmannSchiela-2025":
+    abstract: >
+        We consider the solution of variational equations on manifolds by Newton's method. These problems can be expressed as root finding problems for mappings from infinite dimensional manifolds into dual vector bundles. We derive the differential geometric tools needed for the realization of Newton's method, equipped with an affine covariant damping strategy. We apply Newton's method to a couple of variational problems and show numerical results.
+    author:
+        - Laura Weigl
+        - Ronny Bergmann
+        - Anton Schiela
+    biblatextype: online
+    eprint: "2507.13836"
+    eprinttype: arxiv
+    image: geodesic_force.png
+    title: "Newton's method for nonlinear mappings into vector bundles Part II: Application to variational problems"
+    year: 2025
+    preprint-order: 9
+"BaumgaertnerBergmannHerzogSchmidtWeiss-2025":
+    abstract: >
+        We propose a novel formulation for the second-order total generalized variation (TGV) of the normal vector on an oriented, triangular mesh embedded in $\R^3$.
+        The normal vector is considered as a manifold-valued function, taking values on the unit sphere.
+        Our formulation extends previous discrete TGV models for piecewise constant scalar data that utilize a Raviart-Thomas function space.
+        To exctend this formulation to the manifold setting, a tailor-made tangential Raviart-Thomas type finite element space is constructed in this work.
+        The new regularizer is compared to existing methods in mesh denoising experiments.
+    author:
+        - Lukas Baumgärtner
+        - Ronny Bergmann
+        - Roland Herzog
+        - Stephan Schmidt
+        - Manuel Weiß
+    biblatextype: online
+    eprint: "2507.13530"
+    eprinttype: arxiv
+    image: meshTGV.png
+    title: Total Generalized Variation of the Normal Vector Field and Applications to Mesh Denoising
+    year: 2025
+    preprint-order: 8
 "StokkeBergmannHanikvonTycowicz-2025":
     abstract: >
         Hypergraphs extend traditional graphs by enabling the representation of N-ary
