@@ -2,6 +2,23 @@
 #
 # Preprints
 
+"BergmannJasaJohnPfeffer-2025b":
+    abstract: >
+        We consider a class of (possibly strongly) geodesically convex optimization problems on Hadamard manifolds, where the objective function splits into the sum of a smooth and a possibly nonsmooth function.
+        We introduce an intrinsic convex Riemannian proximal gradient (CRPG) method that employs the manifold proximal map for the nonsmooth step, without operating in the embedding or tangent space.
+        A sublinear convergence rate for convex problems and a linear convergence rate for strongly convex problems is established, and we derive fundamental proximal gradient inequalities that generalize the Euclidean case.
+        Our numerical experiments on hyperbolic spaces and manifolds of symmetric positive definite matrices demonstrate substantial computational advantages over existing methods.
+    author:
+        - Ronny Bergmann
+        - Hajg Jasa
+        - Paula John
+        - Max Pfeffer
+    biblatextype: online
+    eprint: "2507.16055"
+    eprinttype: arxiv
+    title: The Intrinsic Riemannian Proximal Gradient Method for Convex Optimization
+    year: 2025
+    preprint-order: 10
 "WeiglBergmannSchiela-2025":
     abstract: >
         We consider the solution of variational equations on manifolds by Newton's method. These problems can be expressed as root finding problems for mappings from infinite dimensional manifolds into dual vector bundles. We derive the differential geometric tools needed for the realization of Newton's method, equipped with an affine covariant damping strategy. We apply Newton's method to a couple of variational problems and show numerical results.
