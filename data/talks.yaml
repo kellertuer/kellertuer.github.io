@@ -32,7 +32,7 @@
   key: LieGroupsTalk
   conference: JuliaCon2025
   date: 2025-07-24
-  slides: 2025-Liegroups-JuliaCon.pdf
+  slides: 2025-LieGroups-JuliaCon.pdf
   abstract: >
       Lie groups are a tool to work with groups where the group operation is smooth, for example the set of rotation matrices or the collection of all possible translations and rotations on a Euclidean space.
 
