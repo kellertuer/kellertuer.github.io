@@ -176,6 +176,11 @@ div.abstract:before
     opacity: .5;
 }
 
+div.bibtex, div.abstract {
+    width: 100%;
+    text-align: left;
+}
+
 div.abstract div.content,
 div.bibtex div.content {
     width:94%;
