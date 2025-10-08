@@ -19,6 +19,13 @@ people:
             bib: Arf, J. N.
             full: Jeremias N. Arf
             short: J. N. Arf
+    Avanti Athreya:
+        affiliation: Johns Hopkins University
+        name:
+            full: Avanti Athreya
+            bib: Athreya, A.
+            short: A. Athreya
+        url: https://www.math.utah.edu/~avanti/
     Seth Axen:
         name:
             full: Seth D. Axen
@@ -228,6 +235,13 @@ people:
             full: Johannes Voll Kolstø
             short: J. V. Kolstø
         url: https://nr.no/ansatte/johannes-voll-kolsto/
+    Christian Kümmerle:
+        affiliation: University of Central Florida
+        name:
+            full: Christian Kümmerle
+            bib: Kümmerle, C.
+            short: C. Kümmerle
+        orcid: 0000-0001-9267-5379
     Sebastian Bruhn Jensen:
         name:
             bib: Jensen, S. Bruhn
@@ -274,6 +288,13 @@ people:
             bib: Löckel, M.
             full: Markus Löckel
             short: M. Löckel
+    Zachary Lubberts:
+        affiliation: University of Virginia
+        name:
+            bib: Lubberts, Z.
+            full: Zachary Lubberts
+            short: Z. Lubberts
+        orcid: 0000-0001-9543-9910
     Felix Maschke:
         name:
             bib: Maschke, F.

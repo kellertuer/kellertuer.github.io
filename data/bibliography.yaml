@@ -2,6 +2,35 @@
 #
 # Preprints
 
+"JasaBergmannKuemmerleAthreyaLubberts:2025":
+    abstract: >
+        Meaningful comparison between sets of observations often necessitates alignment or
+        registration between them, and the resulting optimization problems range in complexity
+        from those admitting simple closed-form solutions to those requiring advanced and novel
+        techniques. We compare different Procrustes problems in which we align two sets of
+        points after various perturbations by minimizing the norm of the difference between
+        one matrix and an orthogonal transformation of the other. The minimization problem
+        depends significantly on the choice of matrix norm; we highlight recent developments
+        in nonsmooth Riemannian optimization and characterize which choices of norm work best
+        for each perturbation. We show that in several applications, from low-dimensional
+        alignments to hypothesis testing for random networks, when Procrustes alignment with
+        the spectral or robust norm is the appropriate choice, it is often feasible to replace
+        the computationally more expensive spectral and robust minimizers with their closed-form
+        Frobenius-norm counterpart. Our work reinforces the synergy between optimization,
+        geometry, and statistics.
+    author:
+        - Hajg Jasa
+        - Ronny Bergmann
+        - Christian Kümmerle
+        - Avanti Athreya
+        - Zachary Lubberts
+    biblatextype: online
+    eprint: "2510.05182"
+    eprinttype: arxiv
+    preprint-order: 11
+    title: "Procrustes Problems on Random Matrices"
+    year: 2025
+
 "BergmannJasaJohnPfeffer-2025b":
     abstract: >
         We consider a class of (possibly strongly) geodesically convex optimization problems on Hadamard manifolds, where the objective function splits into the sum of a smooth and a possibly nonsmooth function.
