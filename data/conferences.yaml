@@ -6,6 +6,13 @@
 #   start:
 #   end:
 #   place:
+Oberwolfach2025:
+  end: 2025-12-12
+  name: Approximation of Manifold-Valued Functions
+  place: Oberwolfach, Germany
+  start: 2025-12-07
+  talk: true
+  url: https://www.mfo.de/www/activity/2550b
 JuliaCon2025:
   name: JuliaCon 2025
   url: https://juliacon.org/2025/

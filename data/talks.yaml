@@ -19,6 +19,29 @@
 #  video:
 #  with:
 #  highlight:
+- title: Nonsmooth Optimization on Riemannian Manifolds
+  key: Houston2025
+  seminar:
+    name: Data-Enabled Science Seminar
+    institute: Department of Mathematics, University of Houston
+    place: Houston, Texas, USA
+    url: https://www.math.uh.edu/~andreas/seminars/
+  date: 2025-10-10
+  slides: 2025-Nonsmooth-Optimization-Manifolds-Houston.pdf
+  abstract: >
+    In many applications nonlinear data is measured, for example when considering unit vectors,
+    rotations, or (bases of) subspaces of a vector space. Modelling this on a Riemannian manifold
+    allows to both reduce the dimension of the data stored as well as focusing on geometric properties
+    of the measurement space compared to constraining a total space the data is represented in.
+    In optimisation this yields unconstrained optimization algorithms, where we obtain that
+    every iterate is a feasible point, but we have to take the geometry of the optimization
+    domain into consideration.
+
+    In this talk we present recent developments in nonsmooth optimization on manifolds.
+    Besides a short historical overview the main algorithms will be so-called splitting
+    methods, where the objective function can be split into several parts, where some
+    summand need to fulfil different properties. Numerical examples will be given as well,
+    illustrating that the obtained algorithms are both performant and easy to use.
 - title: Recent new features and algorithms in Manopt.jl
   key: ManoptPoster
   conference: JuliaCon2025
@@ -38,7 +61,6 @@
       Lie groups are a tool to work with groups where the group operation is smooth, for example the set of rotation matrices or the collection of all possible translations and rotations on a Euclidean space.
 
       In this talk we introduce the package [LieGroups.jl](https://juliamanifolds.github.io/LieGroups.jl/) to perform numerical operations on and work with Lie groups in numerical tasks, for example when working with physical quantities such as rotations, translations and velocities.
-
 - title: Nonlinear Fenchel Conjugates
   key: Saarbruecken2025
   seminar:
