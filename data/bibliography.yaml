@@ -83,30 +83,6 @@
     title: Total Generalized Variation of the Normal Vector Field and Applications to Mesh Denoising
     year: 2025
     preprint-order: 8
-"StokkeBergmannHanikvonTycowicz-2025":
-    abstract: >
-        Hypergraphs extend traditional graphs by enabling the representation of N-ary
-        relationships through higher-order edges. Akin to a common approach of deriving graph
-        Laplacians, we define function spaces and corresponding symmetric products on
-        the nodes and edges to derive hypergraph Laplacians. While this has been done before
-        for Euclidean features, this work generalizes previous hypergraph Laplacian
-        approaches to accommodate manifold-valued hypergraphs for many commonly encountered
-        manifolds.
-    author:
-        - Jo Stokke
-        - Ronny Bergmann
-        - Martin Hanik
-        - Christoph von Tycowicz
-    biblatextype: online
-    eprint: "2507.10335"
-    eprinttype: arxiv
-    note: >
-        Accepted for presentation at the
-        <a href="https://conference-gsi.org">7th International Conference on Geometric Science of Information</a>
-    title: p-Laplacians for Manifold-valued Hypergraphs
-    year: 2025
-    preprint-order: 7
-
 "BergmannJasaJohnPfeffer-2025":
     abstract: >
         We consider the proximal gradient method on Riemannian manifolds for functions that
@@ -939,6 +915,31 @@
 #
 # Conference Proceedings
 #
+
+"StokkeBergmannHanikvonTycowicz-2025":
+    abstract: >
+        Hypergraphs extend traditional graphs by enabling the representation of N-ary
+        relationships through higher-order edges. Akin to a common approach of deriving graph
+        Laplacians, we define function spaces and corresponding symmetric products on
+        the nodes and edges to derive hypergraph Laplacians. While this has been done before
+        for Euclidean features, this work generalizes previous hypergraph Laplacian
+        approaches to accommodate manifold-valued hypergraphs for many commonly encountered
+        manifolds.
+    author:
+        - Jo Stokke
+        - Ronny Bergmann
+        - Martin Hanik
+        - Christoph von Tycowicz
+    biblatextype: inproceedings
+    booktitle: Geometric Science of Information, GSI 2025
+    editor:
+        - Nielsen, F.
+        - Barbaresco, F.
+    eprint: "2507.10335"
+    eprinttype: arxiv
+    pages: 162–171
+    title: p-Laplacians for Manifold-valued Hypergraphs
+    year: 2026
 
 "BergmannHerrmannHerzogSchmidtVidal-Nunez-2019":
     abstract: >
