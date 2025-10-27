@@ -80,6 +80,7 @@
     eprint: "2507.13530"
     eprinttype: arxiv
     image: meshTGV.png
+    note: Accepted for publication in <a href="https://www.siam.org/publications/siam-journals/siam-journal-on-imaging-sciences/">SIAM Journal on Imaging Sciences</a>
     title: Total Generalized Variation of the Normal Vector Field and Applications to Mesh Denoising
     year: 2025
     preprint-order: 8
@@ -162,8 +163,7 @@
     eprint: "2504.11815"
     eprinttype: arxiv
     image: projgrad.png
-    note: >
-       Accepted for publication in <a href="https://academic.oup.com/imajna">IMA Journal of Numerical Analysis</a>
+    note: 'Accepted for publication in <a href="https://academic.oup.com/imajna">IMA Journal of Numerical Analysis</a>'
     title: On projection mappings and the gradient projection method on hyperbolic space forms
     year: 2025
     preprint-order: 4
