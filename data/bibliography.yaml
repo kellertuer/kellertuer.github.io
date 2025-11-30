@@ -49,6 +49,7 @@
     title: The Intrinsic Riemannian Proximal Gradient Method for Convex Optimization
     year: 2025
     preprint-order: 10
+
 "WeiglBergmannSchiela-2025":
     abstract: >
         We consider the solution of variational equations on manifolds by Newton's method. These problems can be expressed as root finding problems for mappings from infinite dimensional manifolds into dual vector bundles. We derive the differential geometric tools needed for the realization of Newton's method, equipped with an affine covariant damping strategy. We apply Newton's method to a couple of variational problems and show numerical results.
@@ -63,6 +64,7 @@
     title: "Newton's method for nonlinear mappings into vector bundles Part II: Application to variational problems"
     year: 2025
     preprint-order: 9
+
 "BaumgaertnerBergmannHerzogSchmidtWeiss-2025":
     abstract: >
         We propose a novel formulation for the second-order total generalized variation (TGV) of the normal vector on an oriented, triangular mesh embedded in $\R^3$.
@@ -84,6 +86,7 @@
     title: Total Generalized Variation of the Normal Vector Field and Applications to Mesh Denoising
     year: 2025
     preprint-order: 8
+
 "BergmannJasaJohnPfeffer-2025":
     abstract: >
         We consider the proximal gradient method on Riemannian manifolds for functions that
@@ -159,11 +162,13 @@
         - Orizon P. Ferreira
         - Sandor Z. Nemeth
         - Jinzhen Zhu
-    biblatextype: online
+    biblatextype: article
+    doi: 10.1093/imanum/draf097
     eprint: "2504.11815"
     eprinttype: arxiv
     image: projgrad.png
-    note: 'Accepted for publication in <a href="https://academic.oup.com/imajna">IMA Journal of Numerical Analysis</a>'
+    journaltitle: IMA Journal of Numerical Analysis
+    pages: draf097
     title: On projection mappings and the gradient projection method on hyperbolic space forms
     year: 2025
     preprint-order: 4
