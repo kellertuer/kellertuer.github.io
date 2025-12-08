@@ -20,6 +20,47 @@
 #  with:
 #  highlight:
 - title: Nonsmooth Optimization on Riemannian Manifolds
+  key: Oberwolfach2025-Talk
+  conference: Oberwolfach2025
+  date: 2025-12-08
+  slides: 2025-Nonsmooth-Optimization-Manifolds-Oberwolfach.pdf
+  abstract: >
+    In many applications nonlinear data is measured, for example when considering unit vectors,
+    rotations, or (bases of) subspaces of a vector space. Modelling this on a Riemannian manifold
+    allows to both reduce the dimension of the data stored as well as focusing on geometric properties
+    of the measurement space compared to constraining a total space the data is represented in.
+    In optimisation this yields unconstrained optimization algorithms, where we obtain that
+    every iterate is a feasible point, but we have to take the geometry of the optimization
+    domain into consideration.
+
+    In this talk we present recent developments in nonsmooth optimization on manifolds.
+    Besides a short historical overview the main algorithms will be so-called splitting
+    methods, where the objective function can be split into several parts, where some
+    summand need to fulfil different properties. Numerical examples will be given as well,
+    illustrating that the obtained algorithms are both performant and easy to use.
+- title: Nonsmooth Optimization on Riemannian Manifolds
+  key: Krakow
+  seminar:
+    name: Seminar of the Faculty of Applied Mathematics
+    institute: Faculty of Applied Mathematics, AGH University
+    place: Krakow, Poland
+  date: 2025-12-05
+  slides: 2025-Nonsmooth-Optimization-Manifolds-Krakow.pdf
+  abstract: >
+    In many applications nonlinear data is measured, for example when considering unit vectors,
+    rotations, or (bases of) subspaces of a vector space. Modelling this on a Riemannian manifold
+    allows to both reduce the dimension of the data stored as well as focusing on geometric properties
+    of the measurement space compared to constraining a total space the data is represented in.
+    In optimisation this yields unconstrained optimization algorithms, where we obtain that
+    every iterate is a feasible point, but we have to take the geometry of the optimization
+    domain into consideration.
+
+    In this talk we present recent developments in nonsmooth optimization on manifolds.
+    Besides a short historical overview the main algorithms will be so-called splitting
+    methods, where the objective function can be split into several parts, where some
+    summand need to fulfil different properties. Numerical examples will be given as well,
+    illustrating that the obtained algorithms are both performant and easy to use.
+- title: Nonsmooth Optimization on Riemannian Manifolds
   key: Houston2025
   seminar:
     name: Data-Enabled Science Seminar
@@ -127,6 +168,29 @@
    - Patrick Altmeyer
   link: https://pretalx.com/juliacon2024/talk/JGT893/
   video: https://youtu.be/vsU0paSSyZY?si=Gv6pH82Gm4nb7Kb3
+- title: The Riemannian Difference of Convex Algorithm in Manopt.jl
+  key: Crakow2024
+  seminar:
+    name: Seminar
+    institute: Department of Biocybernetics and Biomedical Engineering
+    university: AGH University
+    place: Krakow, Poland
+  date: 2024-12-10
+  slides: 2024-Cracow-Difference-of-Convex-Manopt.pdf
+  abstract: >
+    In many applications nonlinear data is measured, for example when considering
+    unit vectors, rotations, or (bases of) subspaces of a vector space.
+    Modelling this on a Riemannian manifold allows to both reduce the dimension
+    of the data stored as well as focusing on geometric properties of the measurement
+    space compared to constraining a total space the data is represented in.
+    In optimisation this yields unconstrained optimization algorithms, where we have to take
+    the geometry of the optimization domain into consideration.
+
+    In this talk we consider the task of minimizing the difference of two convex functions
+    defined on a manifold and present the Difference of Convex Algorithm.
+    To make algorithms in general more accessible, we then present the two Julia packages
+    [Manifolds.jl](https://juliamanifolds.github.io/Manifolds.jl/stable/) and [Manopt.jl](https://manoptjl.org), that allow to define and use Riemannian manifolds and
+    optimization algorithms employing numerical differential geometry, respectively.
 - title: The Riemannian Difference of Convex Algorithm in Manopt.jl
   key: Bayreuth2024
   seminar:
