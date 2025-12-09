@@ -38,6 +38,7 @@
     methods, where the objective function can be split into several parts, where some
     summand need to fulfil different properties. Numerical examples will be given as well,
     illustrating that the obtained algorithms are both performant and easy to use.
+  highlight: 1
 - title: Nonsmooth Optimization on Riemannian Manifolds
   key: Krakow
   seminar:
@@ -102,6 +103,8 @@
       Lie groups are a tool to work with groups where the group operation is smooth, for example the set of rotation matrices or the collection of all possible translations and rotations on a Euclidean space.
 
       In this talk we introduce the package [LieGroups.jl](https://juliamanifolds.github.io/LieGroups.jl/) to perform numerical operations on and work with Lie groups in numerical tasks, for example when working with physical quantities such as rotations, translations and velocities.
+  highlight: 2
+  video: https://youtu.be/_L9u8r42oSQ
 - title: Nonlinear Fenchel Conjugates
   key: Saarbruecken2025
   seminar:
@@ -306,7 +309,7 @@
     We discuss both theoretical aspects as well as numerical algorithms and their implementation
     in Julia within the two packages [Manifolds.jl](https://juliamanifolds.github.io/Manifolds.jl/stable/) and [Manopt.jl](https://manoptjl.org).
   video: https://www.youtube.com/watch?v=x0MTTWkITyc
-  highlight: 2
+  highlight: 4
 - title: The Difference of Convex Algorithm on Riemannian Manifolds
   key: EUCCO2023
   conference: EUCCO2023
@@ -353,7 +356,7 @@
     with the recently derived Douglas–Rachford algorithm on manifolds of
     non-positive curvature. Furthermore we show numerically that our novel algorithm
     even converges on manifolds of positive curvature.
-  highlight: 3
+  highlight: 5
 - title: Nonsmooth Optimization on Riemannian Manifolds in Manopt.jl
   key: Seminar-Bergen-2023
   date: 2023-05-09
@@ -454,6 +457,7 @@
     algorithm and a Chambolle-Pock algorithm are provided, together with several basic
     cost functions, gradients and proximal maps as well as debug and record capabilities.
   video: https://youtu.be/thbekfsyhCE
+  highlight: 3
 - title: Manopt.jl – Optimization on Riemannian Manifolds
   key: JuliaCon2022Lightning
   conference: JuliaCon2022
@@ -547,7 +551,6 @@
     Furthermore we show numerically that our novel algorithm even converges on manifolds of
     positive curvature.
   note: Talk within the Session “Optimization on Manifolds”.
-
 - title: Fenchel Duality Theory on Riemannian Manifolds
   key: IFIPTC72021-2
   conference: IFIPTC72021
@@ -559,7 +562,6 @@
     e.g., the Fenchel–Young inequality and the characterization of the convex sub differential
     using the analogue of the Fenchel--Moreau Theorem.
   note: Talk within the Minisymposium “Manifolds and Optimization”.
-
 - title: A Primal-Dual Algorithm for Convex Nonsmooth Optimization on Riemannian Manifolds
   key: IFIPTC72021-1
   conference: IFIPTC72021
@@ -579,7 +581,6 @@
   conference: COM2020
   date: 2020-11-17
   slides: 2020-Oberwolfach.pdf
-
 - title: Manifolds in Julia – Manifolds.jl and ManifoldsBase.jl
   key: JuliaCon2020
   conference: JuliaCon2020
@@ -616,7 +617,6 @@
     this interface is [Manopt.jl](https://manoptjl.org), which provides optimization algorithms on Riemannian
     manifolds, with a focus on high-dimensional and non-smooth optimization.
   video: https://youtu.be/md-FnDGCh9M
-  highlight: 1
 #
 - title: Fenchel Duality Theory and a Primal-Dual Algorithm on Riemannian Manifolds
   key: Birmingham2020
@@ -880,8 +880,6 @@
     with respect to its control points. This gradient can be expressed as a
     concatenation of so called adjoint Jacobi fields. Several examples illustrate
     the capabilities of this approach both for interpolation and approximation.
-  highlight: 4
-
 - title: A Variational Model for Data Fitting on Manifolds by Minimizing the Acceleration of a Bézier Curve
   conference: HaWi2018
   date: 2018-09-11
