@@ -21,7 +21,8 @@
   type: master
   with:
     - Michael Herbst
-
+  link: https://hdl.handle.net/11250/5318020
+  pdf: https://nva-resource-storage-755923822223.s3.eu-west-1.amazonaws.com/5b303254-f0f6-443d-b9a8-a766c83bd408?response-content-type=application%2Fpdf&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECMaCWV1LXdlc3QtMSJIMEYCIQC8e7p5kDjeWkC44SAdoumOO8rvv6xGnzTDb%2FADJVE42gIhAIgIKKHPs5SKcuCHPMEqkx5nhZi38jgcigJoJ0iUNdHzKtwDCOz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQAxoMNzU1OTIzODIyMjIzIgxTP3IzTYPhR4cpq%2FQqsANC6lopaDFPiJP0WKrmvJlmghaGwfdZyud3ozxRoXOcuWvcUuoqDd6SpgARAW0Gd8l8DOdOIKqs9T%2Fceb%2B66d86%2B07YsO17FwnMb4PY2I9U3dfYR2axYhgCQhV8%2BLe%2B0SnUjrOrK0YlKQBObWSJwHvVSFK%2BK4qV4%2BOysSB30sIL3EqYdX6f7xhYT%2FPn7p0%2BXAXjPGEdjDCDQNCUN7EDZICSXxnvZH6kOb0%2Fe%2Fpkyu1nEtDWqsMoZwspvOEN%2FquNznVmigYmU3d%2FrKEKceuKccujmBNJYMnJZLzrpJG5sxVPtRVwjXdMYaKOp0LzHsHkeqH6LosJPwTHf6N%2BxhyOMgIXpdSN7aoZeCk4CpcCHTW06AVrN06IF7BLsmY9jIlmGpdbpxDsgqXzobmqKtpS8aB%2BlS7yCGy6jpfXqc3rXAa%2F4IOkTY35K0s7KGA1dmRXuXxVYigIhlCn75S29nlIIAYeJbw5GMJlcQDPZtThJyjOgpc%2FnQGICe48p3RYs0vGIXiFyoewv7jqzYlaRIzH4nS5eyxTUbUyXHJSX3%2FfZchw%2F4siwZsVOYYvR9zUUpqTRKMw1MXqyQY6nQFywteVninw5Czm5LrrA0H9hiA%2BM8W2ayJmQoLhwb%2FBgoeiF4RCfiDx%2F1eziyrWsvuuY%2Fw5D2oTf3mXCiKiDha9i04kRbRUalIW1QCBha0gW3x6SQRJBfPHiJCQ7eO%2BzEQSd5NyUz9gk0IH%2B%2BRuU0n8lLqt%2F%2BbmQ2eWossvk%2Bb3sywExfuLvR0P67oIijEo%2FP4Wk5sqUqPfx7xiE19V&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251211T124450Z&X-Amz-SignedHeaders=host&X-Amz-Credential=ASIA3AAESE2H2DO6NGYP%2F20251211%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Expires=600&X-Amz-Signature=66bada134270c0349f9be611576bcbbcce26fadb3161dbeea7b509357e756faa
 - name: Marcus Alexander Lien Cid
   finished: 2025-06-04
   title: Intrinsic Newton’s Method for Nonlinear Mappings into Vector Bundles
@@ -29,7 +30,8 @@
   with:
     - Anton Schiela
     - Laura Weigl
-
+  link: https://hdl.handle.net/11250/3220759
+  pdf: https://nva-resource-storage-755923822223.s3.eu-west-1.amazonaws.com/d25d683e-a462-4ccb-a57b-c2d1c65c1074?response-content-type=application%2Fpdf&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECMaCWV1LXdlc3QtMSJIMEYCIQC8e7p5kDjeWkC44SAdoumOO8rvv6xGnzTDb%2FADJVE42gIhAIgIKKHPs5SKcuCHPMEqkx5nhZi38jgcigJoJ0iUNdHzKtwDCOz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQAxoMNzU1OTIzODIyMjIzIgxTP3IzTYPhR4cpq%2FQqsANC6lopaDFPiJP0WKrmvJlmghaGwfdZyud3ozxRoXOcuWvcUuoqDd6SpgARAW0Gd8l8DOdOIKqs9T%2Fceb%2B66d86%2B07YsO17FwnMb4PY2I9U3dfYR2axYhgCQhV8%2BLe%2B0SnUjrOrK0YlKQBObWSJwHvVSFK%2BK4qV4%2BOysSB30sIL3EqYdX6f7xhYT%2FPn7p0%2BXAXjPGEdjDCDQNCUN7EDZICSXxnvZH6kOb0%2Fe%2Fpkyu1nEtDWqsMoZwspvOEN%2FquNznVmigYmU3d%2FrKEKceuKccujmBNJYMnJZLzrpJG5sxVPtRVwjXdMYaKOp0LzHsHkeqH6LosJPwTHf6N%2BxhyOMgIXpdSN7aoZeCk4CpcCHTW06AVrN06IF7BLsmY9jIlmGpdbpxDsgqXzobmqKtpS8aB%2BlS7yCGy6jpfXqc3rXAa%2F4IOkTY35K0s7KGA1dmRXuXxVYigIhlCn75S29nlIIAYeJbw5GMJlcQDPZtThJyjOgpc%2FnQGICe48p3RYs0vGIXiFyoewv7jqzYlaRIzH4nS5eyxTUbUyXHJSX3%2FfZchw%2F4siwZsVOYYvR9zUUpqTRKMw1MXqyQY6nQFywteVninw5Czm5LrrA0H9hiA%2BM8W2ayJmQoLhwb%2FBgoeiF4RCfiDx%2F1eziyrWsvuuY%2Fw5D2oTf3mXCiKiDha9i04kRbRUalIW1QCBha0gW3x6SQRJBfPHiJCQ7eO%2BzEQSd5NyUz9gk0IH%2B%2BRuU0n8lLqt%2F%2BbmQ2eWossvk%2Bb3sywExfuLvR0P67oIijEo%2FP4Wk5sqUqPfx7xiE19V&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251211T124522Z&X-Amz-SignedHeaders=host&X-Amz-Credential=ASIA3AAESE2H2DO6NGYP%2F20251211%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Expires=600&X-Amz-Signature=ce54ca09c77697a9f2211ce522dafd7d9a0ae99f8bd45eb3705f90c49aceb3cf
 - name: Sander Engen Oddsen
   finished: 2025-01-31
   title: The Riemannnian LTMADS to solve the Spectral Procrustes problem in Manopt.jl
@@ -41,8 +43,7 @@
     </a>
     solver variant LTMADS, available within <a href="https://manoptjl.org">Manopt.jl</a>.
   link: https://hdl.handle.net/11250/3189974
-  pdf: https://ntnuopen.ntnu.no/ntnu-xmlui/bitstream/handle/11250/3189974/no.ntnu%3ainspera%3a254283456%3a34541669.pdf
-
+  pdf: https://nva-resource-storage-755923822223.s3.eu-west-1.amazonaws.com/c6b1ac04-5599-4ce3-b87e-2072da78216c?response-content-type=application%2Fpdf&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECQaCWV1LXdlc3QtMSJGMEQCIETmakZzms6fLaZmb4uCFOvtsqD334GyeA69IA%2BP9YtpAiB%2FEWTUCE%2FGpGyXsfjJGQyV0XGhItk%2F5aaOWcvVhOI%2FIyrcAwjt%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAMaDDc1NTkyMzgyMjIyMyIMYvdnDHJRivcpvurPKrADOU7jtnhmit8Uw%2F9ltKD6a8uO%2BUWXr6d%2FebSVb6mCjjtFtGFJoGUiunzxD%2B5RDRkx9DIVt%2Fe23lh5Bt8wbROwfwy%2BldmKFlYLRwdS9b5o8k7L3CL7tcNqye9fXZpPiLa42rM5wPqdgRSw%2B6qnE%2BKOZVHTZuWFNRS%2BRRGo%2Bfni2DJV2dvIqRDGr5iNaHK%2BoHNDgcdt38De2YFsqjtp1%2FM1lYF4vRUWq915Cw3ut8HDQwkLZ3f%2BEzAPlHFCdf2j4Elr%2BaP%2FoQTLxRo9%2FBuUbZSQIETsB7Zreh2Ixg2p4PcOklf9gMz2qd1jONMUzr1fb6wVRE4aAALXg8GKe%2B1SztZyNnI6Vir62itDm5uCapJrBUUSTmDqxvRHSmzNpgl4nlov62GL2rFi%2BNEsCAqP3kPv6X4SZKtyBNEx40eyC8TuEXO9nGwFCldkdInP2M9LGGLqmhoYK6bEHtt9W4PUTxUbs7GnKGNDVXA7vdZl1ou9v7AT0BwmCHxFuR9Lo0f5VWmP%2B4sizbZJ7%2FGLrHhz2SfxFNeCKnmrGpsNf4Q%2F9%2FOuhvwpky58NHFO6V20w6vD%2BN7%2FMJ3T6skGOp8BJwgHNs5tjYMzNdlVV90ueaKLdFaSsyAPeEWxt5qjpXj45t74N6khRQHkwL%2Bg75cN3%2F%2F8famqFvhzGwqTVlGaqELEXlAu9nCBhRg%2B%2B3WClh4tUqjF8o%2FUrYn%2FKXZCUXDoOZ6GWMUUMEamKBYgifTc9m2ymdZU9I5D4ZNlMBsZEUQikoUGP%2Fn6SmKepZvgrTVnOURwN5GSSp66VzQ1hxei&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251211T124934Z&X-Amz-SignedHeaders=host&X-Amz-Credential=ASIA3AAESE2HYROAXMIJ%2F20251211%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Expires=600&X-Amz-Signature=690794ce6841695260796606584ac65d931922368d7d09148ff7ce082a73227e
 - name: Jo Stokke
   finished: 2024-07-22
   title: The Hypergraph p-Laplace for Manifold-valued Data and its Application in Machine-Learning
@@ -50,9 +51,8 @@
   with:
     - Christoph von Tycowicz
     - Martin Hanik
-  pdf: https://ntnuopen.ntnu.no/ntnu-xmlui/bitstream/handle/11250/3168444/no.ntnu%3ainspera%3a187375737%3a47744595.pdf
+  pdf: https://nva-resource-storage-755923822223.s3.eu-west-1.amazonaws.com/e4a3e32b-32b5-42e0-a9e9-b1caeb6c9943?response-content-type=application%2Fpdf&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECMaCWV1LXdlc3QtMSJIMEYCIQC8e7p5kDjeWkC44SAdoumOO8rvv6xGnzTDb%2FADJVE42gIhAIgIKKHPs5SKcuCHPMEqkx5nhZi38jgcigJoJ0iUNdHzKtwDCOz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQAxoMNzU1OTIzODIyMjIzIgxTP3IzTYPhR4cpq%2FQqsANC6lopaDFPiJP0WKrmvJlmghaGwfdZyud3ozxRoXOcuWvcUuoqDd6SpgARAW0Gd8l8DOdOIKqs9T%2Fceb%2B66d86%2B07YsO17FwnMb4PY2I9U3dfYR2axYhgCQhV8%2BLe%2B0SnUjrOrK0YlKQBObWSJwHvVSFK%2BK4qV4%2BOysSB30sIL3EqYdX6f7xhYT%2FPn7p0%2BXAXjPGEdjDCDQNCUN7EDZICSXxnvZH6kOb0%2Fe%2Fpkyu1nEtDWqsMoZwspvOEN%2FquNznVmigYmU3d%2FrKEKceuKccujmBNJYMnJZLzrpJG5sxVPtRVwjXdMYaKOp0LzHsHkeqH6LosJPwTHf6N%2BxhyOMgIXpdSN7aoZeCk4CpcCHTW06AVrN06IF7BLsmY9jIlmGpdbpxDsgqXzobmqKtpS8aB%2BlS7yCGy6jpfXqc3rXAa%2F4IOkTY35K0s7KGA1dmRXuXxVYigIhlCn75S29nlIIAYeJbw5GMJlcQDPZtThJyjOgpc%2FnQGICe48p3RYs0vGIXiFyoewv7jqzYlaRIzH4nS5eyxTUbUyXHJSX3%2FfZchw%2F4siwZsVOYYvR9zUUpqTRKMw1MXqyQY6nQFywteVninw5Czm5LrrA0H9hiA%2BM8W2ayJmQoLhwb%2FBgoeiF4RCfiDx%2F1eziyrWsvuuY%2Fw5D2oTf3mXCiKiDha9i04kRbRUalIW1QCBha0gW3x6SQRJBfPHiJCQ7eO%2BzEQSd5NyUz9gk0IH%2B%2BRuU0n8lLqt%2F%2BbmQ2eWossvk%2Bb3sywExfuLvR0P67oIijEo%2FP4Wk5sqUqPfx7xiE19V&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251211T124108Z&X-Amz-SignedHeaders=host&X-Amz-Credential=ASIA3AAESE2H2DO6NGYP%2F20251211%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Expires=600&X-Amz-Signature=05b66a761693e5c8f6264f76aeb6696fb5458027c7b72c8361844b3027d81532
   link: https://hdl.handle.net/11250/3168444
-
 - name: Markus Stokkenes
   finished: 2024-06-15
   title: The Interior Point Newton Method for Constrained Optimization on Riemannian Manifolds
@@ -65,9 +65,8 @@
     Conjugate Residual
     </a> sub solver, both
     available within <a href="https://manoptjl.org">Manopt.jl</a>.
-  pdf: https://ntnuopen.ntnu.no/ntnu-xmlui/bitstream/handle/11250/3160215/no.ntnu%3ainspera%3a187375737%3a37300395.pdf
+  pdf: https://nva-resource-storage-755923822223.s3.eu-west-1.amazonaws.com/1286b70c-c411-4713-a84f-4d82a3b6bbd5?response-content-type=application%2Fpdf&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECMaCWV1LXdlc3QtMSJIMEYCIQC8e7p5kDjeWkC44SAdoumOO8rvv6xGnzTDb%2FADJVE42gIhAIgIKKHPs5SKcuCHPMEqkx5nhZi38jgcigJoJ0iUNdHzKtwDCOz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQAxoMNzU1OTIzODIyMjIzIgxTP3IzTYPhR4cpq%2FQqsANC6lopaDFPiJP0WKrmvJlmghaGwfdZyud3ozxRoXOcuWvcUuoqDd6SpgARAW0Gd8l8DOdOIKqs9T%2Fceb%2B66d86%2B07YsO17FwnMb4PY2I9U3dfYR2axYhgCQhV8%2BLe%2B0SnUjrOrK0YlKQBObWSJwHvVSFK%2BK4qV4%2BOysSB30sIL3EqYdX6f7xhYT%2FPn7p0%2BXAXjPGEdjDCDQNCUN7EDZICSXxnvZH6kOb0%2Fe%2Fpkyu1nEtDWqsMoZwspvOEN%2FquNznVmigYmU3d%2FrKEKceuKccujmBNJYMnJZLzrpJG5sxVPtRVwjXdMYaKOp0LzHsHkeqH6LosJPwTHf6N%2BxhyOMgIXpdSN7aoZeCk4CpcCHTW06AVrN06IF7BLsmY9jIlmGpdbpxDsgqXzobmqKtpS8aB%2BlS7yCGy6jpfXqc3rXAa%2F4IOkTY35K0s7KGA1dmRXuXxVYigIhlCn75S29nlIIAYeJbw5GMJlcQDPZtThJyjOgpc%2FnQGICe48p3RYs0vGIXiFyoewv7jqzYlaRIzH4nS5eyxTUbUyXHJSX3%2FfZchw%2F4siwZsVOYYvR9zUUpqTRKMw1MXqyQY6nQFywteVninw5Czm5LrrA0H9hiA%2BM8W2ayJmQoLhwb%2FBgoeiF4RCfiDx%2F1eziyrWsvuuY%2Fw5D2oTf3mXCiKiDha9i04kRbRUalIW1QCBha0gW3x6SQRJBfPHiJCQ7eO%2BzEQSd5NyUz9gk0IH%2B%2BRuU0n8lLqt%2F%2BbmQ2eWossvk%2Bb3sywExfuLvR0P67oIijEo%2FP4Wk5sqUqPfx7xiE19V&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251211T124148Z&X-Amz-SignedHeaders=host&X-Amz-Credential=ASIA3AAESE2H2DO6NGYP%2F20251211%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Expires=600&X-Amz-Signature=da7917f34892b6f0dfe21926e83720d6392f62add4ef1a25dc21f297818c02c5
   link: https://hdl.handle.net/11250/3160215
-
 - name: Veronique Lenaerts
   finished: 2023-06-29
   title: Regression of Time Series Data on Manifolds
@@ -88,8 +87,8 @@
   finished: 2023-06-15
   title: Multivariate Periodic Wavelets on the Pattern
   type: master
-  pdf: https://ntnuopen.ntnu.no/ntnu-xmlui/bitstream/handle/11250/3081825/no.ntnu%3ainspera%3a142441053%3a35172213.pdf?sequence=1&isAllowed=y
-  link: https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/3081825
+  pdf: https://nva-resource-storage-755923822223.s3.eu-west-1.amazonaws.com/b04abbac-8a0a-4de6-b71a-b70d677986ed?response-content-type=application%2Fpdf&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECQaCWV1LXdlc3QtMSJGMEQCIETmakZzms6fLaZmb4uCFOvtsqD334GyeA69IA%2BP9YtpAiB%2FEWTUCE%2FGpGyXsfjJGQyV0XGhItk%2F5aaOWcvVhOI%2FIyrcAwjt%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAMaDDc1NTkyMzgyMjIyMyIMYvdnDHJRivcpvurPKrADOU7jtnhmit8Uw%2F9ltKD6a8uO%2BUWXr6d%2FebSVb6mCjjtFtGFJoGUiunzxD%2B5RDRkx9DIVt%2Fe23lh5Bt8wbROwfwy%2BldmKFlYLRwdS9b5o8k7L3CL7tcNqye9fXZpPiLa42rM5wPqdgRSw%2B6qnE%2BKOZVHTZuWFNRS%2BRRGo%2Bfni2DJV2dvIqRDGr5iNaHK%2BoHNDgcdt38De2YFsqjtp1%2FM1lYF4vRUWq915Cw3ut8HDQwkLZ3f%2BEzAPlHFCdf2j4Elr%2BaP%2FoQTLxRo9%2FBuUbZSQIETsB7Zreh2Ixg2p4PcOklf9gMz2qd1jONMUzr1fb6wVRE4aAALXg8GKe%2B1SztZyNnI6Vir62itDm5uCapJrBUUSTmDqxvRHSmzNpgl4nlov62GL2rFi%2BNEsCAqP3kPv6X4SZKtyBNEx40eyC8TuEXO9nGwFCldkdInP2M9LGGLqmhoYK6bEHtt9W4PUTxUbs7GnKGNDVXA7vdZl1ou9v7AT0BwmCHxFuR9Lo0f5VWmP%2B4sizbZJ7%2FGLrHhz2SfxFNeCKnmrGpsNf4Q%2F9%2FOuhvwpky58NHFO6V20w6vD%2BN7%2FMJ3T6skGOp8BJwgHNs5tjYMzNdlVV90ueaKLdFaSsyAPeEWxt5qjpXj45t74N6khRQHkwL%2Bg75cN3%2F%2F8famqFvhzGwqTVlGaqELEXlAu9nCBhRg%2B%2B3WClh4tUqjF8o%2FUrYn%2FKXZCUXDoOZ6GWMUUMEamKBYgifTc9m2ymdZU9I5D4ZNlMBsZEUQikoUGP%2Fn6SmKepZvgrTVnOURwN5GSSp66VzQ1hxei&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251211T124335Z&X-Amz-SignedHeaders=host&X-Amz-Credential=ASIA3AAESE2HYROAXMIJ%2F20251211%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Expires=600&X-Amz-Signature=d8abae6e6324961264470246f1da586725046c391c4f4243f638f77adcf45984
+  link: https://hdl.handle.net/11250/3081825
 - name: Sebastian Bruhn Jensen
   finished: 2023-06-01
   title: 'The nearest $\Omega$-stable matrix via Riemannian Optimization'
@@ -124,14 +123,14 @@
     The Frank-Wolfe Algorithm
     </a>
     available within <a href="https://manoptjl.org">Manopt.jl</a>.
-  pdf: https://ntnuopen.ntnu.no/ntnu-xmlui/bitstream/handle/11250/3019960/no.ntnu%3ainspera%3a104646180%3a20910798.pdf?sequence=1&isAllowed=y
-  link: https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/3019960
+  pdf: https://nva-resource-storage-755923822223.s3.eu-west-1.amazonaws.com/e8150278-bc91-42f1-91f7-cfa33d3c9b69?response-content-type=application%2Fpdf&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECMaCWV1LXdlc3QtMSJIMEYCIQC8e7p5kDjeWkC44SAdoumOO8rvv6xGnzTDb%2FADJVE42gIhAIgIKKHPs5SKcuCHPMEqkx5nhZi38jgcigJoJ0iUNdHzKtwDCOz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQAxoMNzU1OTIzODIyMjIzIgxTP3IzTYPhR4cpq%2FQqsANC6lopaDFPiJP0WKrmvJlmghaGwfdZyud3ozxRoXOcuWvcUuoqDd6SpgARAW0Gd8l8DOdOIKqs9T%2Fceb%2B66d86%2B07YsO17FwnMb4PY2I9U3dfYR2axYhgCQhV8%2BLe%2B0SnUjrOrK0YlKQBObWSJwHvVSFK%2BK4qV4%2BOysSB30sIL3EqYdX6f7xhYT%2FPn7p0%2BXAXjPGEdjDCDQNCUN7EDZICSXxnvZH6kOb0%2Fe%2Fpkyu1nEtDWqsMoZwspvOEN%2FquNznVmigYmU3d%2FrKEKceuKccujmBNJYMnJZLzrpJG5sxVPtRVwjXdMYaKOp0LzHsHkeqH6LosJPwTHf6N%2BxhyOMgIXpdSN7aoZeCk4CpcCHTW06AVrN06IF7BLsmY9jIlmGpdbpxDsgqXzobmqKtpS8aB%2BlS7yCGy6jpfXqc3rXAa%2F4IOkTY35K0s7KGA1dmRXuXxVYigIhlCn75S29nlIIAYeJbw5GMJlcQDPZtThJyjOgpc%2FnQGICe48p3RYs0vGIXiFyoewv7jqzYlaRIzH4nS5eyxTUbUyXHJSX3%2FfZchw%2F4siwZsVOYYvR9zUUpqTRKMw1MXqyQY6nQFywteVninw5Czm5LrrA0H9hiA%2BM8W2ayJmQoLhwb%2FBgoeiF4RCfiDx%2F1eziyrWsvuuY%2Fw5D2oTf3mXCiKiDha9i04kRbRUalIW1QCBha0gW3x6SQRJBfPHiJCQ7eO%2BzEQSd5NyUz9gk0IH%2B%2BRuU0n8lLqt%2F%2BbmQ2eWossvk%2Bb3sywExfuLvR0P67oIijEo%2FP4Wk5sqUqPfx7xiE19V&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251211T124626Z&X-Amz-SignedHeaders=host&X-Amz-Credential=ASIA3AAESE2H2DO6NGYP%2F20251211%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Expires=600&X-Amz-Signature=72d6fb77852b2fa191bcda55d9aa6803f10ee49e3121b1dc04ee07a69cd934fb
+  link: https://hdl.handle.net/11250/3019960
 - name: Johannes Voll Kolstø
   finished: 2022-06-24
   title: Support Vector Machines on Riemannian Manifolds
   type: master
   link: https://hdl.handle.net/11250/3030014
-  pdf: https://ntnuopen.ntnu.no/ntnu-xmlui/bitstream/handle/11250/3030014/no.ntnu%3ainspera%3a104646180%3a37160080.pdf?sequence=1&isAllowed=y
+  pdf: https://nva-resource-storage-755923822223.s3.eu-west-1.amazonaws.com/54437692-dc5b-4143-a2a7-0a03eb4c4edf?response-content-type=application%2Fpdf&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECQaCWV1LXdlc3QtMSJGMEQCIETmakZzms6fLaZmb4uCFOvtsqD334GyeA69IA%2BP9YtpAiB%2FEWTUCE%2FGpGyXsfjJGQyV0XGhItk%2F5aaOWcvVhOI%2FIyrcAwjt%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAMaDDc1NTkyMzgyMjIyMyIMYvdnDHJRivcpvurPKrADOU7jtnhmit8Uw%2F9ltKD6a8uO%2BUWXr6d%2FebSVb6mCjjtFtGFJoGUiunzxD%2B5RDRkx9DIVt%2Fe23lh5Bt8wbROwfwy%2BldmKFlYLRwdS9b5o8k7L3CL7tcNqye9fXZpPiLa42rM5wPqdgRSw%2B6qnE%2BKOZVHTZuWFNRS%2BRRGo%2Bfni2DJV2dvIqRDGr5iNaHK%2BoHNDgcdt38De2YFsqjtp1%2FM1lYF4vRUWq915Cw3ut8HDQwkLZ3f%2BEzAPlHFCdf2j4Elr%2BaP%2FoQTLxRo9%2FBuUbZSQIETsB7Zreh2Ixg2p4PcOklf9gMz2qd1jONMUzr1fb6wVRE4aAALXg8GKe%2B1SztZyNnI6Vir62itDm5uCapJrBUUSTmDqxvRHSmzNpgl4nlov62GL2rFi%2BNEsCAqP3kPv6X4SZKtyBNEx40eyC8TuEXO9nGwFCldkdInP2M9LGGLqmhoYK6bEHtt9W4PUTxUbs7GnKGNDVXA7vdZl1ou9v7AT0BwmCHxFuR9Lo0f5VWmP%2B4sizbZJ7%2FGLrHhz2SfxFNeCKnmrGpsNf4Q%2F9%2FOuhvwpky58NHFO6V20w6vD%2BN7%2FMJ3T6skGOp8BJwgHNs5tjYMzNdlVV90ueaKLdFaSsyAPeEWxt5qjpXj45t74N6khRQHkwL%2Bg75cN3%2F%2F8famqFvhzGwqTVlGaqELEXlAu9nCBhRg%2B%2B3WClh4tUqjF8o%2FUrYn%2FKXZCUXDoOZ6GWMUUMEamKBYgifTc9m2ymdZU9I5D4ZNlMBsZEUQikoUGP%2Fn6SmKepZvgrTVnOURwN5GSSp66VzQ1hxei&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251211T124658Z&X-Amz-SignedHeaders=host&X-Amz-Credential=ASIA3AAESE2HYROAXMIJ%2F20251211%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Expires=600&X-Amz-Signature=1096e473a82451e5a1f91bf7d52e256d39840f0303f6137f04558fdde7f52147
   note: |
     This thesis was awarded the <a href="https://www.ntnu.no/nrprisen/2021-22">NR Prisen</a>
     for the best master thesis in mathematics at NTNU within the study year 2021/2022.
