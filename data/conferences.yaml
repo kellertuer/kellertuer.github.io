@@ -6,6 +6,20 @@
 #   start:
 #   end:
 #   place:
+Oberwolfach2026:
+  name: Geometric Methods in Optimization and Numerical Analysis
+  place: Oberwolfach, Germany
+  start: 2026-07-19
+  end: 2026-07-24
+  talk: true
+  url: https://www.mfo.de/www/activity/2630
+SIAMOPT2026:
+  name: SIAM Conference on Optimization (OP26)
+  url: https://www.siam.org/conferences-events/siam-conferences/op26/
+  start: 2026-06-02
+  end: 2026-06-05
+  place: Edinburgh, UK
+  organizer: true
 Oberwolfach2025:
   end: 2025-12-12
   name: Approximation of Manifold-Valued Functions

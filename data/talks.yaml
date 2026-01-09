@@ -581,6 +581,7 @@
   conference: COM2020
   date: 2020-11-17
   slides: 2020-Oberwolfach.pdf
+  doi: 10.4171/owr/2020/36
 - title: Manifolds in Julia – Manifolds.jl and ManifoldsBase.jl
   key: JuliaCon2020
   conference: JuliaCon2020
@@ -617,7 +618,6 @@
     this interface is [Manopt.jl](https://manoptjl.org), which provides optimization algorithms on Riemannian
     manifolds, with a focus on high-dimensional and non-smooth optimization.
   video: https://youtu.be/md-FnDGCh9M
-#
 - title: Fenchel Duality Theory and a Primal-Dual Algorithm on Riemannian Manifolds
   key: Birmingham2020
   seminar:
@@ -628,7 +628,6 @@
     url: "https://www.birmingham.ac.uk/research/activity/mathematics/optimization/ona-seminar.aspx"
   date: 2020-02-26
   slides: 2020-Birmingham-RiemannianChambollePock.pdf
-
 - title: Fenchel Duality Theory and a Primal-Dual Algorithm on Riemannian Manifolds
   key: Braunschweig2019
   seminar:
@@ -640,7 +639,7 @@
   date: 2019-12-10
   place: Braunschweig, Germany
   slides: 2019-Braunschweig-RiemannianChambollePock.pdf
-
+# 2019
 - title: A Primal-Dual Algorithm for Convex Nonsmooth Optimization on Riemannian Manifolds
   key: ENuMath2019
   conference: ENUMATH2019
@@ -655,14 +654,12 @@
     linearized algorithm on Hadamard manifolds. Numerical examples illustrate,
     that on Hadamard manifolds we are on par with state of the art algorithms and
     on general manifolds we outperform existing approaches.
-
 - title: Fenchel Duality Theory and a Primal-Dual Algorithm on Riemannian Manifolds
   key: WS-HL19
   conference: MIAWS2019
   date: 2019-09-21
   slides: 2019-Luebeck-RiemannianChambollePock.pdf
   note: Invited Plenary Talk
-
 - title: A Primal-Dual Algorithm for Convex Nonsmooth Optimization on Riemannian Manifolds
   key: ICCOPT2019
   conference: ICCOPT2019
@@ -677,7 +674,6 @@
     linearized algorithm on Hadamard manifolds. Numerical examples illustrate,
     that on Hadamard manifolds we are on par with state of the art algorithms and
     on general manifolds we outperform existing approaches.
-
 - title: A Primal-Dual Algorithm for Convex Nonsmooth Optimization on Riemannian Manifolds
   key: WOPM2019
   conference: WOPM2019
