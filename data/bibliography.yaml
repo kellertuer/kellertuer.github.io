@@ -921,6 +921,32 @@
 # Conference Proceedings
 #
 
+"BergmannBaran-2026":
+    abstract: >
+        [LieGroups.jl](https://juliamanifolds.github.io/LieGroups.jl/stable/) is
+        a Julia package that provides an interface to define Lie groups as well as
+        the corresponding Lie algebra and Lie group actions.
+        The package also offers a well-documented, performant, and well-tested library
+        of such objects, with a focus on numerical computations in engineering.
+        This paper presents the main features of the interfaces and how that is integrated within
+        the [JuliaManifolds](https://github.com/JuliaManifolds) ecosystem.
+        We further present an overview on existing Lie groups implemented in LieGroups.jl
+        as well as how to get started to use the package in practice.
+    author:
+        - Ronny Bergmann
+        - Mateusz Baran
+    biblatextype: inproceedings
+    booktitle: Proceedings of the JuliaCon Conferences
+    doi: 10.21105/jcon.00195
+    image: liegroupsjl-logo.png
+    number: 79
+    pages: 195
+    pdf: https://juliacon.github.io/proceedings-papers/jcon.00195/10.21105.jcon.00195.pdf
+    publisher: The Open Journal
+    title: Groups and smooth geometry using LieGroups.jl
+    volume: 8
+    year: 2026
+
 "StokkeBergmannHanikvonTycowicz-2025":
     abstract: >
         Hypergraphs extend traditional graphs by enabling the representation of N-ary
