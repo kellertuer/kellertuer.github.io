@@ -2,15 +2,17 @@
 # PhD Students
 #
 - name: Hajg Jasa
-  title: Numerical Methods for Non-smooth Optimization on Riemannian Manifolds
+  title: "Algorithms for Nonsmooth Optimization on Riemannian Manifolds, and Applications"
   type: phd-active
   start: 2022-08-22
+  finished: 2026-01-28
+  note: "Main supervisor. Co-supervisor: {{person \"Brynjulf Owren\" link_shortname}}."
 - name: Johannes Persch
   title: Optimization Methods in Manifold Valued Image Processing
   type: phd
   start: 2015-04-01
   finished: 2018-08-31
-  note: "Co-supervisor. Main supervisor: {{person \"Gabriele Steidl\" link_shortname}}.<br>This work was funded by <a href=\"/projects/secondordertv/\">DFG project BE 5888/2-1</a>."
+  note: "PI. Main supervisor: {{person \"Gabriele Steidl\" link_shortname}}.<br>This work was funded by <a href=\"/projects/secondordertv/\">DFG project BE 5888/2-1</a>."
 #
 # Master theses
 #
