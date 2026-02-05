@@ -30,6 +30,7 @@ Research has the advantage that you get around! It brought me to
 <div class="inlinelist">
 ~~~
 
+* \highlight{Tokyo (Japan)}
 * \highlight{Oberwolfach (Germany)}
 * \highlight{Kraków (Poland)}
 * Pittsburgh, PA (USA)
