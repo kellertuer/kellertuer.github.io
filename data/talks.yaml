@@ -20,6 +20,29 @@
 #  with:
 #  highlight:
 - title: Nonsmooth Optimization on Riemannian Manifolds
+  key: Tokyo2026-Talk
+  date: 2026-02-18
+  slides: 2026-Nonsmooth-Optimization-Manifolds-Tokyo.pdf
+  seminar:
+    name: Adaptive Bayesian Intelligence Seminar
+    institute: RIKEN AIP
+    place: Tokyo, Japan
+    url: https://adaptive-bayesian.ai/events/
+  abstract: >
+    In many applications nonlinear data is measured, for example when considering unit vectors,
+    rotations, or (bases of) subspaces of a vector space. Modelling this on a Riemannian manifold
+    allows to both reduce the dimension of the data stored as well as focusing on geometric properties
+    of the measurement space compared to constraining a total space the data is represented in.
+    In optimisation this yields unconstrained optimization algorithms, where we obtain that
+    every iterate is a feasible point, but we have to take the geometry of the optimization
+    domain into consideration.
+
+    In this talk we present recent developments in nonsmooth optimization on manifolds.
+    Besides a short historical overview the main algorithms will be so-called splitting
+    methods, where the objective function can be split into several parts, where some
+    summand need to fulfil different properties. Numerical examples will be given as well,
+    illustrating that the obtained algorithms are both performant and easy to use.
+- title: Nonsmooth Optimization on Riemannian Manifolds
   key: Oberwolfach2025-Talk
   conference: Oberwolfach2025
   date: 2025-12-08
