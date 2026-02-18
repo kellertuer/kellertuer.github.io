@@ -7,6 +7,22 @@
   start: 2022-08-22
   finished: 2026-01-28
   note: "Main supervisor. Co-supervisor: {{person \"Brynjulf Owren\" link_shortname}}."
+  link: https://hdl.handle.net/11250/5360605
+  abstract: >
+      The main focus of this work was the development, convergence analysis, and implementation
+      of methods for optimizing nonsmooth functions that leverage the geometric structure of
+      the problem space. This was done by extending two classical methods for nonsmooth optimization
+      in Euclidean spaces (the bundle method and the proximal gradient method) to the Riemannian setting,
+      and by analyzing and showcasing their performance with several numerical experiments under different assumptions.
+      The algorithms are implemented in the Julia package Manopt.jl, and the numerical experiments in this work
+      are available as notebooks in the package ManoptExamples.jl. The second focus point of this work
+      was the application of the machinery of nonsmooth Riemannian optimization to
+      the Procrustes problem with varying norms. This study justifies the use of
+      a closed-form minimizer as a proxy for the more theoretically rigorous minimizers obtained
+      via nonsmooth Riemannian optimization. While this may seem in contrast with the main focus of the present thesis,
+      these conclusions were enabled precisely by the use of nonsmooth Riemannian optimization.
+      Additionally, this work also serves as a bridge between the fields of Riemannian optimization and statistics,
+      by showcasing an application of methods from the former to a problem from the latter.
 - name: Johannes Persch
   title: Optimization Methods in Manifold Valued Image Processing
   type: phd
