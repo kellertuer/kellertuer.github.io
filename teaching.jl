@@ -107,7 +107,17 @@ function format_supervision(entry)
     if haskey(entry, "note")
         note = """\n<span class="note">$(parse_persons(entry["note"]))</a>"""
     end
+    b = entry["name"] isa AbstractVector
+    key = replace(join(entry["name"],b ? "-" : "")*"-"*entry["type"], ' ' => '-')
     s = ""
+    if haskey(entry, "abstract") #abstract icon
+        s = """$s
+            <li>
+                <a data-toggle="collapse" href="#$(key)-abstract" title="toggle visibility of the abstract for $(key)">
+                    <i class="fas fa-lg fa-file-alt"></i>
+                </a>
+            </li>"""
+    end
     s = """$(s)$(entry_to_list_icon(entry,"link"; iconstyle="fas fa-lg", icon="fa-link"))"""
     s = """$(s)$(entry_to_list_icon(entry,"pdf"; iconstyle="fas fa-lg", icon="fa-file-pdf"))"""
     (length(s) > 0) && (s = """
@@ -115,6 +125,15 @@ function format_supervision(entry)
     $s
     </ul>
     """)
+    if haskey(entry, "abstract") # abstract content
+        abstract = strip(entry["abstract"])
+        abstract = replace(abstract, "\n" => "\n\n")
+        s = """$s
+        <div id="$key-abstract" class="blockicon abstract collapse fas fa-lg fa-file-alt">
+            <div class="content">$(fd2html(abstract; internal=true))</div>
+        </div>
+        """
+    end
     return """<dt>$(date_format)</dt>
     <dd>
     <span class="student">$(students)</span>
