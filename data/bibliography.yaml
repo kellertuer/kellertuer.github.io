@@ -136,6 +136,7 @@
     eprint: "2412.00445"
     eprinttype: arxiv
     image: TVNormal.png
+    note: Accepted for publication at the Journal of Mathematical Imaging and Vision (JMIV)
     title: Two Models for Surface Segmentation using the Total Variation of the Normal Vector
     year: 2024
     preprint-order: 3
