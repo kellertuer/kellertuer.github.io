@@ -393,6 +393,11 @@ people:
         title: "Prof. Dr."
         url: http://www.math.uni-luebeck.de/mitarbeiter/prestin/index.php
         orcid: 0000-0001-5985-7939
+    Patryk Przybysz:
+        name:
+            full: Patryk Przybysz
+            bib: Przybysz, P.
+            short: P. Przybysz
     Tom-Christian Riemer:
         name:
             bib: Riemern, T.-C.

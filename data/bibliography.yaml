@@ -2,6 +2,38 @@
 #
 # Preprints
 
+BaranBergmannPrzybysz-2026:
+    abstract: >
+        We propose a Riemannian limited-memory BFGS method for optimization problems with
+        Euclidean bounds. The method combines a limited-memory quasi-Newton update in the
+        tangent space with a Riemannian adaptation of the generalized Cauchy point strategy
+        from classical L-BFGS-B, enabling efficient handling of Euclidean bounds while
+        exploiting the geometric structure of the optimization domain. This setting is
+        important in several applications, including covariance matrix estimation with
+        bounded variance, neuroimaging, EEG signal classification, and other
+        signal processing or computer-vision tasks that couple manifold variables with
+        constrained Euclidean parameters.
+
+        We provide a generic algorithmic framework and an implementation of the algorithm in
+        the [`Manopt.jl`](https://manoptjl.org) library. Numerical experiments on benchmark
+        problems indicate only minor reduction in performance on Euclidean problems
+        compared to the classical L-BFGS-B method, while outperforming interior-point
+        methods. Furthermore, the algorithm was tested on two mixed manifold and bounded
+        Euclidean problems: amplitude-limited blind source separation with Gaussianity
+        penalization and bounded-variance maximum likelihood common principal components
+        analysis. The proposed method outperforms existing methods by several orders of
+        magnitude.
+    author:
+        - Mateusz Baran
+        - Ronny Bergmann
+        - Patryk Przybysz
+    biblatextype: online
+    eprint: "2605.10573"
+    eprinttype: arxiv
+    preprint-order: 10
+    title: "A Riemannian quasi-Newton algorithm for optimization with Euclidean bounds"
+    year: 2026
+
 "JasaBergmannKuemmerleAthreyaLubberts-2025":
     abstract: >
         Meaningful comparison between sets of observations often necessitates alignment or
