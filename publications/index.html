@@ -80,9 +80,57 @@
 <!-- Content appended here -->
 <div class="franklin-content"><div class="rb normal" id="ronnybergmann"><span class="firstname">Ronny</span><span class="lastname">Bergmann</span><span class="domain">.net</span></div>
 <h1 id="publications"><a href="#publications" class="header-anchor">Publications</a></h1>
-<ol class="bibliography" style="counter-reset:bibitem 9">
+<ol class="bibliography" style="counter-reset:bibitem 10">
     
     <h2>Preprints</h2>
+
+    <li><a name="BaranBergmannPrzybysz-2026"></a>
+<span class="person">Baran, M.</span><sup><a href="https://orcid.org/0000-0001-9667-5579"><i class="ai ai-orcid"></i></a></sup>, <span class="person">Bergmann, R.</span><sup><a href="https://orcid.org/0000-0001-8342-7218"><i class="ai ai-orcid"></i></a></sup>, <span class="person">Przybysz, P.</span><span class="year">2026</span><span class="title">A Riemannian quasi-Newton algorithm for optimization with Euclidean bounds</span>
+<br>
+
+<span class="eprinttype">arxiv</span>
+<a href="https://arxiv.org/abs/2605.10573">2605.10573</a>
+
+
+<ul class="nav nav-icons">
+
+<li>
+    <a data-toggle="collapse" href="#BaranBergmannPrzybysz-2026-bibtex" title="toggle visibility of the biblatex for BaranBergmannPrzybysz-2026">
+        <i class="fas fa-lg fa-file-code"></i>
+    </a>
+</li>
+<li>
+    <a data-toggle="collapse" href="#BaranBergmannPrzybysz-2026-abstract" title="toggle visibility of the abstract for BaranBergmannPrzybysz-2026">
+        <i class="fas fa-lg fa-file-alt"></i>
+    </a>
+</li>   <li>
+       <a href="https://arxiv.org/pdf/2605.10573" title="2605.10573" target="_blank">
+           <i class="fas fa-lg fa-file-pdf"></i>
+       </a>
+    </li>
+
+    </ul>
+
+<div id="BaranBergmannPrzybysz-2026-abstract" class="blockicon abstract collapse fas fa-lg fa-file-alt">
+    <div class="content"><p>We propose a Riemannian limited-memory BFGS method for optimization problems with Euclidean bounds. The method combines a limited-memory quasi-Newton update in the tangent space with a Riemannian adaptation of the generalized Cauchy point strategy from classical L-BFGS-B, enabling efficient handling of Euclidean bounds while exploiting the geometric structure of the optimization domain. This setting is important in several applications, including covariance matrix estimation with bounded variance, neuroimaging, EEG signal classification, and other signal processing or computer-vision tasks that couple manifold variables with constrained Euclidean parameters.</p>
+<p>We provide a generic algorithmic framework and an implementation of the algorithm in the <a href="https://manoptjl.org"><code>Manopt.jl</code></a> library. Numerical experiments on benchmark problems indicate only minor reduction in performance on Euclidean problems compared to the classical L-BFGS-B method, while outperforming interior-point methods. Furthermore, the algorithm was tested on two mixed manifold and bounded Euclidean problems: amplitude-limited blind source separation with Gaussianity penalization and bounded-variance maximum likelihood common principal components analysis. The proposed method outperforms existing methods by several orders of magnitude.</p>
+</div>
+</div>
+
+<div id="BaranBergmannPrzybysz-2026-bibtex" class="blockicon bibtex collapse fas fa-lg fa-file-code">
+    <div class="content">@online{BaranBergmannPrzybysz-2026,
+    eprint = {2605.10573},
+    author = {Baran, M. and Bergmann, R. and Przybysz, P.},
+    year = {2026},
+    eprinttype = {arxiv},
+    title = {A Riemannian quasi-Newton algorithm for optimization with Euclidean bounds},
+    abstract = {
+    We propose a Riemannian limited-memory BFGS method for optimization problems with Euclidean bounds. The method combines a limited-memory quasi-Newton update in the tangent space with a Riemannian adaptation of the generalized Cauchy point strategy from classical L-BFGS-B, enabling efficient handling of Euclidean bounds while exploiting the geometric structure of the optimization domain. This setting is important in several applications, including covariance matrix estimation with bounded variance, neuroimaging, EEG signal classification, and other signal processing or computer-vision tasks that couple manifold variables with constrained Euclidean parameters.
+We provide a generic algorithmic framework and an implementation of the algorithm in the [`Manopt.jl`](https://manoptjl.org) library. Numerical experiments on benchmark problems indicate only minor reduction in performance on Euclidean problems compared to the classical L-BFGS-B method, while outperforming interior-point methods. Furthermore, the algorithm was tested on two mixed manifold and bounded Euclidean problems: amplitude-limited blind source separation with Gaussianity penalization and bounded-variance maximum likelihood common principal components analysis. The proposed method outperforms existing methods by several orders of magnitude.
+    },
+}</div>
+</div>
+</li>
 
     <li><a name="JasaBergmannKuemmerleAthreyaLubberts-2025"></a>
 <div class="item-icon-wrapper">
@@ -3060,7 +3108,7 @@ Für Bilder von Hypergraphen werden in dieser Arbeit theoretische Grundlagen en
             <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0">
                 CC BY-NC-SA 4.0<img style="height:18px!important;margin-left:2px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" /><img style="height:18px!important;margin-left:2px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" /><img style="height:18px!important;margin-left:2px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" /><img style="height:18px!important;margin-left:2px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" /></a>.
             <br />
-            Last modified: May 11, 2026.
+            Last modified: May 12, 2026.
             Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
         </p>
   </div>
