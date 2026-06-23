@@ -2,6 +2,30 @@
 #
 # Preprints
 
+BaranBergmann-2026:
+    abstract: >
+        We extend the Levenberg-Marquardt method on Riemannian manifolds to
+        a robust variant that allows to tackle problems from applications where outliers
+        are to be expected.
+        We formally state the framework for a block-wise variant of
+        the Robust Riemannian Levenberg-Marquardt algorithm and discuss how known
+        convergence results can be applied here as well.
+        We further discuss several alternatives for phrasing the sub problem that has to be solved.
+        Finally we illustrate how the accompanying open source implementation in
+        [`Manopt.jl`](https://manoptjl.org) can be used to efficiently solve problems such as
+        geodesic regression, Procrustes analysis, subspace Procrustes analysis
+        and bundle adjustment robustly and compare the Levenberg-Marquardt solver to other
+        solvers for nonsmooth Riemannian optimization.
+    author:
+        - Mateusz Baran
+        - Ronny Bergmann
+    biblatextype: online
+    eprint: "2606.23560"
+    eprinttype: arxiv
+    preprint-order: 11
+    title: "A modified Riemannian Levenberg-Marquardt Algorithm for robust or constraint optimization on manifolds"
+    year: 2026
+
 BaranBergmannPrzybysz-2026:
     abstract: >
         We propose a Riemannian limited-memory BFGS method for optimization problems with
