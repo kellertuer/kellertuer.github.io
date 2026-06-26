@@ -227,11 +227,14 @@ BaranBergmannPrzybysz-2026:
         We propose a variational approach and compare two different regularizers,
         both based on a total variation measure. The first regularizer penalizes
         the total variation of the assignment function directly, while the second regularizer
-        penalizes the total variation in the label space. In order to solve
-        the resulting optimization problems, we use variations of the split Bregman (ADMM)
-        iteration adapted to the problem at hand. While computationally more expensive,
-        the second regularizer yields better results in our experiments, in particular it
-        removes noise more reliably in regions of constant curvature.
+        penalizes the total variation in the label space. In order to solve the resulting
+        optimization problems, we use variations of the split Bregman (ADMM) iteration
+        adapted to the problem at hand. While computationally more expensive,
+        the second regularizer yields better results in our experiments.
+        In particular it removes noise more reliably in regions of constant curvature.
+        In order to mitigate the computational cost, we present a manifold Newton scheme
+        for the most expensive subproblem, which is related to the Riemannian center of
+        mass on a sphere. This significantly improves the computational cost.
     author:
         - Manuel Weiß
         - Lukas Baumgärtner
