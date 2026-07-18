@@ -13,6 +13,7 @@
 
 ## Organizer at Conferences
 
+* Minisymposium “New Trends on Riemannian Optimization under PDE Constraints” within the [SIAM Conference on Optimization (OP26)](https://www.siam.org/conferences-events/siam-conferences/op26/), June 2–5, 2026, Edinburgh, Scotland, together with  {{person "Estefanía Loayza-Romero"}} and {{person "Kathrin Welker"}}.
 * [TMF](https://mohnfoundation.no/en/) workshop “[Foundations of Numerical Differential Geometry](https://www.ntnu.edu/imf/fndg24)”, May 7-8, 2024, Trondheim, Norway, together with {{person "Elena Celledoni"}}, {{person "André Massing"}} {{person "Brynjulf Owren"}}, and {{person "Alexander Schmeding"}}.
 * Minisymposium “MS2 Optimization of Shapes and on Manifolds”, within the [GAMM 2022](https://jahrestagung.gamm-ev.de/annual-meeting-2022/program/minisymposia/), August 17, 2022, Aachen, Germany, together with {{person "Stephan Schmidt"}}
 * Session “Software for Optimization on Manifolds”, within the [ICCOPT 2022](https://iccopt2022.lehigh.edu/), July 26, 2022, Bethlehem, PA, USA, together with {{person "Jan Lellmann"}}.

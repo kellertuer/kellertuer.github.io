@@ -19,6 +19,13 @@
 #  video:
 #  with:
 #  highlight:
+  # 2026
+- title: Manopt.jl – Numerical Optimization on Manifolds in Julia
+  key: Oberwolfach2026-Talk
+  conference: Oberwolfach2026
+  date: 2026-07-21
+  slides: 2026-Manoptjl-Oberwolfach.pdf
+  highlight: 3
 - title: Nonsmooth Optimization on Riemannian Manifolds
   key: Tokyo2026-Talk
   date: 2026-02-18
@@ -42,6 +49,7 @@
     methods, where the objective function can be split into several parts, where some
     summand need to fulfil different properties. Numerical examples will be given as well,
     illustrating that the obtained algorithms are both performant and easy to use.
+  # 2025
 - title: Nonsmooth Optimization on Riemannian Manifolds
   key: Oberwolfach2025-Talk
   conference: Oberwolfach2025
