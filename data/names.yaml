@@ -154,6 +154,14 @@ people:
             short: P.-Y. Gousenbourger
         title: "Dr."
         url: "https://pgousenbourg.github.io/"
+    Markus Grasmair:
+        affiliation: NTNU
+        name:
+            full: Markus Grasmair
+            bib: Grasmair, M.
+            short: M. Grasmair
+        title: Prof. Dr.
+        url: https://www.ntnu.no/ansatte/markus.grasmair
     Martin Hanik:
         affiliation: Zuse Insitut Berlin
         name:

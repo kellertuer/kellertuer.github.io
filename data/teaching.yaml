@@ -1,4 +1,10 @@
 lectures:
+  - term: Høst 2026
+    date: 2026-08-20
+    name: TMA4432 Matematikk 4C
+    note: Integral transforms, function approximation, and partial differential equations
+    university: NTNU
+    link: https://www.ntnu.edu/studies/courses/TMA4432
   - term: Høst 2024
     date: 2024-08-21
     name: TMA4310 Mathematical Subjects, Advanced Course
