@@ -22,7 +22,7 @@ BaranBergmann-2026:
     biblatextype: online
     eprint: "2606.23560"
     eprinttype: arxiv
-    preprint-order: 11
+    preprint-order: 8
     title: "A modified Riemannian Levenberg-Marquardt Algorithm for robust or constraint optimization on manifolds"
     year: 2026
 
@@ -54,7 +54,7 @@ BaranBergmannPrzybysz-2026:
     biblatextype: online
     eprint: "2605.10573"
     eprinttype: arxiv
-    preprint-order: 10
+    preprint-order: 7
     title: "A Riemannian quasi-Newton algorithm for optimization with Euclidean bounds"
     year: 2026
 
@@ -84,7 +84,7 @@ BaranBergmannPrzybysz-2026:
     eprint: "2510.05182"
     eprinttype: arxiv
     image: procrustes.png
-    preprint-order: 9
+    preprint-order: 6
     title: "Procrustes Problems on Random Matrices"
     year: 2025
 
@@ -104,7 +104,7 @@ BaranBergmannPrzybysz-2026:
     eprinttype: arxiv
     title: The Intrinsic Riemannian Proximal Gradient Method for Convex Optimization
     year: 2025
-    preprint-order: 8
+    preprint-order: 5
 
 "WeiglBergmannSchiela-2025":
     abstract: >
@@ -119,7 +119,7 @@ BaranBergmannPrzybysz-2026:
     image: geodesic_force.png
     title: "Newton's method for nonlinear mappings into vector bundles Part II: Application to variational problems"
     year: 2025
-    preprint-order: 7
+    preprint-order: 4
 
 "BergmannJasaJohnPfeffer-2025":
     abstract: >
@@ -140,7 +140,7 @@ BaranBergmannPrzybysz-2026:
     eprinttype: arxiv
     title: The Intrinsic Riemannian Proximal Gradient Method for Nonconvex Optimization
     year: 2025
-    preprint-order: 6
+    preprint-order: 3
 
 "BaranBergmann-2025":
     abstract: >
@@ -166,7 +166,7 @@ BaranBergmannPrzybysz-2026:
     image: GeometricKalman.png
     title: A geometric perspective of state estimation using Kalman filters
     year: 2025
-    preprint-order: 5
+    preprint-order: 2
 
 "SchielaHerzogBergmann-2024":
     abstract: >
@@ -191,9 +191,13 @@ BaranBergmannPrzybysz-2026:
     eprinttype: arxiv
     title: Nonlinear Fenchel conjugates
     year: 2024
-    preprint-order: 2
+    preprint-order: 1
 
-"BergmannHerzogJasa-2024":
+#
+#
+# Journal Papers
+
+"BergmannHerzogJasa-2026":
     abstract: >
         We introduce the convex bundle method to solve convex, non-smooth optimization problems
         on Riemannian manifolds. Each step of our method is based on a model that involves the
@@ -208,16 +212,13 @@ BaranBergmannPrzybysz-2026:
         - Ronny Bergmann
         - Roland Herzog
         - Hajg Jasa
-    biblatextype: online
+    biblatextype: article
     eprint: "2402.13670"
     eprinttype: arxiv
+    journaltitle: Journal of Nonsmooth Analysis and Optimization
+    note: Accepted for publication
     title: The Riemannian Convex Bundle Method
-    year: 2024
-    preprint-order: 1
-
-#
-#
-# Journal Papers
+    year: 2026
 
 "WeißBaumgärtnerWeiglBergmannHerzogSchmidt-2026":
     abstract: >
