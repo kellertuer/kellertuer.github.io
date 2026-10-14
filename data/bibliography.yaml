@@ -213,11 +213,13 @@ BaranBergmannPrzybysz-2026:
         - Roland Herzog
         - Hajg Jasa
     biblatextype: article
+    doi: 10.46298/jnsao-2026-16115
     eprint: "2402.13670"
     eprinttype: arxiv
     journaltitle: Journal of Nonsmooth Analysis and Optimization
-    note: Accepted for publication
+    publication_date: 2026-10-13
     title: The Riemannian Convex Bundle Method
+    volume: 6
     year: 2026
 
 "WeißBaumgärtnerWeiglBergmannHerzogSchmidt-2026":
